@@ -1,11 +1,11 @@
 {
-  "showThemeCredit": true,
-  "name": "Hylia Starter Kit",
-  "shortDesc": "Hylia is a lightweight Eleventy starter kit to help you to create your own blog or personal website.",
-  "url": "https://hylia.website",
+  "showThemeCredit": false,
+  "name": "James Bateson",
+  "shortDesc": "Built with 11ty and Hylia. Hosted on Netlify.",
+  "url": "https://jamesbateson.co.uk",
   "authorEmail": "me@andy-bell.design",
-  "authorHandle": "@andybelldesign",
-  "authorName": "Andy Bell",
+  "authorHandle": "@jim_bateson",
+  "authorName": "James Bateson",
   "enableThirdPartyComments": false,
   "maxPostsPerPage": 5
 }
