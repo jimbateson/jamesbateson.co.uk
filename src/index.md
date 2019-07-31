@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Hi I'm James
+title: "Hello I'm James \U0001F44B "
 postsHeading: Latest posts
 archiveButtonText: See all posts
 socialImage: ''
