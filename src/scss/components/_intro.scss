@@ -1,28 +1,82 @@
 .intro {
-  background: var(--color-theme-highlight);
+	animation: GradientShift 30s ease infinite;
+	background: linear-gradient(90deg, rgb(119, 14, 191), rgb(238, 141, 125));
+	color: var(--color-light);
+	height: 100vh;
 
-  &__summary {
-    --flow-space: #{get-size(500)};
-    font-size: get-size(500);
+	.wrapper {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+		justify-content: center;
+	}
 
-    a {
-      color: currentColor;
+	&__summary {
+		--flow-space: #{get-size(500)};
+		font-size: get-size(600);
 
-      &:hover {
-        text-decoration: none;
-      }
-    }
-  }
+		a {
+			color: currentColor;
 
-  &__heading {
-    max-width: 40ex;
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
 
-    &--compact {
-      max-width: 20ex;
-    }
-  }
+	&__heading {
+		font-size: get-size(max);
+		font-weight: 300;
+		max-width: 40ex;
 
-  &__meta {
-    color: var(--color-theme-primary);
-  }
+		&--compact {
+			max-width: 20ex;
+		}
+	}
+
+	&__meta {
+		color: var(--color-theme-primary);
+	}
+}
+
+@keyframes GradientShift {
+	0% {
+		background-position: 0% 90%;
+	}
+
+	50% {
+		background-position: 100% 11%;
+	}
+
+	100% {
+		background-position: 0% 90%;
+	}
+}
+
+@-moz-keyframes GradientShift {
+	0% {
+		background-position: 0% 90%;
+	}
+
+	50% {
+		background-position: 100% 11%;
+	}
+
+	100% {
+		background-position: 0% 90%;
+	}
+}
+
+@-webkit-keyframes GradientShift {
+	0% {
+		background-position: 0% 90%;
+	}
+
+	50% {
+		background-position: 100% 11%;
+	}
+
+	100% {
+		background-position: 0% 90%;
+	}
 }

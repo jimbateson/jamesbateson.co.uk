@@ -2,30 +2,30 @@
 
 // Pull in the stalfos lib
 @import '../../node_modules/stalfos/stalfos.scss';
-
 @import 'theme';
 
 // Local dependencies
 @import 'typography';
 
 /**
- * GLOBAL STYLES 
+ * GLOBAL STYLES
  */
+
 body {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 main:focus {
-  outline: none;
+	outline: none;
 }
 
 hr {
-  display: block;
-  height: 1px;
-  max-width: 500px;
-  background: var(--color-stroke);
-  border: none;
-  margin: get-size(900) auto;
+	background: var(--color-stroke);
+	border: none;
+	display: block;
+	height: 1px;
+	margin: get-size(900) auto;
+	max-width: 500px;
 }
 
 /**

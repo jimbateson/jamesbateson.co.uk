@@ -1,25 +1,65 @@
 /* lora-700 - latin */
+// @font-face {
+//   font-family: 'Lora';
+//   font-style: normal;
+//   font-weight: 700;
+//   src: local('Lora Bold'), local('Lora-Bold'),
+//     url('/fonts/lora-v13-latin-700.woff2') format('woff2'),
+//     url('/fonts/lora-v13-latin-700.woff') format('woff');
+// }
+
 @font-face {
-  font-family: 'Lora';
+  font-family: 'Omega Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Omega Sans'), local('Omega-Sans'),
+    url('/fonts/omegasansregular-webfont.woff2') format('woff2'),
+	url('/fonts/omegasansregular-webfont.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Wremene';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Wremene'),
+    url('/fonts/wremena_light-webfont.woff2') format('woff2'),
+	url('/fonts/wremena_light-webfont.woff') format('woff');
+ font-display: swap;
+}
+
+@font-face {
+  font-family: 'Wremene';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Wremene'),
+    url('/fonts/wremena_regular-webfont.woff2') format('woff2'),
+	url('/fonts/wremena_regular-webfont.woff') format('woff');
+ font-display: swap;
+}
+
+@font-face {
+  font-family: 'Wremene';
   font-style: normal;
   font-weight: 700;
-  src: local('Lora Bold'), local('Lora-Bold'),
-    url('/fonts/lora-v13-latin-700.woff2') format('woff2'),
-    url('/fonts/lora-v13-latin-700.woff') format('woff');
+  src: local('Wremene'),
+    url('/fonts/wremena_bold-webfont.woff2') format('woff2'),
+	url('/fonts/wremena_bold-webfont.woff') format('woff');
+ font-display: swap;
 }
 
 body {
-  // Strip the unit off the size ratio to generate a line height
-  $line-height: get-size(600);
-  line-height: $line-height / ($line-height * 0 + 1);
-
-  @include apply-utility('font', 'base');
+	@include apply-utility('font', 'base');
+	// Strip the unit off the size ratio to generate a line height
+	$line-height: get-size(600);
+	line-height: $line-height / ($line-height * 0 + 1);
 }
 
 h1,
 h2,
 h3 {
-  @include apply-utility('font', 'serif');
+	@include apply-utility('font', 'serif');
+	font-weight: 400;
 }
 
 h1 {

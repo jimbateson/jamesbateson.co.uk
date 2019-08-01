@@ -1,7 +1,11 @@
 .site-head {
-  &__site-name {
-    font-weight: 700;
-    text-decoration: none;
-    color: var(--color-text);
-  }
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.site-logo {
+	fill: #fff;
+	width: 75px;
 }
