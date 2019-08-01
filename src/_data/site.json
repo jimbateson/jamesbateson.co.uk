@@ -1,5 +1,5 @@
 {
-  "showThemeCredit": false,
+  "showThemeCredit": true,
   "name": "James Bateson",
   "shortDesc": "Built with 11ty and Hylia. Hosted on Netlify.",
   "url": "https://jamesbateson.co.uk",
