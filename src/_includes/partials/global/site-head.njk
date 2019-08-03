@@ -2,7 +2,7 @@
 <header role="banner" class="[ site-head ] [ pad-top-300 pad-bottom-100 ">
   <div class="wrapper">
     <span class="visually-hidden">{{ site.name }}: {{ pageType }}</span>
-    <div class="[ site-head__inner ] [ md:box-flex space-between align-center ]">
+    <div class="[ site-head__inner ] [ box-flex space-between align-center ]">
       <a href="/" class="[ site-head__site-name ] [ leading-tight ]"{{ 'aria-current=page' if page.url == '/' | safe }}>
         <span class="visually-hidden">{{ 'Back to homepage' if page.url != '/' else 'Homepage' }}</span>
         {# <span class="[ site-head__site-name ] [ text-600 ]" aria-hidden="true">{{ site.name }}</span> #}

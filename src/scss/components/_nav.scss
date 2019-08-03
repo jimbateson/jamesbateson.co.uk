@@ -9,7 +9,7 @@
     }
 
     > * + * {
-      margin-left: get-size(500);
+      margin-left: get-size(700);
     }
   }
 
@@ -18,9 +18,8 @@
     flex-shrink: 0;
 
     a {
-      color: currentColor;
-
-      @include apply-utility('weight', 'mid');
+	  color: var(--color-light);
+	  font-size: get-size(500);
 
       &:not(:hover) {
         text-decoration: none;

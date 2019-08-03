@@ -1,0 +1,20 @@
+{# {% if postListItems.length %} #}
+  <section class="[ people-list ] [ pad-top-900 pad-bottom-max ]">
+    <div class="[ wrapper ] [ sf-flow ]">
+      <h2 class="[ people-list__heading ] [ text-700 md:text-800 ]">Inspiring Folks</h2>
+	  <p class="section-intro">A few people who have inspired and helped me grow as a developer. Thank you!</p>
+      <ol class="[ people-list__items ] [ sf-flow ] [ pad-top-300 ]" reversed>
+        {% for item in postListItems %}
+          <li class="post-list__item">
+            <h3 class="font-base leading-tight text-600 weight-mid">
+              <a href="{{ item.url }}" class="people-list__link" rel="bookmark">{{ item.data.title }}</a>
+            </h3>
+            <p class="text-500 gap-top-300 weight-mid">
+              <time datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time>
+            </p>
+          </li>
+        {% endfor %}
+      </ol>
+    </div>
+  </section>
+{# {% endif %} #}

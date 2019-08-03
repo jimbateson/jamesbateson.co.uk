@@ -1,4 +1,6 @@
 .post-list {
+	background-color: #f6f9fc;
+
   &__item {
     --flow-space: #{get-size(700)};
   }

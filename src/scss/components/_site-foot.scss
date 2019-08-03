@@ -19,6 +19,28 @@
     }
   }
 
+  &__details {
+	  align-items: center;
+	  display: flex;
+	  justify-content: space-between;
+	  width: 100%;
+  }
+
+  &__icon {
+	  &:hover {
+		svg {
+			fill: rgb(119, 14, 191);
+		}
+	  }
+
+	  svg {
+		fill: var(--color-light);
+		height: 45px;
+		transition: fill .3s;
+		width: 45px;
+	  }
+  }
+
 	.site-logo {
 		width: 50px;
 	}

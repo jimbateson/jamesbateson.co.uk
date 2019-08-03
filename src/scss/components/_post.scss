@@ -3,7 +3,7 @@
     --flow-space: #{get-size(800)};
 
     /**
-     * Generic HTML styles 
+     * Generic HTML styles
      */
     h2 + *,
     h3 + * {
@@ -19,10 +19,10 @@
     }
 
     a:not([class]) {
-      color: currentcolor;
+      color: var(--color-light);
       position: relative;
       display: inline-block;
-      background: var(--color-theme-highlight);
+      background: linear-gradient(90deg, rgb(119, 14, 191), rgb(238, 141, 125));
       padding: 0.2rem 0.4rem 0.3rem 0.4rem;
       white-space: pre;
       text-decoration: none;
@@ -48,11 +48,12 @@
     }
 
     blockquote {
-      border-left: 0.4rem solid var(--color-theme-primary-glare);
+		@include apply-utility('font', 'serif');
+      border-left: 0.4rem solid rgb(119, 14, 191);
       margin-left: 0;
       padding-left: get-size(500);
-      font-style: italic;
-      font-size: get-size(600);
+	  font-size: get-size(600);
+	  font-weight: 300;
 
       p {
         opacity: 0.85;
@@ -62,7 +63,11 @@
 
     ol,
     ul {
-      margin-left: get-size(800);
+	  margin-left: get-size(800);
+
+	  ::marker {
+		  color: rgb(119, 14, 191);
+	  }
     }
 
     li + li {
@@ -90,7 +95,7 @@
     figure img,
     pre > code,
     .video-player {
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+      box-shadow: 3px 3px 0 rgba(0, 0, 0, .1);
     }
 
     figure img {
@@ -115,9 +120,10 @@
   }
 
   &__footer {
-    background: var(--color-theme-highlight);
+   background: linear-gradient(90deg, rgb(119, 14, 191), rgb(238, 141, 125));
 
     h2 {
+		color: var(--color-light);
       flex-shrink: 0;
       margin-right: get-size('base');
     }
@@ -131,4 +137,10 @@
       padding: 0.4rem 0.6rem;
     }
   }
+}
+
+.p-category {
+	a {
+		color: rgb(119, 14, 191);
+	}
 }
