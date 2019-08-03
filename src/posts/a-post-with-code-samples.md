@@ -1,6 +1,6 @@
 ---
 title: A post with code samples
-date: '2019-06-18'
+date: 2022-06-17T23:00:00.000Z
 tags:
   - demo-content
   - code
