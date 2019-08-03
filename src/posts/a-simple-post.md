@@ -1,6 +1,6 @@
 ---
 title: A sample post
-date: '2019-06-18'
+date: 2019-08-02T23:00:00.000Z
 tags:
   - demo-content
   - simple-post
