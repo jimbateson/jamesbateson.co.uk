@@ -1,7 +1,7 @@
 ---
 title: Holly Goodrum
 image: /images/holly-site.jpg
-shortDescription: Test
+shortDescription: An awesome designer based in Bristol.
 url: 'https://hollygoodrum.uk'
 ---
 
