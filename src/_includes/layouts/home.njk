@@ -10,6 +10,7 @@
 {# Post list content #}
 {% set postListHeading = postsHeading %}
 {% set postListItems = collections.postFeed %}
+{% set peopleListItems = collections.people %}
 
 {# Archive link #}
 {% if postListItems.length < collections.posts.length %}
@@ -21,6 +22,6 @@
   <main id="main-content" tabindex="-1">
     {% include "partials/components/intro.njk" %}
     {% include "partials/components/post-list.njk" %}
-    {# {% include "partials/components/people.njk" %} #}
+    {# {% include "partials/components/people-list.njk" %} #}
   </main>
 {% endblock %}

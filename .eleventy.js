@@ -49,6 +49,12 @@ module.exports = function(config) {
       .slice(0, site.maxPostsPerPage);
   });
 
+	config.addCollection('people', collection => {
+		return [
+			...collection.getFilteredByGlob('./src/people/*.md')
+		].reverse();
+	});
+
   // Plugins
   config.addPlugin(rssPlugin);
   config.addPlugin(syntaxHighlight);
