@@ -1,6 +1,6 @@
 ---
 title: Holly Goodrum
 shortDescription: Test
-site: hollygoodrum.co.uk
+url: 'https://hollygoodrum.uk'
 ---
 
