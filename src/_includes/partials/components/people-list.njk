@@ -4,11 +4,11 @@
       <h2 class="[ people-list__heading ] [ text-700 md:text-800 ]">Inspiring Folks</h2>
 	  <p class="section-intro">A few people who have inspired and helped me grow as a developer. Thank you!</p>
       <ol class="[ people-list__items ] [ sf-flow ] [ pad-top-300 ]" reversed>
-        {% for item in peopleListItems %}
+        {% for people in collections.people %}
           <li class="post-list__item">
-            <h3>Holly Goodrum</h3>
-			<p>A wonderful Bristol based designer</p>
-			<a href="https://hollygoodrum.co.uk" rel="external">https://hollygoodrum.co.uk</a>
+            <h3>{{ people.data.name }}</h3>
+			<p>{{ people.data.shortDescription }}</p>
+			<a href="{{ people.data.site }}" target="_blank" rel="external">{{ people.data.site }}</a>
           </li>
         {% endfor %}
       </ol>

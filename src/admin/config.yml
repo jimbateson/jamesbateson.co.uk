@@ -56,14 +56,12 @@ collections:
   - name: "people"
     label: "People"
     folder: "src/people"
-    slug: "{{slug}}"
-    preview_path: "people/{{slug}}"
     create: true
     fields:
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Short Description", name: "shortDescription", widget: "string"}
-      - {label: "Url", name: "url", widget: "string"}
+      - {label: "Site Url", name: "site", widget: "string"}
   - label: "Globals"
     name: "globals"
     files:
