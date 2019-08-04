@@ -1,7 +1,6 @@
 ---
-name: Holly Goodrum
+title: Holly Goodrum
 shortDescription: Test
-site: hollygoodrum.co.uk
-tags: people
+url: 'https://hollygoodrum.uk'
 ---
 
