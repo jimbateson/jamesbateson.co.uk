@@ -3,7 +3,7 @@ layout: layouts/post.njk
 title: jamesbateson.co.uk
 date: 2019-08-10T19:52:50.432Z
 tags:
-  - tech
+  - general
 ---
 After a few weeks of hating everything I did, I have finally put my new site live, welcome.
 
