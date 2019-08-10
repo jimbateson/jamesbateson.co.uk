@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: jamesbateson.co.uk
-date: 2019-08-08T05:11:50.432Z
+date: 2019-08-10T19:52:50.432Z
 tags:
   - tech
 ---
