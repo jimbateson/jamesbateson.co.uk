@@ -2,7 +2,7 @@
 	animation: GradientShift 30s ease infinite;
 	background: linear-gradient(90deg, rgb(119, 14, 191), rgb(238, 141, 125));
 	color: var(--color-light);
-	height: 80vh;
+	height: 500px;
 
 	.wrapper {
 		display: flex;
@@ -42,35 +42,13 @@
 	margin-top: 0;
 }
 
+@media screen and (min-width: 768px) {
+	.intro {
+		height: 80vh;
+	}
+}
+
 @keyframes GradientShift {
-	0% {
-		background-position: 0% 90%;
-	}
-
-	50% {
-		background-position: 100% 11%;
-	}
-
-	100% {
-		background-position: 0% 90%;
-	}
-}
-
-@-moz-keyframes GradientShift {
-	0% {
-		background-position: 0% 90%;
-	}
-
-	50% {
-		background-position: 100% 11%;
-	}
-
-	100% {
-		background-position: 0% 90%;
-	}
-}
-
-@-webkit-keyframes GradientShift {
 	0% {
 		background-position: 0% 90%;
 	}

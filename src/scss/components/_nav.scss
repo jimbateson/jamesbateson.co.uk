@@ -15,15 +15,41 @@
 
   &__item {
     padding: get-size(300) 0;
-    flex-shrink: 0;
+	flex-shrink: 0;
+
+	&.active {
+		a {
+			&:after {
+				width: 100%;
+			}
+		}
+	}
 
     a {
 	  color: var(--color-light);
 	  font-size: get-size(500);
 
+	  &:after {
+		  background-color: var(--color-light);
+		  content: '';
+		  display: block;
+		  height: 1px;
+		  transition: width .35s;
+		  width: 0;
+	  }
+
       &:not(:hover) {
         text-decoration: none;
-      }
+	  }
+
+	  &:hover,
+	  &:focus {
+		  text-decoration: none;
+
+		  &:after {
+			  width: 100%;
+		  }
+	  }
     }
   }
 }

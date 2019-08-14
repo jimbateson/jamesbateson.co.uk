@@ -13,7 +13,7 @@
           {% set currentAttribute = ' aria-current="page"' %}
         {% endif %}
 
-        <li class="nav__item">
+        <li{% if page.url == item.url %} class="nav__item active"{% endif %} class="nav__item">
           <a href="{{ item.url }}"{{ externalAttribute | safe }}{{ currentAttribute | safe }}>{{ item.text }}</a>
         </li>
       {% endfor %}
