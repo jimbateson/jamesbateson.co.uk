@@ -19,7 +19,6 @@
 }
 
 .people-list__item {
-	//flex-basis: 33.333%;
 	margin-bottom: 40px;
 	text-align: center;
 
@@ -35,13 +34,14 @@
 }
 
 @media screen and (min-width: 768px) {
-	.people-list__item {
-		flex-basis: 50%;
-		text-align: left;
+	.people-list__items {
+		display: grid;
+		grid-gap: 20px 40px;
+		grid-template-columns: 1fr 1fr;
+	}
 
-		+ .people-list__item {
-			margin-left: 40px;
-		}
+	.people-list__item {
+		text-align: left;
 	}
 
 	.people-list__image {
