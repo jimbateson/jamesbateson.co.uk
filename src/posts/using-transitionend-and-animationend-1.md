@@ -32,22 +32,22 @@ One thing that I still do need to dig a bit deeper into here is why `transitionE
  
 ```css
 @keyframes show-button {
- 0% {
- flex-grow: 0;
- margin-top: -150px;
- opacity: 0;
- transform: scale(0);
- }
+    0% {
+        flex-grow: 0;
+        margin-top: -150px;
+        opacity: 0;
+        transform: scale(0);
+    }
 	
-	50% {
- flex-grow: 1;
-	}
+    50% {
+        flex-grow: 1;
+    }
 	
-	100% {
- margin-top: -75px;
- opacity: 1;
- transform: scale(1);
-	}
+    100% {
+        margin-top: -75px;
+        opacity: 1;
+        transform: scale(1);
+    }
 }
 ```
  
