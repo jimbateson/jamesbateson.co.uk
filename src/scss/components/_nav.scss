@@ -50,6 +50,14 @@
 			  width: 100%;
 		  }
 	  }
-    }
+	}
+
+	&--tag {
+		a {
+			&:after {
+				display: none
+			}
+		}
+	}
   }
 }
