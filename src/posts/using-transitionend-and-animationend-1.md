@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: Using transitionEnd and animationEnd
-date: 2019-09-03T19:49:57.968Z
+date: 2019-09-15T06:49:57.968Z
 tags:
   - JS
 ---
