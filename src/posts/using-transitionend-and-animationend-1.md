@@ -13,16 +13,16 @@ What do these events do? Well, they are fairly self-explanatory, they fire eithe
  
 I had a fairly simple case to use this and to be fair, maybe it wasn't needed. However, I had been meaning to have a play around with how it worked for a while.
  
-I was building a little UI prototype on codepen. When clicking an icon an extra element was added to the DOM, clicking any other icon then removed the element. Adding the element and having it transition was straightforward, I just set an animation on the element, which ran when it was added, resulting in a nice smooth transition in. However, when I wanted to remove the element with the same smooth transition out, it was not working as even though I had set the animation to reverse, it was just being remove from the DOM immediately, which gave a kind of 'jumping' effect.
+I was building a little UI prototype on codepen. When clicking an icon an extra element was added to the DOM, clicking any other icon then removed this element again. Adding the element and having it transition was straightforward, I just set an animation on the element, which ran when it was added, resulting in a nice smooth transition in. However, when I wanted to remove the element with the same smooth transition out, it was not working as even though I had set the animation to reverse, it was just being remove from the DOM immediately, which gave a kind of 'jumping' effect.
  
 Enter `transitionEnd` with this, I could tell the JS to only remove the element from the DOM once my reversed animation had finished, cool!
  
 ```js
 objAdd.addEventListener('transitionend', () => {
- // This removes the class that has added the reverse animation
- objAdd.classList.remove('icon-add--removing');
- // Remove the element from the DOM
- objBar.removeChild(objAdd);
+    // This removes the class that has added the reverse animation
+    objAdd.classList.remove('icon-add--removing');
+    // Remove the element from the DOM
+    objBar.removeChild(objAdd);
 });
 ```
  
@@ -32,22 +32,22 @@ One thing that I still do need to dig a bit deeper into here is why `transitionE
  
 ```css
 @keyframes show-button {
- 0% {
- flex-grow: 0;
- margin-top: -150px;
- opacity: 0;
- transform: scale(0);
- }
+    0% {
+        flex-grow: 0;
+        margin-top: -150px;
+        opacity: 0;
+        transform: scale(0);
+    }
 	
-	50% {
- flex-grow: 1;
-	}
+    50% {
+        flex-grow: 1;
+    }
 	
-	100% {
- margin-top: -75px;
- opacity: 1;
- transform: scale(1);
-	}
+    100% {
+        margin-top: -75px;
+        opacity: 1;
+        transform: scale(1);
+    }
 }
 ```
  
