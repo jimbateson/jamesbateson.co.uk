@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: Looking back at 2019
-date: 2020-01-04T20:44:41.836Z
+date: 2020-01-01T13:00:00.000Z
 tags:
   - general
 ---
