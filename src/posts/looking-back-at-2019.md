@@ -41,4 +41,27 @@ In 2020 expect to see many more pens from me, hopefully some worth sharing and u
 
 [Check out my Codepen profile](https://codepen.io/jim-bateson)
 
+## Work charity project
+
+I can't say too much on this at the moment (mainly because I'm still ironing out a lot of specifics) but this is a project I set in motion towards the end of 2019.
+
+In 2019 becoming more active helped me massivley with dealing with some pretty dark times, and I'd like to encourgae others to get more active whilst also raising money for a great cause.
+
+Watch out for more updates on this project in 2020, hopefully some big things to come.
+
+## Upskill
+
+In 2019 I made an effort to start getting better at writing and understanding javascript. This has always been a weak point for me and also led to a lot of imposter sydrome, which is not nice.
+
+I've been working my way through numerous courses, most recently [A beginner on from Wes Bos](https://beginnerjavascript.com/). This has been great in learning more about the basics of JS and how it all fits together.
+
+In 2020 I really want to crack Javascript, so plan to continue learning and experimenting with it. Hopefully doing more Codepen experiments, FECC challanges and taking on plenty of Javascript tasks for FatKit 2 will help with this.
+
+## In Summary
+
+Despite a lot of downs in 2019, looking back at the above makes me feel excited and positive about what I can acheive in 2020. As mentioned I'll be posting more regularly here with updates on these projects, so keep an eye out.
+
+I hope you all have some exciting stuff planned for 2020 as well and Happy New year.
+Jim
+
 
