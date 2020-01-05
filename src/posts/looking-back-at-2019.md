@@ -54,6 +54,12 @@ I've been working my way through numerous courses, most recently [A beginner one
 
 In 2020 I really want to crack Javascript, so plan to continue learning and experimenting with it. Hopefully doing more Codepen experiments, FECC challenges and taking on plenty of Javascript tasks for FatKit 2 will help with this.
 
+## todo app
+
+One thing I've always struggled with, is coming up with ideas, then never actually seeing them through. I always lose track of things, then they get pushed off my radar by other things.
+
+I started learning some Electron by building a custom todo app that I could tailor to how I best work. I got this working, however, would like to do take it further in 2020, and make it into something I use day-to-day and keep on top of.
+
 ## In Summary
 
 Despite a lot of downs in 2019, looking back at the above makes me feel excited and positive about what I can achieve in 2020. As mentioned I'll be posting more regularly here with updates on these projects, so keep an eye out.
