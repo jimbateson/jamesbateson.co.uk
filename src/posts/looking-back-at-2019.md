@@ -25,11 +25,11 @@ I'm excited to do a lot more work on this in 2020!
 
 ## Front-End Challenges Club
 
-Towards the end of 2019 I signed up to Front-End Challenges club. This is a project created by the awesome Andy Bell. It involves have a go at building something set in regular challenges. Andy then posts his best practice solution for you to learn and improve from.
+Towards the end of 2019 I signed up to [Front-End Challenges Club](https://front-end-challenges.club/). This is a project created by the awesome [Andy Bell](https://hankchizljaw.com/). It involves have a go at building something set in regular challenges. Andy then posts his best practice solution for you to learn and improve from.
 
 A goal of mine for a while has been to learn more about semantic HTML and accessibility, and the three challenges I did in 2019 were great fun and I learned a ton from! So I'm hugely excited about taking part in this project in 2020.
 
-Here are my three challenge attempts from 2019
+[Here are my three challenge attempts from 2019](https://codepen.io/dashboard?type=SEARCH&opts_itemType=PEN&opts_searchTerm=FECC&opts_order=RELEVANCE&opts_depth=EVERYTHING&opts_showForks=false&opts_filter=all&opts_orderBy=ID&opts_orderDirection=0&opts_tag=0&displayType=GRID&previewType=IFRAME&activeType=PEN)
 
 ## Codepen Experiments
 
@@ -37,7 +37,7 @@ During 2019 I made much more use of my Codepen account. I love seeing little UI/
 
 In 2020 expect to see many more pens from me, hopefully, some worth sharing and usable on production sites.
 
-Check out my Codepen profile
+[Check out my Codepen profile](https://codepen.io/jim-bateson)
 
 ## Work charity project
 
