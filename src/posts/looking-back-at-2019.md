@@ -12,3 +12,33 @@ In all honesty 2019 was probably the toughest year of my life, due to things out
 ## Personal Site
 
 I published this site earlier this year! I've been meaning to create myself a presence online for some time now, so I'm really pleased to have this setup.
+
+I'll be the first to admit that it doesn't look great and I still have a lot of work to do on it, but having something live is great!
+
+In 2020 I plan to chip away at moulding it to something I'm happier with. I also plan to post a few more articles to it, and although scary, try and share these in some way!
+
+## FatKit 2
+
+FatKit is the framework we use internally at Fat Media. Towards the end of 2019 I made a good start in laying some groundwork for the second version of this.
+
+Our plan is to update the front-end technologies we are using, for example ditching grunt in favour of npm scripts, and make more use of NodeJs. We'll be looking at making more use of CSS Grid, HSL and CSS variables. 
+
+I'm excited to do a lot more work on this in 2020!
+
+## Front-End Challanges Club
+
+Towards the end of 2019 I signed up to [Front-End Challanges club](https://front-end-challenges.club/). This is a project created by the awesome [Andy Bell](https://hankchizljaw.com/). It involves have a go at building something set in regular challanges. Andy then posts his best practice solution for you to learn and improve from.
+
+A goal of mine for a while has been to learn more about semantic HTML and accessiblity, and the three challanges I did in 2019 were great fun and I learned a ton from! So I'm hugely excited about taking part in this project in 2020.
+
+[Here are my three challange attempts from 2019](https://codepen.io/dashboard?type=SEARCH&opts_itemType=PEN&opts_searchTerm=FECC&opts_order=RELEVANCE&opts_depth=EVERYTHING&opts_showForks=false&opts_filter=all&opts_orderBy=ID&opts_orderDirection=0&opts_tag=0&displayType=GRID&previewType=IFRAME&activeType=PEN)
+
+## Codepen Experiments
+
+During 2019 I made much more use of my Codepen account. I love seeing little UI/UX features/print layouts/awesome designs on Twitter and Dribble etc and then trying to recreate them with code. Codepen is the perfect space to this, it's like a quick start project, and makes sharing and collabaration really easy.
+
+In 2020 expect to see many more pens from me, hopefully some worth sharing and usable on production sites.
+
+[Check out my Codepen profile](https://codepen.io/jim-bateson)
+
+
