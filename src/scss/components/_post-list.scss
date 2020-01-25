@@ -1,16 +1,16 @@
 .post-list {
-	background-color: #f6f9fc;
+    background-color: #f6f9fc;
 
-  &__item {
-    --flow-space: #{get-size(700)};
-  }
-
-  &__link {
-    color: var(--color-theme-primary);
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
+    &__item {
+        --flow-space: #{get-size(700)};
     }
-  }
+
+    &__link {
+        color: var(--color-theme-primary);
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 }

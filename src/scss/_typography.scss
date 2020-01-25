@@ -9,81 +9,77 @@
 // }
 
 @font-face {
-  font-family: Omega Sans;
-  font-style: normal;
-  font-weight: 400;
-  src: local('Omega Sans'), local('Omega-Sans'),
-    url('/fonts/omegasansregular-webfont.woff2') format('woff2'),
-	url('/fonts/omegasansregular-webfont.woff') format('woff');
-  font-display: swap;
+    font-family: Omega Sans;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Omega Sans'), local('Omega-Sans'), url('/fonts/omegasansregular-webfont.woff2') format('woff2'),
+        url('/fonts/omegasansregular-webfont.woff') format('woff');
+    font-display: swap;
 }
 
 @font-face {
-  font-family: Wremene;
-  font-style: normal;
-  font-weight: 300;
-  src: local('Wremene'),
-    url('/fonts/wremena_light-webfont.woff2') format('woff2'),
-	url('/fonts/wremena_light-webfont.woff') format('woff');
- font-display: swap;
+    font-family: Wremene;
+    font-style: normal;
+    font-weight: 300;
+    src: local('Wremene'), url('/fonts/wremena_light-webfont.woff2') format('woff2'),
+        url('/fonts/wremena_light-webfont.woff') format('woff');
+    font-display: swap;
 }
 
 @font-face {
-  font-family: Wremene;
-  font-style: normal;
-  font-weight: 400;
-  src: local('Wremene'),
-    url('/fonts/wremena_regular-webfont.woff2') format('woff2'),
-	url('/fonts/wremena_regular-webfont.woff') format('woff');
- font-display: swap;
+    font-family: Wremene;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Wremene'), url('/fonts/wremena_regular-webfont.woff2') format('woff2'),
+        url('/fonts/wremena_regular-webfont.woff') format('woff');
+    font-display: swap;
 }
 
 @font-face {
-  font-family: Wremene;
-  font-style: normal;
-  font-weight: 700;
-  src: local('Wremene'),
-    url('/fonts/wremena_bold-webfont.woff2') format('woff2'),
-	url('/fonts/wremena_bold-webfont.woff') format('woff');
- font-display: swap;
+    font-family: Wremene;
+    font-style: normal;
+    font-weight: 700;
+    src: local('Wremene'), url('/fonts/wremena_bold-webfont.woff2') format('woff2'),
+        url('/fonts/wremena_bold-webfont.woff') format('woff');
+    font-display: swap;
 }
 
 body {
-	@include apply-utility('font', 'base');
-	// Strip the unit off the size ratio to generate a line height
-	$line-height: get-size(600);
-	line-height: $line-height / ($line-height * 0 + 1);
+    @include apply-utility('font', 'base');
+    // Strip the unit off the size ratio to generate a line height
+    $line-height: get-size(600);
+    line-height: $line-height / ($line-height * 0 + 1);
 }
 
 h1,
 h2,
 h3 {
-	@include apply-utility('font', 'serif');
-	font-weight: 400;
+    @include apply-utility('font', 'serif');
+    font-weight: 400;
 }
 
 h1 {
-  font-size: get-size(700);
+    font-size: get-size(700);
 }
 
 h2 {
-  font-size: get-size(600);
+    font-size: get-size(600);
 }
 
 h3 {
-  font-size: get-size(500);
+    font-size: get-size(500);
 }
 
 @include media-query('md') {
-  h1 {
-    font-size: get-size(900);
-  }
+    h1 {
+        font-size: get-size(900);
+    }
 
-  h2 {
-    font-size: get-size(800);
-  }
+    h2 {
+        font-size: get-size(800);
+    }
 
-  h3 {
-    font-size: get-size(700);
-  }
+    h3 {
+        font-size: get-size(700);
+    }
 }

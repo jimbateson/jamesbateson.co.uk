@@ -1,47 +1,47 @@
 .site-foot {
-  // Reverse whatever the theme colors are
-  background: var(--color-text);
-  color: var(--color-bg);
+    // Reverse whatever the theme colors are
+    background: var(--color-text);
+    color: var(--color-bg);
 
-  // Reverse selection colors
-  --color-selection-text: #{get-color('dark')};
-  --color-selection-bg: #{get-color('light')};
+    // Reverse selection colors
+    --color-selection-text: #{get-color('dark')};
+    --color-selection-bg: #{get-color('light')};
 
-  &__credit {
-    text-align: center;
+    &__credit {
+        text-align: center;
 
-    a {
-      color: currentColor;
+        a {
+            color: currentColor;
 
-      &:hover {
-        text-decoration: none;
-      }
+            &:hover {
+                text-decoration: none;
+            }
+        }
     }
-  }
 
-  &__details {
-	  align-items: center;
-	  display: flex;
-	  justify-content: space-between;
-	  width: 100%;
-  }
+    &__details {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
 
-  &__icon {
-	  &:hover {
-		svg {
-			fill: rgb(119, 14, 191);
-		}
-	  }
+    &__icon {
+        &:hover {
+            svg {
+                fill: rgb(119, 14, 191);
+            }
+        }
 
-	  svg {
-		fill: var(--color-light);
-		height: 45px;
-		transition: fill .3s;
-		width: 45px;
-	  }
-  }
+        svg {
+            fill: var(--color-light);
+            height: 45px;
+            transition: fill 0.3s;
+            width: 45px;
+        }
+    }
 
-	.site-logo {
-		width: 50px;
-	}
+    .site-logo {
+        width: 50px;
+    }
 }
