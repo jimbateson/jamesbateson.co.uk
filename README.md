@@ -1,6 +1,6 @@
 # jamesbateson.co.uk
 
-The personal website of James Bateson. A 28 front-end developer based in Lancaster and working at Fat Media.
+The personal website of James Bateson. A front-end developer based in Lancaster and working at Fat Media.
 
 The site is currently in very very early stages of development, so expect lots of updates and posisbly re-builds when I start hating something!
 
