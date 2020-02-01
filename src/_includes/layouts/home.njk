@@ -4,12 +4,14 @@
 {# Intro content #}
 {% set introHeading = title %}
 {% set introSummary %}
-  {{ content | safe }}
+  {{ bannerSummary | safe }}
 {% endset %}
 
 {# Post list content #}
 {% set postListHeading = postsHeading %}
 {% set postListItems = collections.postFeed %}
+
+{# Post list content #}
 {% set peopleListItems = collections.people %}
 
 {# Archive link #}
@@ -21,6 +23,7 @@
 {% block content %}
   <main id="main-content" tabindex="-1">
     {% include "partials/components/intro.njk" %}
+	{% include "partials/components/about.njk" %}
     {% include "partials/components/post-list.njk" %}
     {% include "partials/components/people-list.njk" %}
   </main>

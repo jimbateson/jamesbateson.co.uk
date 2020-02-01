@@ -1,40 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml" />
-<link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
-<link rel="manifest" href="i/mages/favicons/site.webmanifest">
-<link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#603cba">
-<meta name="theme-color" content="#ffffff">
-  <link rel="preload" as="font" type="font/woff2" crossorigin href="/fonts/wremena_light-webfont.woff2" />
-  <link rel="preload" as="font" type="font/woff2" crossorigin href="/fonts/wremena_bold-webfont.woff2" />
-  <link rel="preload" as="font" type="font/woff2" crossorigin href="/fonts/wremena_regular-webfont.woff2" />
-  <link rel="preload" as="font" type="font/woff2" crossorigin href="/fonts/omegasansregular-webfont.woff2" />
-  {% include "partials/global/meta-info.njk" %}
-  <style>{% include "assets/css/global.css" %}</style>
-  {% block head %}
-  {% endblock %}
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+	<link rel="manifest" href="i/mages/favicons/site.webmanifest">
+	<link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#603cba">
+	<meta name="theme-color" content="#ffffff">
+	<link rel="preload" as="font" type="font/woff2" crossorigin href="/fonts/wremena_light-webfont.woff2" />
+	<link rel="preload" as="font" type="font/woff2" crossorigin href="/fonts/wremena_bold-webfont.woff2" />
+	<link rel="preload" as="font" type="font/woff2" crossorigin href="/fonts/wremena_regular-webfont.woff2" />
+	<link rel="preload" as="font" type="font/woff2" crossorigin href="/fonts/omegasansregular-webfont.woff2" />
+	{% include "partials/global/meta-info.njk" %}
+	<style>{% include "assets/css/global.css" %}</style>
+	{% block head %}
+	{% endblock %}
+	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-  {% include "partials/global/site-head.njk" %}
-  {% block content %}
-  {% endblock content %}
-  {% include "partials/global/site-foot.njk" %}
-  {% block foot %}
-  {% endblock %}
-  <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/service-worker.js');
-      });
-    }
-  </script>
+	{% include "partials/global/site-head.njk" %}
+	{% block content %}
+	{% endblock content %}
+	{% include "partials/global/site-foot.njk" %}
+	{% block foot %}
+	{% endblock %}
+	<script>
+		if ('serviceWorker' in navigator) {
+			window.addEventListener('load', () => {
+				navigator.serviceWorker.register('/service-worker.js');
+			});
+		}
+	</script>
 </body>
 </html>

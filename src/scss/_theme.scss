@@ -15,6 +15,10 @@
     --color-theme-primary: #{get-color('primary')};
     --color-theme-primary-glare: #{get-color('primary-glare')};
     --color-theme-highlight: #{get-color('highlight')};
+
+    --color-light: #fff;
+    --color-grey-light: #f6f9fc;
+    --color-accent: #32325d;
 }
 
 body {

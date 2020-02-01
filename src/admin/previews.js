@@ -21,11 +21,12 @@ const Home = ({ entry }) => (
   <Preview
     entry={entry}
     path="layouts/home.njk"
-    context={({ title, body, postsHeading, archiveButtonText }) => ({
+    context={({ title, bannerSummary, postsHeading, archiveButtonText, about }) => ({
       title,
-      content: markdownFilter(body),
+	  bannerSummary,
       postsHeading,
       archiveButtonText,
+	  about,
       collections: {
         postFeed: [{
           url: 'javascript:void(0)',
@@ -90,6 +91,7 @@ const Nav = ({ entry }) => (
 
 CMS.registerPreviewTemplate('home', Home);
 CMS.registerPreviewTemplate('posts', Post);
+CMS.registerPreviewTemplate('people', People);
 CMS.registerPreviewTemplate('generic_pages', Page);
 CMS.registerPreviewTemplate('site_data', SiteData);
 CMS.registerPreviewTemplate('nav', Nav);
