@@ -6,5 +6,7 @@ metaDesc: Lancaster based front-end developer
 postsHeading: From The Journal
 archiveButtonText: See all posts
 socialImage: ''
+bannerSummary: I'm a front-end developer based in Lancaster.
+about: Test about content
 ---
-I'm a front-end developer based in Lancaster.
+
