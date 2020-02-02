@@ -1,12 +1,16 @@
 {
-	"items": [
-		{
-			"text": "Home",
-			"url": "/"
-		},
-		{
-			"text": "The Journal",
-			"url": "/archive/"
-		}
-	]
+  "items": [
+    {
+      "text": "Home",
+      "url": "/"
+    },
+    {
+      "text": "The Journal",
+      "url": "/archive/"
+    },
+    {
+      "text": "Articles",
+      "url": "/archive/"
+    }
+  ]
 }
