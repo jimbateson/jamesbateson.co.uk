@@ -9,38 +9,36 @@
 // }
 
 @font-face {
-    font-family: Omega Sans;
+    font-family: Inter;
     font-style: normal;
     font-weight: 400;
-    src: local('Omega Sans'), local('Omega-Sans'), url('/fonts/omegasansregular-webfont.woff2') format('woff2'),
-        url('/fonts/omegasansregular-webfont.woff') format('woff');
+    src: local('Inter'), url('/fonts/Inter-Regular.woff2') format('woff2'),
+        url('/fonts/Inter-Regular.woff') format('woff');
     font-display: swap;
 }
 
 @font-face {
-    font-family: Wremene;
+    font-family: Inter;
     font-style: normal;
-    font-weight: 300;
-    src: local('Wremene'), url('/fonts/wremena_light-webfont.woff2') format('woff2'),
-        url('/fonts/wremena_light-webfont.woff') format('woff');
+    font-weight: 500;
+    src: local('Inter'), url('/fonts/Inter-Medium.woff2') format('woff2'),
+        url('/fonts/Inter-Medium.woff') format('woff');
     font-display: swap;
 }
 
 @font-face {
-    font-family: Wremene;
-    font-style: normal;
-    font-weight: 400;
-    src: local('Wremene'), url('/fonts/wremena_regular-webfont.woff2') format('woff2'),
-        url('/fonts/wremena_regular-webfont.woff') format('woff');
-    font-display: swap;
-}
-
-@font-face {
-    font-family: Wremene;
+    font-family: Inter;
     font-style: normal;
     font-weight: 700;
-    src: local('Wremene'), url('/fonts/wremena_bold-webfont.woff2') format('woff2'),
-        url('/fonts/wremena_bold-webfont.woff') format('woff');
+    src: local('Inter'), url('/fonts/Inter-Bold.woff2') format('woff2'), url('/fonts/Inter-Bold.woff') format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    src: local('Inter'), url('/fonts/Inter-Black.woff2') format('woff2'), url('/fonts/Inter-Black.woff') format('woff');
     font-display: swap;
 }
 
@@ -54,8 +52,8 @@ body {
 h1,
 h2,
 h3 {
-    @include apply-utility('font', 'serif');
-    font-weight: 400;
+    @include apply-utility('font', 'base');
+    font-weight: 700;
 }
 
 h1 {

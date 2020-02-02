@@ -1,15 +1,15 @@
 {% if postListItems.length %}
   <section class="[ post-list ] [ pad-top-900 pad-bottom-max ]">
     <div class="[ wrapper ] [ sf-flow ]">
-      <h2 class="[ post-list__heading ] [ text-700 md:text-800 ]">{{ postListHeading }}</h2>
+      <h2 class="[ post-list__heading ] [ text-700 md:text-900 ]">{{ postListHeading }}</h2>
 	  <p class="section-intro">Some thoughts I have turned to words recently</p>
-      <ol class="[ post-list__items ] [ sf-flow ] [ pad-top-300 ]" reversed>
+      <ol class="[ post-list__items ] [ sf-flow ] [ pad-top-800 ]" reversed>
         {% for item in postListItems %}
           <li class="post-list__item">
             <h3 class="font-base leading-tight text-600">
               <a href="{{ item.url }}" class="post-list__link" rel="bookmark">{{ item.data.title }}</a>
             </h3>
-            <p class="text-500 gap-top-300 weight-mid">
+            <p class="gap-top-300">
               <time datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time>
             </p>
           </li>

@@ -1,7 +1,7 @@
 .intro {
     animation: GradientShift 10s ease infinite;
     background: linear-gradient(90deg, rgb(119, 14, 191), rgb(238, 141, 125));
-    background-size: 200%;
+    background-size: 150%;
     color: var(--color-light);
     height: 500px;
 
@@ -15,6 +15,7 @@
     &__summary {
         --flow-space: #{get-size(500)};
         font-size: get-size(600);
+        font-weight: 500;
 
         a {
             color: currentColor;
@@ -26,11 +27,11 @@
     }
 
     &__heading {
-        font-weight: 400;
-        max-width: 40ex;
+        font-weight: 700;
+        max-width: 60vw;
 
         &--compact {
-            max-width: 20ex;
+            max-width: 40vw;
         }
     }
 
@@ -45,7 +46,7 @@
 
 @media screen and (min-width: 768px) {
     .intro {
-        height: 80vh;
+        height: 600px;
     }
 }
 

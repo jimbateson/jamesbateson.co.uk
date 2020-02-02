@@ -1,146 +1,147 @@
 .post {
-  &__body {
-    --flow-space: #{get-size(800)};
+    &__body {
+        --flow-space: #{get-size(800)};
 
-    /**
+        /**
      * Generic HTML styles
      */
-    h2 + *,
-    h3 + * {
-      --flow-space: #{get-size(500)};
+        h2 + *,
+        h3 + * {
+            --flow-space: #{get-size(500)};
+        }
+
+        h2,
+        h3 {
+            position: relative;
+            /*display: flex;*/
+
+            @include apply-utility('leading', 'tight');
+        }
+
+        a:not([class]) {
+            color: var(--color-light);
+            position: relative;
+            display: inline-block;
+            background: linear-gradient(90deg, rgb(119, 14, 191), rgb(238, 141, 125));
+            padding: 0.2rem 0.4rem 0.3rem 0.4rem;
+            white-space: pre;
+            text-decoration: none;
+
+            @include apply-utility('leading', 'tight');
+        }
+
+        a:not([class]):hover {
+            text-decoration: underline;
+        }
+
+        code {
+            font-size: 1.2em;
+            white-space: pre;
+            color: var(--color-theme-primary);
+            font-weight: 600;
+            margin-left: 0.5ch;
+            margin-right: 0.5ch;
+        }
+
+        pre > code {
+            margin-right: 0;
+        }
+
+        blockquote {
+            border-left: 0.4rem solid rgb(119, 14, 191);
+            margin-left: 0;
+            padding-left: get-size(500);
+            font-size: get-size(600);
+            font-weight: 500;
+
+            p {
+                opacity: 0.85;
+                padding: get-size(500) 0;
+            }
+        }
+
+        ol,
+        ul {
+            margin-left: get-size(800);
+
+            ::marker {
+                color: rgb(119, 14, 191);
+            }
+        }
+
+        li + li {
+            margin-top: get-size(300);
+        }
+
+        figure,
+        figure + *,
+        pre > code,
+        .video-player,
+        .video-player + * {
+            --flow-space: #{get-size('max')};
+        }
+
+        figure,
+        pre > code,
+        .video-player {
+            width: 100vw;
+            max-width: map-get($metrics, 'wrap-max-width');
+            margin-left: 50%; /*changing this value to 47% removes the horizontal scrollbar once the viewport is < 930px */
+            transform: translateX(
+                -50%
+            ); /* changing this value to 49% allows for the suggestion above to also eliminate the horizontal scroll. */
+            position: relative;
+        }
+
+        figure img,
+        pre > code,
+        .video-player {
+            box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+        }
+
+        figure img {
+            position: relative;
+            z-index: 1;
+        }
+
+        figcaption {
+            font-size: 0.8em;
+            font-style: italic;
+            max-width: map-get($metrics, 'wrap-inner-max-width');
+            margin: 0.5rem auto 0 auto;
+            padding: 0 get-size(500);
+        }
+
+        pre > code {
+            display: block;
+            background: var(--color-dark);
+            padding: get-size(700);
+            font-size: get-size(500);
+        }
     }
 
-    h2,
-    h3 {
-      position: relative;
-      /*display: flex;*/
+    &__footer {
+        background: linear-gradient(90deg, rgb(119, 14, 191), rgb(238, 141, 125));
 
-      @include apply-utility('leading', 'tight');
+        h2 {
+            color: var(--color-light);
+            flex-shrink: 0;
+            margin-right: get-size('base');
+        }
+
+        h2 a {
+            @extend %visually-hidden;
+        }
+
+        a {
+            background: var(--color-bg);
+            padding: 0.4rem 0.6rem;
+        }
     }
-
-    a:not([class]) {
-      color: var(--color-light);
-      position: relative;
-      display: inline-block;
-      background: linear-gradient(90deg, rgb(119, 14, 191), rgb(238, 141, 125));
-      padding: 0.2rem 0.4rem 0.3rem 0.4rem;
-      white-space: pre;
-      text-decoration: none;
-
-      @include apply-utility('leading', 'tight');
-    }
-
-    a:not([class]):hover {
-      text-decoration: underline;
-    }
-
-    code {
-      font-size: 1.2em;
-      white-space: pre;
-      color: var(--color-theme-primary);
-      font-weight: 600;
-      margin-left: 0.5ch;
-      margin-right: 0.5ch;
-    }
-
-    pre > code {
-      margin-right: 0;
-    }
-
-    blockquote {
-		@include apply-utility('font', 'serif');
-      border-left: 0.4rem solid rgb(119, 14, 191);
-      margin-left: 0;
-      padding-left: get-size(500);
-	  font-size: get-size(600);
-	  font-weight: 300;
-
-      p {
-        opacity: 0.85;
-        padding: get-size(500) 0;
-      }
-    }
-
-    ol,
-    ul {
-	  margin-left: get-size(800);
-
-	  ::marker {
-		  color: rgb(119, 14, 191);
-	  }
-    }
-
-    li + li {
-      margin-top: get-size(300);
-    }
-
-    figure,
-    figure + *,
-    pre > code,
-    .video-player,
-    .video-player + * {
-      --flow-space: #{get-size('max')};
-    }
-
-    figure,
-    pre > code,
-    .video-player {
-      width: 100vw;
-      max-width: map-get($metrics, 'wrap-max-width');
-      margin-left: 50%; /*changing this value to 47% removes the horizontal scrollbar once the viewport is < 930px */
-      transform: translateX(-50%); /* changing this value to 49% allows for the suggestion above to also eliminate the horizontal scroll. */
-      position: relative;
-    }
-
-    figure img,
-    pre > code,
-    .video-player {
-      box-shadow: 3px 3px 0 rgba(0, 0, 0, .1);
-    }
-
-    figure img {
-      position: relative;
-      z-index: 1;
-    }
-
-    figcaption {
-      font-size: 0.8em;
-      font-style: italic;
-      max-width: map-get($metrics, 'wrap-inner-max-width');
-      margin: 0.5rem auto 0 auto;
-      padding: 0 get-size(500);
-    }
-
-    pre > code {
-      display: block;
-      background: var(--color-dark);
-      padding: get-size(700);
-      font-size: get-size(500);
-    }
-  }
-
-  &__footer {
-   background: linear-gradient(90deg, rgb(119, 14, 191), rgb(238, 141, 125));
-
-    h2 {
-		color: var(--color-light);
-      flex-shrink: 0;
-      margin-right: get-size('base');
-    }
-
-    h2 a {
-      @extend %visually-hidden;
-    }
-
-    a {
-      background: var(--color-bg);
-      padding: 0.4rem 0.6rem;
-    }
-  }
 }
 
 .p-category {
-	a {
-		color: rgb(119, 14, 191);
-	}
+    a {
+        color: rgb(119, 14, 191);
+    }
 }

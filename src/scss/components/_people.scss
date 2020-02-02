@@ -1,3 +1,7 @@
+.people-list {
+    background-color: var(--color-light-grey);
+}
+
 .people-list__image {
     height: 150px;
     margin: 0 auto;
@@ -7,12 +11,8 @@
 
     img {
         border-radius: 50%;
-        box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
         height: 100%;
-        left: 0;
         object-fit: cover;
-        position: absolute;
-        top: 0;
         width: 100%;
     }
 }
@@ -23,6 +23,7 @@
 
     a {
         color: var(--color-dark);
+        font-weight: 500;
         text-decoration: none;
 
         &:hover,
@@ -32,7 +33,7 @@
     }
 }
 
-@media screen and (min-width: 768px) {
+@include media-query('md') {
     .people-list__items {
         display: grid;
         grid-gap: 20px 40px;

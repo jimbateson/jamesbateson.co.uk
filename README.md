@@ -10,12 +10,13 @@ I also want to use it as a space to experiment with techniques that perhaps we d
 
 ## Roadmap
 
-* Lazyload
-* Demos section
-* Gradient toggle
-* About me section
-* Projects section
-* Contact form
-* Content update
-* Add some journal articles
-* Checks (accessibility, performance, cross browser, cross device ect)
+- [ ] Lazyload
+- [ ] LInter variable font
+- [ ] Demos section
+- [ ] Gradient/dark mode toggle
+- [ ] About me section
+- [ ] Projects section
+- [ ] Contact form
+- [ ] Content update
+- [ ] Add some journal articles
+- [ ] Checks (accessibility, performance, cross browser, cross device ect)

@@ -28,6 +28,7 @@
         a {
             color: var(--color-light);
             font-size: get-size(500);
+            font-weight: 500;
 
             &:after {
                 background-color: var(--color-light);

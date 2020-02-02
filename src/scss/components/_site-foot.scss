@@ -7,6 +7,18 @@
     --color-selection-text: #{get-color('dark')};
     --color-selection-bg: #{get-color('light')};
 
+    p,
+    a {
+        opacity: 0.5;
+        transition: opacity 0.5s ease;
+    }
+
+    a {
+        &:hover {
+            opacity: 1;
+        }
+    }
+
     &__credit {
         text-align: center;
 
@@ -27,16 +39,9 @@
     }
 
     &__icon {
-        &:hover {
-            svg {
-                fill: rgb(119, 14, 191);
-            }
-        }
-
         svg {
             fill: var(--color-light);
             height: 45px;
-            transition: fill 0.3s;
             width: 45px;
         }
     }
