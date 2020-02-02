@@ -9,7 +9,7 @@
         }
 
         > * + * {
-            margin-left: get-size(700);
+            margin-left: get-size(500);
         }
     }
 
@@ -40,6 +40,16 @@
                 &:after {
                     display: none;
                 }
+            }
+        }
+    }
+}
+
+@include media-query('md') {
+    .nav {
+        &__list {
+            > * + * {
+                margin-left: get-size(700);
             }
         }
     }
