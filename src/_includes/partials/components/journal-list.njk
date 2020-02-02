@@ -1,10 +1,10 @@
-{% if postListItems.length %}
+{% if journalListItems.length %}
   <section class="[ post-list ] [ pad-top-900 pad-bottom-max ]">
     <div class="[ wrapper ] [ sf-flow ]">
       <h2 class="[ post-list__heading ] [ text-700 md:text-900 ]">{{ postListHeading }}</h2>
-	  <p class="section-intro">Some thoughts I have turned to words recently</p>
+	  <p class="section-intro">Some non-development related thoughts</p>
       <ol class="[ post-list__items ] [ sf-flow ] [ pad-top-800 ]" reversed>
-        {% for item in postListItems %}
+        {% for item in journalListItems %}
           <li class="post-list__item">
             <h3 class="font-base leading-tight text-600">
               <a href="{{ item.url }}" class="post-list__link link-hover" rel="bookmark">{{ item.data.title }}</a>

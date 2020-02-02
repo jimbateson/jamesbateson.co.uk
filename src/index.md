@@ -13,7 +13,7 @@ about: >-
 
   I've been working at Fat Media now for the duration of my development career
   and live and work in Lancaster.
-postsHeading: From The Journal
-archiveButtonText: See all posts
+postsHeading: Recent Articles
+archiveButtonText: See all articles
 ---
 
