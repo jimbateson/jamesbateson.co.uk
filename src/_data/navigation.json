@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
 	"items": [
 		{
 			"text": "Home",
@@ -14,20 +13,4 @@
 			"url": "/journal/"
 		}
 	]
-=======
-  "items": [
-    {
-      "text": "Home",
-      "url": "/"
-    },
-    {
-      "text": "Articles",
-      "url": "/archive/"
-    },
-    {
-      "text": "Journal",
-      "url": "/archive/"
-    }
-  ]
->>>>>>> master
 }
