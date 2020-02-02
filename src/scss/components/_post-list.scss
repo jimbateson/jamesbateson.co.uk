@@ -8,10 +8,11 @@
 
     &__link {
         color: var(--color-light);
-        text-decoration: none;
 
-        &:hover {
-            text-decoration: underline;
+        &.link-hover {
+            &:after {
+                height: 4px;
+            }
         }
     }
 }

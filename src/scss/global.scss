@@ -28,6 +28,31 @@ hr {
     max-width: 500px;
 }
 
+// Hover links
+
+.link-hover {
+    display: inline-block;
+    text-decoration: none;
+
+    &:after {
+        background-color: currentColor;
+        content: '';
+        display: block;
+        height: 2px;
+        transition: width 0.4s ease;
+        width: 0;
+    }
+
+    &:hover,
+    &:focus {
+        text-decoration: none;
+
+        &:after {
+            width: 100%;
+        }
+    }
+}
+
 /**
  * PROJECT IMPORTS
  */

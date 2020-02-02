@@ -14,7 +14,7 @@
         {% endif %}
 
         <li{% if page.url == item.url %} class="nav__item active"{% endif %} class="nav__item">
-          <a href="{{ item.url }}"{{ externalAttribute | safe }}{{ currentAttribute | safe }}>{{ item.text }}</a>
+          <a href="{{ item.url }}" class="link-hover" {{ externalAttribute | safe }}{{ currentAttribute | safe }}>{{ item.text }}</a>
         </li>
       {% endfor %}
     </ul>

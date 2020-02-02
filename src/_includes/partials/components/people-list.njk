@@ -10,10 +10,10 @@
 					<img src="{{ site.url }}{{ people.data.image }}" alt="">
 				</div>
 
-				<div>
-					<h3 class="text-600 leading-tight">{{ people.data.title }}</h3>
+				<div class="[ sf-flow ]">
+					<h3 class="[ text-600 leading-tight ]">{{ people.data.title }}</h3>
 					<p class="[ text-300 ]">{{ people.data.shortDescription }}</p>
-					<a href="{{ people.data.url }}" target="_blank" rel="external">{{ people.data.url }}</a>
+					<a href="{{ people.data.url }}" class="link-hover" target="_blank" rel="external">{{ people.data.url }}</a>
 				</div>
 			</li>
 		{% endfor %}

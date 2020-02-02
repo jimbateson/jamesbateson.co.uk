@@ -7,7 +7,7 @@
         {% for item in postListItems %}
           <li class="post-list__item">
             <h3 class="font-base leading-tight text-600">
-              <a href="{{ item.url }}" class="post-list__link" rel="bookmark">{{ item.data.title }}</a>
+              <a href="{{ item.url }}" class="post-list__link link-hover" rel="bookmark">{{ item.data.title }}</a>
             </h3>
             <p class="gap-top-300">
               <time datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time>

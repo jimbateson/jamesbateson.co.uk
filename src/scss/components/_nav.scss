@@ -30,26 +30,8 @@
             font-size: get-size(500);
             font-weight: 500;
 
-            &:after {
-                background-color: var(--color-light);
-                content: '';
-                display: block;
-                height: 1px;
-                transition: width 0.35s;
-                width: 0;
-            }
-
             &:not(:hover) {
                 text-decoration: none;
-            }
-
-            &:hover,
-            &:focus {
-                text-decoration: none;
-
-                &:after {
-                    width: 100%;
-                }
             }
         }
 
