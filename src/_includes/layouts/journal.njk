@@ -1,17 +1,17 @@
 {% extends 'layouts/base.njk' %}
-{% set pageType = 'Post Archive' %}
+{% set pageType = 'Journal Archive' %}
 
 {# Intro content #}
 {% set introHeading = title %}
 {% set introSummary %}{{ content | safe }}{% endset %}
 
 {# Post list content #}
-{% set postListHeading = 'All posts' %}
+{% set postListHeading = 'Journal Items' %}
 {% set postListItems = collections.posts %}
 
 {% block content %}
   <main id="main-content" tabindex="-1">
     {% include "partials/components/intro.njk" %}
-    {% include "partials/components/post-list.njk" %}
+    {% include "partials/components/journal-list.njk" %}
   </main>
 {% endblock %}

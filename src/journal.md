@@ -1,5 +1,5 @@
 ---
-title: 'The Journal'
-layout: 'layouts/archive.njk'
+title: 'Journal'
+layout: 'layouts/journal.njk'
 ---
 Articles on tech, travel, productivity, life, and more.

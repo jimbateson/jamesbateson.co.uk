@@ -40,7 +40,7 @@ const Home = ({ entry }) => (
   />
 );
 
-const Post = ({ entry }) => (
+const Article = ({ entry }) => (
   <Preview
     entry={entry}
     path="layouts/post.njk"
@@ -50,6 +50,18 @@ const Post = ({ entry }) => (
       content: markdownFilter(body || ''),
     })}
   />
+);
+
+const Journal = ({ entry }) => (
+	<Preview
+		entry={entry}
+		path="layouts/post.njk"
+		context={({ title, date, body }) => ({
+			title,
+			date,
+			content: markdownFilter(body || ''),
+		})}
+	/>
 );
 
 const Page = ({ entry }) => (
@@ -90,7 +102,8 @@ const Nav = ({ entry }) => (
 );
 
 CMS.registerPreviewTemplate('home', Home);
-CMS.registerPreviewTemplate('posts', Post);
+CMS.registerPreviewTemplate('articles', Article);
+CMS.registerPreviewTemplate('journal', Journal);
 CMS.registerPreviewTemplate('people', People);
 CMS.registerPreviewTemplate('generic_pages', Page);
 CMS.registerPreviewTemplate('site_data', SiteData);

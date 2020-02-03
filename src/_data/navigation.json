@@ -5,8 +5,12 @@
 			"url": "/"
 		},
 		{
-			"text": "The Journal",
-			"url": "/archive/"
+			"text": "Articles",
+			"url": "/articles/"
+		},
+		{
+			"text": "Journal",
+			"url": "/journal/"
 		}
 	]
 }

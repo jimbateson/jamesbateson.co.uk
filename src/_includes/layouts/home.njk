@@ -17,14 +17,14 @@
 {# Archive link #}
 {% if postListItems.length < collections.posts.length %}
   {% set paginationNextText = archiveButtonText %}
-  {% set paginationNextUrl = '/archive' %}
+  {% set paginationNextUrl = '/articles' %}
 {% endif %}
 
 {% block content %}
   <main id="main-content" tabindex="-1">
     {% include "partials/components/intro.njk" %}
 	{% include "partials/components/about.njk" %}
-    {% include "partials/components/post-list.njk" %}
+    {% include "partials/components/article-list.njk" %}
     {% include "partials/components/people-list.njk" %}
   </main>
 {% endblock %}
