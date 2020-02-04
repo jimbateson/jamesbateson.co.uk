@@ -2,7 +2,7 @@
 
 The personal website of James Bateson. A front-end developer based in Lancaster and working at Fat Media.
 
-The site is currently in very very early stages of development, so expect lots of updates and posisbly re-builds when I start hating something!
+The site is currently in very very early stages of development, so expect lots of updates and possibly re-builds when I start hating something!
 
 One of my main reasons for building this site, is to try and write more. Whether it be articles on tech, life, health etc.
 
