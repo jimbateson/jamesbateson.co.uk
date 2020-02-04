@@ -1,5 +1,5 @@
 {
-    "name": "JB",
+    "name": "James Bateson",
     "short_name": "JB",
     "icons": [
         {
@@ -13,7 +13,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
+    "theme_color": "#32325d",
+    "background_color": "#32325d",
     "display": "standalone"
 }
