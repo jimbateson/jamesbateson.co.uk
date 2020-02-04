@@ -11,6 +11,9 @@ package-lock.json
 
 # Specifics
 
+#VSCode
+.vscode
+
 # Hide design tokens
 src/scss/_tokens.scss
 
