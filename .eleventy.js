@@ -35,31 +35,31 @@ module.exports = function(config) {
 
   const now = new Date();
 
-  // Custom collections
-  const liveArticles = post => post.date <= now && !post.data.draft;
-  config.addCollection('articles', collection => {
-    return [
-      ...collection.getFilteredByGlob('./src/articles/*.md').filter(liveArticles)
-    ].reverse();
-  });
+	// Custom collections
+	const liveArticles = post => post.date <= now && !post.data.draft;
+	config.addCollection('articles', collection => {
+	return [
+		...collection.getFilteredByGlob('./src/articles/*.md').filter(liveArticles)
+	].reverse();
+	});
 
-	const liveJournal = post => post.date <= now && !post.data.draft;
+	const liveJournal = journal => journal.date <= now && !journal.data.draft;
 	config.addCollection('journal', collection => {
 		return [
 			...collection.getFilteredByGlob('./src/journal/*.md').filter(liveJournal)
 		].reverse();
 	});
 
-  config.addCollection('postFeed', collection => {
-    return [...collection.getFilteredByGlob('./src/articles/*.md').filter(liveArticles)]
-      .reverse()
-      .slice(0, site.maxPostsPerPage);
-  });
+	config.addCollection('postFeed', collection => {
+		return [
+			...collection.getFilteredByGlob('./src/articles/*.md').filter(liveArticles)
+		].reverse().slice(0, site.maxPostsPerPage);
+	});
 
 	config.addCollection('journalFeed', collection => {
-		return [...collection.getFilteredByGlob('./src/journal/*.md').filter(liveJournal)]
-			.reverse()
-			.slice(0, site.maxPostsPerPage);
+		return [
+			...collection.getFilteredByGlob('./src/journal/*.md').filter(liveJournal)
+		].reverse().slice(0, site.maxPostsPerPage);
 	});
 
 	config.addCollection('people', collection => {
@@ -68,15 +68,15 @@ module.exports = function(config) {
 		].reverse();
 	});
 
-  // Plugins
-  config.addPlugin(rssPlugin);
-  config.addPlugin(syntaxHighlight);
+	// Plugins
+	config.addPlugin(rssPlugin);
+	config.addPlugin(syntaxHighlight);
 
-  return {
-    dir: {
-      input: 'src',
-      output: 'dist'
-    },
-    passthroughFileCopy: true
-  };
+	return {
+	dir: {
+		input: 'src',
+		output: 'dist'
+	},
+	passthroughFileCopy: true
+	};
 };
