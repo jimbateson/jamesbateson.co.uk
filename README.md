@@ -13,7 +13,7 @@ I also want to use it as a space to experiment with techniques that perhaps we d
 ## Roadmap
 
 - [ ] Lazyload
-- [ ] Inter variable font
+- [x] Inter variable font
 - [ ] Demos section
 - [ ] Gradient/dark mode toggle
 - [ ] About me section
@@ -21,4 +21,4 @@ I also want to use it as a space to experiment with techniques that perhaps we d
 - [ ] Contact form
 - [ ] Content update
 - [ ] Add some journal articles
-- [ ] Checks (accessibility, performance, cross browser, cross device ect)
+- [x] Checks (accessibility, performance, cross browser, cross device ect)
