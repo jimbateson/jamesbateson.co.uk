@@ -15,7 +15,7 @@
     &__summary {
         --flow-space: #{get-size(500)};
         font-size: get-size(600);
-        font-weight: 700;
+        font-weight: 800;
 
         a {
             color: currentColor;
@@ -27,7 +27,6 @@
     }
 
     &__heading {
-        font-weight: 700;
         max-width: 60vw;
 
         &--compact {
