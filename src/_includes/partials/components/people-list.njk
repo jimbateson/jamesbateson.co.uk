@@ -7,7 +7,7 @@
 		{% for people in collections.people %}
 			<li class="people-list__item [ sf-flow ] [ md:box-flex md:align-center ]">
 				<div class="people-list__image">
-					<img src="{{ site.url }}{{ people.data.image }}" alt="">
+					<img src="{{ site.url }}{{ people.data.image }}" alt="" loading="lazy">
 				</div>
 
 				<div class="[ sf-flow ]">
