@@ -3,7 +3,7 @@ layout: layouts/post.njk
 title: '#REDJanuary 2020'
 date: 2020-02-05T18:14:12.642Z
 tags:
-  - Running
+  - running
 ---
 This was my second year taking the REDJanuary challange, and my first since starting to run a little more regularly.
 
