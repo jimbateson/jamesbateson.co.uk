@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: Switching to variable fonts
-date: 2020-02-07T21:08:13.297Z
+date: 2020-02-08T16:12:13.297Z
 tags:
   - fonts
   - css
