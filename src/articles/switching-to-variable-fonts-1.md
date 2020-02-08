@@ -92,5 +92,3 @@ As well as the links you will find towards the top of this article, there are a 
 - [Find a variable font](https://v-fonts.com/)
 - [See what your font can do](https://wakamaifondue.com/) - this site gives you some interesting stats and details on your font, and also offers some handy CSS you could drop into a _typography.scss module or such
 - [Variable fonts playground](https://www.axis-praxis.org/specimens/__DEFAULT__)
-
-Developing, running, walking, cooking, and looking old
