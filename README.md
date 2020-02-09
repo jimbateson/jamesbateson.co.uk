@@ -12,7 +12,7 @@ I also want to use it as a space to experiment with techniques that perhaps we d
 
 ## Roadmap
 
-- [ ] Lazyload
+- [ ] Lazyload [~~native~~][hybrid]
 - [x] Inter variable font
 - [ ] Demos section
 - [ ] Gradient/dark mode toggle
