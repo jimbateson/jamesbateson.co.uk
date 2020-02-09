@@ -1,7 +1,7 @@
 {
 	"name": "jamesbateson.co.uk",
-	"version": "0.0.1",
-	"description": "Personal website of James bateson",
+	"version": "1.1.0",
+	"description": "Personal website of James Bateson",
 	"main": "index.js",
 	"dependencies": {
 		"@11ty/eleventy": "^0.8.3",
