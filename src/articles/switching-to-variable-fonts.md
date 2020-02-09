@@ -39,7 +39,7 @@ You can run glyphhanger against your local .html files or even cooler a URL - it
 glyphhanger https://jamesbateson.co.uk --formats=woff2 --feature-settings=ss01,ss02,case --subset=./src/fonts/inter.woff2
 ```
  
-Using this tool I reduced my font file size from 300kb > 70kb and I'll be looking to optimise this further in the near future.
+Using this tool I reduced my font file size from 300kb > 34kb and I'll be looking to optimise this further in the near future.
  
 ## Including the font
  
