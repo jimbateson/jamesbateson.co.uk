@@ -7,13 +7,13 @@
 		{% for people in collections.people %}
 			<li class="people-list__item [ sf-flow ] [ md:box-flex md:align-center ]">
 				<div class="people-list__image">
-					<img src="{{ site.url }}{{ people.data.image }}" alt="">
+					<img src="{{ site.url }}{{ people.data.image }}" alt="" loading="lazy">
 				</div>
 
 				<div class="[ sf-flow ]">
 					<h3 class="[ text-600 leading-tight ]">{{ people.data.title }}</h3>
 					<p class="[ text-300 ]">{{ people.data.shortDescription }}</p>
-					<a href="{{ people.data.url }}" class="link-hover" target="_blank" rel="external">{{ people.data.url }}</a>
+					<a href="{{ people.data.url }}" class="link-hover" target="_blank" rel="noreferrer">{{ people.data.url }}</a>
 				</div>
 			</li>
 		{% endfor %}

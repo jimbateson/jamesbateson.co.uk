@@ -39,9 +39,9 @@ collections:
       - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
       - {label: "Social Image", name: "socialImage", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "posts"
-    label: "Posts"
-    folder: "src/posts"
+  - name: "articles"
+    label: "Articles"
+    folder: "src/articles"
     slug: "{{slug}}"
     preview_path: "articles/{{slug}}"
     create: true

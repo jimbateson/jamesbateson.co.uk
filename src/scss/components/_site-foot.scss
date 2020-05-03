@@ -7,6 +7,7 @@
     --color-selection-text: #{get-color('dark')};
     --color-selection-bg: #{get-color('light')};
 
+    // Outputs: .site-foot__credit
     &__credit {
         text-align: center;
 
@@ -19,6 +20,7 @@
         }
     }
 
+    // Outputs: .site-foot__details
     &__details {
         align-items: center;
         display: flex;
@@ -35,15 +37,36 @@
         }
     }
 
+    // Outputs: .site-foot__icon
     &__icon {
+        &:hover,
+        &:focus {
+            svg {
+                fill: var(--color-light);
+            }
+        }
+
         svg {
-            fill: var(--color-light);
+            fill: #969697;
             height: 45px;
+            transition: fill 0.5s ease;
             width: 45px;
         }
     }
 
-    .site-logo {
-        width: 50px;
+    // Outputs: .site-foot__logo
+    &__logo {
+        &:hover,
+        &:focus {
+            .site-logo {
+                fill: var(--color-light);
+            }
+        }
+
+        .site-logo {
+            fill: #969697;
+            transition: fill 0.5s ease;
+            width: 50px;
+        }
     }
 }
