@@ -7,18 +7,6 @@
     --color-selection-text: #{get-color('dark')};
     --color-selection-bg: #{get-color('light')};
 
-    p,
-    a {
-        color: #969697;
-        transition: color 0.5s ease;
-    }
-
-    a {
-        &:hover {
-            color: var(--color-light);
-        }
-    }
-
     // Outputs: .site-foot__credit
     &__credit {
         text-align: center;
@@ -38,6 +26,15 @@
         display: flex;
         justify-content: space-between;
         width: 100%;
+
+        a {
+            opacity: .5;
+            transition: opacity .5s ease;
+
+            &:hover {
+                opacity: 1;
+            }
+        }
     }
 
     // Outputs: .site-foot__icon
