@@ -90,10 +90,10 @@ module.exports = function(config) {
 	});
 
 	return {
-	dir: {
-		input: 'src',
-		output: 'dist'
-	},
-	passthroughFileCopy: true
+		dir: {
+			input: 'src',
+			output: 'dist'
+		},
+		passthroughFileCopy: true
 	};
 };
