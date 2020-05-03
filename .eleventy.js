@@ -64,6 +64,13 @@ module.exports = function(config) {
 		].reverse().slice(0, site.maxPostsPerPage);
 	});
 
+	const liveProject = project => project.date <= now && !project.data.draft;
+	config.addCollection('projects', collection => {
+		return [
+			...collection.getFilteredByGlob('./src/projects/*.md').filter(liveProject)
+		].reverse();
+	});
+
 	config.addCollection('people', collection => {
 		return [
 			...collection.getFilteredByGlob('./src/people/*.md')
