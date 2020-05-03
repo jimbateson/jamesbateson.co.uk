@@ -64,6 +64,18 @@ const Journal = ({ entry }) => (
 	/>
 );
 
+const Project = ({ entry }) => (
+	<Preview
+		entry={entry}
+		path="layouts/post.njk"
+		context={({ title, date, body }) => ({
+			title,
+			date,
+			content: markdownFilter(body || ''),
+		})}
+	/>
+);
+
 const Page = ({ entry }) => (
   <Preview
     entry={entry}
@@ -104,7 +116,7 @@ const Nav = ({ entry }) => (
 CMS.registerPreviewTemplate('home', Home);
 CMS.registerPreviewTemplate('articles', Article);
 CMS.registerPreviewTemplate('journal', Journal);
-CMS.registerPreviewTemplate('people', People);
+CMS.registerPreviewTemplate('project', Project);
 CMS.registerPreviewTemplate('generic_pages', Page);
 CMS.registerPreviewTemplate('site_data', SiteData);
 CMS.registerPreviewTemplate('nav', Nav);

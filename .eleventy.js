@@ -67,7 +67,7 @@ module.exports = function(config) {
 	const liveProject = project => project.date <= now && !project.data.draft;
 	config.addCollection('projects', collection => {
 		return [
-			...collection.getFilteredByGlob('./src/projects/*.md').filter(liveProject)
+			...collection.getFilteredByGlob('./src/project/*.md').filter(liveProject)
 		].reverse();
 	});
 
