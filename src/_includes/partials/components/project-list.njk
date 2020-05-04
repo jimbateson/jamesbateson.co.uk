@@ -6,13 +6,10 @@
       to practice using a new technology/technique. Take a look at my Codepen for more examples of my work.</p>
       <ol class="[ post-list__items ] [ sf-flow ] [ pad-top-800 ]" reversed>
         {% for item in projectListItems %}
-          <li class="post-list__item">
-            <h3 class="font-base leading-tight text-600">
-              <a href="{{ item.url }}" class="post-list__link link-hover" rel="bookmark">{{ item.data.title }}</a>
-            </h3>
-            <p class="gap-top-300">
-              <time datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time>
-            </p>
+          <li class="[ post-list__item ] [ sf-flow ]">
+            <h3 class="[ font-base leading-tight text-600 ]">{{ item.data.title }}</h3>
+            <p><a href="{{ item.data.url }}" class="post-list__link link-hover" rel="bookmark">{{ item.data.url }}</a></p>
+            <p>{{ item.data.body }}</p>
           </li>
         {% endfor %}
       </ol>
