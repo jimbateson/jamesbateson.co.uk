@@ -8,8 +8,8 @@
         {% for item in projectListItems %}
           <li class="[ post-list__item ] [ sf-flow ]">
             <h3 class="[ font-base leading-tight text-600 ]">{{ item.data.title }}</h3>
-            <p><a href="{{ item.data.url }}" class="post-list__link link-hover" rel="bookmark">{{ item.data.url }}</a></p>
-            <p>{{ item.data.body }}</p>
+            <p><a href="{{ item.data.url }}" class="post-list__link link-hover" rel="noopener" target="_blank">{{ item.data.url }}</a></p>
+            <p>{{ item.shortDescription | safe }}</p>
           </li>
         {% endfor %}
       </ol>
