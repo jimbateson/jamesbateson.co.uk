@@ -1,6 +1,7 @@
 .site-foot {
     // Reverse whatever the theme colors are
     background-color: var(--color-accent);
+    border-top: 1px solid rgba(255, 255, 255, .1);
     color: var(--color-bg);
 
     // Reverse selection colors

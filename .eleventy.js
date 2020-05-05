@@ -64,6 +64,13 @@ module.exports = function(config) {
 		].reverse().slice(0, site.maxPostsPerPage);
 	});
 
+	const liveProject = project => project.date <= now && !project.data.draft;
+	config.addCollection('projects', collection => {
+		return [
+			...collection.getFilteredByGlob('./src/project/*.md').filter(liveProject)
+		].reverse();
+	});
+
 	config.addCollection('people', collection => {
 		return [
 			...collection.getFilteredByGlob('./src/people/*.md')
@@ -90,10 +97,10 @@ module.exports = function(config) {
 	});
 
 	return {
-	dir: {
-		input: 'src',
-		output: 'dist'
-	},
-	passthroughFileCopy: true
+		dir: {
+			input: 'src',
+			output: 'dist'
+		},
+		passthroughFileCopy: true
 	};
 };
