@@ -7,7 +7,6 @@ npm-debug.*
 .sass-cache
 node_modules
 dist
-package-lock.json
 
 # Specifics
 
