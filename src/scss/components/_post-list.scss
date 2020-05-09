@@ -1,13 +1,13 @@
 .post-list {
-    background-color: var(--color-accent);
-    color: var(--color-light);
+    // background-color: var(--color-accent);
+    // color: var(--color-light);
 
     &__item {
         --flow-space: #{get-size(700)};
     }
 
     &__link {
-        color: var(--color-light);
+        color: var(--color-dark);
 
         &.link-hover {
             &:after {

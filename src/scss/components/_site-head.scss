@@ -1,16 +1,27 @@
-.site-head {
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-}
-
 .site-logo {
-    fill: var(--color-light);
+    fill: var(--color-dark);
+    transition: fill .3s;
     width: 60px;
+
+    &:hover,
+    &:focus {
+        fill: var(--color-theme-primary);
+    }
 }
 
 @include media-query('md') {
+    .site-head {
+        .wrapper {
+            max-width: 75rem;
+        }
+    }
+
+    .site-head__inner {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
     .site-logo {
         width: 75px;
     }

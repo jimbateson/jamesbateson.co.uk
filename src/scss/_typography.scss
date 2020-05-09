@@ -8,14 +8,6 @@
 //     url('/fonts/lora-v13-latin-700.woff') format('woff');
 // }
 
-@font-face {
-    font-family: Inter;
-    src: url('/fonts/inter.woff2') format('woff2');
-    font-weight: 1 999;
-    font-display: swap;
-    font-feature-settings: 'ss01', 'ss02', 'case';
-}
-
 body {
     @include apply-utility('font', 'base');
     // Strip the unit off the size ratio to generate a line height
@@ -26,8 +18,8 @@ body {
 h1,
 h2,
 h3 {
-    @include apply-utility('font', 'base');
-    font-weight: 900;
+    @include apply-utility('font', 'heading');
+    font-weight: 700;
 }
 
 h1 {

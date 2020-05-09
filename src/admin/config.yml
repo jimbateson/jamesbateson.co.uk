@@ -22,7 +22,6 @@ collections:
           - {label: "Social Image", name: "socialImage", widget: "image", required: false}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Banner Summary", name: "bannerSummary", widget: "string"}
-          - {label: "About", name: "about", widget: "text"}
           - {label: "Post Feed Heading", name: "postsHeading", widget: "string", default: "Latest posts"}
           - {label: "Archive Link Text", name: "archiveButtonText", widget: "string", default: "See all posts"}
   - name: "generic_pages"
@@ -126,6 +125,7 @@ collections:
               - {label: "Text", name: "text", widget: "string"}
               - {label: "Url", name: "url", widget: "string"}
               - {label: "Is url to external site?", name: "external", widget: "boolean", required: false}
+              - {label: "Show on mobile?", name: "mobile", widget: "boolean", required: false}
       - label: "Theme Settings"
         name: "theme"
         delete: false
@@ -147,7 +147,7 @@ collections:
             name: "colors"
             widget: "object"
             fields:
-              - {label: "Primary", name: "primary", widget: "string", default: "hsl(208, 57%, 21%)"}
+              - {label: "Primary", name: "primary", widget: "string", default: "hsl(205.5, 55.8%, 48.8%)"}
               - {label: "Primary Shade (darker)", name: "primary-shade", widget: "string", default: "hsl(208, 56%, 14%)"}
               - {label: "Primary Glare (lighter)", name: "primary-glare", widget: "string", default: "hsl(207, 57%, 31%)"}
               - {label: "Highlight", name: "highlight", widget: "string", default: "hsl(42, 98%, 77%)"}

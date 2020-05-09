@@ -1,22 +1,24 @@
 
-<section class="[ people-list ] [ pad-top-900 pad-bottom-max ]">
+<section class="[ people-list ] [ pad-top-600 pad-bottom-max ]">
 	<div class="[ wrapper ] [ sf-flow ]">
 		<h2 class="[ people-list__heading ] [ text-700 md:text-900 ]">Inspiring Folks</h2>
 		<p class="section-intro">A few people who I work/have worked with that inspire me and have helped me grow as a developer - thank you! (there are more, but I can't find pictures of all their faces!)</p>
-		<ul class="[ people-list__items ] [ pad-top-800 ]" reversed>
-		{% for people in collections.people %}
-			<li class="people-list__item [ sf-flow ] [ md:box-flex md:align-center ]">
-				<div class="people-list__image">
-					<img src="{{ site.url }}{{ people.data.image }}" alt="" loading="lazy">
-				</div>
+		<div class="people-list__wrapper">
+			<ul class="[ people-list__items ] [ pad-top-500 ]" reversed>
+			{% for people in collections.people %}
+				<li class="people-list__item [ sf-flow ]">
+					<div class="people-list__image">
+						<img src="{{ site.url }}{{ people.data.image }}" alt="" loading="lazy">
+					</div>
 
-				<div class="[ sf-flow ]">
-					<h3 class="[ text-600 leading-tight ]">{{ people.data.title }}</h3>
-					<p class="[ text-300 ]">{{ people.data.shortDescription }}</p>
-					<a href="{{ people.data.url }}" class="link-hover" target="_blank" rel="noreferrer">{{ people.data.url }}</a>
-				</div>
-			</li>
-		{% endfor %}
-		</ul>
+					<div class="[ sf-flow ]">
+						<h3 class="[ text-600 leading-tight ]">{{ people.data.title }}</h3>
+						<p>{{ people.data.shortDescription }}</p>
+						<a href="{{ people.data.url }}" class="link-hover" target="_blank" rel="noreferrer">{{ people.data.url }}</a>
+					</div>
+				</li>
+			{% endfor %}
+			</ul>
+		</div>
 	</div>
 </section>
