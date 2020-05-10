@@ -5,7 +5,7 @@ bannerSummary: Developing, running, walking, cooking and looking old.
 bannerImage: /images/c77b2442-83e7-4ac4-a75e-47364379fc4f.jpeg
 bannerImageClass: rounded
 permalink: /about/
-metaTitle: James Bateson | About Me
+metaTitle: James Bateson | Front-end Developer | About Me
 metaDesc: I'm James, a front-end developer living and working in Lancaster for
   Fat Media. I've been building for the web since 2013 and most enjoy working
   with HTML and CSS.
