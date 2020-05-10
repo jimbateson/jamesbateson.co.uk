@@ -16,4 +16,16 @@ From building a stats website for my 5-a-side team in school, I graduated from L
 
 I see myself very much being on the 'front of the front-end' and love building accessible, responsive layouts and UI/UX interactions using HTML, CSS, and JavaScript, as well as trying to recreate print layouts on the web with modern layout features such as CSS grid.
 
+## Skillset
+
+Tools/software/languages I have used during my development career, and use frequently
+
+* HTML
+* CSS
+* JavaScript (jQuery & vanilla)
+* VSCode
+* WordPress
+* Umbraco
+* Drupal
+
 Outside of work, I like to try and keep active, and love going for runs (you'll find me between Lancaster and Morecambe Parkrun most weeks), walking in The Lakes, or trying out a new recipe.
