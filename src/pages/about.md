@@ -27,5 +27,7 @@ Tools/software/languages I have used during my development career, and use frequ
 * WordPress
 * Umbraco
 * Drupal
+* Task runners (Grunt & npm scripts)
+* Git (gitflow)
 
 Outside of work, I like to try and keep active, and love going for runs (you'll find me between Lancaster and Morecambe Parkrun most weeks), walking in The Lakes, or trying out a new recipe.
