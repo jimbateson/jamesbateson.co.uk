@@ -14,7 +14,7 @@ about: >-
 metaTitle: James Bateson | Front-end developer
 metaDesc: Lancaster based front-end developer
 socialImage: ""
-title: "Hello I'm James 👋 "
-bannerSummary: I'm a front-end developer based in Lancaster.
+title: "Hello I’m James 👋 "
+bannerSummary: A front-end developer from Lancaster.
 postsHeading: Recent Articles
 ---
