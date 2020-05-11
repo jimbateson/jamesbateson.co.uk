@@ -21,7 +21,7 @@ I see myself very much being on the 'front of the front-end' and love building a
 Tools/software/languages I have used during my development career, and use frequently
 
 * HTML
-* CSS
+* CSS (Sass preprocessor - scss)
 * JavaScript (jQuery & vanilla)
 * VSCode
 * WordPress
