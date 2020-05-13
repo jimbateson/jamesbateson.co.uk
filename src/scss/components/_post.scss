@@ -119,6 +119,28 @@
             font-size: get-size(500);
             padding: get-size(700);
         }
+
+        // post__body--resume
+        &--resume {
+            h2 {
+                margin-bottom: 40px;
+            }
+
+            h3 {
+                @include apply-utility('font', 'base');
+                font-size: get-size(600);
+                font-weight: 600;
+
+                .heading-permalink {
+                    display: none;
+                }
+            }
+
+            h4 {
+                font-weight: 400;
+                margin-top: 5px;
+            }
+        }
     }
 
     &__footer {
