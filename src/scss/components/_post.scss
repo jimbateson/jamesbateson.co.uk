@@ -30,7 +30,8 @@
             color: var(--color-theme-primary);
         }
 
-        code {
+        code,
+        .bg-dark > code {
             background-color: var(--color-light);
             border: 1px dashed #ccc;
             color: var(--color-theme-primary);

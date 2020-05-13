@@ -46,8 +46,32 @@
             font-style: italic;
         }
     }
+
+    &__image {
+        &--rounded {
+            border: 8px solid var(--color-theme-primary);
+            border-radius: 50%;
+            height: 175px;
+            width: 175px;
+        }
+    }
 }
 
 .section-intro {
     margin-top: 0;
+}
+
+@include media-query('md') {
+    .intro__flex .wrapper {
+        align-items: center;
+        display: flex;
+
+        > * + * {
+            margin-left: var(--flow-space);
+        }
+
+        .intro__summary {
+            max-width: 600px;
+        }
+    }
 }

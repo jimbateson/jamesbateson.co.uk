@@ -9,10 +9,10 @@
     &__link {
         color: var(--color-dark);
 
-        &.link-hover {
-            &:after {
-                height: 4px;
-            }
-        }
+        // &.link-hover {
+        //     &:after {
+        //         height: 4px;
+        //     }
+        // }
     }
 }

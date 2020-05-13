@@ -1,9 +1,10 @@
 {% if projectListItems.length %}
   <section class="[ project-list ] [ pad-top-600 pad-bottom-max ]">
     <div class="[ wrapper ] [ sf-flow ]">
-      <h2 class="[ post-list__heading ] [ text-700 md:text-900 ]">Projects</h2>
-	    <p class="section-intro">My featured projects. Mainly silly little ideas that I've used a chance
-      to practice using a new technology/technique. Take a look at my Codepen for more examples of my work.</p>
+      {% if page.url == '/' %}
+        <h2 class="[ post-list__heading ] [ text-700 md:text-900 ]">Recent Projects</h2>
+        <p class="section-intro">Featured side projects and client work. I also build on <a href="https://codepen.io/jim-bateson">Codepen</a> and any source code is available on <a href="https://github.com/jimbateson">Github</a>.</p>
+      {% endif %}
       <ol class="[ project-list__items ] [ pad-top-500 ]" reversed>
         {% for item in projectListItems %}
           <li class="[ project-list__item ] [ sf-flow ]">
@@ -11,7 +12,7 @@
               <div class="project-list__content">
                 <h3 class="[ font-base text-600 ]">{{ item.data.title }}</h3>
                 <p>{{ item.data.shortDescription | safe }}</p>
-                <a href="#" class="[ weight-600 ]">View project</a>
+                <a href="{{ item.url }}" class="[ weight-600 ]">View project</a>
               </div>
           </li>
         {% endfor %}

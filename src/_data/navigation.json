@@ -2,7 +2,7 @@
 	"items": [
 		{
 			"text": "About",
-			"url": "#"
+			"url": "/about/"
 		},
 		{
 			"text": "Articles",
@@ -10,19 +10,15 @@
 		},
 		{
 			"text": "Projects",
-			"url": "#"
-		},
-		{
-			"text": "Demos",
-			"url": "#"
+			"url": "/projects/"
 		},
 		{
 			"text": "Journal",
 			"url": "/journal/"
 		},
 		{
-			"text": "CV",
-			"url": "#"
+			"text": "Résumé",
+			"url": "/resume/"
 		}
 	]
 }

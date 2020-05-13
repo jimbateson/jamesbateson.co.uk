@@ -1,11 +1,9 @@
 {% extends 'layouts/base.njk' %}
-{% set pageType = 'Page' %}
+{% set pageType = 'resume' %}
 
 {# Intro content #}
 {% set introHeading = title %}
 {% set introSummary = bannerSummary %}
-{% set introImage = bannerImage %}
-{% set introImageClass = bannerImageClass %}
 
 {% block content %}
   <main id="main-content" tabindex="-1">
@@ -17,5 +15,7 @@
     </article>
   </main>
 {% endblock %}
+
+{# {% set objImg = "sarah_edo" | avatarObject %}{% img objImg, defaultImageOptions %} #}
 
 {{ content | safe }}

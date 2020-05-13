@@ -1,10 +1,10 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: feature-redesign
 publish_mode: editorial_workflow
 site_url: "https://jamesbateson.co.uk"
 media_folder: "src/images"
-public_folder: "images"
+public_folder: "/images"
 collections:
   - name: "pages"
     label: "Pages"
@@ -24,6 +24,18 @@ collections:
           - {label: "Banner Summary", name: "bannerSummary", widget: "string"}
           - {label: "Post Feed Heading", name: "postsHeading", widget: "string", default: "Latest posts"}
           - {label: "Archive Link Text", name: "archiveButtonText", widget: "string", default: "See all posts"}
+      - name: "resume"
+        label: "Résumé"
+        delete: false
+        file: "src/resume.md"
+        slug: "{{slug}}"
+        create: false
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/njk.njk"}
+          - {label: "SEO Meta Title", name: "metaTitle", widget: "string", required: false}
+          - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
+          - {label: "Social Image", name: "socialImage", widget: "image", required: false}
+          - {label: "Banner Summary", name: "bannerSummary", widget: "string"}
   - name: "generic_pages"
     label: "Generic Pages"
     folder: "src/pages"
@@ -33,6 +45,9 @@ collections:
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Banner Summary", name: "bannerSummary", widget: "string"}
+      - {label: "Banner Image", name: "bannerImage", widget: "image"}
+      - {label: "Banner Image Class", name: "bannerImageClass", widget: "string"}
       - {label: "Permalink Override", name: "permalink", widget: "string"}
       - {label: "SEO Meta Title", name: "metaTitle", widget: "string", required: false}
       - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
@@ -78,6 +93,8 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Url", name: "url", widget: "string"}
+      - {label: "Listing Image", name: "listingImage", widget: "image"}
+      - {label: "Banner Image", name: "bannerImage", widget: "image"}
       - {label: "Short Description", name: "shortDescription", widget: "string"}
       - {label: "SEO Meta Title", name: "metaTitle", widget: "string", required: false}
       - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
@@ -157,4 +174,4 @@ collections:
           - label: "Fonts"
             name: "fonts"
             widget: "hidden"
-            default: { "base": "\"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'\"", "serif": "\"'Lora', serif\""}
+            default: { "base": "\"Skolar Sans Latin, sans-serif\"", "serif": "\"'Sutro', serif\""}

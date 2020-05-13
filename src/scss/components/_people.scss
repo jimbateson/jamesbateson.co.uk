@@ -6,6 +6,8 @@
     padding-bottom: 30px;
     overflow-x: auto;
     -webkit-overflow-scrolling: auto;
+    // Firefox 64+ scrollbar styling
+	scrollbar-color: var(--color-theme-primary) var(--color-light);
 }
 
 .people-list__items {
