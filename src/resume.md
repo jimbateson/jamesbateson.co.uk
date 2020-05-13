@@ -1,7 +1,7 @@
 ---
 title: James Bateson Résumé
 layout: layouts/resume.njk
-bannerSummary: Passionate, hard-working, reliable and keen to learn.
+bannerSummary: Passionate, hard-working, reliable & keen to learn.
 ---
 ## Professional Experience
 
