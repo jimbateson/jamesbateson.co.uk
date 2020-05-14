@@ -94,8 +94,8 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Url", name: "url", widget: "string"}
-      - {label: "Listing Image", name: "listingImage", widget: "image"}
-      - {label: "Banner Image", name: "bannerImage", widget: "image"}
+      - {label: "Listing Image", name: "listingImage", widget: "image", required: false}
+      - {label: "Banner Image", name: "bannerImage", widget: "image", required: false}
       - {label: "Short Description", name: "shortDescription", widget: "string"}
       - {label: "SEO Meta Title", name: "metaTitle", widget: "string", required: false}
       - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}

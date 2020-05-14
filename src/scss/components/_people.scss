@@ -44,6 +44,6 @@
 
 @include media-query('md') {
     .people-list__items {
-        column-gap: 40px;
+        column-gap: 20px;
     }
 }
