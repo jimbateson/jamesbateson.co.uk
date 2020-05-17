@@ -7,5 +7,6 @@ date: 2020-05-05T21:04:34.270Z
 tags:
   - Walking
   - 11ty
+  - Side Project
 ---
 Personal walking blog
