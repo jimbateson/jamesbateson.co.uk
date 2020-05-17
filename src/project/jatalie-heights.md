@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/project-single.njk
 title: Jatalie Heights
 url: https://jatalieheights.co.uk
 bannerImage: /images/c38ab953-7701-434f-9ee3-4ed5f98f1a84.jpeg

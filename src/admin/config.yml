@@ -91,7 +91,7 @@ collections:
     preview_path: "project/{{slug}}"
     create: true
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/project-single.njk"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Url", name: "url", widget: "string"}
       - {label: "Listing Image", name: "listingImage", widget: "image", required: false}

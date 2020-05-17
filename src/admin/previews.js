@@ -67,7 +67,7 @@ const Journal = ({ entry }) => (
 const Project = ({ entry }) => (
 	<Preview
 		entry={entry}
-		path="layouts/post.njk"
+		path="layouts/project-single.njk"
 		context={({ title, date, body }) => ({
 			title,
 			date,

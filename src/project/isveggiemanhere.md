@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/project-single.njk
 title: Isveggiemanhere?
 url: https://isveggiemanhere.co.uk
 shortDescription: The answer to most important question every Wednesday and
