@@ -13,7 +13,6 @@
 
 html {
     background-color: var(--color-grey-light);
-    position: relative;
 
     &:before,
     &:after {
@@ -39,6 +38,7 @@ html {
 
 body {
     background: transparent;
+    overflow-x: hidden;
     scroll-behavior: smooth;
 }
 

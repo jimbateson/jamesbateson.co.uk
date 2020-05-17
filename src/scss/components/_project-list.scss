@@ -18,10 +18,6 @@
     }
 }
 
-.project-single__body {
-    padding-right: 9.5rem;
-}
-
 @media screen and (min-width: 1280px) {
     .project-list__item {
         > a {
@@ -105,5 +101,11 @@
             visibility: hidden;
             will-change: opacity;
         }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .project-single__body {
+        padding-right: 9.5rem;
     }
 }
