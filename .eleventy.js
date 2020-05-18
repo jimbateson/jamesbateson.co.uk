@@ -52,6 +52,7 @@ module.exports = function(config) {
 
 	// Layout aliases
 	config.addLayoutAlias('home', 'layouts/home.njk');
+	config.addLayoutAlias('post', 'layouts/post.njk');
 
 	// Transforms
 	config.addTransform('htmlmin', htmlMinTransform);
@@ -127,12 +128,7 @@ module.exports = function(config) {
 	});
 
 	return {
-		"templateFormats": [
-			"liquid",
-			"md",
-			"njk",
-			"html"
-		],
+		templateFormats: ['njk', 'md', 'html', '11ty.js'],
 		dir: {
 			input: 'src',
 			output: 'dist'
