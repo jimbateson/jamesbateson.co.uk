@@ -1,6 +1,6 @@
 ---
 layout: layouts/project-single.njk
-title: jhdjsa
+title: Jatalie Heights
 url: https://jatalieheights.co.uk/
 bannerImage: ""
 shortDescription: A less than regular personal walking blog
