@@ -60,10 +60,24 @@
     margin-top: 0;
 }
 
+@media screen and (max-width: map-get($metrics, 'md-breakpoint')) {
+    .intro {
+        &__image {
+            &--angled {
+                margin-left: 50%;
+                max-width: 100vw;
+                transform: translateX(-50%);
+                width: 100vw;
+            }
+        }
+    }
+}
+
 @include media-query('md') {
     .intro {
         &__heading {
             max-width: 60vw;
+            min-width: 45vw;
         }
     }
 
