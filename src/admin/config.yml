@@ -23,6 +23,7 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Banner Summary", name: "bannerSummary", widget: "string"}
           - {label: "Post Feed Heading", name: "postsHeading", widget: "string", default: "Latest posts"}
+          - {label: "Post Feed Summary", name: "postsSummary", widget: "string"}
           - {label: "Archive Link Text", name: "archiveButtonText", widget: "string", default: "See all posts"}
       - name: "resume"
         label: "Résumé"
