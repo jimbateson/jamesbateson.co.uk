@@ -8,10 +8,7 @@
 {% set introImageClass = 'angled' %}
 
 <p class="[ intro__meta ] [ pad-bottom-500 ] [ text-500 weight-300 leading-tight ]">
-  {% if date %}
-    <time datetime="{{ date | w3DateFilter }}" class="dt-published">{{ date | dateFilter }}</time>
-  {% endif %}
-  <span role="text">— {{ helpers.getReadingTime(content) }} minute read</span>
+  <a href="{{ url }}">{{ url }}</a>
 </p>
 {% endset %}
 
