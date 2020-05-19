@@ -17,4 +17,5 @@ socialImage: ""
 title: "Hello I’m James 👋 "
 bannerSummary: A front-end developer from Lancaster.
 postsHeading: Recent Articles
+postsSummary: A mix of development related articles, thoughts and notes.
 ---
