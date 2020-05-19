@@ -4,7 +4,6 @@
     &__heading {
         @include apply-utility('font', 'heading');
         font-weight: 700;
-        max-width: 60vw;
 
         &:after {
             background-color: var(--color-theme-primary);
@@ -62,6 +61,12 @@
 }
 
 @include media-query('md') {
+    .intro {
+        &__heading {
+            max-width: 60vw;
+        }
+    }
+
     .intro__flex .wrapper {
         align-items: center;
         display: flex;
