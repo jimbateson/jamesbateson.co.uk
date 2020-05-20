@@ -2,9 +2,15 @@
     &__body {
         --flow-space: #{get-size(800)};
 
+        p:first-of-type:not(.post-note) {
+            @include apply-utility('font', 'heading');
+            font-size: get-size(600);
+            font-weight: 500;
+        }
+
         /**
-     * Generic HTML styles
-     */
+        * Generic HTML styles
+        */
         h2 + *,
         h3 + * {
             --flow-space: #{get-size(500)};
@@ -118,6 +124,23 @@
             display: block;
             font-size: get-size(500);
             padding: get-size(700);
+        }
+
+        .post-note {
+            background-color: var(--color-theme-primary);
+            border-radius: 6px;
+            color: var(--color-light);
+            padding: var(--flow-space);
+            margin: 0;
+
+            strong {
+                @include apply-utility('font', 'heading');
+                border-bottom: 1px solid rgba(255, 255, 255, .25);
+                display: block;
+                font-size: get-size(600);
+                margin-bottom: 10px;
+                padding-bottom: 10px;
+            }
         }
 
         // post__body--resume
