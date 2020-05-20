@@ -13,7 +13,7 @@ tags:
   - JS
   - Side Project
 ---
-<p class="post-note">Obliviate finite aresto legilimens mobilicorpus crucio serpensortia lacarnum tarantallegra. Mortis evanesco sonorus protego incantartem quietus evanesco protean jinx sonorous wingardium.</p>
+<p class="post-note"><strong>Note</strong>Obliviate finite aresto legilimens mobilicorpus crucio serpensortia lacarnum tarantallegra. Mortis evanesco sonorus protego incantartem quietus evanesco protean jinx sonorous wingardium.</p>
 
 Engorgio vow stupefy lacarnum. Anapneo leviosa engorgio mortis patronum patronum hover. Legilimens locomotor expecto quietus ennervate impedimenta sonorus petrificus alohomora funnunculus funnunculus.
 
