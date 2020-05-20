@@ -37,3 +37,5 @@ bannerSummary: Passionate, hard-working, reliable & keen to learn.
 
 * Graduated with second-class honours degree (2:1)
 * Gained experience in a great range of media disciplines. Web, design (print and web), audio, video editing.
+
+<p class="post-note post-note--resume"><strong>Note</p>My résumé _should_ print nicely, if that's your kind of thing.</p>
