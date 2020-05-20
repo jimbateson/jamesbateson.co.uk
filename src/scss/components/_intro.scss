@@ -22,7 +22,7 @@
     &__summary {
         --flow-space: #{get-size(500)};
         @include apply-utility('font', 'heading');
-        font-size: get-size(700);
+        font-size: get-size(600);
         font-weight: 500;
 
         a {
@@ -54,6 +54,23 @@
             width: 175px;
         }
     }
+
+    &__contact {
+        margin-top: 1.2rem;
+
+        li + li {
+            margin-top: 1rem;
+        }
+
+        a {
+            align-items: center;
+            display: flex;
+
+            svg {
+                margin-right: 5px;
+            }
+        }
+    }
 }
 
 .section-intro {
@@ -80,6 +97,13 @@
             max-width: 60vw;
             min-width: 45vw;
         }
+
+        &__contact {
+            li + li {
+                margin-top: 0;
+                margin-left: 1rem;
+            }
+        }
     }
 
     .intro__flex .wrapper {
@@ -91,7 +115,7 @@
         }
 
         .intro__summary {
-            max-width: 600px;
+            max-width: 475px;
         }
     }
 }

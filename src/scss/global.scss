@@ -13,6 +13,7 @@
 
 html {
     background-color: var(--color-grey-light);
+    position: relative;
 
     &:before,
     &:after {
@@ -126,3 +127,7 @@ a:not([class]) {
 @import 'components/skip-link';
 @import 'components/syntax-highlighting';
 @import 'components/video-player';
+
+// Print (mainly for resume)
+
+@import 'print';
