@@ -13,10 +13,46 @@ tags:
   - JS
   - Side Project
 ---
-Engorgio vow stupefy lacarnum. Anapneo leviosa engorgio mortis patronum patronum hover. Legilimens locomotor expecto quietus ennervate impedimenta sonorus petrificus alohomora funnunculus funnunculus.
+As side projects go, this is probably up there with the most pointless and niche. However, it was a good exercise in building something from scratch using some modern ES6 features, and also some more (much needed) practice with JavaScript date/time.
 
-Obliviate finite aresto legilimens mobilicorpus crucio serpensortia lacarnum tarantallegra. Mortis evanesco sonorus protego incantartem quietus evanesco protean jinx sonorous wingardium. Alohomora liberacorpus alohomora fidelius reducto. Portus quietus bulbadox aparecium mortis protego locomotor.
+## Project Background
+As anyone from Lancaster will know, every Wednesday and Saturday the street market comes to town, bringing an eclectic mix of stalls selling crafts, local produce, and food to go. The pick of these food stalls is without a doubt the halloumi and falafel wrap stall, affectionately known as 'Veggie Man'.
 
-Inflamarae locomotor immobilus incarcerous. Evanesco serpensortia sonorus lumos expecto expecto lacarnum engorgio tarantallegra petrificus. Imperius patronum finite immobilus immobilus pepperup. Petrificus petrificus alohomora hover exume engorgio quietus arania legilimens tarantallegra. Tergeo protean patronum unction engorgio aparecium impedimenta portus. Engorgio langlock evanesco quietus nox totalus.
+However, there's nothing more disappointing in life that walking to the market, only to find that he's not here that week. So this site aims to help you avoid that crushing feeling by pre-empting whether he'll be there or not on that day.
 
-Aparecium aparecium.
+> Carrot, lettuce, onions, tomatoes?
+
+## How does it work?
+
+In short, very simply!
+
+It's checking if the current date is either Wednesday or Saturday, then if the config object has `isHeHere: true` show a certain message, if not show another. There are a couple of more rules - if it's not a market day and if the market has finished.
+
+The coolest feature I got a chance to use here was the Fetch API. The `fetch()` method provides a way to fetch resources asynchronously across the network. Here's how I used it:
+
+``` JavaScript
+fetch('./config.json')
+.then(obj => {
+	return obj.json();
+})
+.then(objConfig => {
+    // Message to display logic here 
+})
+.catch(err => {
+	console.log(err);
+});
+```
+When fetching my config file (where `isHeHere` is set) it returns a promise which contains the response from the file/url as a responnse object. We need to then get the JSON from this response.
+
+From there we can then define our properties
+
+``` JavaScript
+const { isHeHere, isHeHereSpecial } = objConfig;
+```
+
+And then use to check against our dates.
+
+## Any plans for this project?
+
+Yes. Currently to update whether Veggie Man is Here. I need to manually update the config, push to the repo which runs a Netlify build. However, I'd like this to be more of an automatic process. Maybe a separate page that I can use a button on to set the config value, or maybe even Veggie Man himself could update!
+
