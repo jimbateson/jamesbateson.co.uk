@@ -76,6 +76,18 @@ const Project = ({ entry }) => (
 	/>
 );
 
+const Resume = ({ entry }) => (
+	<Preview
+		entry={entry}
+		path="layouts/resume.njk"
+		context={({ title, date, body }) => ({
+			title,
+			date,
+			content: markdownFilter(body || ''),
+		})}
+	/>
+);
+
 const Page = ({ entry }) => (
   <Preview
     entry={entry}
@@ -117,6 +129,7 @@ CMS.registerPreviewTemplate('home', Home);
 CMS.registerPreviewTemplate('articles', Article);
 CMS.registerPreviewTemplate('journal', Journal);
 CMS.registerPreviewTemplate('project', Project);
+CMS.registerPreviewTemplate('resume', Resume);
 CMS.registerPreviewTemplate('generic_pages', Page);
 CMS.registerPreviewTemplate('site_data', SiteData);
 CMS.registerPreviewTemplate('nav', Nav);

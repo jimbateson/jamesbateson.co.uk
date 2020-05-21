@@ -22,7 +22,7 @@
     &__summary {
         --flow-space: #{get-size(500)};
         @include apply-utility('font', 'heading');
-        font-size: get-size(600);
+        font-size: 1.75rem;
         font-weight: 500;
 
         a {
@@ -65,6 +65,7 @@
         a {
             align-items: center;
             display: flex;
+            font-size: 1.1rem;
 
             svg {
                 margin-right: 5px;
@@ -115,7 +116,7 @@
         }
 
         .intro__summary {
-            max-width: 475px;
+            max-width: 500px;
         }
     }
 }

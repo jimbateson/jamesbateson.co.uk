@@ -126,9 +126,14 @@
             padding: get-size(700);
         }
 
+        p + .post-note,
+        ul + .post-note {
+            margin-top: var(--flow-space);
+        }
+
         .post-note {
             background-color: var(--color-theme-primary);
-            border-radius: 6px;
+            border-radius: 10px;
             color: var(--color-light);
             padding: var(--flow-space);
             margin: 0;
