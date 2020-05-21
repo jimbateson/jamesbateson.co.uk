@@ -10,7 +10,7 @@ metaDesc: I'm James, a front-end developer living and working in Lancaster for
   Fat Media. I've been building for the web since 2013 and most enjoy working
   with HTML and CSS.
 ---
-I'm James, a front-end developer living and working in Lancaster for [Fat Media](https://www.fatmedia.co.uk/). I've been building for the web since 2013 and most enjoy working with HTML and CSS.
+I’m James, a front-end developer living and working in Lancaster for [Fat Media](https://www.fatmedia.co.uk/). I've been building for the web since 2013 and most enjoy working with HTML and CSS.
 
 From building a stats website for my 5-a-side team in school, I gained a real passion for designing and building for the web. I graduated from Leeds Beckett (then Metropolitan) University with a degree in Multimedia Technology. Alongside building up my web design/development skills, this course gave me the chance to try lots of disciplines in media.
 
