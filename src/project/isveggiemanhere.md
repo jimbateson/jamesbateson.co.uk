@@ -31,7 +31,7 @@ It's checking if the current date is either Wednesday or Saturday, then if the c
 
 The coolest feature I got a chance to use here was the Fetch API. The `fetch()` method provides a way to fetch resources asynchronously across the network. Here's how I used it:
 
-``` JavaScript
+``` javascript
 fetch('./config.json')
 .then(obj => {
 	return obj.json();
@@ -47,7 +47,7 @@ When fetching my config file (where `isHeHere` is set) it returns a promise whic
 
 From there we can then define our properties
 
-``` JavaScript
+``` javascript
 const { isHeHere, isHeHereSpecial } = objConfig;
 ```
 
