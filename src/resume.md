@@ -10,11 +10,11 @@ bannerSummary: Passionate, hard-working, reliable & keen to learn.
 #### September 2013 - Present
 ##### Lancaster, UK
 
-* Taking flat designs and transforming into responsive, accessible, resiliant and performant static websites/components
+* Taking flat designs and transforming into responsive, accessible, resilient and performant static websites/components
 
-* Intergrating statics templates into dynamic CMS based files (MVC, PHP, etc)
+* Integrating statics templates into dynamic CMS based files (MVC, PHP, etc)
 
-* Contributer and maintiner of the company front-end framework
+* Contributor and maintainer of the company front-end framework
 
 * Responsible for quoting projects and jobs
 
@@ -22,11 +22,16 @@ bannerSummary: Passionate, hard-working, reliable & keen to learn.
 
 * Ran a series of lunchtime learning sessions
 
-
 ## Skills
 
-#### Still a lot to learn, but excited and passionate about furthering my career and skillset.
+#### I still have a lot to learn, but excited and passionate about further building on this skillset and a career in front-end development.
 
+* HTML
+* CSS (Sass preprocessor - Scss)
+* JavaScript (jQuery and vanilla)
+* Git (Gitflow)
+* Accessible development
+* Performant development 
 
 ## Educational Experience
 
@@ -35,7 +40,7 @@ bannerSummary: Passionate, hard-working, reliable & keen to learn.
 #### September 2009 - June 2012
 ##### Leeds, UK
 
-* Graduated with second-class honours degree (2:1)
+* Graduated with a second-class honours degree (2:1)
 * Gained experience in a great range of media disciplines. Web, design (print and web), audio, video editing.
 
-<p class="post-note post-note--resume"><strong>Note</strong>My résumé should print nicely, if that's your kind of thing.</p>
+<p class="post-note post-note--resume"><strong>Note</strong>This résumé should print nicely if that's your kind of thing.</p>
