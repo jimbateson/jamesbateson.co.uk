@@ -13,10 +13,11 @@ tags:
   - JS
   - Side Project
 ---
-Engorgio vow stupefy lacarnum. Anapneo leviosa engorgio mortis patronum patronum hover. Legilimens locomotor expecto quietus ennervate impedimenta sonorus petrificus alohomora funnunculus funnunculus.
+As side projects go, this is probably up there with the most pointless and niche. However, it was a good exersise in building something from scratch using some modern ES6 features.
 
-Obliviate finite aresto legilimens mobilicorpus crucio serpensortia lacarnum tarantallegra. Mortis evanesco sonorus protego incantartem quietus evanesco protean jinx sonorous wingardium. Alohomora liberacorpus alohomora fidelius reducto. Portus quietus bulbadox aparecium mortis protego locomotor.
+## Project Background
+As anyone from Lancaster will know, every Wednesday and Saturday the street market comes to town, bringing an eclectic mix of stalls selling crafts, local produce and food to go. The pick of these food stall is without a doubt the halloumi and falafle wrap stall, affectionality known as 'Veggie Man'.
 
-Inflamarae locomotor immobilus incarcerous. Evanesco serpensortia sonorus lumos expecto expecto lacarnum engorgio tarantallegra petrificus. Imperius patronum finite immobilus immobilus pepperup. Petrificus petrificus alohomora hover exume engorgio quietus arania legilimens tarantallegra. Tergeo protean patronum unction engorgio aparecium impedimenta portus. Engorgio langlock evanesco quietus nox totalus.
+However, there's nothing more dissapointing in life that walking to the market, only to find that he's not here that week. So this site aims to help you avoid that crushing feeling by pre-empting whether he'll be there or not on that day.
 
-Aparecium aparecium.
+> Carrot, lettuce, onions, tomatoes?
