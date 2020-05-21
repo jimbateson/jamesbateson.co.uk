@@ -16,6 +16,7 @@ tags:
 As side projects go, this is probably up there with the most pointless and niche. However, it was a good exercise in building something from scratch using some modern ES6 features, and also some more (much needed) practice with JavaScript date/time.
 
 ## Project Background
+
 As anyone from Lancaster will know, every Wednesday and Saturday the street market comes to town, bringing an eclectic mix of stalls selling crafts, local produce, and food to go. The pick of these food stalls is without a doubt the halloumi and falafel wrap stall, affectionately known as 'Veggie Man'.
 
 However, there's nothing more disappointing in life that walking to the market, only to find that he's not here that week. So this site aims to help you avoid that crushing feeling by pre-empting whether he'll be there or not on that day.
@@ -30,7 +31,7 @@ It's checking if the current date is either Wednesday or Saturday, then if the c
 
 The coolest feature I got a chance to use here was the Fetch API. The `fetch()` method provides a way to fetch resources asynchronously across the network. Here's how I used it:
 
-``` JavaScript
+``` javascript
 fetch('./config.json')
 .then(obj => {
 	return obj.json();
@@ -46,7 +47,7 @@ When fetching my config file (where `isHeHere` is set) it returns a promise whic
 
 From there we can then define our properties
 
-``` JavaScript
+``` javascript
 const { isHeHere, isHeHereSpecial } = objConfig;
 ```
 
