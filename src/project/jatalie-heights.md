@@ -10,4 +10,4 @@ tags:
   - Eleventy
   - Side Project
 ---
-As mentioned on...
+As mentioned on my [about page](/about/)
