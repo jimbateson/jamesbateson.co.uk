@@ -26,3 +26,23 @@ Admittedly this project has fallen a little stale, however, it was a great chanc
 The site builds Nunjunks templates and markdown files into HTML files. The Nunjunks templates are responsible for the layouts of the pages, and the markdown files are the content (walk posts for example).
 
 The site has a couple of 'collections', The Walks and The List. these are walks that I have completed and have written a post about, and walks that I aim to do in the future.
+
+When developing a fast prototype for this project, I decided to use [Tailwind CSS](https://tailwindcss.com/) - a utility based CSS framework. As well as ending up very lightweight (with the addition of Critcal CSS) this allowed me to quickly style up elements without having to write a lot of custom CSS.
+
+I love writing CSS, so this does seem like a bit of a strange approach, but when looking to get an idea off the ground with a very quick turnaround, this is a great option.
+
+Here's an example of how the Tailwind classes work
+
+```html
+<a href="{{ '/' | url }}" class="font-sans text-white uppercase no-underline text-5xl text-center mt-12">
+	<img src="/assets/images/logo.svg" class="h-36 w-64" alt="Jatalie Heights logo">
+</a>
+```
+
+## Any plans for this project?
+
+This site needs a little bit of TLC in all honesty. 
+
+Since building it, I've used Eleventy on this site and learned so much more about how powerful it can be. So I plan to do a complete rebuild of Jatalie Heights. Making it easier to update and look a little nicer!
+
+Hopefully once lockdown is over, I'll be able to get a bit further afield and cross some walks off the list.
