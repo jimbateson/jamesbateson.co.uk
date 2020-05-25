@@ -121,6 +121,12 @@
     }
 }
 
+@media screen and (min-width: 1280px) {
+    .intro__image--angled {
+        min-width: 550px;
+    }
+}
+
 @media screen and (min-width: 1440px) {
     .intro {
         &__image {

@@ -43,6 +43,8 @@
 
 @media screen and (min-width: 1280px) {
     .project-list__item {
+        box-shadow: 3px 3px 0 rgba(0, 0, 0, .1);
+        
         > a {
             display: block;
             position: relative;
