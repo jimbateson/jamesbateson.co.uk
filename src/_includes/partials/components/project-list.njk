@@ -9,9 +9,9 @@
         {% for item in projectListItems %}
           <li class="[ project-list__item ] [ sf-flow ]">
             <a href="{{ item.url }}">
-              <img src="https://picsum.photos/500/500" class="project-list__image" alt="" loading="lazy">
+              <img src="{{  item.data.listingImage }} class="project-list__image" alt="" loading="lazy">
                 <div class="project-list__content">
-                  <h3 class="[ font-base text-600 ]">{{ item.data.title }}</h3>
+                  <h3 class="[ font-base text-600 leading-tight ]">{{ item.data.title }}</h3>
                   <p class="leading-tight">{{ item.data.shortDescription | safe }}</p>
                   <span class="[ weight-600 ]">View project</span>
                 </div>

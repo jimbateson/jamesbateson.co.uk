@@ -190,6 +190,10 @@
             @extend %visually-hidden;
         }
 
+        ul {
+            justify-content: flex-start;
+        }
+
         a {
             align-items: flex-start;
             background: var(--color-grey-light);
@@ -205,6 +209,14 @@
                 background-color: var(--color-theme-primary);
                 color: var(--color-light);
                 text-decoration: none;
+            }
+        }
+
+        .nav {
+            overflow-x: scroll;
+            
+            > * {
+                flex-shrink: 0;
             }
         }
     }

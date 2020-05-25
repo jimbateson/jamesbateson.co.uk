@@ -9,6 +9,7 @@
 
     a {
         color: var(--color-dark);
+        text-decoration: none;
     }
 
     img {
@@ -26,6 +27,16 @@
     .project-single {
         .intro {
             padding-bottom: var(--flow-space);
+        }
+    }
+
+    .project-list__content {
+        > * + * {
+            margin-top: 10px;
+        }
+
+        span {
+            display: block;
         }
     }
 }
