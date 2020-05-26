@@ -102,12 +102,12 @@ $stalfos-config: (
     ),
     'pad-top': (
         'items': $stalfos-size-scale,
-        'output': 'standard',
+        'output': 'responsive',
         'property': 'padding-top'
     ),
     'pad-bottom': (
         'items': $stalfos-size-scale,
-        'output': 'standard',
+        'output': 'responsive',
         'property': 'padding-bottom'
     ),
     'pad-left': (
