@@ -20,7 +20,6 @@
         h3 {
             @include apply-utility('leading', 'tight');
             position: relative;
-            /*display: flex;*/
         }
 
         a:not([class]) {
@@ -29,7 +28,6 @@
             text-decoration-color: var(--color-theme-primary);
             text-decoration-thickness: 2px;
             transition: color .35s ease;
-            white-space: pre;
         }
 
         a:not([class]):hover {
@@ -213,8 +211,6 @@
         }
 
         .nav {
-            overflow-x: scroll;
-            
             > * {
                 flex-shrink: 0;
             }
