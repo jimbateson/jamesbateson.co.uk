@@ -176,4 +176,4 @@ collections:
           - label: "Fonts"
             name: "fonts"
             widget: "hidden"
-            default: { "base": "\"Skolar Sans Latin, sans-serif\"", "serif": "\"'Sutro', serif\""}
+            default: { "base": "\"Skolar Sans Latin, Helvetica, sans-serif\"", "serif": "\"'Sutro', Georgia, serif\""}
