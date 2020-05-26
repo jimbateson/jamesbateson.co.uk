@@ -1,6 +1,6 @@
 .site-foot {
     // Reverse whatever the theme colors are
-    background-color: var(--color-accent);
+    background-color: var(--color-dark);
     border-top: 1px solid rgba(255, 255, 255, .1);
     color: var(--color-bg);
 
@@ -14,9 +14,10 @@
 
         a {
             color: currentColor;
+            transition: color .3s;
 
             &:hover {
-                text-decoration: none;
+                color: var(--color-theme-primary);
             }
         }
     }
@@ -49,9 +50,9 @@
 
         svg {
             fill: #969697;
-            height: 45px;
-            transition: fill 0.5s ease;
-            width: 45px;
+            height: 35px;
+            transition: fill .5s ease;
+            width: 35px;
         }
     }
 
@@ -68,6 +69,25 @@
             fill: #969697;
             transition: fill 0.5s ease;
             width: 50px;
+        }
+    }
+
+    // Outputs .site-foot__social
+    &__social {
+        align-items: center;
+        display: flex;
+        list-style: none;
+
+        li + li {
+            margin-left: 20px;
+        }
+    }
+}
+
+@include media-query('md') {
+    .site-foot {
+        .wrapper {
+            max-width: 75rem;
         }
     }
 }

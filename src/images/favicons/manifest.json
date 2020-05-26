@@ -1,0 +1,12 @@
+{
+    "name": "jamesbateson.co.uk",
+    "short_name": "JB",
+    "description": "",
+    "icons": [{
+        "src": "images/favicons/google-touch-icon.png",
+        "sizes": "512x512"
+    }],
+    "theme_color": "#4b87bd",
+    "background_color": "#4b87bd",
+    "display": "fullscreen"
+}

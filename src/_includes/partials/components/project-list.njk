@@ -1,15 +1,21 @@
 {% if projectListItems.length %}
-  <section class="[ post-list ] [ pad-top-900 pad-bottom-max ]">
+  <section class="[ project-list ] [ pad-top-600 pad-bottom-max ]">
     <div class="[ wrapper ] [ sf-flow ]">
-      <h2 class="[ post-list__heading ] [ text-700 md:text-900 ]">Projects</h2>
-	  <p class="section-intro">My featured projects. Mainly silly little ideas that I've used a chance
-      to practice using a new technology/technique. Take a look at my Codepen for more examples of my work.</p>
-      <ol class="[ post-list__items ] [ sf-flow ] [ pad-top-800 ] [ md:width-half ]" reversed>
+      {% if page.url == '/' %}
+        <h2 class="[ post-list__heading ] [ text-700 md:text-900 ]">Projects</h2>
+        <p class="section-intro">I also build on <a href="https://codepen.io/jim-bateson">Codepen</a> and any source code is available on <a href="https://github.com/jimbateson">Github</a>.</p>
+      {% endif %}
+      <ol class="[ project-list__items ] [ pad-top-500 ]" reversed>
         {% for item in projectListItems %}
-          <li class="[ post-list__item ]">
-            <h3 class="[ font-base text-600 ] [ pad-bottom-300 ]">{{ item.data.title }}</h3>
-            <p class="[ pad-bottom-300 ]"><a href="{{ item.data.url }}" class="post-list__link link-hover" rel="noopener" target="_blank">{{ item.data.url }}</a></p>
-            <p>{{ item.data.shortDescription | safe }}</p>
+          <li class="[ project-list__item ] [ sf-flow ]">
+            <a href="{{ item.url }}">
+              <img src="{{  item.data.listingImage }}" class="project-list__image" alt="" loading="lazy">
+                <div class="project-list__content">
+                  <h3 class="[ font-base text-600 leading-tight ]">{{ item.data.title }}</h3>
+                  <p class="leading-tight">{{ item.data.shortDescription | safe }}</p>
+                  <span class="[ weight-600 ]">View project</span>
+                </div>
+              </a>
           </li>
         {% endfor %}
       </ol>

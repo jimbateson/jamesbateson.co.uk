@@ -1,0 +1,17 @@
+{% extends 'layouts/base.njk' %}
+{% set pageType = 'Projects' %}
+
+{# Intro content #}
+{% set introHeading = title %}
+
+{# Project list content #}
+{% set projectListItems = collections.projects %}
+
+{% block content %}
+  <main id="main-content" tabindex="-1">
+    {% include "partials/components/intro.njk" %}
+    {% include "partials/components/project-list.njk" %}
+  </main>
+{% endblock %}
+
+{{ content | safe }}

@@ -4,7 +4,7 @@ backend:
 publish_mode: editorial_workflow
 site_url: "https://jamesbateson.co.uk"
 media_folder: "src/images"
-public_folder: "images"
+public_folder: "/images"
 collections:
   - name: "pages"
     label: "Pages"
@@ -22,9 +22,22 @@ collections:
           - {label: "Social Image", name: "socialImage", widget: "image", required: false}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Banner Summary", name: "bannerSummary", widget: "string"}
-          - {label: "About", name: "about", widget: "text"}
           - {label: "Post Feed Heading", name: "postsHeading", widget: "string", default: "Latest posts"}
+          - {label: "Post Feed Summary", name: "postsSummary", widget: "string"}
           - {label: "Archive Link Text", name: "archiveButtonText", widget: "string", default: "See all posts"}
+      - name: "resume"
+        label: "Résumé"
+        delete: false
+        file: "src/resume.md"
+        slug: "{{slug}}"
+        create: false
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/njk.njk"}
+          - {label: "SEO Meta Title", name: "metaTitle", widget: "string", required: false}
+          - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
+          - {label: "Social Image", name: "socialImage", widget: "image", required: false}
+          - {label: "Banner Summary", name: "bannerSummary", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
   - name: "generic_pages"
     label: "Generic Pages"
     folder: "src/pages"
@@ -34,6 +47,9 @@ collections:
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Banner Summary", name: "bannerSummary", widget: "string"}
+      - {label: "Banner Image", name: "bannerImage", widget: "image"}
+      - {label: "Banner Image Class", name: "bannerImageClass", widget: "string"}
       - {label: "Permalink Override", name: "permalink", widget: "string"}
       - {label: "SEO Meta Title", name: "metaTitle", widget: "string", required: false}
       - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
@@ -76,9 +92,11 @@ collections:
     preview_path: "project/{{slug}}"
     create: true
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/project-single.njk"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Url", name: "url", widget: "string"}
+      - {label: "Listing Image", name: "listingImage", widget: "image", required: false}
+      - {label: "Banner Image", name: "bannerImage", widget: "image", required: false}
       - {label: "Short Description", name: "shortDescription", widget: "string"}
       - {label: "SEO Meta Title", name: "metaTitle", widget: "string", required: false}
       - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
@@ -126,6 +144,7 @@ collections:
               - {label: "Text", name: "text", widget: "string"}
               - {label: "Url", name: "url", widget: "string"}
               - {label: "Is url to external site?", name: "external", widget: "boolean", required: false}
+              - {label: "Show on mobile?", name: "mobile", widget: "boolean", required: false}
       - label: "Theme Settings"
         name: "theme"
         delete: false
@@ -147,7 +166,7 @@ collections:
             name: "colors"
             widget: "object"
             fields:
-              - {label: "Primary", name: "primary", widget: "string", default: "hsl(208, 57%, 21%)"}
+              - {label: "Primary", name: "primary", widget: "string", default: "hsl(205.5, 55.8%, 48.8%)"}
               - {label: "Primary Shade (darker)", name: "primary-shade", widget: "string", default: "hsl(208, 56%, 14%)"}
               - {label: "Primary Glare (lighter)", name: "primary-glare", widget: "string", default: "hsl(207, 57%, 31%)"}
               - {label: "Highlight", name: "highlight", widget: "string", default: "hsl(42, 98%, 77%)"}
@@ -157,4 +176,4 @@ collections:
           - label: "Fonts"
             name: "fonts"
             widget: "hidden"
-            default: { "base": "\"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'\"", "serif": "\"'Lora', serif\""}
+            default: { "base": "\"Skolar Sans Latin, sans-serif\"", "serif": "\"'Sutro', serif\""}

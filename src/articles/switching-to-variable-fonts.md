@@ -7,6 +7,8 @@ tags:
   - css
 ---
 Variable fonts are something that I've been meaning to experiment with for a while now. I've seen so many cool demos using them - [for example](https://codepen.io/cassie-codes/pen/jOEdPEJ?editors=0100) 😍. So I decided to try switching this site to use them and learn a bit more. There are likely tons more write-ups better than this, I'm just documenting this in case I use them on future projects at work.
+
+<p class="post-note"><strong>Note</strong>As you'll have noticed, my site is no longer using the Inter font family. However, this guide still serves as a useful example of why and how to get started with variable fonts.</p>
  
 ## Goals
  
