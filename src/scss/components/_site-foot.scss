@@ -26,7 +26,7 @@
     &__details {
         align-items: center;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         width: 100%;
 
         a {
@@ -53,22 +53,6 @@
             height: 35px;
             transition: fill .5s ease;
             width: 35px;
-        }
-    }
-
-    // Outputs: .site-foot__logo
-    &__logo {
-        &:hover,
-        &:focus {
-            .site-logo {
-                fill: var(--color-light);
-            }
-        }
-
-        .site-logo {
-            fill: #969697;
-            transition: fill 0.5s ease;
-            width: 50px;
         }
     }
 
