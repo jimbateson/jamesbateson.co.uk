@@ -4,7 +4,7 @@
 {# Intro content #}
 {% set introHeading = title %}
 {% set introSummary %}
-<p class="[ intro__meta ] [ text-500 leading-tight ]">
+<p class="[ intro__meta ] [ text-500 weight-300 leading-tight ]">
   {% if date %}
     <time datetime="{{ date | w3DateFilter }}" class="dt-published">{{ date | dateFilter }}</time>
   {% endif %}
@@ -16,7 +16,7 @@
   <main id="main-content" tabindex="-1">
     <article class="[ post ] [ h-entry ]">
       {% include "partials/components/intro.njk" %}
-      <div class="[ post__body ] [ inner-wrapper ] [ pad-top-900 {{ 'pad-bottom-900' if not site.enableThirdPartyComments }} text-500 ] [ sf-flow ] [ e-content ]">
+      <div class="[ post__body ] [ inner-wrapper ] [ pad-top-600 {{ 'pad-bottom-900' if not site.enableThirdPartyComments }} text-500 ] [ sf-flow ] [ e-content ]">
         {{ content | safe }}
       </div>
       {% if site.enableThirdPartyComments %}
@@ -26,7 +26,7 @@
         </aside>
       {% endif %}
       {% if tags %}
-        <footer class="[ post__footer ] [ pad-top-500 pad-bottom-500 ]">
+        <footer class="[ post__footer ] [ pad-top-600 pad-bottom-600 ]">
           <div class="inner-wrapper">
             <div class="[ nav ] [ box-flex align-center ]">
               <h2 class="font-base text-500">Filed under</h2>

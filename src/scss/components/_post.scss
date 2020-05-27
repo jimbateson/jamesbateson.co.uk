@@ -2,9 +2,15 @@
     &__body {
         --flow-space: #{get-size(800)};
 
+        > p:first-of-type:not(.post-note) {
+            @include apply-utility('font', 'heading');
+            font-size: get-size(600);
+            font-weight: 500;
+        }
+
         /**
-     * Generic HTML styles
-     */
+        * Generic HTML styles
+        */
         h2 + *,
         h3 + * {
             --flow-space: #{get-size(500)};
@@ -14,51 +20,46 @@
         h3 {
             @include apply-utility('leading', 'tight');
             position: relative;
-            /*display: flex;*/
         }
 
         a:not([class]) {
-            //@include apply-utility('leading', 'tight');
-            position: relative;
+            @include apply-utility('leading', 'tight');
             color: var(--color-accent);
-            display: inline-block;
-            background: linear-gradient(rgb(119, 14, 191) 50%, rgb(238, 141, 125) 100%);
-            background-position: center 101%;
-            background-repeat: no-repeat;
-            background-size: 100% 0.2em;
-            white-space: pre;
-            padding: 0 0.2em;
-            text-decoration: none;
-            transition: background-size 0.35s ease, color 0.35s ease;
+            text-decoration-color: var(--color-theme-primary);
+            text-decoration-thickness: 2px;
+            transition: color .35s ease;
         }
 
         a:not([class]):hover {
-            background-size: 100% 90%;
-            color: var(--color-light);
+            color: var(--color-theme-primary);
         }
 
-        code {
-            font-size: 1.2em;
-            white-space: pre;
+        code,
+        .bg-dark > code {
+            background-color: var(--color-light);
+            border: 1px dashed #ccc;
             color: var(--color-theme-primary);
-            font-weight: 600;
-            margin-left: 0.5ch;
-            margin-right: 0.5ch;
+            padding: .2rem .5rem;
+            white-space: pre;
         }
 
         pre > code {
+            border: 0;
             margin-right: 0;
         }
 
         blockquote {
-            border-left: 0.4rem solid rgb(119, 14, 191);
+            background-color: var(--color-light);
+            border: 1px dashed #ccc;
+            border-left: .4rem solid var(--color-theme-primary);
             margin-left: 0;
             padding-left: get-size(500);
             font-size: get-size(600);
-            font-weight: 575;
+            font-weight: 600;
+            width: 100%;
 
             p {
-                opacity: 0.85;
+                opacity: .85;
                 padding: get-size(500) 0;
             }
         }
@@ -68,7 +69,8 @@
             margin-left: get-size(800);
 
             ::marker {
-                color: rgb(119, 14, 191);
+                color: var(--color-theme-primary);
+                font-size: get-size(300);
             }
         }
 
@@ -99,7 +101,7 @@
         figure img,
         pre > code,
         .video-player {
-            box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+            box-shadow: 3px 3px 0 rgba(0, 0, 0, .1);
         }
 
         figure img {
@@ -116,20 +118,69 @@
         }
 
         pre > code {
+            background-color: var(--color-dark);
             display: block;
-            background: var(--color-dark);
-            padding: get-size(700);
             font-size: get-size(500);
+            padding: get-size(700);
+        }
+
+        p + .post-note,
+        ul + .post-note {
+            margin-top: var(--flow-space);
+        }
+
+        .post-note {
+            background-color: var(--color-theme-primary);
+            border-radius: 10px;
+            color: var(--color-light);
+            padding: var(--flow-space);
+            margin: 0;
+
+            strong {
+                @include apply-utility('font', 'heading');
+                border-bottom: 1px solid rgba(255, 255, 255, .25);
+                display: block;
+                font-size: get-size(600);
+                margin-bottom: 10px;
+                padding-bottom: 10px;
+            }
+        }
+
+        // post__body--resume
+        &--resume {
+            h2 {
+                border-bottom: 1px solid var(--color-grey-med);
+                margin-bottom: 40px;
+                padding-bottom: 20px;
+            }
+
+            h3 {
+                @include apply-utility('font', 'base');
+                font-size: get-size(600);
+                font-weight: 600;
+
+                .heading-permalink {
+                    display: none;
+                }
+            }
+
+            h4 {
+                font-weight: 400;
+                margin-top: 5px;
+            }
+
+            h5 {
+                margin-top: 5px;
+            }
         }
     }
 
     &__footer {
-        background: linear-gradient(90deg, rgb(119, 14, 191), rgb(238, 141, 125));
+        background-color: var(--color-light);
+        line-height: 1.4;
 
         h2 {
-            color: var(--color-light);
-            flex-shrink: 0;
-            font-weight: 450;
+            font-weight: 600;
             margin-right: get-size('base');
         }
 
@@ -137,26 +188,32 @@
             @extend %visually-hidden;
         }
 
+        ul {
+            justify-content: flex-start;
+        }
+
         a {
-            background: var(--color-bg);
+            align-items: flex-start;
+            background: var(--color-grey-light);
+            border: 1px dashed #ccc;
             box-sizing: border-box;
-            font-weight: 475;
-            overflow: hidden;
-            padding: 0.4rem 0.6rem;
-            transition: color 0.5s ease, background-color 0.5s ease;
+            display: flex;
+            justify-content: center;
+            padding: .4rem .6rem;
+            transition: background-color 0.5s ease;
 
             &:hover,
             &:focus {
-                background-color: var(--color-accent);
+                background-color: var(--color-theme-primary);
                 color: var(--color-light);
                 text-decoration: none;
             }
         }
-    }
-}
 
-.p-category {
-    a {
-        color: rgb(119, 14, 191);
+        .nav {
+            > * {
+                flex-shrink: 0;
+            }
+        }
     }
 }
