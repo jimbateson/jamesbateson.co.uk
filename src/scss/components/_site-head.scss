@@ -9,13 +9,6 @@
     }
 }
 
-.site-head {
-    .nav {
-        position: sticky;
-        top: 0;
-    }
-}
-
 @include media-query('md') {
     .site-head {
         overflow: hidden;
