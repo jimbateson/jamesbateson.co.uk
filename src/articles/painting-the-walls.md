@@ -5,7 +5,7 @@ date: 2020-05-28T07:04:31.641Z
 tags:
   - Side Project
 ---
-This week I did a 'soft launch'* of the redesign I've been working on for my personal site.
+This week I did a ‘soft launch’* of the redesign I’ve been working on for my personal site.
 
 ![Screenshot of jamesbateson.co.uk homepage redesign](/images/frame_generic_dark-1-.png)
 
@@ -29,7 +29,7 @@ The other major addition to the site has been the résumé page. this is control
 
 Now the new look of my site is live. There are a few tweaks I need to make after doing some testing - which was kind of the reason for the 'soft' launch.
 
-I'm also it'll push me to write some more articles for the site, both development, and journal ones. There's also still a couple of items from my todo list I need to sort (dark toggle etc)
+I'm also hoping it'll push me to write some more articles for the site, both development, and journal ones. There's also still a couple of items from my todo list I need to sort (dark toggle etc)
 
 Anyway, I hope you like the new design, and please let me know if not. You can [Log a bug here](https://github.com/jimbateson/jamesbateson.co.uk/issues).
 
