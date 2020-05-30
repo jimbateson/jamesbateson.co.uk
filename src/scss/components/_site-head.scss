@@ -1,3 +1,17 @@
+.site-head {
+    overflow: hidden;
+
+    &:before {
+        content: '';
+        display: block;
+        width: 100vw;
+        height: 1rem;
+        background-image: radial-gradient(var(--color-theme-primary) 35%, transparent 40%);
+        background-size: 4px 4px;
+        margin-bottom: .7rem;
+    }
+}
+
 .site-logo {
     fill: var(--color-dark);
     transition: fill .3s;
@@ -11,18 +25,6 @@
 
 @include media-query('md') {
     .site-head {
-        overflow: hidden;
-
-        &:before {
-            content: '';
-            display: block;
-            width: 100vw;
-            height: 1rem;
-            background-image: radial-gradient(var(--color-theme-primary) 35%, transparent 40%);
-            background-size: 4px 4px;
-            margin-bottom: .7rem;
-        }
-
         .wrapper {
             max-width: 75rem;
         }
