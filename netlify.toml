@@ -4,6 +4,6 @@
 
 [[plugins]]
   package = "netlify-plugin-subfont"
-    # Inline generated CSS @font-face blocks into each page
-    # When set to `false` an external CSS file will be created
-    inlineCss = true
+
+  [plugins.inputs]
+  inlineCss = false
