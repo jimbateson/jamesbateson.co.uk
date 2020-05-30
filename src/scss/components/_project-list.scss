@@ -40,10 +40,13 @@
             z-index: 1;
         }
     }
+}
 
-    img  {
-        display: block;
-    }
+.project-list__image {
+    aspect-ratio: attr(width) / attr(height);
+    display: block;
+    height: auto;
+    width: 100%;
 }
 
 .project-list__content {
