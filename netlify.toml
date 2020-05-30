@@ -1,3 +1,9 @@
 [build]
   command = "npm run production"
   publish = "dist"
+
+[[plugins]]
+  package = "netlify-plugin-subfont"
+
+  [plugins.inputs]
+  inlineCss = false
