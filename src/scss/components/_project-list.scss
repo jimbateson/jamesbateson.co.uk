@@ -74,6 +74,12 @@
     }
 }
 
+.project-single {
+    .intro {
+        background-color: transparent;
+    }
+}
+
 @media screen and (max-width: map-get($metrics, 'md-breakpoint')) {
     .project-single {
         .intro {
