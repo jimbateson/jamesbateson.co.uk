@@ -28,7 +28,7 @@
 		"sass": "^1.26.7",
 		"stylelint": "^13.5.0",
 		"stylelint-a11y": "^1.2.1",
-		"stylelint-order": "^4.0.0"
+		"stylelint-order": "^4.1.0"
 	},
 	"scripts": {
 		"sass:tokens": "npx json-to-scss src/_data/tokens.json src/scss/_tokens.scss",
