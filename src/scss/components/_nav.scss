@@ -63,6 +63,10 @@
         &.hide-mobile {
             display: none;
         }
+
+        &:not(.nav__item--tag) {
+            padding-bottom: 20px;
+        }
     }
 }
 

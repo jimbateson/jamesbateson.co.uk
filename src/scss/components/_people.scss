@@ -31,6 +31,8 @@
 }
 
 .people-list__item {
+    padding-bottom: 20px;
+    
     h3 {
         @include apply-utility('font', 'base');
     }

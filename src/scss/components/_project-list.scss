@@ -161,6 +161,12 @@
 }
 
 @media screen and (min-width: 1440px) {
+    .project-single {
+        .intro {
+            background-color: transparent;
+        }
+    }
+    
     .project-single__body {
         padding-right: 9.5rem;
     }
