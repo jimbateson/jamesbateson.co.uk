@@ -2,4 +2,4 @@
 title: 'Articles'
 layout: 'layouts/articles.njk'
 ---
-All development articles I've written
+All development articles I’ve written
