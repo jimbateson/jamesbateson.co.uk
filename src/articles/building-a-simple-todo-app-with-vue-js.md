@@ -64,9 +64,9 @@ data: {
 To loop through this data and display it, we need to to use `v-for`
 
 ```html
-    <li class="todo-item js-todo-item" v-for="(todo, index) in todos">
-         {{ todo.title }}
-    </li>
+<li class="todo-item js-todo-item" v-for="(todo, index) in todos">
+     {{ todo.title }}
+</li>
 ```
 
 
