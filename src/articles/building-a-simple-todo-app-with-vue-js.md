@@ -54,7 +54,7 @@ data: {
 		    completed: false
 	    },
 	    {
-		    title: 'Test todo 2',
+		   title: 'Test todo 2',
 		   completed: false
 	    }
 	]
