@@ -42,4 +42,22 @@ new Vue({
 
 <h2>Displaying the todos</h2>
 
+For the purposes of this demo, I've used some dummy data, when I integrate this with my Electron codebase, I'll need to read and write from a JSON file.
+
+Vue reads all its data from its `data` object. So in here we define our todos array
+
+```javascript
+data: {
+	todos: [
+	    {
+		    title: 'Test todo',
+		    completed: false
+	    },
+	    {
+		    title: 'Test todo 2',
+		   completed: false
+	    }
+	]
+},
+```
 
