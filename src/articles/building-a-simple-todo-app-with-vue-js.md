@@ -64,10 +64,27 @@ data: {
 To loop through this data and display it, we need to to use `v-for`
 
 ```html
-<li class="todo-item js-todo-item" v-for="(todo, index) in todos">
+<li v-for="(todo, index) in todos">
      {{ todo.title }}
 </li>
 ```
 
+Here `items` is the array we are looping through and `item` is our name for the array element we are iterating over. You can also pass a (optional) second option to `v-for`, which is the index of the item.
+
+<h2>Add a new todo</h2>
+
+This is where my Vue implementation slightly devaites from the initial vanilla/Electron setup I have. In which Electron creates a new window (view) in which you add a new todo, which is ten sent to the main window. However, using Vue things can be made much simpiler and handled by the framework.
+
+Firstly let's create an input to enter the new todo (make sure to add an associated label for the input)
+
+```html
+<label for="add_todo">Add a new todo</label>
+
+<input type="text" id="add_todo" v-model="newTodo" @keyup.enter="addTodo" name="add_todo" placeholder="Today I want to...">
+```
+There are a couple of Vue bits we are attaching to this input:
+
+* `v-model` is a two way binding on elements such as `input` and `textarea`. Depending on the element, it detects the value/status and passes this data to/from Vue. [More info here](https://vuejs.org/v2/guide/forms.html).
+* `@keyup.enter` 
 
 
