@@ -6,9 +6,9 @@ tags:
   - JS
   - Vue.js
 ---
- Over the last few weeks I’ve started to [learn Vue.js](https://frontendmasters.com/learn/vue/), a progressive JavaScript framework. Alongside working through the Frontend Master course, I decided to try and rebuild my very basic todo app functionality with it.
+ Over the last few weeks, I’ve started to [learn Vue.js](https://frontendmasters.com/learn/vue/), a progressive JavaScript framework. Alongside working through the Frontend Master course, I decided to try and rebuild my very basic todo app functionality with it.
 
-My app (Today) is a simple todo app - often a go to build when starting to learn a new language. I'd started to build it using vanilla JavaScript and Electron. Whilst getting my head around Vue I realised that my core functionality needs would be suited to using Vue for, also some of my JavaScript had started to get a little unweilding!
+My app (Today) is a simple todo app - often a go-to build when starting to learn a new language. I'd started to build it using vanilla JavaScript and Electron. Whilst getting my head around Vue I realised that my core functionality needs would be suited to using Vue for, also some of my JavaScript had started to get a little unwieldy!
 
 Today has 4 main actions:
 
@@ -17,11 +17,11 @@ Today has 4 main actions:
 * Complete a todo
 * Delete a todo
 
-This post will detail how I went about using Vue to acheive each of these.
+This post will detail how I went about using Vue to achieve each of these.
 
-<p class="post-note"><strong>Note</strong> This post will not go into, or apply any styling to the todo list, or detail any of the Electron implementation (I'll cover those in a further more in depth post once it's all good to go).</p>
+<p class="post-note"><strong>Note</strong> This post will not go into, or apply any styling to the todo list, or detail any of the Electron implementation (I'll cover those in a further, more in-depth post once it's all good to go).</p>
 
-Here's the finished Codepen of what I built (see note above about styling etc)
+Here's the finished Codepen of what I built (see the note above about styling etc)
 
 <p class="codepen" data-height="350" data-theme-id="dark" data-default-tab="html,result" data-user="jim-bateson" data-slug-hash="bGEGmBx" style="height: 350px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Today">
   <span>See the Pen <a href="https://codepen.io/jim-bateson/pen/bGEGmBx">
@@ -42,9 +42,9 @@ new Vue({
 
 <h2>Displaying the todos</h2>
 
-For the purposes of this demo, I've used some dummy data, when I integrate this with my Electron codebase, I'll need to read and write from a JSON file.
+For this demo, I've used some dummy data, when I integrate this with my Electron codebase, I'll need to read and write from a JSON file.
 
-Vue reads all its data from its `data` object. So in here we define our todos array
+Vue reads all its data from its `data` object. So in here, we define our todos array
 
 ```javascript
 data: {
@@ -69,11 +69,11 @@ To loop through this data and display it, we need to to use `v-for`
 </li>
 ```
 
-Here `items` is the array we are looping through and `item` is our name for the array element we are iterating over. You can also pass a (optional) second option to `v-for`, which is the index of the item.
+Here `items` is the array we are looping through and `item` is our name for the array element we are iterating over. You can also pass an (optional) second option to `v-for`, which is the index of the item.
 
 <h2>Add a new todo</h2>
 
-This is where my Vue implementation slightly devaites from the initial vanilla/Electron setup I have. In which Electron creates a new window (view) in which you add a new todo, which is ten sent to the main window. However, using Vue things can be made much simpiler and handled by the framework.
+This is where my Vue implementation slightly deviates from the initial vanilla/Electron setup I have. In which Electron creates a new window (view) in which you add a new todo, which is then sent to the main window. However, using Vue things can be made much simpler and handled by the framework.
 
 Firstly let's create an input to enter the new todo (make sure to add an associated label for the input)
 
@@ -108,7 +108,7 @@ In anticipation of adding some styling to these completed items, we will then ma
 <li class="todo-item js-todo-item" :class="{ 'todo-item--completed' : todo.completed }">...</li>
 ```
 
-We already have a couple of classes on the `<li>` this might be for some styling and/or custom JavaScript functionality (they're not important for this demo). Vue allows us to conditionally bind classes (and styles) based on certian conditions being met. Here we're using a ternary to add the `todo-item--completed` class if the todo has been completed (based on the value of our model).
+We already have a couple of classes on the `<li>` this might be for some styling and/or custom JavaScript functionality (they're not important for this demo). Vue allows us to conditionally bind classes (and styles) based on certain conditions being met. Here we're using a ternary to add the `todo-item--completed` class if the todo has been completed (based on the value of our model).
 
 
 <h2>Deleting a todo</h2>
@@ -137,7 +137,7 @@ We start by passing index as an argument of the method (as defined in our event 
 
 So we now have our 4 main, core pieces of functionality needed to build a simple todo app! It's a great intro to Vue, using many of the core principles available in the framework.
 
-I'll obviously be expanding on this write up when I finish the app and intergrate with Electron and get the app packaged up. But this'll be a great start to take a todo list in any direction you chose.
+I'll be expanding on this write up when I finish the app and integrate with Electron and get the app packaged up. But here we have a great start to take a todo list in any direction you wish. It could even be implemented into an existing codebase as I have done - which is one of the great things about Vue!
 
 There are a couple of bits of functionality I'd like to add at some point:
 
@@ -147,7 +147,7 @@ There are a couple of bits of functionality I'd like to add at some point:
 
 <h2>Hey! I also made this</h2>
 
-As well as going through the Frontend Masters course (linked in the intro), I've found the Vue docs site to be really clear, with some great practical examples. I also made this summary pen of directives and bindings to help me remember things.
+As well as going through the Frontend Masters course (linked in the intro), I've found the Vue docs site to be very clear, with some great practical examples. I also made this summary pen of directives and bindings to help me remember things.
 
 <p class="codepen" data-height=""500 data-theme-id="dark" data-default-tab="html,result" data-user="jim-bateson" data-slug-hash="wvKYJLE" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Directives &amp;amp; Data Rendering">
   <span>See the Pen <a href="https://codepen.io/jim-bateson/pen/wvKYJLE">
