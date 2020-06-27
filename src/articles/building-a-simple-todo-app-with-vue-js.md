@@ -132,3 +132,26 @@ deleteTodo(index) {
 ```
 
 We start by passing index as an argument of the method (as defined in our event in the HTML), then use Vue delete. The first argument being the array we are removing the item from and the second using the index we passed into our method.
+
+<h2>Todo or not todo?</h2>
+
+So we now have our 4 main, core pieces of functionality needed to build a simple todo app! It's a great intro to Vue, using many of the core principles available in the framework.
+
+I'll obviously be expanding on this write up when I finish the app and intergrate with Electron and get the app packaged up. But this'll be a great start to take a todo list in any direction you chose.
+
+There are a couple of bits of functionality I'd like to add at some point:
+
+* Don't let a user add duplicate todos
+* Sorting options (priority etc)
+* Warnings for stale todos
+
+<h2>Hey! I also made this</h2>
+
+As well as going through the Frontend Masters course (linked in the intro), I've found the Vue docs site to be really clear, with some great practical examples. I also made this summary pen of directives and bindings to help me remember things.
+
+<p class="codepen" data-height=""500 data-theme-id="dark" data-default-tab="html,result" data-user="jim-bateson" data-slug-hash="wvKYJLE" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Directives &amp;amp; Data Rendering">
+  <span>See the Pen <a href="https://codepen.io/jim-bateson/pen/wvKYJLE">
+  Directives &amp; Data Rendering</a> by James Bateson (<a href="https://codepen.io/jim-bateson">@jim-bateson</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
