@@ -87,7 +87,6 @@
         }
 
         figure,
-        pre > code,
         .video-player {
             width: 100vw;
             max-width: map-get($metrics, 'wrap-max-width');
@@ -98,8 +97,7 @@
             position: relative;
         }
 
-        figure img,
-        pre > code,
+        figure img
         .video-player {
             box-shadow: 3px 3px 0 rgba(0, 0, 0, .1);
         }
@@ -117,11 +115,28 @@
             padding: 0 get-size(500);
         }
 
+        pre[class*='language'] {
+            background-color: var(--color-dark-alt);
+            box-shadow: 3px 3px 0 rgba(0, 0, 0, .1);
+            width: 100vw;
+            margin-left: 50%; /*changing this value to 47% removes the horizontal scrollbar once the viewport is < 930px */
+            transform: translateX(
+                -50%
+            ); /* changing this value to 49% allows for the suggestion above to also eliminate the horizontal scroll. */
+            position: relative;
+        }
+
         pre > code {
-            background-color: var(--color-dark);
             display: block;
             font-size: get-size(500);
+            margin: 0 auto;
+            max-width: map-get($metrics, 'wrap-max-width');
             padding: get-size(700);
+
+            ::selection {
+                background-color: var(--color-light);
+                color: var(--color-dark-alt);
+            }
         }
 
         p + .post-note,
