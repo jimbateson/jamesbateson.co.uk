@@ -1,6 +1,7 @@
 .intro {
     background-color: #f0f4fb;
     color: var(--color-dark);
+    margin-bottom: 1.5rem;
 
     &__heading {
         @include apply-utility('font', 'heading');

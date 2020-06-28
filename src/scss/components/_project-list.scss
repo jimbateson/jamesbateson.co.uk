@@ -168,6 +168,8 @@
     }
     
     .project-single__body {
-        padding-right: 9.5rem;
+        > *:not(pre) {
+            padding-right: 9.5rem;
+        }
     }
 }
