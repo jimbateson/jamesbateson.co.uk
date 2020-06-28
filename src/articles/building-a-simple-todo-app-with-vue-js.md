@@ -23,7 +23,7 @@ This post will detail how I went about using Vue to achieve each of these.
 
 Here's the finished Codepen of what I built (see the note above about styling etc)
 
-<p class="codepen" data-height="350" data-theme-id="dark" data-default-tab="html,result" data-user="jim-bateson" data-slug-hash="bGEGmBx" style="height: 350px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Today">
+<p class="codepen" data-height="400" data-theme-id="dark" data-default-tab="html,result" data-user="jim-bateson" data-slug-hash="bGEGmBx" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Today">
   <span>See the Pen <a href="https://codepen.io/jim-bateson/pen/bGEGmBx">
   Today</a> by James Bateson (<a href="https://codepen.io/jim-bateson">@jim-bateson</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
