@@ -6,7 +6,7 @@ tags:
   - JS
   - Vue.js
 ---
- Over the last few weeks, I’ve started to [learn Vue.js](https://frontendmasters.com/learn/vue/), a progressive JavaScript framework. Alongside working through the Frontend Master course, I decided to try and rebuild my very basic todo app functionality with it.
+ Over the last few weeks, I’ve started to [learn Vue.js](https://frontendmasters.com/learn/vue/), a progressive JavaScript framework. Alongside working through the Frontend Masters course, I decided to try and rebuild my very basic todo app functionality with it.
 
 My app (Today) is a simple todo app - often a go-to build when starting to learn a new language. I'd started to build it using vanilla JavaScript and Electron. Whilst getting my head around Vue I realised that my core functionality needs would be suited to using Vue for, also some of my JavaScript had started to get a little unwieldy!
 
@@ -32,7 +32,7 @@ Here's the finished Codepen of what I built (see the note above about styling et
 
 <h2>Creating the Vue Instance</h2>
 
-First thing we need to do is attach Vue to a DOM node
+The first thing we need to do is attach Vue to a DOM node
 
 ```javascript
 new Vue({
@@ -44,7 +44,7 @@ new Vue({
 
 For this demo, I've used some dummy data, when I integrate this with my Electron codebase, I'll need to read and write from a JSON file.
 
-Vue reads all its data from its `data` object. So in here, we define our todos array
+Vue reads all data from its `data` object. So in here, we define our todos array
 
 ```javascript
 data: {
