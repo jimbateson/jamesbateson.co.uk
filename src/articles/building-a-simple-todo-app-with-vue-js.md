@@ -1,6 +1,9 @@
 ---
 layout: layouts/post.njk
 title: Building a simple todo app with Vue.js
+metaTitle: Building a simple todo app with Vue.js
+metaDesc: How to build a simpale todo app with Vue.js
+socialImage: /images/social-share.jpg
 date: 2020-06-09T17:53:07.158Z
 tags:
   - JS
