@@ -72,7 +72,7 @@ To loop through this data and display it, we need to to use `v-for`
 </li>
 ```
 
-Here `items` is the array we are looping through and `item` is our name for the array element we are iterating over. You can also pass an (optional) second option to `v-for`, which is the index of the item.
+Here `todos` is the array we are looping through and `todo` is our name for the array element we are iterating over. You can also pass an (optional) second option to `v-for`, which is the index of the item.
 
 <h2>Add a new todo</h2>
 
