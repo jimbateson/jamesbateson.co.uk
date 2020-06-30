@@ -88,7 +88,7 @@ Firstly let's create an input to enter the new todo (make sure to add an associa
 There are a couple of Vue bits we are attaching to this input:
 
 * `v-model` is a two way binding on elements such as `input` and `textarea`. Depending on the element, it detects the value/status and passes this data to/from Vue. [More info here](https://vuejs.org/v2/guide/forms.html).
-* `@keyup.enter` (can also be written `v-bind:enter`) this is an example of a Vue event handler, in this instance pressing the `enter` key. When this is done, our `AddTodo` method will be run. Pushing the no todo to the todo array (we defined in `data`).
+* `@keyup.enter` (can also be written `v-bind:enter`) this is an example of a Vue event handler, in this instance pressing the `enter` key. When this is done, our `AddTodo` method will be run. Pushing the new todo to the todo array (we defined in `data`).
 
 <h2>Completing a todo</h2>
 
