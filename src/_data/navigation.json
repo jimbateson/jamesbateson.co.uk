@@ -1,24 +1,12 @@
 {
-	"items": [
-		{
-			"text": "About",
-			"url": "/about/"
-		},
-		{
-			"text": "Articles",
-			"url": "/articles/"
-		},
-		{
-			"text": "Projects",
-			"url": "/projects/"
-		},
-		{
-			"text": "Journal",
-			"url": "/journal/"
-		},
-		{
-			"text": "Résumé",
-			"url": "/resume/"
-		}
-	]
+  "items": [
+    {
+      "text": "Walks",
+      "url": "#"
+    },
+    {
+      "text": "List",
+      "url": "#"
+    }
+  ]
 }
