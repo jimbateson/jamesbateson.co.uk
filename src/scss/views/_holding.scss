@@ -6,11 +6,18 @@ main {
     justify-content: center;
 
     h1 {
-        letter-spacing: 1px;
+        letter-spacing: .1rem;
+    }
+
+    svg {
+        height: 80px;
+        margin-bottom: 2em;
+        min-width: 80px;
+        width: 80px;
     }
 
     > div {
-        padding: 0 var(--flow-space);
+        padding-inline: 1em;
         max-width: 685px;
     }
 }
