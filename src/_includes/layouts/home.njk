@@ -2,33 +2,32 @@
 {% set pageType = 'Homepage' %}
 
 {# Intro content #}
-{% set introHeading = title %}
+{# {% set introHeading = title %}
 {% set introSummary %}
   {{ bannerSummary | safe }}
-{% endset %}
+{% endset %} #}
 
 {# Post list content #}
-{% set postListHeading = postsHeading %}
+{# {% set postListHeading = postsHeading %}
 {% set postListSummary = postsSummary %}
-{% set postListItems = collections.postFeed %}
-
-{# Post list content #}
-{% set peopleListItems = collections.people %}
-
-{# Project list content #}
-{% set projectListItems = collections.projects %}
+{% set postListItems = collections.postFeed %} #}
 
 {# Archive link #}
-{% if postListItems.length < collections.posts.length %}
+{# {% if postListItems.length < collections.posts.length %}
   {% set paginationNextText = archiveButtonText %}
   {% set paginationNextUrl = '/articles' %}
-{% endif %}
+{% endif %} #}
 
 {% block content %}
   <main id="main-content" tabindex="-1">
-    {% include "partials/components/intro.njk" %}
+    <div class="sf-flow">
+      <h1 class="[ text-max leading-tight ]">Walks.</h1>
+      <p class="text-500">The personal walking blog of a less than regular walker. Coming soon.</p>
+      <p class="text-500">This project will be replacing <a href="https://jatalieheights.co.uk/">Jatalie Heights</a>, my current walking blog. Feel free to have a look through the walks currently on there in the meantime.</a>
+    </div>
+    {# {% include "partials/components/intro.njk" %}
     {% include "partials/components/article-list.njk" %}
     {% include "partials/components/people-list.njk" %}
-    {% include "partials/components/project-list.njk" %}
+    {% include "partials/components/project-list.njk" %} #}
   </main>
 {% endblock %}

@@ -1,8 +1,8 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: walks
 publish_mode: editorial_workflow
-site_url: "https://jamesbateson.co.uk"
+site_url: "https://walks.jamesbateson.co.uk"
 media_folder: "src/images"
 public_folder: "/images"
 collections:
@@ -55,11 +55,11 @@ collections:
       - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
       - {label: "Social Image", name: "socialImage", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "articles"
-    label: "Articles"
-    folder: "src/articles"
+  - name: "walks"
+    label: "Walks"
+    folder: "src/walks"
     slug: "{{slug}}"
-    preview_path: "articles/{{slug}}"
+    preview_path: "walks/{{slug}}"
     create: true
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
@@ -70,51 +70,6 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Tags", name: "tags", widget: "list", allow_add: true}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "journal"
-    label: "Journal"
-    folder: "src/journal"
-    slug: "{{slug}}"
-    preview_path: "journal/{{slug}}"
-    create: true
-    fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "SEO Meta Title", name: "metaTitle", widget: "string", required: false}
-      - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
-      - {label: "Social Image", name: "socialImage", widget: "image", required: false}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Tags", name: "tags", widget: "list", allow_add: true}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "project"
-    label: "Projects"
-    folder: "src/project"
-    slug: "{{slug}}"
-    preview_path: "project/{{slug}}"
-    create: true
-    fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/project-single.njk"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Url", name: "url", widget: "string"}
-      - {label: "Listing Image", name: "listingImage", widget: "image", required: false}
-      - {label: "Banner Image", name: "bannerImage", widget: "image", required: false}
-      - {label: "Short Description", name: "shortDescription", widget: "string"}
-      - {label: "SEO Meta Title", name: "metaTitle", widget: "string", required: false}
-      - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
-      - {label: "Social Image", name: "socialImage", widget: "image", required: false}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Tags", name: "tags", widget: "list", allow_add: true}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "people"
-    label: "People"
-    folder: "src/people"
-    slug: "{{slug}}"
-    preview_path: "people/{{slug}}"
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Short Description", name: "shortDescription", widget: "string"}
-      - {label: "Site Url", name: "url", widget: "string"}
   - label: "Globals"
     name: "globals"
     files:

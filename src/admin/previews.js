@@ -40,7 +40,7 @@ const Home = ({ entry }) => (
   />
 );
 
-const Article = ({ entry }) => (
+const Walk = ({ entry }) => (
   <Preview
     entry={entry}
     path="layouts/post.njk"
@@ -50,42 +50,6 @@ const Article = ({ entry }) => (
       content: markdownFilter(body || ''),
     })}
   />
-);
-
-const Journal = ({ entry }) => (
-	<Preview
-		entry={entry}
-		path="layouts/post.njk"
-		context={({ title, date, body }) => ({
-			title,
-			date,
-			content: markdownFilter(body || ''),
-		})}
-	/>
-);
-
-const Project = ({ entry }) => (
-	<Preview
-		entry={entry}
-		path="layouts/project-single.njk"
-		context={({ title, date, body }) => ({
-			title,
-			date,
-			content: markdownFilter(body || ''),
-		})}
-	/>
-);
-
-const Resume = ({ entry }) => (
-	<Preview
-		entry={entry}
-		path="layouts/resume.njk"
-		context={({ title, date, body }) => ({
-			title,
-			date,
-			content: markdownFilter(body || ''),
-		})}
-	/>
 );
 
 const Page = ({ entry }) => (
@@ -126,10 +90,7 @@ const Nav = ({ entry }) => (
 );
 
 CMS.registerPreviewTemplate('home', Home);
-CMS.registerPreviewTemplate('articles', Article);
-CMS.registerPreviewTemplate('journal', Journal);
-CMS.registerPreviewTemplate('project', Project);
-CMS.registerPreviewTemplate('resume', Resume);
+CMS.registerPreviewTemplate('walks', Walk);
 CMS.registerPreviewTemplate('generic_pages', Page);
 CMS.registerPreviewTemplate('site_data', SiteData);
 CMS.registerPreviewTemplate('nav', Nav);

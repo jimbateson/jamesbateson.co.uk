@@ -69,44 +69,6 @@ module.exports = function(config) {
   	const now = new Date();
 
 	// Custom collections
-	const liveArticles = post => post.date <= now && !post.data.draft;
-	config.addCollection('articles', collection => {
-	return [
-		...collection.getFilteredByGlob('./src/articles/*.md').filter(liveArticles)
-	].reverse();
-	});
-
-	const liveJournal = journal => journal.date <= now && !journal.data.draft;
-	config.addCollection('journal', collection => {
-		return [
-			...collection.getFilteredByGlob('./src/journal/*.md').filter(liveJournal)
-		].reverse();
-	});
-
-	config.addCollection('postFeed', collection => {
-		return [
-			...collection.getFilteredByGlob('./src/articles/*.md').filter(liveArticles)
-		].reverse().slice(0, site.maxPostsPerPage);
-	});
-
-	config.addCollection('journalFeed', collection => {
-		return [
-			...collection.getFilteredByGlob('./src/journal/*.md').filter(liveJournal)
-		].reverse().slice(0, site.maxPostsPerPage);
-	});
-
-	const liveProject = project => project.date <= now && !project.data.draft;
-	config.addCollection('projects', collection => {
-		return [
-			...collection.getFilteredByGlob('./src/project/*.md').filter(liveProject)
-		].reverse();
-	});
-
-	config.addCollection('people', collection => {
-		return [
-			...collection.getFilteredByGlob('./src/people/*.md')
-		].reverse();
-	});
 
 	// Plugins
 	config.addPlugin(rssPlugin);

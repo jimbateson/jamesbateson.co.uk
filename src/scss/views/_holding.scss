@@ -1,0 +1,16 @@
+main {
+    align-items: center;
+    color: var(--color-light);
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+
+    h1 {
+        letter-spacing: 1px;
+    }
+
+    > div {
+        padding: 0 var(--flow-space);
+        max-width: 685px;
+    }
+}

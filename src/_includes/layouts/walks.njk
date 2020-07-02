@@ -1,16 +1,16 @@
 {% extends 'layouts/base.njk' %}
-{% set pageType = 'Article Archive' %}
+{% set pageType = 'Walks Archive' %}
 
 {# Intro content #}
 {% set introHeading = title %}
 {% set introSummary %}{{ content | safe }}{% endset %}
 
 {# Post list content #}
-{% set postListItems = collections.articles %}
+{# {% set postListItems = collections.walks %}
 
 {% block content %}
   <main id="main-content" tabindex="-1">
     {% include "partials/components/intro.njk" %}
-    {% include "partials/components/article-list.njk" %}
+    {% include "partials/components/walks-list.njk" %}
   </main>
-{% endblock %}
+{% endblock %} #}
