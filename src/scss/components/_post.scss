@@ -5,7 +5,7 @@
         > p:first-of-type:not(.post-note) {
             @include apply-utility('font', 'heading');
             font-size: get-size(600);
-            font-weight: 500;
+            font-weight: 600;
         }
 
         /**
@@ -39,6 +39,7 @@
             background-color: var(--color-light);
             border: 1px dashed #ccc;
             color: var(--color-theme-primary);
+            font-weight: 600;
             padding: .2rem .5rem;
             white-space: pre;
         }
@@ -129,6 +130,7 @@
         pre > code {
             display: block;
             font-size: get-size(500);
+            font-weight: 400;
             margin: 0 auto;
             max-width: map-get($metrics, 'wrap-max-width');
             padding: get-size(700);
