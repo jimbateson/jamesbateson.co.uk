@@ -2,14 +2,14 @@
 layout: layouts/post.njk
 title: Building a simple todo app with Vue.js
 metaTitle: Building a simple todo app with Vue.js
-metaDesc: How to build a simpale todo app with Vue.js
-socialImage: /images/social-share.jpg
+metaDesc: Using Vue.js to lay the foundations for a simple todo app
+socialImage: /images/social-share-default.jpg
 date: 2020-06-09T17:53:07.158Z
 tags:
   - JS
   - Vue.js
 ---
- Over the last few weeks, I’ve started to [learn Vue.js](https://frontendmasters.com/learn/vue/), a progressive JavaScript framework. Alongside working through the Frontend Masters course, I decided to try and rebuild my very basic todo app functionality with it.
+Over the last few weeks, I’ve started to [learn Vue.js](https://frontendmasters.com/learn/vue/), a progressive JavaScript framework. Alongside working through the Frontend Masters course, I decided to try and rebuild my very basic todo app functionality with it.
 
 My app (Today) is a simple todo app - often a go-to build when starting to learn a new language. I'd started to build it using vanilla JavaScript and Electron. Whilst getting my head around Vue I realised that my core functionality needs would be suited to using Vue for, also some of my JavaScript had started to get a little unwieldy!
 
@@ -147,6 +147,7 @@ There are a couple of bits of functionality I'd like to add at some point:
 * Don't let a user add duplicate todos
 * Sorting options (priority etc)
 * Warnings for stale todos
+* Some nice keyboard shortcuts. As suggested by my awesome colleague [Chris](https://github.com/ithinkandicode). For example quickly adding lots of todos, and pinning a todo 
 
 <h2>Hey! I also made this</h2>
 
