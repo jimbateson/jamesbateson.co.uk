@@ -5,6 +5,9 @@ url: https://jatalieheights.co.uk/
 listingImage: /images/jatalie-heights-listing.jpeg
 bannerImage: /images/jatalie-heights-banner.jpg
 shortDescription: A less than regular personal walking blog.
+metaTitle: Jatalie Heights
+metaDesc: A less than regular personal walking blog.
+socialImage: /images/social-share-default.jpg
 date: 2020-05-18T19:18:09.907Z
 tags:
   - Walking
@@ -13,6 +16,8 @@ tags:
   - Side Project
 ---
 As mentioned on my [about page](/about/), Iʼm a keen walker, and love to get up to The Lakes. This project is somewhere I can document these walks, and reflect on enjoying the great outdoors.
+
+<p class="post-note"><strong>Update</strong>This project will eventually be replaced by <a href="https://walks.jamesbateson.co.uk/">https://walks.jamesbateson.co.uk/</a>. Updates coming soon!</p>
 
 ## Project Background
 
