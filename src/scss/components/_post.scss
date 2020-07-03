@@ -161,6 +161,16 @@
                 margin-bottom: 10px;
                 padding-bottom: 10px;
             }
+
+            a {
+                color: var(--color-light);
+
+                &:hover,
+                &:focus {
+                    color: var(--color-light);
+                    text-decoration: underline;
+                }
+            }
         }
 
         // post__body--resume
