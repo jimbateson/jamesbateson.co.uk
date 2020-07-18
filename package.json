@@ -1,6 +1,6 @@
 {
 	"name": "jamesbateson.co.uk",
-	"version": "2.0.0",
+	"version": "2.1.0",
 	"description": "Personal website of James Bateson",
 	"main": "index.js",
 	"dependencies": {
@@ -44,7 +44,7 @@
 		"url": "https://github.com/jimbateson/jamesbateson.co.uk"
 	},
 	"keywords": [],
-	"author": "",
+	"author": "James Bateson",
 	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/jimbateson/jamesbateson.co.uk/issues"
