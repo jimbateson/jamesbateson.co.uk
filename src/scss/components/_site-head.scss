@@ -13,7 +13,7 @@
 }
 
 .site-logo {
-    fill: var(--color-dark);
+    fill: var(--color-text);
     transition: fill .3s;
     width: 60px;
 
@@ -33,7 +33,17 @@
     .site-head__inner {
         align-items: center;
         display: flex;
-        justify-content: space-between;
+
+		// Outputs: .site-head__inner--right
+		&--right {
+			align-items: center;
+			display: flex;
+			margin-left: auto;
+
+			> * + * {
+				margin-left: 2em;
+			}
+		}
     }
 
     .site-logo {

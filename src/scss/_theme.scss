@@ -1,11 +1,14 @@
 :root {
+	color-scheme: light dark;
+
     // Pull the tokens and generate custom props
     @each $color in $stalfos-colors {
         #{'--color-' + nth($color, 1)}: #{nth($color, 2)};
     }
 
-    // Set theme aliases
-    --color-bg: #{get-color('light')};
+	// Set theme aliases
+	--color-mode: 'light';
+    --color-bg: #{get-color('grey-light')};
     --color-text: #{get-color('dark')};
     --color-selection-text: #{get-color('light')};
     --color-selection-bg: #{get-color('dark')};
@@ -13,12 +16,29 @@
     --color-action-bg: #{get-color('primary')};
     --color-action-text: #{get-color('light')};
     --color-theme-primary: #{get-color('primary')};
-    --color-theme-primary-glare: #{get-color('primary-glare')};
+	--color-theme-primary-glare: #{get-color('primary-glare')};
+	--color-intro-bg: #{get-color('grey-alt')};
 
     --color-light: #{get-color('light')};
     --color-grey-light: #{get-color('grey-light')};
     --color-grey-med: #e9e9e9;
     --color-accent: #{get-color('accent')};
+}
+
+@include dark-mode() {
+	--color-bg: #{get-color('dark')};
+	--color-bg-glare: #{get-color('dark')};
+	--color-text: #{get-color('light')};
+	--color-selection-text: #{get-color('dark')};
+	--color-selection-bg: #{get-color('light')};
+	--color-stroke: #{get-color('dark')};
+	--color-theme-primary-glare: #{lighten(get-color('primary-glare'), 50%)};
+	--color-action-bg: var(--color-theme-primary-glare);
+	--color-action-text: #{get-color('dark')};
+	--color-theme-highlight: #{get-color('accent')};
+	--color-theme-highlight-block: #{get-color('dark')};
+	--color-theme-feature-text: #{get-color('accent')};
+	--color-intro-bg: #141118;
 }
 
 body {

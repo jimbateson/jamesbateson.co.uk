@@ -19,36 +19,6 @@ module.exports = function(config) {
 	config.addFilter('dateFilter', dateFilter);
 	config.addFilter('markdownFilter', markdownFilter);
 	config.addFilter('w3DateFilter', w3DateFilter);
-	config.addFilter('avatarObject', function(username) {
-		return {
-			src: `https://twitter.com/${username}/profile_image?size=bigger`,
-			alt: `${username}’s Avatar`,
-			class: 'z-avatar',
-			loading: 'lazy',
-			width: 48,
-			height: 48
-		}
-	});
-
-	config.addNunjucksAsyncShortcode("img", async function(src, alt, outputFormat = "jpeg") {
-		// returns Promise
-		let stats = await Image(src, {
-		  formats: [outputFormat],
-		  // This uses the original image width
-		  widths: [null]
-		  // widths: [200] // output 200px maxwidth
-		  // widths: [200, null] // output 200px and original width
-		});
-	
-		let props = stats[outputFormat].pop();
-	
-		if(alt === undefined) {
-		  // You bet we throw an error on missing alt (alt="" works okay)
-		  throw new Error(`Missing \`alt\` on myImage from: ${src}`);
-		}
-	
-		return `<img src="${props.src}" width="${props.width}" height="${props.height}" alt="${alt}">`;
-	  });
 
 	// Layout aliases
 	config.addLayoutAlias('home', 'layouts/home.njk');
