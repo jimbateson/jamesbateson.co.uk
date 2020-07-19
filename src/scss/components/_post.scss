@@ -6,7 +6,21 @@
             @include apply-utility('font', 'heading');
             font-size: get-size(600);
             font-weight: 600;
-        }
+		}
+
+		[data-user-color-scheme='dark'] & {
+			p,
+			li {
+				font-weight: 600;
+			}
+
+			a:not([class]) {
+				&:hover,
+				&:focus {
+					color: var(--color-light);
+				}
+			}
+		}
 
         /**
         * Generic HTML styles
@@ -24,7 +38,7 @@
 
         a:not([class]) {
             @include apply-utility('leading', 'tight');
-            color: var(--color-accent);
+            color: var(--color-theme-primary);
             text-decoration-color: var(--color-theme-primary);
             text-decoration-thickness: 2px;
             transition: color .35s ease;
@@ -52,7 +66,8 @@
         blockquote {
             background-color: var(--color-light);
             border: 1px dashed #ccc;
-            border-left: .4rem solid var(--color-theme-primary);
+			border-left: .4rem solid var(--color-theme-primary);
+			color: var(--color-dark);
             margin-left: 0;
             padding-left: get-size(500);
             font-size: get-size(600);
@@ -203,7 +218,7 @@
     }
 
     &__footer {
-        background-color: var(--color-light);
+        background-color: var(--color-action-text);
         line-height: 1.4;
 
         h2 {
@@ -221,7 +236,7 @@
 
         a {
             align-items: flex-start;
-            background: var(--color-grey-light);
+            background: var(--intro-bg);
             border: 1px dashed #ccc;
             box-sizing: border-box;
             display: flex;
@@ -232,7 +247,7 @@
             &:hover,
             &:focus {
                 background-color: var(--color-theme-primary);
-                color: var(--color-light);
+                color: var(--color-text);
                 text-decoration: none;
             }
         }
