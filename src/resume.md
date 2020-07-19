@@ -5,7 +5,7 @@ bannerSummary: Passionate, hard-working, reliable & keen to learn.
 ---
 ## Professional Experience
 
-### Front-End Developer for ![alt](/images/avatars/twitter/34f7590a-90.webp)[Fat Media](https://www.fatmedia.co.uk/)
+### Front-End Developer for ![Fat Media logo](/images/avatars/twitter/34f7590a-90.webp)[Fat Media](https://www.fatmedia.co.uk/)
 
 #### September 2013 - Present
 ##### Lancaster, UK
@@ -35,7 +35,7 @@ bannerSummary: Passionate, hard-working, reliable & keen to learn.
 
 ## Educational Experience
 
-### Multimedia Technology at Leeds Metropolitan University
+### Multimedia Technology at ![Leeds Bekett logo](/images/avatars/twitter/b5feb6c-90.webp) Leeds Metropolitan University
 
 #### September 2009 - June 2012
 ##### Leeds, UK
