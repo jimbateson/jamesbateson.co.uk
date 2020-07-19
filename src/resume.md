@@ -5,7 +5,7 @@ bannerSummary: Passionate, hard-working, reliable & keen to learn.
 ---
 ## Professional Experience
 
-### Front-End Developer for [Fat Media](https://www.fatmedia.co.uk/)
+### Front-End Developer for ![alt](/images/avatars/twitter/34f7590a-90.webp)[Fat Media](https://www.fatmedia.co.uk/)
 
 #### September 2013 - Present
 ##### Lancaster, UK
