@@ -18,6 +18,7 @@
 	"devDependencies": {
 		"chokidar-cli": "^2.1.0",
 		"cross-env": "7.0.2",
+		"fast-glob": "^3.2.4",
 		"make-dir-cli": "^2.0.0",
 		"prettier": "^2.0.5",
 		"rollup": "^2.21.0",
@@ -28,13 +29,15 @@
 		"sass": "^1.26.10",
 		"stylelint": "^13.6.1",
 		"stylelint-a11y": "^1.2.1",
-		"stylelint-order": "^4.1.0"
+		"stylelint-order": "^4.1.0",
+		"twitter-avatar-url": "^1.0.2"
 	},
 	"scripts": {
 		"sass:tokens": "npx json-to-scss src/_data/tokens.json src/scss/_tokens.scss",
 		"sass:process": "npm run sass:tokens && sass src/scss/global.scss src/_includes/assets/css/global.css --style=compressed",
 		"cms:precompile": "make-dir dist/admin && nunjucks-precompile src/_includes > dist/admin/templates.js -i '\\.(njk|css|svg)$'",
 		"cms:bundle": "rollup --config",
+		"avatars": "node node-avatars-twitter.js",
 		"start": "concurrently 'npm run sass:process -- --watch' 'npm run cms:bundle -- --watch' 'chokidar \"src/_includes/**\" -c \"npm run cms:precompile\"' 'npm run serve'",
 		"serve": "cross-env ELEVENTY_ENV=development npx eleventy --serve",
 		"production": "npm run sass:process && npm run cms:precompile && npm run cms:bundle && npx eleventy"
