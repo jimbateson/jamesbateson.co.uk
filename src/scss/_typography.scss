@@ -75,6 +75,14 @@ h3 {
     font-size: get-size(500);
 }
 
+.font-serif {
+	@include apply-utility('font', 'heading');
+}
+
+.font-base {
+	@include apply-utility('font', 'base');
+}
+
 @include media-query('md') {
     h1 {
         font-size: get-size(900);
