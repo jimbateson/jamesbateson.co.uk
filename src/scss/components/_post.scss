@@ -9,6 +9,10 @@
 		}
 
 		[data-user-color-scheme='dark'] & {
+			> p:first-of-type:not(.post-note) {
+				font-weight: 500;
+			}
+
 			p,
 			li {
 				font-weight: 600;
