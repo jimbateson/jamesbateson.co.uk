@@ -9,4 +9,4 @@ tags:
   - Performance
   - Accessibility
 ---
-Speedlify is a tools from
+Speedlify is a tool from Zach Leatherman
