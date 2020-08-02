@@ -4,7 +4,7 @@ title: Monitoring site performance with Speedlify
 metaTitle: James Bateson | Monitoring site performance with Speedlify
 metaDesc: Setting up a personal instance of Speedlify to monitor site performance
 socialImage: /images/social-share-default.jpg
-date: 2020-08-02T06:27:42.248Z
+date: 2020-08-02T06:43:11.825Z
 tags:
   - Performance
   - Accessibility
