@@ -10,7 +10,7 @@ tags:
   - Accessibility
 ---
 
- PrettySpeedlify is a [tool from Zach Leatherman](https://www.speedlify.dev/) that uses Google Lighthouse to benchmark web pages over time. After all, if you spend so much time making your site fast and accessible, let’s keep it that way!
+Speedlify is a [tool from Zach Leatherman](https://www.speedlify.dev/) that uses Google Lighthouse to benchmark web pages over time. After all, if you spend so much time making your site fast and accessible, let’s keep it that way!
 
 In this article, I will document how I created a personal instance of Speedlify to help monitor performance measurements on this site.
 
