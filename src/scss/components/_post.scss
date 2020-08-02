@@ -170,7 +170,7 @@
             border-radius: 10px;
             color: var(--color-light);
             padding: var(--flow-space);
-            margin: 0;
+			margin: 0;
 
             strong {
                 @include apply-utility('font', 'heading');
@@ -189,7 +189,17 @@
                     color: var(--color-light);
                     text-decoration: underline;
                 }
-            }
+			}
+
+			// Outputs: post-note--update
+			&--update {
+				background-color: var(--color-intro-bg);
+				color: var(--color-text);
+
+				strong {
+					font-size: get-size(700);
+				}
+			}
         }
 
         // post__body--resume
