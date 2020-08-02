@@ -9,7 +9,6 @@ tags:
   - Performance
   - Accessibility
 ---
-
 Speedlify is a [tool from Zach Leatherman](https://www.speedlify.dev/) that uses Google Lighthouse to benchmark web pages over time. After all, if you spend so much time making your site fast and accessible, let’s keep it that way!
 
 In this article, I will document how I created a personal instance of Speedlify to help monitor performance measurements on this site.
@@ -46,6 +45,8 @@ npm run start
 
 Now it's time to check the results. `npm start` will run `eleventy --serve` and give you a local url. Go to this address and you should now see your Speedlify instance :tada:. Under the "Choose a category" heading should be a list of each of the sites you set up (each JS file in _data/sites). You can then click into each of these to see the leaderboard and dig into the results of each page. It's nice to have an overview like this to get an idea of the numbers behind all of your page types in one place.
 
+![James Bateson Speedlify instance leaderboard](/images/frame_generic_dark.png)
+
 ## Publishing
 
 Now we have our Speedlify instance and have our data showing, we can publish this to the Netlify site we have setup. As it's linked to the repo we created just commit all the changes we have made to the repo and Netlify will handle the rest. You can watch your deploy log to make sure everything is running smoothly, and then once the publish has done, visit your url! [Here's my example](https://james-bateson-speedlify.netlify.app/).
@@ -75,4 +76,3 @@ In all honesty, this will more likely be useful for sites where content is getti
 ## Wrapping up
 
 I hope this guide will prove useful to anyone getting started will Speedlify. It's a great tool to have in your workflow when thinking about keeping a site fast and performant once it's built and live. Something that can be forgotten once you're adding content and making changes.
-
