@@ -9,7 +9,7 @@ tags:
   - Today
   - Side Project
 ---
-Over the past few months, I've been chipping away at working towards a release of my first desktop app–Today. Yesterday the [first release was pushed](https://github.com/jimbateson/today/releases/tag/v0.0.1).
+Over the past few months, I’ve been chipping away at working towards a release of my first desktop app–Today. Yesterday the [first release was pushed](https://github.com/jimbateson/today/releases/tag/v0.0.1).
 
 Today is the super simple todo app that nobody asked for or needs. It has, however, been a great intro to Electron and practical use for my Vue.js learning.
 
