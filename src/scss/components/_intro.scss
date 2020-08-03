@@ -51,10 +51,11 @@
 
     &__image {
         &--rounded {
-            border: 8px solid var(--color-theme-primary);
+            border: 6px solid var(--color-theme-primary);
             border-radius: 50%;
-            height: 175px;
-            width: 175px;
+			height: 220px;
+			margin-top: 3rem;
+            width: 220px;
         }
     }
 
@@ -107,7 +108,13 @@
                 margin-top: 0;
                 margin-left: 1rem;
             }
-        }
+		}
+
+		&__image {
+			&--rounded {
+				margin-top: 0;
+			}
+		}
     }
 
     .intro__flex .wrapper {
