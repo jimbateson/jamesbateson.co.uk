@@ -196,8 +196,28 @@
 				background-color: var(--color-intro-bg);
 				color: var(--color-text);
 
+				h3 a {
+					display: none;
+				}
+
 				strong {
+					border-color: var(--color-text);
 					font-size: get-size(700);
+				}
+
+				a {
+					color: var(--color-text);
+					text-decoration: none;
+
+					&:hover,
+					&:focus {
+						color: var(--color-text);
+						text-decoration: underline;
+					}
+				}
+
+				code {
+					white-space: break-spaces;
 				}
 			}
         }
