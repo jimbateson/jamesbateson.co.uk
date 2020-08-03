@@ -73,6 +73,38 @@ I still need to work out how to achieve this, so I'll update this post once I ha
 
 In all honesty, this will more likely be useful for sites where content is getting updated quite regularly (although watch your build minutes here if your on the free tier you get 300 a month), monitoring performance a few times a week may be beneficial if you're publishing quite a lot of new content/constantly making changes. For this site, I'll probably set it to run once a week, then publish it to my Speedlify site if the results have changed.
 
+<div class="post-note post-note--update">
+<h3><strong>Update</strong></h3>
+<p>After quite a bit of searching around, I have got an automation workflow that I am pretty happy with. Whilst on the Netlify community forum looking over a thread with people looking to do similar things with their sites, I stumbled across <a href="https://ericjinks.com/blog/2019/netlify-scheduled-build/">this article</a>.</p><br>
+<p>It turns out that using Netlify's build hooks and a scheduled Github action is easy to get set up and effective! Here are the steps you'll need to take:</p><br>
+<ol>
+<li>Setup a Netlify build hook - In your site settings, find the Build & deploy nav item and inside that section, you'll see a Build Hooks panel. Create a new sensibly-named hook here and you should be given a url which includes your unique token at the end, copy just the token id to your clipboard.</li>
+<li>Now go to your Github repo for this project. Find the settings tab and then Secrets in the left-hand nav. Add a new secret and give it a suitable name. I called mine "NETLIFY_SPEEDLIFY_BUILD_WEEKLY". In the value, copy in your token id from the build hook. Here we are ensuring that we won't have to check in our build hook id to a public repo. Only with the right auth (your login) can someone see your secret tokens.</li>
+<li>Our next step is to create our Github action, buy creating a workflow. In your text editor create a <code>.github/workflows</code> directory and inside there a <code>.yml</code> config file. This is where you set up what the action should do and when.
+
+```
+name: Scheduled build
+on:
+  schedule:
+    - cron: '0 9 * * 1'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Trigger our build webhook on Netlify
+      env:
+        TOKEN: ${{ secrets.NETLIFY_SPEEDLIFY_BUILD_WEEKLY }}
+      run: curl -X POST -d {} https://api.netlify.com/build_hooks/${TOKEN}
+```
+
+Here you can see all the things we have set up in the previous steps coming together. We're using the secret token key we created in Github in the POST request we run on our Netlify site. You can get this url by going back to the Netlify build hook you set up earlier and clicking on the little chevron, it'll reveal a handy POST request url. copy this to your clipboard. It should look something like: <code>curl -X POST -d {} https://api.netlify.com/build_hooks/your-unique-token</code>. The only strange bit of syntax here is the cron schedule. In my setup above my build will be triggered at 9 am every Monday.</li>
+</ol><br>
+
+<h4>Useful Links</h4><br><ul><li>Great article on the same setup as I have described - <a href="https://ericjinks.com/blog/2019/netlify-scheduled-build/">https://ericjinks.com/blog/2019/netlify-scheduled-build/</a></li><li>Another article with a similar setup - <a href="https://www.voorhoede.nl/en/blog/scheduling-netlify-deploys-with-github-actions/#github-actions">https://www.voorhoede.nl/en/blog/scheduling-netlify-deploys-with-github-actions/#github-actions</a></li><li>Super handy visual cron syntax helper - <a href="https://crontab.guru/">https://crontab.guru/</a></li><li>Github actions documentation - <a href="https://docs.github.com/en/actions">https://docs.github.com/en/actions</a></li></ul>
+</div>
+
+The above is just me jotting all this down whilst it's fresh in my mind. I'll tidy this into some clearer instructions with supporting screenshots in a separate article, as I think this is a really cool workflow to have available.
+
 ## Wrapping up
 
 I hope this guide will prove useful to anyone getting started will Speedlify. It's a great tool to have in your workflow when thinking about keeping a site fast and performant once it's built and live. Something that can be forgotten once you're adding content and making changes.
