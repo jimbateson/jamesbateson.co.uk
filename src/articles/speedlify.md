@@ -35,7 +35,7 @@ Once your basic settings are sorted, it's then a case of listing the urls you wa
 
 So now we have our config setup, it's time to run Speedlify against this. As per the readme, the three commands we'll want are:
 
-```
+```javascript
 npm install
 npm run test-pages
 npm run start
