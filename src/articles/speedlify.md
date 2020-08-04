@@ -75,7 +75,7 @@ In all honesty, this will more likely be useful for sites where content is getti
 
 <div class="post-note post-note--update"><h3><strong>Update</strong></h3><p>After quite a bit of searching around, I have got an automation workflow that I am pretty happy with. Whilst on the Netlify community forum looking over a thread with people looking to do similar things with their sites, I stumbled across <a href="https://ericjinks.com/blog/2019/netlify-scheduled-build/">this article</a>.</p><br><p>It turns out that using Netlify's build hooks and a scheduled Github action is easy to get set up and effective! Here are the steps you'll need to take:</p><br><ol><li>Setup a Netlify build hook - In your site settings, find the Build & deploy nav item and inside that section, you'll see a Build Hooks panel. Create a new sensibly-named hook here and you should be given a url which includes your unique token at the end, copy just the token id to your clipboard.</li><li>Now go to your Github repo for this project. Find the settings tab and then Secrets in the left-hand nav. Add a new secret and give it a suitable name. I called mine "NETLIFY_SPEEDLIFY_BUILD_WEEKLY". In the value, copy in your token id from the build hook. Here we are ensuring that we won't have to check in our build hook id to a public repo. Only with the right auth (your login) can someone see your secret tokens.</li><li>Our next step is to create our Github action, buy creating a workflow. In your text editor create a <code>.github/workflows</code> directory and inside there a <code>.yml</code> config file. This is where you set up what the action should do and when.
 
-```
+```yaml
 name: Scheduled build
 on:
   schedule:
