@@ -86,7 +86,7 @@ jobs:
     steps:
     - name: Trigger our build webhook on Netlify
       env:
-        TOKEN: $//{{ secrets.NETLIFY_SPEEDLIFY_BUILD_WEEKLY //}}
+        TOKEN: "${{ secrets.NETLIFY_SPEEDLIFY_BUILD_WEEKLY }}"
       run: curl -X POST -d {} https://api.netlify.com/build_hooks/${TOKEN}
 ```
 
