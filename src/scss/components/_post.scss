@@ -42,14 +42,14 @@
 
         a:not([class]) {
             @include apply-utility('leading', 'tight');
-            color: var(--color-theme-primary);
-            text-decoration-color: var(--color-theme-primary);
+            color: var(--color-link-text);
+            text-decoration-color: var(--color-link-text);
             text-decoration-thickness: 2px;
             transition: color .35s ease;
         }
 
         a:not([class]):hover {
-            color: var(--color-theme-primary);
+            color: var(--color-text);
         }
 
         code,
@@ -172,6 +172,17 @@
             padding: var(--flow-space);
 			margin: 0;
 
+			&:not(.post-note--update) {
+				a {
+					color: currentColor;
+
+					&:hover,
+					&:focus {
+						color: var(--color-accent-alt);
+					}
+				}
+			}
+
             strong {
                 @include apply-utility('font', 'heading');
                 border-bottom: 1px solid rgba(255, 255, 255, .25);
@@ -180,16 +191,6 @@
                 margin-bottom: 10px;
                 padding-bottom: 10px;
             }
-
-            a {
-                color: var(--color-light);
-
-                &:hover,
-                &:focus {
-                    color: var(--color-light);
-                    text-decoration: underline;
-                }
-			}
 
 			// Outputs: post-note--update
 			&--update {
@@ -203,17 +204,6 @@
 				strong {
 					border-color: var(--color-text);
 					font-size: get-size(700);
-				}
-
-				a {
-					color: var(--color-text);
-					text-decoration: none;
-
-					&:hover,
-					&:focus {
-						color: var(--color-text);
-						text-decoration: underline;
-					}
 				}
 
 				code {

@@ -70,13 +70,13 @@ hr {
 // Links
 
 a:not([class]) {
-    color: currentColor;
+    color: var(--color-link-text);
     text-decoration: underline;
-    text-decoration-color: var(--color-theme-primary);
+    text-decoration-color: var(--color-link-text);
 
     &:hover,
     &:focus {
-        color: var(--color-theme-primary);
+        color: var(--color-text);
     }
 }
 

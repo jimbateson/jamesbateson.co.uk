@@ -9,7 +9,8 @@
 	// Set theme aliases
 	--color-mode: 'light';
     --color-bg: #{get-color('grey-light')};
-    --color-text: #{get-color('dark')};
+	--color-text: #{get-color('dark')};
+	--color-link-text: #{get-color('primary')};
     --color-selection-text: #{get-color('light')};
     --color-selection-bg: #{get-color('dark')};
     --color-stroke: #{get-color('mid')};
@@ -20,7 +21,7 @@
 	--color-intro-bg: #{get-color('grey-alt')};
     --color-light: #{get-color('light')};
     --color-grey-light: #{get-color('grey-light')};
-    --color-grey-med: #e9e9e9;
+    --color-grey-med: #{get-color('grey-med')};
     --color-accent: #{get-color('accent')};
 }
 
@@ -28,6 +29,7 @@
 	--color-bg: #{get-color('dark')};
 	--color-bg-glare: #{get-color('dark')};
 	--color-text: #{get-color('light')};
+	--color-link-text: #{get-color('accent-alt')};
 	--color-selection-text: #{get-color('dark')};
 	--color-selection-bg: #{get-color('light')};
 	--color-stroke: #{get-color('dark')};
