@@ -11,16 +11,16 @@
     // Outputs: .site-foot__credit
     &__credit {
 		color: var(--color-light);
-        text-align: center;
+		text-align: center;
 
-        a {
-            color: currentColor;
-            transition: color .3s;
+		a {
+			color: currentColor;
 
-            &:hover {
-                color: var(--color-theme-primary);
-            }
-        }
+			&:hover,
+			&:focus {
+				color: var(--color-link-text);
+			}
+		}
     }
 
     // Outputs: .site-foot__details
