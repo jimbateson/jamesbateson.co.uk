@@ -19,9 +19,7 @@
 
         &.active {
             a {
-                &:after {
-                    width: 50%;
-                }
+                background-size: 50% 2px;
             }
         }
 
