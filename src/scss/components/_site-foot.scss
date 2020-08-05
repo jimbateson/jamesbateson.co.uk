@@ -10,17 +10,8 @@
 
     // Outputs: .site-foot__credit
     &__credit {
-		color: var(--color-light);
-        text-align: center;
-
-        a {
-            color: currentColor;
-            transition: color .3s;
-
-            &:hover {
-                color: var(--color-theme-primary);
-            }
-        }
+		color: var(--color-text);
+		text-align: center;
     }
 
     // Outputs: .site-foot__details

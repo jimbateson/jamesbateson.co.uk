@@ -107,7 +107,7 @@
 @media screen and (min-width: 1280px) {
     .project-list__item {
         box-shadow: 3px 3px 0 rgba(0, 0, 0, .1);
-        
+
         > a {
             &:before {
                 opacity: 0;
@@ -153,7 +153,7 @@
         span {
             opacity: 0;
             transition: opacity .35s, transform .35s;
-            transition: visibility 0s linear .2s,opacity .2s cubic-bezier(.365,.005,.355,1);
+            transition: visibility 0s linear .2s,opacity .2s cubic-bezier(.365, .005, .355, 1);
             visibility: hidden;
             will-change: opacity;
         }
@@ -166,7 +166,7 @@
             background-color: transparent;
         }
     }
-    
+
     .project-single__body {
         > *:not(pre) {
             padding-right: 9.5rem;
