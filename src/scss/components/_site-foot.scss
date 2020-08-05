@@ -10,8 +10,17 @@
 
     // Outputs: .site-foot__credit
     &__credit {
-		color: var(--color-text);
+		color: var(--color-light);
 		text-align: center;
+
+		a {
+			color: currentColor;
+
+			&:hover,
+			&:focus {
+				color: var(--color-link-text);
+			}
+		}
     }
 
     // Outputs: .site-foot__details
