@@ -4,7 +4,7 @@ title: Today
 url: https://github.com/jimbateson/today/releases
 listingImage: /images/today-listing.jpg
 shortDescription: The simple todo app that nobody asked for or needed. Built
-  with Electron and Vue.js
+  with Electron and Vue.
 metaTitle: James Bateson | Today
 metaDesc: Today - the simple todo app that nobody asked for or needed
 socialImage: /images/social-share-default.jpg
