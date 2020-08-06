@@ -17,7 +17,6 @@ tags:
 ---
 Love them or hate them, a todo app is a great way to learn a new technology. That's why they are used in a fair few getting started tutorials - and that's exactly where Today started.
 
-
 ## Learning with todos
 
 Firstly there are endless todo apps and examples out there, and I am in no way claiming this is better than any of those. This was just a project that I was using the learn a couple of new technologies, and has turned into actually releasing and using it.
@@ -30,7 +29,10 @@ However, there were a few things I wanted to change, for example moving the addi
 
 ## So what does it do?
 
-In its current state Today is _very_ simple. It has four main actions:
+![Today UI display a couple of todos, one of which is completed](/images/today-shot.png)
+
+In its current state Today is *very* simple. It has four main actions:
+
 * List todos
 * Create a new todo
 * Complete a todo
@@ -44,7 +46,7 @@ To read and write with this file I used a module from Sindre Sorhus called [Elec
 
 This then allowed me to create a data sources (JSON) file
 
-``` javascript
+```javascript
 const Store = require('electron-store');
 const dataStore = new Store({
     name: 'today-todos'
@@ -53,7 +55,7 @@ const dataStore = new Store({
 
 This allows me to then set my Vue data as this JSON file
 
-``` javascript
+```javascript
 data() { 
     return {
 	    todos: dataStore.get('todos') || [],
@@ -63,7 +65,7 @@ data() {
 
 You maybe be wondering where `get('todos')` comes from. This I am setting in my `updateTodos` method.
 
-``` javascript
+```javascript
 updateTodos() {
     dataStore.set('todos', this.todos);
 }
@@ -85,8 +87,6 @@ It was a great learning expereince and I picked up a few handy Github/semnatic v
 
 This first release is just the start for Today. It's been so exciting and rewarding to actually use an app that I have built and I'd like to take the app further and make it something really useful for myself and others.
 
-I have started using my Github issues for the project as a place to put ideas before I forget them. A few of these are also from collegues who have tried the app out!
+I have started using my [Github issues](https://github.com/jimbateson/today/issues) for the project as a place to put ideas before I forget them. A few of these are also from collegues who have tried the app out!
 
 As I add these features/fix any bugs I'll be trying to do some more regular releases.
-
-
