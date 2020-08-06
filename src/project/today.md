@@ -15,7 +15,7 @@ tags:
   - Side Project
   - Desktop App
 ---
-Love them or hate them, a todo app is a great way to learn a new technology or language. That's why they are used in a fair few getting started tutorials - and that's exactly where Today started.
+Love them or hate them, a todo app is a great way to learn a new technology or language. Thatʼs why they are used in a fair few getting started tutorials - and this was the starting point for Today.
 
 ## Learning with todos
 
