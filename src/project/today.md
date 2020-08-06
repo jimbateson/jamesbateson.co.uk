@@ -41,3 +41,52 @@ The todos are read and written to a JSON file stored in the users file system al
 To read and write with this file I used a module from Sindre Sorhus called [Electron Store](https://github.com/sindresorhus/electron-store).
 
 > Electron doesn't have a built-in way to persist user preferences and other data. This module handles that for you, so you can focus on building your app.
+
+This then allowed me to create a data sources (JSON) file
+
+``` javascript
+const Store = require('electron-store');
+const dataStore = new Store({
+    name: 'today-todos'
+});
+```
+
+This allows me to then set my Vue data as this JSON file
+
+``` javascript
+data() { 
+    return {
+	    todos: dataStore.get('todos') || [],
+    }
+},
+```
+
+You maybe be wondering where `get('todos')` comes from. This I am setting in my `updateTodos` method.
+
+``` javascript
+updateTodos() {
+    dataStore.set('todos', this.todos);
+}
+```
+
+Then whenever a todo is added/removed/completed it calls this method.
+
+I'll be explaining this further in a more detailed article/tutorial currently in draft.
+
+## Distributing
+
+Probably the steepest learning curve of this project was how to package up and distribute the app once I had got it into a useable state. I decided to use [Electron Forge](https://www.electronforge.io/) for this.
+
+There was a lot to get my head around here. Setting up configs for the different `makers` (to distribute on multiple platforms), setting up the various icon formats and then using Githubs release process ensuring that I extracted only the file the end user would need to install the app.
+
+It was a great learning expereince and I picked up a few handy Github/semnatic versioning workflow tips along the way (working with tags, etc).
+
+## Any future plans for this project?
+
+This first release is just the start for Today. It's been so exciting and rewarding to actually use an app that I have built and I'd like to take the app further and make it something really useful for myself and others.
+
+I have started using my Github issues for the project as a place to put ideas before I forget them. A few of these are also from collegues who have tried the app out!
+
+As I add these features/fix any bugs I'll be trying to do some more regular releases.
+
+
