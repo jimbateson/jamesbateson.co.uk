@@ -14,4 +14,6 @@ Lockdown has been tough, especially living alone. there has been good days and b
 
 Over the past year of so I've gotten really into my running and had a fair few events planned. Unfortunataly (but rightly so) all but one of these have so far been cancelled.
 
-However, most of these have offered 'virtual' versions of the events. This 
+However, most of these have offered 'virtual' versions of the events. Whereby you post your run of the same distance as the event. Post a screenshot of your run and they'll still send you the bling! This has been really good to keep motivation up in training for the events.
+
+Pre-lockdown I had started to do more trail and hill running. I was doing this as part
