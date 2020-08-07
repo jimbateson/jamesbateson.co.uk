@@ -10,6 +10,10 @@
 			&::-webkit-scrollbar {
 				display: none;
 			}
+
+			.nav__item {
+				flex-shrink: 0;
+			}
 		}
 
         > * + * {
@@ -20,7 +24,6 @@
 	// Outputs: .nav__item
     &__item {
         padding: 0;
-        flex-shrink: 0;
 
         &.active {
             a {
