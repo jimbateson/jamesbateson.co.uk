@@ -256,12 +256,13 @@
         line-height: 1.4;
 
         h2 {
-            font-weight: 600;
-            margin-right: get-size('base');
-        }
+			font-weight: 600;
+			min-width: 100px;
+			margin-right: get-size('base');
 
-        h2 a {
-            @extend %visually-hidden;
+			a {
+				@extend %visually-hidden;
+			}
         }
 
         ul {
@@ -281,14 +282,8 @@
             &:hover,
             &:focus {
                 background-color: var(--color-theme-primary);
-                color: var(--color-text);
+                color: var(--color-light);
                 text-decoration: none;
-            }
-        }
-
-        .nav {
-            > * {
-                flex-shrink: 0;
             }
         }
     }
