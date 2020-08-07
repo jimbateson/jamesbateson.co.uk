@@ -1,18 +1,23 @@
 .nav {
+	// Outputs: .nav__list
     &__list {
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-        -ms-overflow-style: none;
+		// Outputs: .nav__list--tags
+		&--tags {
+			overflow-x: auto;
+			-webkit-overflow-scrolling: touch;
+			-ms-overflow-style: none;
 
-        &::-webkit-scrollbar {
-            display: none;
-        }
+			&::-webkit-scrollbar {
+				display: none;
+			}
+		}
 
         > * + * {
             margin-left: get-size(500);
         }
-    }
+	}
 
+	// Outputs: .nav__item
     &__item {
         padding: 0;
         flex-shrink: 0;
@@ -33,6 +38,7 @@
             }
         }
 
+		// Outputs: .nav__item--tag
         &--tag {
             a {
                 &:after {
@@ -66,11 +72,13 @@
 
 @include media-query('md') {
     .nav {
+		// Outputs: .nav__list
         &__list {
             > * + * {
                 margin-left: get-size(700);
-            }
+			}
 
+			// Outputs: .nav__list--tags
             &--tags {
                 > * + * {
                     margin-left: get-size(500);
