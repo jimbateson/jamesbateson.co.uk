@@ -51,3 +51,5 @@ I know, I know it's a bit of stretch labelling cooking as 'being active'. Over t
 The pick of these being a lovely cod, chorizo and puy lentil number. I've found myself falling back in love with cooking again so much, that I've decided to start a blog on it. I'll post some details about that soon.
 
 ## Something to look back on
+
+If by chance you've stumbled upon this post, it will seem like I'm just rambling on about myself and try to make out like I've been up to more than other. Apologies, this isn't the case, this year so far has been hard for us all, and this is just something for me to look back on and take some positives from.
