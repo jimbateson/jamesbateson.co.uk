@@ -1,22 +1,25 @@
 {% if navigation.items %}
-  <nav class="nav">
-    <ul class="[ nav__list ] [ box-flex align-center md:space-before ]">
-      {% for item in navigation.items %}
-        {% set externalAttribute = '' %}
-        {% set currentAttribute = '' %}
 
-        {% if item.external %}
-          {% set externalAttribute = ' rel="external"' %}
-        {% endif %}
+		<nav class="nav">
+			<ul class="[ nav__list nav__list--main ] [ box-flex align-center md:space-before ]">
+			{% for item in navigation.items %}
+				{% set externalAttribute = '' %}
+				{% set currentAttribute = '' %}
 
-        {% if page.url == item.url %}
-          {% set currentAttribute = ' aria-current="page"' %}
-        {% endif %}
+				{% if item.external %}
+				{% set externalAttribute = ' rel="external"' %}
+				{% endif %}
 
-        <li class="nav__item {% if page.url == item.url %} active{% endif %} {% if item.mobile %} hide-mobile{% endif %}">
-          <a href="{{ item.url }}" class="link-hover" {{ externalAttribute | safe }}{{ currentAttribute | safe }}>{{ item.text }}</a>
-        </li>
-      {% endfor %}
-    </ul>
-  </nav>
+				{% if page.url == item.url %}
+				{% set currentAttribute = ' aria-current="page"' %}
+				{% endif %}
+
+				<li class="nav__item {% if page.url == item.url %} active{% endif %}">
+					<a href="{{ item.url }}" class="link-hover" {{ externalAttribute | safe }}{{ currentAttribute | safe }}>
+						<span>{{ item.text }}</span>
+					</a>
+				</li>
+			{% endfor %}
+			</ul>
+		</nav>
 {% endif %}
