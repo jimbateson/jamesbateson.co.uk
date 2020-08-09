@@ -64,7 +64,18 @@
         display: flex;
         justify-content: space-between;
         width: 100%;
-    }
+	}
+
+	// Horizontal overflow scroll when on mobile
+	.nav__list--main {
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+		-ms-overflow-style: none;
+
+		&::-webkit-scrollbar {
+			display: none;
+		}
+	}
 
     .nav__item {
         &:not(.nav__item--tag) {

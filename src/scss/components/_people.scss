@@ -6,7 +6,7 @@
     overflow-x: auto;
     -webkit-overflow-scrolling: auto;
     // Firefox 64+ scrollbar styling
-	scrollbar-color: var(--color-theme-primary) var(--color-light);
+	scrollbar-color: var(--color-theme-primary) var(--color-text);
 }
 
 .people-list__items {
@@ -32,7 +32,7 @@
 
 .people-list__item {
     padding-bottom: 20px;
-    
+
     h3 {
         @include apply-utility('font', 'base');
     }
