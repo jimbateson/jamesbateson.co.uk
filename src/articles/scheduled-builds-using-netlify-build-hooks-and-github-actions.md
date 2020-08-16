@@ -9,4 +9,5 @@ date: 2020-08-16T10:21:18.858Z
 tags:
   - Netlify
 ---
-Test
+A couple of weeks ago I published [an article](https://jamesbateson.co.uk/articles/speedlify/) on how I set up schedules Speedlify builds for this site, to help monitor the performance and accessibility of some key pages. As part of an update to the article, I learnt how to use Netfliy web hooks and Github actions to trigger a rebuild and publish of the site. I feel I may have rushed that explanation a little, so this article is a more indpet look into that workflow.
+
