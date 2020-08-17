@@ -154,7 +154,7 @@ There are a couple of bits of functionality I'd like to add at some point:
 
 As well as going through the Frontend Masters course (linked in the intro), I've found the Vue docs site to be very clear, with some great practical examples. I also made this summary pen of directives and bindings to help me remember things.
 
-<p class="codepen" data-height="500" data-theme-id="dark" data-default-tab="html,result" data-user="jim-bateson" data-slug-hash="wvKYJLE" data-preview="true" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Directives &amp;amp; Data Rendering">
+<p class="codepen" data-height="500" data-theme-id="dark" data-default-tab="result" data-user="jim-bateson" data-slug-hash="wvKYJLE" data-preview="true" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Directives &amp;amp; Data Rendering">
   <span>See the Pen <a href="https://codepen.io/jim-bateson/pen/wvKYJLE">
   Directives &amp; Data Rendering</a> by James Bateson (<a href="https://codepen.io/jim-bateson">@jim-bateson</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
