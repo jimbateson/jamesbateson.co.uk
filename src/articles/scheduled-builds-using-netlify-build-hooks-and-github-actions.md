@@ -63,3 +63,13 @@ Before we break down a few of these settings, you'll need to change a couple of 
 * **TOKEN** This is where you will need the name of the token you created in the previous step, add that name here after the `secrets.`. You can then see that this is passed to the curl url that Netlify gave us for our build hook, rather than putting your full unique ID in there!
 
 It's worth noting that there are more options you can setup in this file. This was just all I needed to trigger a weekly build of a site. [Check out the detailed documentation](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions) on the actions worklow, for other bits you can set.
+
+If you now commit this directory to Github and go to the `Actions` menu item (top repo navigation - has a little play icon) you *should* be able to see the action you have setup! When your action runs, it will create a log of whether it was successfull or not, how long it took, with some other info as well.
+
+![Screenshot showing a successful Github action build](/images/screenshot-2020-08-19-at-07.20.03.png)
+
+If your action fails, it will also tell you here, and you can view the configuration file you setup for it, and even edit it inline and commit right away if you spot a syntax error, etc.
+
+## What we’ve acheived
+
+So we should now have a Gtihub action setup, that runs at a scheduled time. When the action runs it triggers a build of a Netlify site that we have created a build hook for, this in turn then deploys the site. Pretty cool! [My use case for this](https://jamesbateson.co.uk/articles/speedlify/) was to run a build on my Speedlify instance each week, to better monitor the performance of this site.
