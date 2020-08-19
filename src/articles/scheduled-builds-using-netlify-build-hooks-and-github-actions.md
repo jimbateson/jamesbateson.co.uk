@@ -2,14 +2,14 @@
 layout: layouts/post.njk
 title: Scheduled builds using Netlify build hooks and Github actions
 metaTitle: Netlify build hooks and Github actions
-metaDesc: How to set up a simple automated Netlify site build and deploy
-  workflow using Netlify build hooks and Github actions
+metaDesc: How to set up a simple automated Netlify site build and deploy workflow using Netlify build hooks and Github actions
 socialImage: /images/social-share-default.jpg
 date: 2020-08-19T07:22:24.120Z
 tags:
   - Netlify
   - Github
 ---
+
 A couple of weeks ago I published [an article](https://jamesbateson.co.uk/articles/speedlify/) on how I set up scheduled Speedlify builds for this site, to help monitor the performance and accessibility of some key pages. As part of an update to the article, I learned how to use Netfliy build hooks and Github actions to trigger a rebuild and publish of the site. I feel I may have rushed that explanation a little, so this article is a more in-depth look into that workflow.
 
 ## Creating a Netlify build hook
@@ -53,10 +53,11 @@ jobs:
     steps:
     - name: Trigger our build webhook on Netlify
       env:
-        TOKEN: ${{{ secrets.NETLIFY_SPEEDLIFY_BUILD_WEEKLY }}}
-      run: curl -X POST -d {} https://api.netlify.com/build_hooks/${TOKEN}
+        TOKEN: ${{ secrets.NETLIFY_SPEEDLIFY_BUILD_WEEKLY }}
+	  run: curl -X POST -d {} https://api.netlify.com/build_hooks/${TOKEN}
 ```
-<p class="post-note"><strong>Note</strong>Only use double <code>{{ }}</code> around the <code>TOKEN</code> value. There's an issue on my site where even in code examples the using moustance templating syntax tried to compile!<br><br>
+
+<p class="post-note"><strong>Note</strong>Only use double handlebars around the <code>TOKEN</code> value. There's an issue on my site where even in code examples the using moustance templating syntax tried to compile!<br><br>
 <a href="https://github.com/jimbateson/speedlify/blob/main/.github/workflows/weekly-build.yml">Here's a link to my example setup</a> so you can see it properly.</p>
 
 Before we break down a few of these settings, you'll need to change a couple of bits specific to the bits we set up in previous steps.
