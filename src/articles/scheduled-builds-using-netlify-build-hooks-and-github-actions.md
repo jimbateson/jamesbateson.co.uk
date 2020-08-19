@@ -56,7 +56,7 @@ jobs:
         TOKEN: ${{{ secrets.NETLIFY_SPEEDLIFY_BUILD_WEEKLY }}}
       run: curl -X POST -d {} https://api.netlify.com/build_hooks/${TOKEN}
 ```
-<p class="post-note"><strong>Note</strong>Only use double <code>{{}}</code> around the <code>TOKEN</code> value. There's an issue on my site where even in code examples the using moustance templating syntax tried to compile!</p>
+<p class="post-note"><strong>Note</strong>Only use double <code>{{ }}</code> around the <code>TOKEN</code> value. There's an issue on my site where even in code examples the using moustance templating syntax tried to compile!</p>
 
 Before we break down a few of these settings, you'll need to change a couple of bits specific to the bits we set up in previous steps.
 
