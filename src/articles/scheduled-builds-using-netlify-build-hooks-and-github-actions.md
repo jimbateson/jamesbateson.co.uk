@@ -56,7 +56,8 @@ jobs:
         TOKEN: ${{{ secrets.NETLIFY_SPEEDLIFY_BUILD_WEEKLY }}}
       run: curl -X POST -d {} https://api.netlify.com/build_hooks/${TOKEN}
 ```
-<p class="post-note"><strong>Note</strong>Only use double <code>{{ }}</code> around the <code>TOKEN</code> value. There's an issue on my site where even in code examples the using moustance templating syntax tried to compile!</p>
+<p class="post-note"><strong>Note</strong>Only use double <code>{{ }}</code> around the <code>TOKEN</code> value. There's an issue on my site where even in code examples the using moustance templating syntax tried to compile!<br><br>
+<a href="https://github.com/jimbateson/speedlify/blob/main/.github/workflows/weekly-build.yml">Here's a link to my example setup</a> so you can see it properly.</p>
 
 Before we break down a few of these settings, you'll need to change a couple of bits specific to the bits we set up in previous steps.
 
@@ -71,8 +72,6 @@ If you now commit this directory to Github and go to the `Actions` menu item (to
 ![Screenshot showing a successful Github action build](/images/screenshot-2020-08-19-at-07.20.03.png)
 
 If your action fails, it will also tell you here, and you can view the configuration file you set up for it, and even edit it inline and commit right away if you spot a syntax error, etc.
-
-[Here's a link to my example setup](https://github.com/jimbateson/speedlify/blob/main/.github/workflows/weekly-build.yml).
 
 ## What we’ve acheived
 
