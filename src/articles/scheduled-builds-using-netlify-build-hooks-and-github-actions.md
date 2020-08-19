@@ -5,9 +5,10 @@ metaTitle: Netlify build hooks and Github actions
 metaDesc: How to set up a simple automated Netlify site build and deploy
   workflow using Netlify build hooks and Github actions
 socialImage: /images/social-share-default.jpg
-date: 2020-08-16T10:21:18.858Z
+date: 2020-08-19T06:31:25.363Z
 tags:
   - Netlify
+  - Github
 ---
 A couple of weeks ago I published [an article](https://jamesbateson.co.uk/articles/speedlify/) on how I set up scheduled Speedlify builds for this site, to help monitor the performance and accessibility of some key pages. As part of an update to the article, I learnt how to use Netfliy web hooks and Github actions to trigger a rebuild and publish of the site. I feel I may have rushed that explanation a little, so this article is a more in-depth look into that workflow.
 
@@ -72,4 +73,4 @@ If your action fails, it will also tell you here, and you can view the configura
 
 ## What we’ve acheived
 
-So we should now have a Gtihub action setup, that runs at a scheduled time. When the action runs it triggers a build of a Netlify site that we have created a build hook for, this in turn then deploys the site. Pretty cool! [My use case for this](https://jamesbateson.co.uk/articles/speedlify/) was to run a build on my Speedlify instance each week, to better monitor the performance of this site.
+So we should now have a Gtihub action setup, that runs at a scheduled time. When the action runs it triggers a build of a Netlify site that we have created a build hook for, this in turn then deploys the site. Pretty cool! [My use case for this](https://jamesbateson.co.uk/articles/speedlify/) was to run a build on my Speedlify instance each week, to better monitor the performance of this site. I hope this guide has been clear and maybe even helpful in someway.
