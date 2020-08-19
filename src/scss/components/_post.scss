@@ -149,7 +149,8 @@
         }
 
         p + .post-note,
-        ul + .post-note {
+		ul + .post-note,
+		pre[class*="language"] + .post-note {
             margin-top: var(--flow-space);
         }
 
