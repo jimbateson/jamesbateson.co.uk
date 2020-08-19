@@ -28,7 +28,7 @@ Once the build hook has been created, you'll see it listed, note the small downw
 
 Rather than display the unique ID for our build hook where anyone can see it, we're going to store it in a Github secret token here. We'll be able to reference this when we set our Github workflow up.
 
-This step is kind of optional, however, I think it's good practice not to store your build ID in a public repo. So if you are not using a private repo - or your repo will be public in the future, I'd suggest following this step. Not exactly sure what someone could do if they had your build ID but I'm imagining someone with the right skills would be able to do some nasties.
+This step is kind of optional, however, I think it's good practice not to store your build ID in a public repo. So if you are not using a private repo - or your repo will be public in the future, I'd suggest following this step. Not exactly sure what someone could do if they had your build ID but I'm imagining someone with the right skills would be able to do some nasties. When storing a value in a secret **only you** will be able to access this token.
 
 So we'll need to switch over to the repo on Github for this step, once inside the relevant repo, go to the `Settings` item in the top repo navigation, then find `Secrets` item towards the bottom of the left-hand menu. Here you will see any other secret tokens listed, or none if this is your first. Either way hit the "New Secret" button to the right.
 
@@ -71,6 +71,8 @@ If you now commit this directory to Github and go to the `Actions` menu item (to
 
 If your action fails, it will also tell you here, and you can view the configuration file you set up for it, and even edit it inline and commit right away if you spot a syntax error, etc.
 
+[Here's a link to my example setup](https://github.com/jimbateson/speedlify/blob/main/.github/workflows/weekly-build.yml).
+
 ## What we’ve acheived
 
-So we should now have a Gtihub action setup, that runs at a scheduled time. When the action runs it triggers a build of a Netlify site that we have created a build hook for, this in turn then deploys the site. Pretty cool! [My use case for this](https://jamesbateson.co.uk/articles/speedlify/) was to run a build on my Speedlify instance each week, to better monitor the performance of this site. I hope this guide has been clear and maybe even helpful in some way.
+So we should now have a Github action setup, that runs at a scheduled time. When the action runs it triggers a build of a Netlify site that we have created a build hook for, this in turn then deploys the site. Pretty cool! [My use case for this](https://jamesbateson.co.uk/articles/speedlify/) was to run a build on my Speedlify instance each week, to better monitor the performance of this site. I hope this guide has been clear and maybe even helpful in some way.
