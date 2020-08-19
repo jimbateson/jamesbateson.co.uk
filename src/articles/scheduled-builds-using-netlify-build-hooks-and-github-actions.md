@@ -55,3 +55,11 @@ jobs:
         TOKEN: ${{ secrets.NETLIFY_SPEEDLIFY_BUILD_WEEKLY }}
       run: curl -X POST -d {} https://api.netlify.com/build_hooks/${TOKEN}
 ```
+
+Before we break down a few of these settings, you'll need to change a couple of bits specific to the bits we set up in previous steps.
+
+* **name (and jobs-buld-name)** - change these to something that better reflects what your build is doing
+* **schedule** - this uses Cron syntax to tell Gtihub when exactly to run the build. This can look confusing, but the basic syntax is minute - hour - day (month) - month - day (week). So my example above runs at 9am every Monday. [This site](https://crontab.guru/) provides a handy visulisation of that syntax.
+* **TOKEN** This is where you will need the name of the token you created in the previous step, add that name here after the `secrets.`. You can then see that this is passed to the curl url that Netlify gave us for our build hook, rather than putting your full unique ID in there!
+
+It's worth noting that there are more options you can setup in this file. This was just all I needed to trigger a weekly build of a site. [Check out the detailed documentation](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions) on the actions worklow, for other bits you can set.
