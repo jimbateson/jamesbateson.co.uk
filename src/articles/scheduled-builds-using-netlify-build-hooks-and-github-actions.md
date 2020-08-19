@@ -58,7 +58,7 @@ jobs:
 
 Before we break down a few of these settings, you'll need to change a couple of bits specific to the bits we set up in previous steps.
 
-* **name (and jobs-buld-name)** - change these to something that better reflects what your build is doing
+* **name (and jobs:build:name)** - change these to something that better reflects what your build is doing
 * **schedule** - this uses Cron syntax to tell Gtihub when exactly to run the build. This can look confusing, but the basic syntax is minute - hour - day (month) - month - day (week). So my example above runs at 9am every Monday. [This site](https://crontab.guru/) provides a handy visulisation of that syntax.
 * **TOKEN** This is where you will need the name of the token you created in the previous step, add that name here after the `secrets.`. You can then see that this is passed to the curl url that Netlify gave us for our build hook, rather than putting your full unique ID in there!
 
