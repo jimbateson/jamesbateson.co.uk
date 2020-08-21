@@ -1,29 +1,30 @@
 .pagination {
-    flex-wrap: wrap;
+	flex-wrap: wrap;
 
-    a {
-        color: var(--color-theme-primary);
+	a {
+		color: var(--color-theme-primary);
 
-        &:not(:hover) {
-            text-decoration: none;
-        }
+		&:not(:hover),
+		&:not(:focus) {
+			text-decoration: none;
+		}
 
-        // Flip content if direction is backwards
-        &[data-direction='backwards'] {
-            flex-direction: row-reverse;
+		// Flip content if direction is backwards
+		&[data-direction='backwards'] {
+			flex-direction: row-reverse;
 
-            svg {
-                transform: rotate(-180deg);
-            }
-        }
+			svg {
+				transform: rotate(-180deg);
+			}
+		}
 
-        // If only child and forwards, push out to the right
-        &[data-direction='forwards']:only-child {
-            margin-left: auto;
-        }
-    }
+		// If only child and forwards, push out to the right
+		&[data-direction='forwards']:only-child {
+			margin-left: auto;
+		}
+	}
 
-    svg {
-        pointer-events: none;
-    }
+	svg {
+		pointer-events: none;
+	}
 }

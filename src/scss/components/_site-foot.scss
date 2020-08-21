@@ -1,15 +1,15 @@
 .site-foot {
-    // Reverse whatever the theme colors are
-    background-color: var(--color-dark);
-    border-top: 1px solid rgba(255, 255, 255, .1);
-    color: var(--color-bg);
 
-    // Reverse selection colors
-    --color-selection-text: #{get-color('dark')};
-    --color-selection-bg: #{get-color('light')};
+	// Reverse selection colors
+	--color-selection-text: #{get-color('dark')};
+	--color-selection-bg: #{get-color('light')};
+	// Reverse whatever the theme colors are
+	background-color: var(--color-dark);
+	border-top: 1px solid rgba(255, 255, 255, .1);
+	color: var(--color-bg);
 
-    // Outputs: .site-foot__credit
-    &__credit {
+	// Outputs: .site-foot__credit
+	&__credit {
 		color: var(--color-light);
 		text-align: center;
 
@@ -21,58 +21,59 @@
 				color: var(--color-link-text);
 			}
 		}
-    }
+	}
 
-    // Outputs: .site-foot__details
-    &__details {
-        align-items: center;
-        display: flex;
-        justify-content: center;
-        width: 100%;
+	// Outputs: .site-foot__details
+	&__details {
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		width: 100%;
 
-        a {
-            opacity: .5;
-            transition: opacity .5s ease;
+		a {
+			opacity: .5;
+			transition: opacity .5s ease;
 
-            &:hover {
-                opacity: 1;
-            }
-        }
-    }
+			&:hover,
+			&:focus {
+				opacity: 1;
+			}
+		}
+	}
 
-    // Outputs: .site-foot__icon
-    &__icon {
-        &:hover,
-        &:focus {
-            svg {
-                fill: var(--color-light);
-            }
-        }
+	// Outputs: .site-foot__icon
+	&__icon {
+		&:hover,
+		&:focus {
+			svg {
+				fill: var(--color-light);
+			}
+		}
 
-        svg {
-            fill: #969697;
-            height: 35px;
-            transition: fill .5s ease;
-            width: 35px;
-        }
-    }
+		svg {
+			fill: #969697;
+			height: 35px;
+			transition: fill .5s ease;
+			width: 35px;
+		}
+	}
 
-    // Outputs .site-foot__social
-    &__social {
-        align-items: center;
-        display: flex;
-        list-style: none;
+	// Outputs .site-foot__social
+	&__social {
+		align-items: center;
+		display: flex;
+		list-style: none;
 
-        li + li {
-            margin-left: 20px;
-        }
-    }
+		li + li {
+			margin-left: 20px;
+		}
+	}
 }
 
 @include media-query('md') {
-    .site-foot {
-        .wrapper {
-            max-width: 75rem;
-        }
-    }
+	.site-foot {
+		.wrapper {
+			max-width: 75rem;
+		}
+	}
 }

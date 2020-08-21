@@ -1,38 +1,38 @@
 .site-head {
-    overflow: hidden;
+	overflow: hidden;
 
-    &:before {
-        content: '';
-        display: block;
-        width: 100vw;
-        height: 1rem;
-        background-image: radial-gradient(var(--color-theme-primary) 35%, transparent 40%);
-        background-size: 4px 4px;
-        margin-bottom: .7rem;
-    }
+	&:before {
+		background-image: radial-gradient(var(--color-theme-primary) 35%, transparent 40%);
+		background-size: 4px 4px;
+		content: '';
+		display: block;
+		height: 1rem;
+		margin-bottom: .7rem;
+		width: 100vw;
+	}
 }
 
 .site-logo {
-    fill: var(--color-text);
-    transition: fill .3s;
-    width: 60px;
+	fill: var(--color-text);
+	transition: fill .3s;
+	width: 60px;
 
-    &:hover,
-    &:focus {
-        fill: var(--color-theme-primary);
-    }
+	&:hover,
+	&:focus {
+		fill: var(--color-theme-primary);
+	}
 }
 
 @include media-query('md') {
-    .site-head {
-        .wrapper {
-            max-width: 75rem;
-        }
-    }
+	.site-head {
+		.wrapper {
+			max-width: 75rem;
+		}
+	}
 
-    .site-head__inner {
-        align-items: center;
-        display: flex;
+	.site-head__inner {
+		align-items: center;
+		display: flex;
 
 		// Outputs: .site-head__inner--right
 		&--right {
@@ -44,9 +44,9 @@
 				margin-left: 2em;
 			}
 		}
-    }
+	}
 
-    .site-logo {
-        width: 75px;
-    }
+	.site-logo {
+		width: 75px;
+	}
 }
