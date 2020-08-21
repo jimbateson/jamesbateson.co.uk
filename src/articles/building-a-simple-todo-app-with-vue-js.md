@@ -68,7 +68,7 @@ To loop through this data and display it, we need to to use `v-for`
 
 ```html
 <li v-for="(todo, index) in todos">
-     {{ todo.title }}
+     ...
 </li>
 ```
 
@@ -99,7 +99,7 @@ Firstly let's add the element we'll use to action the complete. In this case tha
 ``` html
 <label>
     <input type="checkbox" v-model="todo.completed">
-    <span>{{ todo.title }}</span>
+    <span>Make a brew</span>
 </label>
 ```
 
