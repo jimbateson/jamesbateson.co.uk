@@ -1,11 +1,11 @@
 .post {
-    &__body {
-        --flow-space: #{get-size(800)};
+	&__body {
+		--flow-space: #{get-size(800)};
 
-        > p:first-of-type:not(.post-note) {
-            @include apply-utility('font', 'heading');
-            font-size: get-size(600);
-            font-weight: 600;
+		> p:first-of-type:not(.post-note) {
+			@include apply-utility('font', 'heading');
+			font-size: get-size(600);
+			font-weight: 600;
 		}
 
 		[data-user-color-scheme='dark'] & {
@@ -19,146 +19,141 @@
 			}
 		}
 
-        /**
+		/**
         * Generic HTML styles
         */
-        h2 + *,
-        h3 + * {
-            --flow-space: #{get-size(500)};
-        }
+		h2 + *,
+		h3 + * {
+			--flow-space: #{get-size(500)};
+		}
 
-        h2,
-        h3 {
-            @include apply-utility('leading', 'tight');
-            position: relative;
-        }
+		h2,
+		h3 {
+			@include apply-utility('leading', 'tight');
+			position: relative;
+		}
 
-        a:not([class]) {
-            @include apply-utility('leading', 'tight');
-            text-decoration-thickness: 2px;
-            transition: color .35s ease;
-        }
+		a:not([class]) {
+			@include apply-utility('leading', 'tight');
+			text-decoration-thickness: 2px;
+			transition: color .35s ease;
+		}
 
-        code,
-        .bg-dark > code {
-            background-color: var(--color-intro-bg);
+		code,
+		.bg-dark > code {
+			background-color: var(--color-intro-bg);
 			border: 1px dashed var(--color-link-text);
 			border-radius: 3px;
-            color: var(--color-text);
-            font-weight: 600;
-            padding: .2rem .5rem;
-        }
+			color: var(--color-text);
+			font-weight: 600;
+			padding: .2rem .5rem;
+		}
 
-        pre > code {
-            border: 0;
-            margin-right: 0;
-        }
+		pre > code {
+			border: 0;
+			margin-right: 0;
+		}
 
-        blockquote {
-            background-color: var(--color-light);
-            border: 1px dashed #ccc;
+		blockquote {
+			background-color: var(--color-light);
+			border: 1px dashed #ccc;
 			border-left: .4rem solid var(--color-theme-primary);
 			color: var(--color-dark);
-            margin-left: 0;
-            padding-left: get-size(500);
-            font-size: get-size(600);
-            font-weight: 600;
-            width: 100%;
+			font-size: get-size(600);
+			font-weight: 600;
+			margin-left: 0;
+			padding-left: get-size(500);
+			width: 100%;
 
-            p {
-                opacity: .85;
-                padding: get-size(500) 0;
-            }
-        }
+			p {
+				opacity: .85;
+				padding: get-size(500) 0;
+			}
+		}
 
-        ol,
-        ul {
-            margin-left: get-size(800);
+		ol,
+		ul {
+			margin-left: get-size(800);
 
-            ::marker {
-                color: var(--color-theme-primary);
-                font-size: get-size(300);
-            }
-        }
+			::marker {
+				color: var(--color-theme-primary);
+				font-size: get-size(300);
+			}
+		}
 
-        li + li {
-            margin-top: get-size(300);
-        }
+		li + li {
+			margin-top: get-size(300);
+		}
 
-        figure,
-        figure + *,
-        pre > code,
-        .video-player,
-        .video-player + * {
-            --flow-space: #{get-size('max')};
-        }
+		figure,
+		figure + *,
+		pre > code,
+		.video-player,
+		.video-player + * {
+			--flow-space: #{get-size('max')};
+		}
 
-        figure,
-        .video-player {
-            width: 100vw;
-            max-width: map-get($metrics, 'wrap-max-width');
-            margin-left: 50%; /*changing this value to 47% removes the horizontal scrollbar once the viewport is < 930px */
-            transform: translateX(
-                -50%
-            ); /* changing this value to 49% allows for the suggestion above to also eliminate the horizontal scroll. */
-            position: relative;
-        }
+		figure,
+		.video-player {
+			margin-left: 50%; /* changing this value to 47% removes the horizontal scrollbar once the viewport is < 930px */
+			max-width: map-get($metrics, 'wrap-max-width');
+			position: relative;
+			transform: translateX(-50%); /* changing this value to 49% allows for the suggestion above to also eliminate the horizontal scroll. */
+			width: 100vw;
+		}
 
-        figure img
-        .video-player {
-            box-shadow: 3px 3px 0 rgba(0, 0, 0, .1);
-        }
+		figure img .video-player {
+			box-shadow: 3px 3px 0 rgba(0, 0, 0, .1);
+		}
 
-        figure img {
-            position: relative;
-            z-index: 1;
-        }
+		figure img {
+			position: relative;
+			z-index: 1;
+		}
 
-        figcaption {
-            font-size: 0.8em;
-            font-style: italic;
-            max-width: map-get($metrics, 'wrap-inner-max-width');
-            margin: 0.5rem auto 0 auto;
-            padding: 0 get-size(500);
-        }
+		figcaption {
+			font-size: .8em;
+			font-style: italic;
+			margin: .5rem auto 0;
+			max-width: map-get($metrics, 'wrap-inner-max-width');
+			padding: 0 get-size(500);
+		}
 
-        pre[class*='language'] {
-            background-color: var(--color-dark-alt);
-            box-shadow: 3px 3px 0 rgba(0, 0, 0, .1);
-            width: 100vw;
-            margin-left: 50%; /*changing this value to 47% removes the horizontal scrollbar once the viewport is < 930px */
-            transform: translateX(
-                -50%
-            ); /* changing this value to 49% allows for the suggestion above to also eliminate the horizontal scroll. */
-            position: relative;
-        }
+		pre[class*='language'] {
+			background-color: var(--color-dark-alt);
+			box-shadow: 3px 3px 0 rgba(0, 0, 0, .1);
+			margin-left: 50%; /* changing this value to 47% removes the horizontal scrollbar once the viewport is < 930px */
+			position: relative;
+			transform: translateX(-50%); /* changing this value to 49% allows for the suggestion above to also eliminate the horizontal scroll. */
+			width: 100vw;
+		}
 
-        pre > code {
-            display: block;
-            font-size: get-size(500);
-            font-weight: 400;
-            margin: 0 auto;
-            max-width: map-get($metrics, 'wrap-max-width');
-            padding: get-size(700);
+		pre > code {
+			display: block;
+			font-size: get-size(500);
+			font-weight: 400;
+			margin: 0 auto;
+			max-width: map-get($metrics, 'wrap-max-width');
+			padding: get-size(700);
 
-            ::selection {
-                background-color: var(--color-light);
-                color: var(--color-dark-alt);
-            }
-        }
+			::selection {
+				background-color: var(--color-light);
+				color: var(--color-dark-alt);
+			}
+		}
 
-        p + .post-note,
+		p + .post-note,
 		ul + .post-note,
-		pre[class*="language"] + .post-note {
-            margin-top: var(--flow-space);
-        }
+		pre[class*='language'] + .post-note {
+			margin-top: var(--flow-space);
+		}
 
-        .post-note {
-            background-color: #195e9b;
-            border-radius: 10px;
-            color: var(--color-light);
-            padding: var(--flow-space);
+		.post-note {
+			background-color: #195e9b;
+			border-radius: 10px;
+			color: var(--color-light);
 			margin: 0;
+			padding: var(--flow-space);
 
 			&:not(.post-note--update) {
 				a {
@@ -171,14 +166,14 @@
 				}
 			}
 
-            strong {
-                @include apply-utility('font', 'heading');
-                border-bottom: 1px solid rgba(255, 255, 255, .25);
-                display: block;
-                font-size: get-size(600);
-                margin-bottom: 10px;
-                padding-bottom: 10px;
-            }
+			strong {
+				@include apply-utility('font', 'heading');
+				border-bottom: 1px solid rgba(255, 255, 255, .25);
+				display: block;
+				font-size: get-size(600);
+				margin-bottom: 10px;
+				padding-bottom: 10px;
+			}
 
 			// Outputs: post-note--update
 			&--update {
@@ -202,10 +197,10 @@
 					width: 100%;
 				}
 			}
-        }
+		}
 
-        // post__body--resume
-        &--resume {
+		// post__body--resume
+		&--resume {
 			h2,
 			h3,
 			h4 {
@@ -224,67 +219,67 @@
 				}
 			}
 
-            h2 {
-                border-bottom: 1px solid var(--color-grey-med);
-                margin-bottom: 40px;
-                padding-bottom: 20px;
-            }
+			h2 {
+				border-bottom: 1px solid var(--color-grey-med);
+				margin-bottom: 40px;
+				padding-bottom: 20px;
+			}
 
-            h3 {
-                @include apply-utility('font', 'base');
-                font-size: get-size(600);
-                font-weight: 600;
+			h3 {
+				@include apply-utility('font', 'base');
+				font-size: get-size(600);
+				font-weight: 600;
 
-                .heading-permalink {
-                    display: none;
-                }
-            }
+				.heading-permalink {
+					display: none;
+				}
+			}
 
-            h4 {
-                font-weight: 400;
-                margin-top: 5px;
-            }
+			h4 {
+				font-weight: 400;
+				margin-top: 5px;
+			}
 
-            h5 {
-                margin-top: 5px;
-            }
-        }
-    }
+			h5 {
+				margin-top: 5px;
+			}
+		}
+	}
 
-    &__footer {
-        background-color: var(--color-action-text);
-        line-height: 1.4;
+	&__footer {
+		background-color: var(--color-action-text);
+		line-height: 1.4;
 
-        h2 {
+		h2 {
 			font-weight: 600;
-			min-width: 100px;
 			margin-right: get-size('base');
+			min-width: 100px;
 
 			a {
 				@extend %visually-hidden;
 			}
-        }
+		}
 
-        ul {
-            justify-content: flex-start;
-        }
+		ul {
+			justify-content: flex-start;
+		}
 
-        a {
-            align-items: flex-start;
-            background: var(--color-intro-bg);
-            border: 1px dashed var(--color-link-text);
-            box-sizing: border-box;
-            display: flex;
+		a {
+			align-items: flex-start;
+			background: var(--color-intro-bg);
+			border: 1px dashed var(--color-link-text);
+			box-sizing: border-box;
+			display: flex;
 			justify-content: center;
 			padding: .5rem .8rem .8rem;
-            transition: background-color .5s ease;
+			transition: background-color .5s ease;
 
-            &:hover,
-            &:focus {
-                background-color: var(--color-theme-primary);
-                color: var(--color-light);
-                text-decoration: none;
-            }
-        }
-    }
+			&:hover,
+			&:focus {
+				background-color: var(--color-theme-primary);
+				color: var(--color-light);
+				text-decoration: none;
+			}
+		}
+	}
 }
