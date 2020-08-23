@@ -16,8 +16,8 @@ metaDesc: A less than regular walker from Lancaster.
 socialImage: ""
 title: Walks
 bannerSummary: "Welcome to my walking blog. I'm a less than regular walker based
-  in Lancaster. I'm hoping that writing about my walks will encourage me to
-  start getting out and about more often. "
+  in Lancaster and hoping that writing about my walks will encourage me to start
+  getting out and about more often. "
 postsHeading: Recent Walks
 postsSummary: A mix of development related articles, thoughts and notes.
 ---
