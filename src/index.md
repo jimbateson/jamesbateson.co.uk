@@ -11,11 +11,13 @@ about: >-
 
 
   I've been working at Fat Media now for the duration of my development career and live and work in Lancaster.
-metaTitle: James Bateson | Front-end developer
-metaDesc: Lancaster based front-end developer.
+metaTitle: James Bateson | Walks
+metaDesc: A less than regular walker from Lancaster.
 socialImage: ""
-title: "Hello I’m James 👋 "
-bannerSummary: A front-end developer from Lancaster.
-postsHeading: Recent Articles
+title: Walks
+bannerSummary: "Welcome to my walking blog. I'm a less than regular walker based
+  in Lancaster. I'm hoping that writing about my walks will encourage me to
+  start getting out and about more often. "
+postsHeading: Recent Walks
 postsSummary: A mix of development related articles, thoughts and notes.
 ---
