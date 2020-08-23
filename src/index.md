@@ -14,7 +14,7 @@ about: >-
 metaTitle: James Bateson | Walks
 metaDesc: A less than regular walker from Lancaster.
 socialImage: ""
-title: Walks
+title: Walks Blog
 bannerSummary: "Welcome to my walking blog. I'm a less than regular walker based
   in Lancaster and hoping that writing about my walks will encourage me to start
   getting out and about more often. "
