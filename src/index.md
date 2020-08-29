@@ -11,13 +11,15 @@ about: >-
 
 
   I've been working at Fat Media now for the duration of my development career and live and work in Lancaster.
+socialImage: ""
+postsHeading: Recent Walks
+postsSummary: A mix of development related articles, thoughts and notes.
 metaTitle: James Bateson | Walks
 metaDesc: A less than regular walker from Lancaster.
-socialImage: ""
 title: Walks Blog
 bannerSummary: "Welcome to my walking blog. I'm a less than regular walker based
   in Lancaster and hoping that writing about my walks will encourage me to start
   getting out and about more often. "
-postsHeading: Recent Walks
-postsSummary: A mix of development related articles, thoughts and notes.
+walkListHeading: Recent Walks
+walkListSummary: Where I have been out and about recently.
 ---
