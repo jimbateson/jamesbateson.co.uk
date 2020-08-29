@@ -1,6 +1,9 @@
 ---
 layout: home
-archiveButtonText: See all articles
+plannedListHeading: Walks List
+plannedListSummary: I have a mighty amount to get through, here's the most
+  recent additions to the list.
+archiveButtonText: See all walks
 projectsSummary: Some silly side project ideas, I also make things on <a
   href=\"#\">Codepen</a> and any source code is available on <a
   href=\"#\">Github</a>
