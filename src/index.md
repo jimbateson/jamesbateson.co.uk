@@ -15,7 +15,7 @@ about: >-
 
   I've been working at Fat Media now for the duration of my development career and live and work in Lancaster.
 socialImage: ""
-bannerImage: /images/banner-home.jpg
+bannerImage: /images/banner-home-2.jpg
 postsHeading: Recent Walks
 postsSummary: A mix of development related articles, thoughts and notes.
 metaTitle: James Bateson | Walks
