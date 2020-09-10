@@ -1,0 +1,27 @@
+{% if walkPlannedItems.length %}
+	<section class="[ post-list post-list--latest ] [ pad-bottom-700 pad-top-700 md:pad-top-900 ]">
+    	<div class="[ wrapper ] [ sf-flow ]">
+    		<h2 class="[ post-list__heading ] [ text-700 md:text-900 ]">{{ plannedListHeading }}</h2>
+	    	<p class="[ section-intro ] [ pad-bottom-500 ]">{{ plannedListSummary }}</p>
+			<div class="[ overflow-list__wrapper ]">
+				<ul class="[ overflow-list__items ] [ pad-top-500 ]">
+					{% for item in walkPlannedItems %}
+					<li class="[ overflow-list__item overflow-list__item--walk overflow-list__item--planned ]">
+						<div>
+							<h3 class="leading-tight text-700">
+								{{ item.data.title }}
+							</h3>
+
+							<div>
+								{{item.data.location}}
+							</div>
+						</div>
+					</li>
+					{% endfor %}
+				</ul>
+			</div>
+			
+			<a href="/planned-walks" class="more-link">View all planned walks</a>
+    	</div>
+	</section>
+{% endif %}

@@ -43,7 +43,7 @@ const Home = ({ entry }) => (
 const Walk = ({ entry }) => (
   <Preview
     entry={entry}
-    path="layouts/post.njk"
+    path="layouts/walk.njk"
     context={({ title, date, body }) => ({
       title,
       date,

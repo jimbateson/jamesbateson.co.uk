@@ -24,13 +24,13 @@ permalink: /tags/{{ tag }}/
 
 {# Post list content #}
 {% set postListHeadingLevel = '2' %}
-{% set postListHeading = 'Posts' %}
+{% set postListHeading = 'Walks' %}
 {% set postListItems = collections[tag] %}
 
 {% block content %}
   <main id="main-content" tabindex="-1">
     {% include "partials/components/intro.njk" %}
-    {% include "partials/components/article-list.njk" %}
+    {% include "partials/components/walks-list.njk" %}
     {% include "partials/components/pagination.njk" %}
   </main>
 {% endblock %}

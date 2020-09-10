@@ -22,22 +22,12 @@ collections:
           - {label: "Social Image", name: "socialImage", widget: "image", required: false}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Banner Summary", name: "bannerSummary", widget: "string"}
-          - {label: "Post Feed Heading", name: "postsHeading", widget: "string", default: "Latest posts"}
-          - {label: "Post Feed Summary", name: "postsSummary", widget: "string"}
-          - {label: "Archive Link Text", name: "archiveButtonText", widget: "string", default: "See all posts"}
-      - name: "resume"
-        label: "Résumé"
-        delete: false
-        file: "src/resume.md"
-        slug: "{{slug}}"
-        create: false
-        fields:
-          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/njk.njk"}
-          - {label: "SEO Meta Title", name: "metaTitle", widget: "string", required: false}
-          - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
-          - {label: "Social Image", name: "socialImage", widget: "image", required: false}
-          - {label: "Banner Summary", name: "bannerSummary", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Banner Image", name: "bannerImage", widget: "image"}
+          - {label: "Walk List Heading", name: "walkListHeading", widget: "string", default: "Latest Walks"}
+          - {label: "Walk List Summary", name: "walkListSummary", widget: "string"}
+          - {label: "Planned Walk List Heading", name: "plannedListHeading", widget: "string", default: "Walks List"}
+          - {label: "Planned Walk List Summary", name: "plannedListSummary", widget: "string"}
+          - {label: "Archive Link Text", name: "archiveButtonText", widget: "string", default: "View all walks"}
   - name: "generic_pages"
     label: "Generic Pages"
     folder: "src/pages"
@@ -62,7 +52,7 @@ collections:
     preview_path: "walks/{{slug}}"
     create: true
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/walk.njk"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "SEO Meta Title", name: "metaTitle", widget: "string", required: false}
       - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}

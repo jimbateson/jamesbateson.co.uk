@@ -1,11 +1,11 @@
 {
   "showThemeCredit": true,
-  "name": "James Bateson Personal Site",
-  "shortDesc": "Built with Eleventy • Hosted on Netlify • Style Guide. ",
-  "url": "https://jamesbateson.co.uk",
+  "name": "James Bateson Walking Blog",
+  "shortDesc": "The personal walking blog of a less than personal walker",
+  "url": "https://walks.jamesbateson.co.uk",
   "authorEmail": "me@jamesbateson.co.uk",
   "authorHandle": "@jim_bateson",
   "authorName": "James Bateson",
   "enableThirdPartyComments": false,
-  "maxPostsPerPage": 3
+  "maxPostsPerPage": 5
 }

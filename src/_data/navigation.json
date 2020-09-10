@@ -2,14 +2,14 @@
   "items": [
     {
       "text": "Walks",
-      "url": "#"
+      "url": "/walks"
     },
     {
-      "text": "List",
-      "url": "#"
+      "text": "Planned Walks",
+      "url": "/planned-walks"
     },
     {
-      "text": "Equipment ",
+      "text": "Equipment",
       "url": "#"
     }
   ]

@@ -13,7 +13,7 @@
 	<link rel="apple-touch-icon" href="/images/favicons/apple-touch-icon.png">
 	<link rel="manifest" href="images/favicons/manifest.json">
 
-	<link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&family=Lilita+One&display=swap" rel="stylesheet">  
 
 	{% include "partials/global/meta-info.njk" %}
 	<style>{% include "assets/css/global.css" %}</style>
@@ -23,12 +23,12 @@
 </head>
 
 <body>
-	{# {% include "partials/global/site-head.njk" %} #}
+	{% include "partials/global/site-head.njk" %}
 	{% block content %}
 	{% endblock content %}
-	{# {% include "partials/global/site-foot.njk" %}
+	{% include "partials/global/site-foot.njk" %}
 	{% block foot %}
-	{% endblock %} #}
+	{% endblock %}
 
 	<script>
 		if ('serviceWorker' in navigator) {

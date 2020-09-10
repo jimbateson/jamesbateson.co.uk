@@ -1,42 +1,32 @@
 .site-head {
-    overflow: hidden;
-
-    &:before {
-        content: '';
-        display: block;
-        width: 100vw;
-        height: 1rem;
-        background-image: radial-gradient(var(--color-theme-primary) 35%, transparent 40%);
-        background-size: 4px 4px;
-        margin-bottom: .7rem;
-    }
+	overflow: hidden;
 }
 
 .site-logo {
-    fill: var(--color-dark);
-    transition: fill .3s;
-    width: 60px;
+	fill: var(--color-dark);
 
-    &:hover,
-    &:focus {
-        fill: var(--color-theme-primary);
-    }
+	path {
+		transition: stroke .3s;
+	}
+
+	&:hover,
+	&:focus {
+		path {
+			stroke: var(--color-accent-alt);
+		}
+	}
 }
 
 @include media-query('md') {
-    .site-head {
-        .wrapper {
-            max-width: 75rem;
-        }
-    }
+	.site-head {
+		.wrapper {
+			max-width: 75rem;
+		}
+	}
 
-    .site-head__inner {
-        align-items: center;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .site-logo {
-        width: 75px;
-    }
+	.site-head__inner {
+		align-items: center;
+		display: flex;
+		justify-content: space-between;
+	}
 }

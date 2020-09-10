@@ -1,20 +1,39 @@
-{# {% if postListItems.length %}
-  <section class="[ post-list ] [ pad-top-700 pad-bottom-700 md:pad-top-600 md:pad-bottom-max ]">
-    <div class="[ wrapper ] [ sf-flow ]">
-      <h2 class="[ post-list__heading ] [ text-700 md:text-900 ]">{{ postListHeading }}</h2>
-	    <p class="section-intro">{{ postListSummary }}</p>
-      <ol class="[ post-list__items ] [ sf-flow ] [ pad-top-500 ]" reversed>
-        {% for item in postListItems %}
-          <li class="post-list__item">
-            <h3 class="font-base leading-tight text-600">
-              <a href="{{ item.url }}" class="post-list__link link-hover" rel="bookmark">{{ item.data.title }}</a>
-            </h3>
-            <p class="gap-top-300">
-              <time datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time>
-            </p>
-          </li>
-        {% endfor %}
-      </ol>
-    </div>
-  </section>
-{% endif %} #}
+{% if walkListItems.length %}
+	<section class="[ post-list post-list--latest ] [ pad-bottom-700 pad-top-700 md:pad-top-900 ]">
+    	<div class="[ wrapper ] [ sf-flow ]">
+    		<h2 class="[ post-list__heading ] [ text-700 md:text-900 ]">{{ walkListHeading }}</h2>
+	    	<p class="[ section-intro ] [ pad-bottom-500 ]">{{ walkListSummary }}</p>
+			<div class="overflow-list__wrapper">
+				<ul class="[ overflow-list__items ] [ pad-top-500 ]">
+					{% for item in walkListItems %}
+					<li class="overflow-list__item overflow-list__item--walk">
+						<img src="{{ item.data.listing }}" class="[ rounded ]" alt="" width="325" height="200" loading="lazy">
+
+						<div>
+							<h3 class="leading-tight text-700">
+								{{ item.data.title }}
+							</h3>
+
+							<div>
+								<p class="gap-top-300">
+									<time datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time>
+								</p>
+								{{ item.data.location }}
+
+								<span>
+									Retrace my steps
+									<svg xmlns="http://www.w3.org/2000/svg" width="17" height="12" viewBox="0 0 17 12"><g fill="#ffe000"><path d="M0.107 5.107L13.946 5.107 13.946 6.892 0.107 6.892z"></path><path d="M10.107 11.982L8.857 10.732 13.59 6 8.857 1.268 10.107 0.018 16.089 6z"></path></g></svg>
+								</span>
+							</div>
+						</div>
+
+						<a href="{{ item.url }}"><span class="visually-hidden">Read about {{ item.data.title }} walk</span></a>
+					</li>
+					{% endfor %}
+				</ul>
+			</div>
+			
+			<a href="/walks" class="more-link">View all walks</a>
+    	</div>
+	</section>
+{% endif %}

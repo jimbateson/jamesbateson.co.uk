@@ -52,7 +52,7 @@ module.exports = function(config) {
 
 	// Layout aliases
 	config.addLayoutAlias('home', 'layouts/home.njk');
-	config.addLayoutAlias('post', 'layouts/post.njk');
+	config.addLayoutAlias('walk', 'layouts/walk.njk');
 
 	// Transforms
 	config.addTransform('htmlmin', htmlMinTransform);
@@ -69,6 +69,17 @@ module.exports = function(config) {
   	const now = new Date();
 
 	// Custom collections
+	config.addCollection('walksFeed', collection => {
+		return [
+			...collection.getFilteredByGlob('./src/walks/*.md')
+		].reverse().slice(0, site.maxPostsPerPage);
+	});
+
+	config.addCollection('walksPlannedFeed', collection => {
+		return [
+			...collection.getFilteredByGlob('./src/walks-planned/*.md')
+		].reverse().slice(0, 10);
+	});
 
 	// Plugins
 	config.addPlugin(rssPlugin);
@@ -90,7 +101,7 @@ module.exports = function(config) {
 	});
 
 	return {
-		templateFormats: ['njk', 'md', 'html', '11ty.js'],
+		templateFormats: ['njk', 'md', 'html', 'eleventy.js'],
 		dir: {
 			input: 'src',
 			output: 'dist'

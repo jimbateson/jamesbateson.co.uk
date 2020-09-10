@@ -5,12 +5,13 @@
 {% set introHeading = title %}
 {% set introSummary %}{{ content | safe }}{% endset %}
 
-{# Post list content #}
-{# {% set postListItems = collections.walks %}
+{% set walkListHeading = walkListHeading %}
+{% set walkListSummary = walkListSummary %}
+{% set walkListItems = collections.walksFeed %}
 
 {% block content %}
   <main id="main-content" tabindex="-1">
     {% include "partials/components/intro.njk" %}
     {% include "partials/components/walks-list.njk" %}
   </main>
-{% endblock %} #}
+{% endblock %}

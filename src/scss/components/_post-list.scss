@@ -1,9 +1,92 @@
-.post-list {
-    &__item {
-        --flow-space: #{get-size(700)};
-    }
+.overflow-list__item--walk {
+	background-color: var(--color-accent);
+	border-radius: 20px;
+	box-shadow: 0 3px 15px rgba(0, 0, 0, .2);
+	display: flex;
+	flex-direction: column;
+	position: relative;
 
-    &__link {
-        color: var(--color-dark);
-    }
+	&:hover {
+		&:before {
+			right: -1rem;
+			top: -1rem;
+		}
+
+		svg {
+			transform: translateX(10px);
+			opacity: 1;
+			transition: visibility 0s linear 0s, opacity .3s cubic-bezier(.365, .005, .355, 1), transform .3s cubic-bezier(.365, .005, .355, 1);
+			visibility: visible;
+		}
+	}
+
+	&:before {
+		border: .2rem dashed var(--color-accent-alt);
+		border-radius: 20px;
+		content: '';
+		height: 100%;
+		right: -.7rem;
+		pointer-events: none;
+		position: absolute;
+		top: -.7rem;
+		transition: right .3s, top .3s;
+		width: 100%;
+		z-index: 1;
+	}
+
+	> div {
+		box-sizing: border-box;
+		display: flex;
+		flex: 1;
+		flex-direction: column;
+		padding: 10px 20px 35px 35px;
+
+		> div {
+			margin-top: auto;
+
+			span {
+				align-items: center;
+				display: flex;
+				margin-top: 10px;
+
+				svg {
+					transform: translateX(2px);
+					opacity: 0;
+					transition: visibility 0s linear .2s, opacity .3s cubic-bezier(.365, .005, .355, 1), transform .3s cubic-bezier(.365, .005, .355, 1);
+					visibility: hidden;
+				}
+			}
+		}
+	}
+
+	img.rounded {
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+
+	a {
+		bottom: 0;
+		height: 100%;
+		left: 0;
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 100%;
+	}
+}
+
+.overflow-list__item--planned {
+	background-blend-mode: soft-light;
+	background-image: url(/images/logo.svg);
+	background-repeat: no-repeat;
+	background-position: right -20px bottom -50px;
+	background-size: 175px;
+
+	&:before {
+		display: none;
+	}
+
+	> div {
+		padding: 20px;
+	}
 }
