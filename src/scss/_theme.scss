@@ -1,28 +1,28 @@
 :root {
-	color-scheme: light dark;
-
-    // Pull the tokens and generate custom props
-    @each $color in $stalfos-colors {
-        #{'--color-' + nth($color, 1)}: #{nth($color, 2)};
-    }
 
 	// Set theme aliases
 	--color-mode: 'light';
-    --color-bg: #{get-color('grey-light')};
+	--color-bg: #{get-color('grey-light')};
 	--color-text: #{get-color('dark')};
 	--color-link-text: #{get-color('primary')};
-    --color-selection-text: #{get-color('light')};
-    --color-selection-bg: #{get-color('dark')};
-    --color-stroke: #{get-color('mid')};
-    --color-action-bg: #{get-color('primary')};
-    --color-action-text: #{get-color('light')};
-    --color-theme-primary: #{get-color('primary')};
+	--color-selection-text: #{get-color('light')};
+	--color-selection-bg: #{get-color('dark')};
+	--color-stroke: #{get-color('mid')};
+	--color-action-bg: #{get-color('primary')};
+	--color-action-text: #{get-color('light')};
+	--color-theme-primary: #{get-color('primary')};
 	--color-theme-primary-glare: #{get-color('primary-glare')};
 	--color-intro-bg: #{get-color('grey-alt')};
-    --color-light: #{get-color('light')};
-    --color-grey-light: #{get-color('grey-light')};
-    --color-grey-med: #{get-color('grey-med')};
-    --color-accent: #{get-color('accent')};
+	--color-light: #{get-color('light')};
+	--color-grey-light: #{get-color('grey-light')};
+	--color-grey-med: #{get-color('grey-med')};
+	--color-accent: #{get-color('accent')};
+	color-scheme: light dark;
+
+	// Pull the tokens and generate custom props
+	@each $color in $stalfos-colors {
+		#{'--color-' + nth($color, 1)}: #{nth($color, 2)};
+	}
 }
 
 @include dark-mode() {
@@ -43,15 +43,15 @@
 }
 
 body {
-    color: var(--color-text);
-    background-color: var(--color-bg);
+	background-color: var(--color-bg);
+	color: var(--color-text);
 }
 
 main {
-    overflow: hidden;
+	overflow: hidden;
 }
 
 ::selection {
-    color: var(--color-selection-text);
-    background-color: var(--color-selection-bg);
+	background-color: var(--color-selection-bg);
+	color: var(--color-selection-text);
 }

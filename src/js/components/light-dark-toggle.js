@@ -11,9 +11,11 @@ const modeStatusElement = document.querySelector('.js-mode-status');
 /**
  * Pass in a custom prop key and this function will return its
  * computed value.
- * A reduced version of this: https://andy-bell.design/wrote/get-css-custom-property-value-with-javascript/
+ * A reduced version of this: https://andy-bell.design/wrote/get-css-custom-property-value-with-javascript/.
+ *
+ * @param propKey
  */
-const getCSSCustomProp = (propKey) => {
+const getCSSCustomProp = propKey => {
 	let response = getComputedStyle(document.documentElement).getPropertyValue(propKey);
 
 	// Tidy up the string if there’s something to work with
@@ -28,27 +30,28 @@ const getCSSCustomProp = (propKey) => {
 /**
  * Takes either a passed settings ('light'|'dark') or grabs that from localStorage.
  * If it can’t find the setting in either, it tries to load the CSS color mode,
- * controlled by the media query
+ * controlled by the media query.
+ *
+ * @param passedSetting
  */
 const applySetting = passedSetting => {
-	let currentSetting = passedSetting || localStorage.getItem(STORAGE_KEY);
+	const currentSetting = passedSetting || localStorage.getItem(STORAGE_KEY);
 
-	if(currentSetting) {
+	if (currentSetting) {
 		document.documentElement.setAttribute('data-user-color-scheme', currentSetting);
 		setButtonLabelAndStatus(currentSetting);
-	}
-	else {
+	} else {
 		setButtonLabelAndStatus(getCSSCustomProp(COLOR_MODE_KEY));
 	}
-}
+};
 
 /**
- * Get’s the current setting > reverses it > stores it
+ * Get’s the current setting > reverses it > stores it.
  */
 const toggleSetting = () => {
 	let currentSetting = localStorage.getItem(STORAGE_KEY);
 
-	switch(currentSetting) {
+	switch (currentSetting) {
 	case null:
 		currentSetting = getCSSCustomProp(COLOR_MODE_KEY) === 'dark' ? 'light' : 'dark';
 		break;
@@ -63,16 +66,18 @@ const toggleSetting = () => {
 	localStorage.setItem(STORAGE_KEY, currentSetting);
 
 	return currentSetting;
-}
+};
 
 /**
- * A shared method for setting the button text label and visually hidden status element
+ * A shared method for setting the button text label and visually hidden status element.
+ *
+ * @param currentSetting
  */
 const setButtonLabelAndStatus = currentSetting => {
 //   modeToggleText.innerText = `Enable ${currentSetting === 'dark' ? 'light' : 'dark'} mode`;
 	modeStatusElement.innerText = `Color theme is now "${currentSetting}"`;
 	modeToggleButton.setAttribute('aria-pressed', currentSetting === 'dark' ? true : false);
-}
+};
 
 /**
  * Clicking the button runs the apply setting method which grabs its parameter

@@ -5,7 +5,7 @@
  * properties in a way that supports the theme toggle web component
  */
 @mixin dark-mode() {
-    @media (prefers-color-scheme: dark) {
+	@media (prefers-color-scheme: dark) {
 		:root {
 			--color-mode: 'dark';
 		}
@@ -13,9 +13,9 @@
 		:root:not([data-user-color-scheme]) {
 			@content;
 		}
-    }
+	}
 
-    [data-user-color-scheme='dark'] {
-        @content;
-    }
+	[data-user-color-scheme='dark'] {
+		@content;
+	}
 }
