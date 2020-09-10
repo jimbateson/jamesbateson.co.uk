@@ -12,7 +12,7 @@ I also want to use it as a space to experiment with techniques that perhaps we d
 
 - [ ] Lazyload [~~native~~][hybrid]
 - [ ] Demos section
-- [ ] Dark mode toggle
+- [x] ~~Dark mode toggle~~
 - [ ] Contact form
 - [ ] Responsive image solution
 - [ ] Proper font loading solution
