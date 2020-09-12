@@ -1,6 +1,6 @@
 ---
 layout: home
-journalHeading: Recent Thoughts
+journalHeading: Recent Journals
 archiveButtonText: See all articles
 projectsSummary: Some silly side project ideas, I also make things on <a
   href=\"#\">Codepen</a> and any source code is available on <a
@@ -19,5 +19,5 @@ title: "Hello I’m James 👋 "
 bannerSummary: A front-end developer from Lancaster.
 postsHeading: Recent Articles
 postsSummary: A mix of development related articles, thoughts and notes.
-journalSummary: Articles on tech, travel, productivity, life, and more.
+journalSummary: Articles on being active, mental wellbeing, life, and more.
 ---
