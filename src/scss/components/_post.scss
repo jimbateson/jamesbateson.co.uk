@@ -3,20 +3,8 @@
 		--flow-space: #{get-size(800)};
 
 		> p:first-of-type:not(.post-note) {
-			@include apply-utility('font', 'heading');
 			font-size: get-size(600);
-			font-weight: 600;
-		}
-
-		[data-user-color-scheme='dark'] & {
-			> p:first-of-type:not(.post-note) {
-				font-weight: 500;
-			}
-
-			p,
-			li {
-				font-weight: 600;
-			}
+			font-weight: 500;
 		}
 
 		/**
@@ -41,11 +29,8 @@
 
 		code,
 		.bg-dark > code {
-			background-color: var(--color-intro-bg);
-			border: 1px dashed var(--color-link-text);
-			border-radius: 3px;
-			color: var(--color-text);
-			font-weight: 600;
+			background-color: var(--color-grey-light);
+			color: var(--color-dark);
 			padding: .2rem .5rem;
 		}
 
@@ -60,7 +45,6 @@
 			border-left: .4rem solid var(--color-theme-primary);
 			color: var(--color-dark);
 			font-size: get-size(600);
-			font-weight: 600;
 			margin-left: 0;
 			padding-left: get-size(500);
 			width: 100%;
@@ -131,7 +115,6 @@
 		pre > code {
 			display: block;
 			font-size: get-size(500);
-			font-weight: 400;
 			margin: 0 auto;
 			max-width: map-get($metrics, 'wrap-max-width');
 			padding: get-size(700);
@@ -167,7 +150,6 @@
 			}
 
 			strong {
-				@include apply-utility('font', 'heading');
 				border-bottom: 1px solid rgba(255, 255, 255, .25);
 				display: block;
 				font-size: get-size(600);
@@ -228,7 +210,6 @@
 			h3 {
 				@include apply-utility('font', 'base');
 				font-size: get-size(600);
-				font-weight: 600;
 
 				.heading-permalink {
 					display: none;
@@ -247,13 +228,10 @@
 	}
 
 	&__footer {
-		background-color: var(--color-action-text);
-		line-height: 1.4;
+		background-color: var(--color-intro-bg);
 
 		h2 {
-			font-weight: 600;
 			margin-right: get-size('base');
-			min-width: 100px;
 
 			a {
 				@extend %visually-hidden;
@@ -262,23 +240,22 @@
 
 		ul {
 			justify-content: flex-start;
+
+			li + li {
+				margin-left: 1.5rem;
+			}
 		}
 
 		a {
 			align-items: flex-start;
-			background: var(--color-intro-bg);
-			border: 1px dashed var(--color-link-text);
 			box-sizing: border-box;
-			display: flex;
 			justify-content: center;
-			padding: .5rem .8rem .8rem;
-			transition: background-color .5s ease;
 
 			&:hover,
 			&:focus {
-				background-color: var(--color-theme-primary);
-				color: var(--color-light);
-				text-decoration: none;
+				text-decoration: underline;
+				text-decoration-color: var(--color-link-text);
+				text-decoration-thickness: 2px;
 			}
 		}
 	}

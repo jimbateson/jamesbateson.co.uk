@@ -1,6 +1,7 @@
 .post-list {
 	&__item {
 		--flow-space: #{get-size(700)};
+		max-width: 35rem;
 	}
 
 	&__link {

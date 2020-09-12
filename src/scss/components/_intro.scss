@@ -1,20 +1,18 @@
 .intro {
-	background-color: var(--color-intro-bg);
 	color: var(--color-text);
 	margin-bottom: 1.5rem;
 	transition: background-color 300ms ease-in-out 0s, color 300ms ease-in-out 0s;
 
 	&__heading {
-		@include apply-utility('font', 'heading');
-		font-weight: 700;
+		font-weight: 600;
 
 		&:after {
 			background-color: var(--color-theme-primary);
 			content: '';
 			display: block;
-			height: 8px;
-			margin: 15px 0 10px;
-			width: 50px;
+			height: 7px;
+			margin: 15px 0;
+			width: 90px;
 		}
 
 		&--compact {
@@ -24,9 +22,6 @@
 
 	&__summary {
 		--flow-space: #{get-size(500)};
-		@include apply-utility('font', 'heading');
-		font-size: 1.75rem;
-		font-weight: 500;
 
 		a {
 			color: currentColor;
@@ -36,18 +31,11 @@
 				text-decoration: none;
 			}
 		}
-
-		.intro__meta {
-			@include apply-utility('font', 'base');
-		}
 	}
 
 	&__meta {
 		color: var(--color-text);
-
-		span {
-			font-style: italic;
-		}
+		font-weight: 500;
 	}
 
 	&__image {

@@ -29,7 +29,7 @@
 		position: relative;
 
 		&:before {
-			background-color: rgba(12, 12, 12, .1);
+			background-color: rgba(12, 12, 12, .3);
 			content: '';
 			display: block;
 			height: 100%;
@@ -151,12 +151,19 @@
 		}
 
 		span {
+			color: #ffe000;
 			opacity: 0;
 			transition: opacity .35s, transform .35s;
 			transition: visibility 0s linear .2s, opacity .2s cubic-bezier(.365, .005, .355, 1);
 			visibility: hidden;
 			will-change: opacity;
 		}
+	}
+}
+
+@media screen and (max-width: map-get($metrics, 'md-breakpoint')) {
+	.project-list {
+		padding-top: 1.95rem;
 	}
 }
 
