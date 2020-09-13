@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: main
+  branch: develop
 publish_mode: editorial_workflow
 site_url: "https://jamesbateson.co.uk"
 media_folder: "src/images"
@@ -24,7 +24,8 @@ collections:
           - {label: "Banner Summary", name: "bannerSummary", widget: "string"}
           - {label: "Post Feed Heading", name: "postsHeading", widget: "string", default: "Latest posts"}
           - {label: "Post Feed Summary", name: "postsSummary", widget: "string"}
-          - {label: "Archive Link Text", name: "archiveButtonText", widget: "string", default: "See all posts"}
+          - {label: "Journal Feed Heading", name: "journalHeading", widget: "string", default: "Latest thoughts"}
+          - {label: "Journal Feed Summary", name: "journalSummary", widget: "string"}
       - name: "resume"
         label: "Résumé"
         delete: false
@@ -95,7 +96,6 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/project-single.njk"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Url", name: "url", widget: "string"}
-      - {label: "Listing Image", name: "listingImage", widget: "image", required: false}
       - {label: "Banner Image", name: "bannerImage", widget: "image", required: false}
       - {label: "Short Description", name: "shortDescription", widget: "string"}
       - {label: "SEO Meta Title", name: "metaTitle", widget: "string", required: false}
@@ -104,17 +104,6 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Tags", name: "tags", widget: "list", allow_add: true}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "people"
-    label: "People"
-    folder: "src/people"
-    slug: "{{slug}}"
-    preview_path: "people/{{slug}}"
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Short Description", name: "shortDescription", widget: "string"}
-      - {label: "Site Url", name: "url", widget: "string"}
   - label: "Globals"
     name: "globals"
     files:

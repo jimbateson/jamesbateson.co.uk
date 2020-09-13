@@ -40,11 +40,11 @@
 
 	&__image {
 		&--rounded {
-			border: 6px solid var(--color-theme-primary);
+			border: 10px solid var(--color-link-text);
 			border-radius: 50%;
-			height: 220px;
+			height: 250px;
 			margin-top: 3rem;
-			width: 220px;
+			width: 250px;
 		}
 	}
 

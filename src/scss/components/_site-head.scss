@@ -2,12 +2,12 @@
 	overflow: hidden;
 
 	&:before {
-		background-image: radial-gradient(var(--color-theme-primary) 35%, transparent 40%);
-		background-size: 4px 4px;
+		background-image: radial-gradient(var(--color-link-text) 35%, transparent 40%);
+		background-size: 5px 5px;
 		content: '';
 		display: block;
 		height: 1rem;
-		margin-bottom: .7rem;
+		margin-bottom: 2rem;
 		width: 100vw;
 	}
 }
@@ -19,7 +19,7 @@
 
 	&:hover,
 	&:focus {
-		fill: var(--color-theme-primary);
+		fill: var(--color-link-text);
 	}
 }
 

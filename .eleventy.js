@@ -72,12 +72,6 @@ module.exports = function(config) {
 		].reverse();
 	});
 
-	config.addCollection('people', collection => {
-		return [
-			...collection.getFilteredByGlob('./src/people/*.md')
-		].reverse();
-	});
-
 	// Plugins
 	config.addPlugin(rssPlugin);
 	config.addPlugin(syntaxHighlight);

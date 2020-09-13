@@ -21,7 +21,7 @@ html {
 
 	&[data-user-color-scheme='dark'] {
 		img {
-			opacity: .75;
+			opacity: .85;
 		}
 	}
 }
@@ -92,7 +92,6 @@ a:not([class]) {
 @import 'utilities/wrapper';
 
 // Components
-@import 'components/about';
 @import 'components/heading-permalink';
 @import 'components/intro';
 @import 'components/light-dark-toggle';

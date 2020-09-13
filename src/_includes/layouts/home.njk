@@ -7,27 +7,22 @@
   {{ bannerSummary | safe }}
 {% endset %}
 
-{# Post list content #}
+{# Post and journal list content #}
 {% set postListHeading = postsHeading %}
 {% set postListSummary = postsSummary %}
 {% set postListItems = collections.postFeed %}
-
-{# Post list content #}
-{% set peopleListItems = collections.people %}
+{% set journalListHeading = journalHeading %}
+{% set journalListSummary = journalSummary %}
+{% set journalListItems = collections.journalFeed %}
 
 {# Project list content #}
 {% set projectListItems = collections.projects %}
-
-{# Archive link #}
-{% if postListItems.length < collections.posts.length %}
-  {% set paginationNextText = archiveButtonText %}
-  {% set paginationNextUrl = '/articles' %}
-{% endif %}
 
 {% block content %}
   <main id="main-content" tabindex="-1">
     {% include "partials/components/intro.njk" %}
     {% include "partials/components/article-list.njk" %}
+	{% include "partials/components/journal-list.njk" %}
     {% include "partials/components/project-list.njk" %}
   </main>
 {% endblock %}
