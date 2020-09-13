@@ -4,15 +4,12 @@
 
 The personal website of James Bateson. A front-end developer based in Lancaster and working at Fat Media.
 
-One of my main reasons for building this site, is to try and write more. Whether it be articles on tech, life, health, etc.
-
-I also want to use it as a space to experiment with techniques that perhaps we don't get to use at work. Therefore I'll be adding a demos section. This is more to build full page demos, I have started to use codepen for proof of concept and smaller demos.
+One of my main reasons for building this site, is to try and write more. Whether it be articles on dev, mental wellbeing, staying active, etc
 
 ## Roadmap
 
 - [ ] Lazyload [~~native~~][hybrid]
-- [ ] Demos section
 - [x] ~~Dark mode toggle~~
 - [ ] Contact form
 - [ ] Responsive image solution
-- [ ] Proper font loading solution
+- [ ] Font loading solution
