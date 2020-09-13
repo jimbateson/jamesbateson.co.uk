@@ -1,41 +1,33 @@
 @font-face {
 	font-display: swap;
-	font-family: 'Skolar Sans';
-	font-style: normal;
-	font-weight: 400;
-	src: url('/fonts/skolar-sans/skolar-sans-regular.woff2') format('woff2'), url('/fonts/skolar-sans/skolar-sans-regular.woff') format('woff');
-}
-
-@font-face {
-	font-display: swap;
-	font-family: 'Skolar Sans';
+	font-family: ministry;
 	font-style: normal;
 	font-weight: 600;
-	src: url('/fonts/skolar-sans/skolar-sans-semi.woff2') format('woff2'), url('/fonts/skolar-sans/skolar-sans-semi.woff') format('woff');
+	src: url('/fonts/ministry/ministry-xbold.woff2') format('woff2'), url('/fonts/ministry/ministry-xbold.woff') format('woff');
 }
 
 @font-face {
 	font-display: swap;
-	font-family: 'Skolar Sans';
-	font-style: normal;
-	font-weight: 700;
-	src: url('/fonts/skolar-sans/skolar-sans-bold.woff2') format('woff2'), url('/fonts/skolar-sans/skolar-sans-bold.woff') format('woff');
-}
-
-@font-face {
-	font-display: swap;
-	font-family: Sutro;
-	font-style: normal;
-	font-weight: 700;
-	src: url('/fonts/sutro/sutro-bold.woff2') format('woff2'), url('/fonts/sutro/sutro-bold.woff') format('woff');
-}
-
-@font-face {
-	font-display: swap;
-	font-family: Sutro;
+	font-family: ministry;
 	font-style: normal;
 	font-weight: 500;
-	src: url('/fonts/sutro/sutro-med.woff2') format('woff2'), url('/fonts/sutro/sutro-med.woff') format('woff');
+	src: url('/fonts/ministry/ministry-bold.woff2') format('woff2'), url('/fonts/ministry/ministry-bold.woff') format('woff');
+}
+
+@font-face {
+	font-display: swap;
+	font-family: ministry;
+	font-style: normal;
+	font-weight: 400;
+	src: url('/fonts/ministry/ministry-med.woff2') format('woff2'), url('/fonts/ministry/ministry-med.woff') format('woff');
+}
+
+@font-face {
+	font-display: swap;
+	font-family: ministry;
+	font-style: normal;
+	font-weight: 300;
+	src: url('/fonts/ministry/ministry-light.woff2') format('woff2'), url('/fonts/ministry/ministry-light.woff') format('woff');
 }
 
 body {
@@ -49,8 +41,7 @@ body {
 h1,
 h2,
 h3 {
-	@include apply-utility('font', 'heading');
-	font-weight: 700;
+	font-weight: 500;
 }
 
 h1 {

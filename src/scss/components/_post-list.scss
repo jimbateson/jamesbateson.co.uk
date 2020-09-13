@@ -1,9 +1,27 @@
 .post-list {
+	// Outputs: .post-list__item
 	&__item {
 		--flow-space: #{get-size(700)};
+		max-width: 35rem;
 	}
 
+	// Outputs: .post-list__link
 	&__link {
 		color: var(--color-text);
+	}
+
+	// Outputs: .post-list__archive
+	&__archive {
+		color: var(--color-text);
+		display: block;
+		margin-top: 2.2rem;
+		text-decoration: underline;
+		text-decoration-color: var(--color-link-text);
+		text-decoration-thickness: 2px;
+
+		&:hover,
+		&:focus {
+			color: var(--color-link-text);
+		}
 	}
 }

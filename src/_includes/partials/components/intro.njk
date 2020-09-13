@@ -1,9 +1,9 @@
-<header class="[ intro {% if introImage %} intro__flex {% endif %} ] [ pad-top-max pad-bottom-max ]">
+<header class="[ intro {% if introImage %} intro__flex {% endif %} ] [ pad-top-max pad-bottom-600 ]">
   <div class="[ wrapper ] [ {% if introImage %} sf-flow {% endif %}  ]">
     <div class="[ sf-flow ]">
-      <h1 class="[ intro__heading ] [ text-800 md:text-max leading-tight ] [ p-name ]">{{ introHeading }}</h1>
+      <h1 class="[ intro__heading ] [ text-900 md:text-max leading-tight ] [ p-name ]">{{ introHeading }}</h1>
       {% if introSummary %}
-        <div class="[ intro__summary ] [ sf-flow ] [ leading-tight ]">{{ introSummary | safe }}</div>
+        <div class="[ intro__summary ] [ sf-flow ] [ text-600 leading-tight ]">{{ introSummary | safe }}</div>
       {% endif %}
 
       <!-- Contact details on the resume page, not really needed anywhere else -->

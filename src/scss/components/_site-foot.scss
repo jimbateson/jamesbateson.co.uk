@@ -1,10 +1,9 @@
 .site-foot {
-
 	// Reverse selection colors
 	--color-selection-text: #{get-color('dark')};
 	--color-selection-bg: #{get-color('light')};
 	// Reverse whatever the theme colors are
-	background-color: var(--color-dark);
+	background-color: #1f1a24;
 	border-top: 1px solid rgba(255, 255, 255, .1);
 	color: var(--color-bg);
 

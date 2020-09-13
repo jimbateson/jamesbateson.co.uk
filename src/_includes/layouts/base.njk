@@ -14,11 +14,10 @@
 	<link rel="apple-touch-icon" href="/images/favicons/apple-touch-icon.png">
 	<link rel="manifest" href="/images/favicons/manifest.json">
 
-	<link rel="preload" as="font" type="font/woff2" href="/fonts/skolar-sans/skolar-sans-regular.woff2" crossorigin/>
-	<link rel="preload" as="font" type="font/woff2" href="/fonts/skolar-sans/skolar-sans-semi.woff2" crossorigin/>
-	<link rel="preload" as="font" type="font/woff2" href="/fonts/skolar-sans/skolar-sans-bold.woff2" crossorigin/>
-	<link rel="preload" as="font" type="font/woff2" href="/fonts/sutro/sutro-med.woff2" crossorigin/>
-	<link rel="preload" as="font" type="font/woff2" href="/fonts/sutro/sutro-bold.woff2" crossorigin/>
+	<link rel="preload" as="font" type="font/woff2" href="/fonts/ministry/ministry-light.woff2" crossorigin/>
+	<link rel="preload" as="font" type="font/woff2" href="/fonts/ministry/ministry-med.woff2" crossorigin/>
+	<link rel="preload" as="font" type="font/woff2" href="/fonts/ministry/ministry-bold.woff2" crossorigin/>
+	<link rel="preload" as="font" type="font/woff2" href="/fonts/ministry/ministry-xbold.woff2" crossorigin/>
 
 	{% include "partials/global/meta-info.njk" %}
 	<style>{% include "assets/css/global.css" %}</style>
@@ -34,8 +33,8 @@
 		}
   </script>
 </head>
-{# TODO a nicer way of doing this light nav #}
-<body class="{% if page.url == '/project/isveggiemanhere/' %}light-nav{% endif %}">
+
+<body>
 	{% include "partials/global/site-head.njk" %}
 	{% block content %}
 	{% endblock content %}
