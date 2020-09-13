@@ -29,4 +29,13 @@
 	.post__body--resume h3 img {
 		display: none;
 	}
+
+	.intro {
+		&__contact {
+			li + li {
+				margin-left: 1rem;
+				margin-top: 0;
+			}
+		}
+	}
 }
