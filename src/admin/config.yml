@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: develop
+  branch: main
 publish_mode: editorial_workflow
 site_url: "https://jamesbateson.co.uk"
 media_folder: "src/images"
