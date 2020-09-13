@@ -8,18 +8,14 @@ bannerSummary: Passionate, hard-working, reliable & keen to learn.
 ### Front-End Developer for ![Fat Media logo](/images/avatars/twitter/34f7590a-90.webp)[Fat Media](https://www.fatmedia.co.uk/)
 
 #### September 2013 - Present
+
 ##### Lancaster, UK
 
-* Taking flat designs and transforming into responsive, accessible, resilient and performant static websites/components
-
+* Taking flat designs and transforming into responsive, accessible, resilient, and performant static websites/components
 * Integrating statics templates into dynamic CMS based files (MVC, PHP, etc)
-
 * Contributor and maintainer of the company front-end framework
-
 * Responsible for quoting projects and jobs
-
 * Working to deadlines and interacting directly with clients (email, meetings, etc)
-
 * Ran a series of lunchtime learning sessions
 
 ## Skills
@@ -38,6 +34,7 @@ bannerSummary: Passionate, hard-working, reliable & keen to learn.
 ### Multimedia Technology at ![Leeds Bekett logo](/images/avatars/twitter/b5feb6c-90.webp) Leeds Metropolitan University
 
 #### September 2009 - June 2012
+
 ##### Leeds, UK
 
 * Graduated with a second-class honours degree (2:1)
