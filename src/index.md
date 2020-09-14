@@ -1,7 +1,7 @@
 ---
+archiveButtonText: See all articles
 layout: home
 journalHeading: Recent Journals
-archiveButtonText: See all articles
 projectsSummary: Some silly side project ideas, I also make things on <a
   href=\"#\">Codepen</a> and any source code is available on <a
   href=\"#\">Github</a>
@@ -12,7 +12,7 @@ about: >-
 
 
   I've been working at Fat Media now for the duration of my development career and live and work in Lancaster.
-metaTitle: James Bateson | Front-end developer
+metaTitle: James Bateson / Front-end developer
 metaDesc: Lancaster based front-end developer.
 socialImage: ""
 title: "Hello I’m James 👋 "
