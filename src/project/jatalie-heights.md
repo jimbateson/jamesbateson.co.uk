@@ -1,14 +1,14 @@
 ---
 layout: layouts/project-single.njk
-title: Jatalie Heights
 url: https://jatalieheights.co.uk/
-listingImage: /images/jatalie-heights-listing.jpeg
 bannerImage: /images/jatalie-heights-banner.jpg
 shortDescription: A less than regular personal walking blog.
 metaTitle: Jatalie Heights
 metaDesc: A less than regular personal walking blog.
 socialImage: /images/social-share-default.jpg
 date: 2020-05-18T19:18:09.907Z
+listingImage: /images/jatalie-heights-listing.jpeg
+title: Jatalie Heights
 tags:
   - Walking
   - Eleventy
@@ -29,7 +29,7 @@ Admittedly this project has fallen a little stale, however, it was a great chanc
 
 ## How does it work?
 
-The site builds nunjunks templates and markdown files into HTML files. The nunjunks templates are responsible for the layouts of the pages, and the markdown files are the content (a walk post for example).
+The site builds nunjucks templates and markdown files into HTML files. The nunjunks templates are responsible for the layouts of the pages, and the markdown files are the content (a walk post for example).
 
 The site has a couple of 'collections', The Walks and The List. these are walks that I have completed and have written a post about, and walks that I aim to do in the future.
 
