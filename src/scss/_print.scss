@@ -26,8 +26,21 @@
 		display: none;
 	}
 
-	.post__body--resume h3 img {
-		display: none;
+	.post__body--resume {
+		h3 img {
+			display: none;
+		}
+
+		h2 {
+			border-bottom: 1px dotted var(--color-dark);
+		}
+
+		ol,
+		ul {
+			::marker {
+				color: var(--color-dark);
+			}
+		}
 	}
 
 	.intro {
@@ -35,6 +48,10 @@
 			li + li {
 				margin-left: 1rem;
 				margin-top: 0;
+			}
+
+			a svg {
+				stroke: var(--color-dark);
 			}
 		}
 	}
