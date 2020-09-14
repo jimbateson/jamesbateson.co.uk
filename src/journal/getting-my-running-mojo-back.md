@@ -17,7 +17,7 @@ As well as now having Strava to focus my runs on, I've also joined a local runni
 
 ## Virtual Great North run
 
-Yesterday (Sunday 13th September) I took part in the virtual Great North Run. Although I missed out on the ballot for the actual run this year, signing up to this gave me a great focus to prepare for. The format was a little interesting, download the app, register for your preferred start time and start the app and run on the day. The app provided some crowd noises and messages of encouragement every mile. Considering my recent injuries and mental wellbeing, I was really proud of my time (just under 1:40). [See my result here](https://www.greatrun.org/myresults/1030/19529).
+Yesterday (Sunday 13th September) I took part in the virtual Great North Run. Although I missed out on the ballot for the actual run this year, signing up to this gave me a great focus to prepare for. The format was a little interesting, download the app, register for your preferred start time and start the app and run on the day. The app provided some crowd noises and messages of encouragement every mile. Considering my recent injuries and mental wellbeing, I was really proud of my time (just under 1:40). [See my final result here](https://www.greatrun.org/myresults/1030/19529).
 
 ## Parkrun is coming back!
 
@@ -25,4 +25,11 @@ Yesterday (Sunday 13th September) I took part in the virtual Great North Run. Al
 
 ## What's next?
 
+I still have a few goals for running both this year, and for the future.
 
+* 1000 miles for the year
+* Lancaster Parkrun PB
+* Morecamble Parkrun PB
+* Run a marathon
+
+Having rekindled my love for running, I'm hoping that meeting these goals is now very much acheiveable.
