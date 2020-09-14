@@ -25,7 +25,7 @@ Yesterday (Sunday 13th September) I took part in the virtual Great North Run. Al
 
 ## What's next?
 
-I still have a few goals for running both this year, and for the future.
+I still have a few goals for running both this year, and for the near future.
 
 * 1000 miles for the year
 * Lancaster Parkrun PB
