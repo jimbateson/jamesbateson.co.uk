@@ -1,12 +1,12 @@
 ---
 layout: layouts/project-single.njk
-title: Is Veggie Man Here?
 url: https://isveggiemanhere.co.uk
-listingImage: /images/is-veggie-man-here-listing.jpg
 bannerImage: /images/is-veggie-man-here-banner.jpg
-shortDescription: The answer to most important question every Wednesday and
+shortDescription: The answer to the most important question every Wednesday and
   Saturday. Is veggie man here?
 date: 2020-05-03T19:10:04.587Z
+listingImage: /images/is-veggie-man-here-listing.jpg
+title: Is Veggie Man Here?
 tags:
   - CSS
   - HTML
