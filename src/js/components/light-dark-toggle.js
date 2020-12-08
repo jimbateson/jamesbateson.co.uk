@@ -74,7 +74,6 @@ const toggleSetting = () => {
  * @param currentSetting
  */
 const setButtonLabelAndStatus = currentSetting => {
-//   modeToggleText.innerText = `Enable ${currentSetting === 'dark' ? 'light' : 'dark'} mode`;
 	modeStatusElement.innerText = `Color theme is now "${currentSetting}"`;
 	modeToggleButton.setAttribute('aria-pressed', currentSetting === 'dark' ? true : false);
 };
