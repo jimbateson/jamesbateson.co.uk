@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: A year in running - 2020
-metaDesc: A look back on how my running has gone in a tough year.
+metaDesc: A look back on how my running has gone during a tough year.
 socialImage: /images/social-share-default.jpg
 date: 2020-12-30T08:07:48.425Z
 tags:
