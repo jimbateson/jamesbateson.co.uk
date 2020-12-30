@@ -9,7 +9,7 @@ tags:
 ---
 This year, running has been a real savior and comfort for me. Unfortunately ending with a slight injury, I thought I would quickly jot down what I have/haven't achieved and set some initial goals for 2021.
 
-First things first, having done my last run for this year due to a slight niggle, here is my year in a few stats.
+First things first, having done my last run for this year, here is my year in a few stats.
 
 * Distance: 1,951.8km
 * Time: 155h 19m
@@ -18,7 +18,7 @@ First things first, having done my last run for this year due to a slight niggle
 
 This means that I managed to hit two of my main goals for the year (given that a lot of the event-based ones were not doable), those being; Run 1000 miles, and climb 20,000 meters. Definitely proud to have hit those two.
 
-I also hit my goal of running the half-marathon distance 3 times, which I have comfortably managed, doing it 7 times in the end.
+I also hit my goal of running the half-marathon distance 3 times, which I have comfortably managed, doing it 7 times in the end. And one other unexpected goal to mention is going on a couple of running club runs! (this is something I didn't think I'd have the confidence to do).
 
 The goals I didn't hit are all event-related ones. So given everything, not hitting these is understandable. These include the total number of Parkrun events and various PBs (easier to push in race conditions).
 
