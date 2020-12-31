@@ -1,10 +1,9 @@
 .site-head {
-	overflow: hidden;
+	position: relative;
 
 	> svg {
 		left: 0;
 		position: absolute;
-		top: 0;
 		transition: fill .3s ease-in-out 0s;
 		width: 100%;
 		z-index: -1;
@@ -22,8 +21,23 @@
 	}
 }
 
+@media screen and (max-width: 767px) {
+	.site-head {
+		background-color: var(--color-intro-bg);
+
+		> svg {
+			top: 100%;
+		}
+	}
+}
+
 @include media-query('md') {
 	.site-head {
+		> svg {
+			fill-opacity: .65;
+			top: 0;
+		}
+
 		.wrapper {
 			max-width: 75rem;
 		}
