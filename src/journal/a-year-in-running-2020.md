@@ -32,6 +32,9 @@ Previously mentioned injury and COVID situation dependant these are some goals I
 * Reach 75 Parkruns (would love 100 but not sure at what point in the year it'll be safe for this to return)
 * 10 half-marathon distance runs
 * A marathon distance run
+* Do more trail running
+* Keep up the social runs/clubs (when possible)
+* Parkrun to Parkrun
 
 If I'm not out for too long with the knee, I think most of those are achievable. I've not really set any event-based targets this time (5/ 10km PBs, etc) as I'm not sure how many events I'll actually get to enter. I intend this year to be more about trying to enjoy my running more and try to get a good routine/plan going that will in turn hopefully help prevent another injury situation.
 
