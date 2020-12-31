@@ -11,10 +11,10 @@ This year, running has been a real savior and comfort for me. Unfortunately endi
 
 First things first, having done my last run for this year, here is my year in a few stats.
 
-* Distance: 1,951.8km
-* Time: 155h 19m
-* Elevation: 20,888m
-* Total runs: 278
+* Distance: 1,957km
+* Time: 155h 44m
+* Elevation: 20,920m
+* Total runs: 279
 
 This means that I managed to hit two of my main goals for the year (given that a lot of the event-based ones were not doable), those being; Run 1000 miles, and climb 20,000 meters. Definitely proud to have hit those two.
 
