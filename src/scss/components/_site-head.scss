@@ -1,15 +1,12 @@
 .site-head {
 	overflow: hidden;
 
-	&:before {
-		background-image: radial-gradient(var(--color-link-text) 35%, transparent 40%);
-		background-size: 5px 5px;
-		content: '';
-		display: block;
-		height: 1rem;
-		margin-bottom: 2rem;
-		opacity: .75;
-		width: 100vw;
+	> svg {
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: -1;
 	}
 }
 
