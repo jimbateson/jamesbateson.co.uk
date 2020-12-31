@@ -5,6 +5,7 @@
 		left: 0;
 		position: absolute;
 		top: 0;
+		transition: fill .3s ease-in-out 0s;
 		width: 100%;
 		z-index: -1;
 	}
@@ -45,6 +46,6 @@
 	}
 
 	.site-logo {
-		width: 75px;
+		width: 65px;
 	}
 }
