@@ -5,9 +5,10 @@
 
 	&__heading {
 		font-weight: 600;
+		line-height: 1.1;
 
 		&:after {
-			background-color: var(--color-theme-primary);
+			background-color: var(--color-link-text);
 			content: '';
 			display: block;
 			height: 7px;
