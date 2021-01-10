@@ -1,13 +1,15 @@
 .intro {
 	color: var(--color-text);
 	margin-bottom: 1.5rem;
+	position: relative;
 	transition: background-color 300ms ease-in-out 0s, color 300ms ease-in-out 0s;
 
 	&__heading {
 		font-weight: 600;
+		line-height: 1.1;
 
 		&:after {
-			background-color: var(--color-theme-primary);
+			background-color: var(--color-link-text);
 			content: '';
 			display: block;
 			height: 7px;
