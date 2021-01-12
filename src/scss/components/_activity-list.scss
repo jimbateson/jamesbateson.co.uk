@@ -1,0 +1,53 @@
+.activity-list {
+	background-color: var(--color-intro-bg);
+	border-radius: 10px;
+	padding: get-size(900) 0;
+
+	ul {
+		display: grid;
+		gap: get-size(600);
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	li {
+		align-items: flex-start;
+		display: flex;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	h4 {
+		background-image: linear-gradient(var(--color-link-text), var(--color-link-text));
+		background-position: 0 100%;
+		background-repeat: no-repeat;
+		background-size: 100% 6px;
+		display: inline;
+	}
+
+	.wrapper {
+		max-width: 75rem;
+	}
+}
+
+.activity-list__icon {
+	align-items: center;
+	border: 2px solid var(--color-text);
+	border-radius: 50%;
+	display: flex;
+	height: 70px;
+	justify-content: center;
+	margin-right: get-size(500);
+	min-width: 70px;
+	padding: 12px;
+	width: 60px;
+
+	svg {
+		height: auto;
+		width: 40px;
+
+		path {
+			fill: var(--color-text);
+		}
+	}
+}

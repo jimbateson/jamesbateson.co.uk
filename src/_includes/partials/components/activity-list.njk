@@ -1,0 +1,30 @@
+{% if strava.length %}
+	<div class="[ activity-list ] [ gap-bottom-700 md:gap-bottom-max ]">
+		<div class="[ wrapper ] [ sf-flow ]">
+			<h2 class="[ post-list__heading ] [ text-700 md:text-900 ]">Latest Activities</h2>
+			<p class="section-intro">Keeping active is very important to me. Not only for my physical health, but also for my mental wellbeing. Here's what I've been up to recently.</p>
+
+			<ul class="[ pad-top-500 ]">
+				{% for item in strava %}
+				<li>
+					<div class="activity-list__icon">
+						{% if item.type == "Run" %} {% include "partials/running.svg" %} {% endif %}
+						{% if item.type == "WeightTraining" %} {% include "partials/weight.svg" %} {% endif %}
+						{% if item.type == "Walk" %} {% include "partials/walking.svg" %} {% endif %}
+						{% if item.type == "Ride" %} {% include "partials/ride.svg" %} {% endif %}
+						{% if item.type == "Workout" %} {% include "partials/workout.svg" %} {% endif %}
+					</div>
+
+					<div>
+						<h4 class="[ leading-tight text-500 ]">{{ item.name }}</h4>
+						<p class="[ text-300 ] [ gap-bottom-300 ]">{{ item.start_date | dateFilter }}</p>
+						<p>{% if item.distance %} <strong>{{ item.distance | metersFilter }}km</strong> distance {% endif %}</p>
+						<p>{% if item.total_elevation_gain %} <strong>{{ item.total_elevation_gain }} meters</strong> elevation gain{% endif %}</p>
+						<p><strong>{{ item.moving_time | secondsFilter }}</strong> moving time</p>
+					</div>
+				</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+{% endif %}

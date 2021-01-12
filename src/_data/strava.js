@@ -16,7 +16,7 @@ module.exports = async () => {
     // Return auth info
     const data = await reAuthorize();
 
-    const activities_link = `https://www.strava.com/api/v3/athlete/activities?per_page=5&access_token=${data.access_token}`;
+    const activities_link = `https://www.strava.com/api/v3/athlete/activities?per_page=6&access_token=${data.access_token}`;
 
     try {
 		// Grabs either the fresh remote data or cached data (will always be fresh live)
