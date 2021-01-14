@@ -1,14 +1,12 @@
 .site-head {
-	overflow: hidden;
+	position: relative;
 
-	&:before {
-		background-image: radial-gradient(var(--color-link-text) 35%, transparent 40%);
-		background-size: 5px 5px;
-		content: '';
-		display: block;
-		height: 1rem;
-		margin-bottom: 2rem;
-		width: 100vw;
+	> svg {
+		left: 0;
+		position: absolute;
+		transition: fill .3s ease-in-out 0s;
+		width: 100%;
+		z-index: -1;
 	}
 }
 
@@ -23,8 +21,23 @@
 	}
 }
 
+@media screen and (max-width: 767px) {
+	.site-head {
+		background-color: var(--color-intro-bg);
+
+		> svg {
+			top: 100%;
+		}
+	}
+}
+
 @include media-query('md') {
 	.site-head {
+		> svg {
+			fill-opacity: .65;
+			top: -30px;
+		}
+
 		.wrapper {
 			max-width: 75rem;
 		}
@@ -47,6 +60,6 @@
 	}
 
 	.site-logo {
-		width: 75px;
+		width: 65px;
 	}
 }

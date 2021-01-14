@@ -1,4 +1,5 @@
 .post {
+	// .post__body
 	&__body {
 		--flow-space: #{get-size(800)};
 
@@ -29,8 +30,9 @@
 
 		code,
 		.bg-dark > code {
-			background-color: var(--color-grey-light);
-			color: var(--color-dark);
+			background-color: var(--color-intro-bg);
+			border-radius: 3px;
+			color: var(--color-text);
 			padding: .2rem .5rem;
 		}
 
@@ -157,7 +159,7 @@
 				padding-bottom: 10px;
 			}
 
-			// Outputs: post-note--update
+			// post-note--update
 			&--update {
 				background-color: var(--color-intro-bg);
 				color: var(--color-text);
@@ -227,6 +229,7 @@
 		}
 	}
 
+	// .post__footer
 	&__footer {
 		background-color: var(--color-intro-bg);
 
@@ -242,7 +245,7 @@
 			justify-content: flex-start;
 
 			li + li {
-				margin-left: 1.5rem;
+				margin-left: 1rem;
 			}
 		}
 
