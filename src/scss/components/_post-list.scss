@@ -1,16 +1,16 @@
 .post-list {
-	// Outputs: .post-list__item
+	// .post-list__item
 	&__item {
 		--flow-space: #{get-size(700)};
 		max-width: 35rem;
 	}
 
-	// Outputs: .post-list__link
+	// .post-list__link
 	&__link {
 		color: var(--color-text);
 	}
 
-	// Outputs: .post-list__archive
+	// .post-list__archive
 	&__archive {
 		color: var(--color-text);
 		display: block;
