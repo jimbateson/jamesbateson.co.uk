@@ -5,6 +5,10 @@
 .activity-list__item-right {
 	h3 {
 		color: var(--color-link-text);
+
+		[data-user-color-scheme='light'] & {
+			color: var(--color-dark-alt);
+		}
 	}
 
 	p {
