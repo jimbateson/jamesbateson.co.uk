@@ -4,10 +4,10 @@
 
 .activity-list__item-right {
 	h3 {
-		color: var(--color-link-text);
+		color: var(--color-dark-alt);
 
-		[data-user-color-scheme='light'] & {
-			color: var(--color-dark-alt);
+		[data-user-color-scheme='dark'] & {
+			color: var(--color-link-text);
 		}
 	}
 
