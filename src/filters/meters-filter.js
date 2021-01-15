@@ -1,3 +1,4 @@
 module.exports = function metersFilter(meters) {
-	return Math.round(meters * 0.001);
+	const intMeters = meters * 0.001;
+	return Math.round(intMeters * 1000) / 1000;
 }
