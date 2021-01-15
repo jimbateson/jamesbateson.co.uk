@@ -95,7 +95,7 @@ collections:
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/project-single.njk"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Url", name: "url", widget: "string"}
+      - {label: "Url", name: "url", widget: "string", required: false}
       - {label: "Banner Image", name: "bannerImage", widget: "image", required: false}
       - {label: "Short Description", name: "shortDescription", widget: "string"}
       - {label: "SEO Meta Title", name: "metaTitle", widget: "string", required: false}

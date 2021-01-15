@@ -62,13 +62,13 @@ a:not([class]) {
 	background-image: linear-gradient(var(--color-link-text), var(--color-link-text));
 	background-position: 0 100%;
 	background-repeat: no-repeat;
-	background-size: 0 2px;
+	background-size: 0 3px;
 	text-decoration: none;
 	transition: background-size .3s cubic-bezier(.365, .005, .355, 1);
 
 	&:hover,
 	&:focus {
-		background-size: 100% 2px;
+		background-size: 100% 3px;
 		text-decoration: none;
 	}
 }

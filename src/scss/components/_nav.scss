@@ -1,7 +1,7 @@
 .nav {
-	// Outputs: .nav__list
+	// .nav__list
 	&__list {
-		// Outputs: .nav__list--tags
+		// .nav__list--tags
 		&--tags {
 			-webkit-overflow-scrolling: touch;
 			-ms-overflow-style: none;
@@ -21,13 +21,13 @@
 		}
 	}
 
-	// Outputs: .nav__item
+	// .nav__item
 	&__item {
 		padding: 0;
 
 		&.active {
 			a {
-				background-size: 50% 2px;
+				background-size: 50% 3px;
 			}
 		}
 
@@ -41,7 +41,7 @@
 			}
 		}
 
-		// Outputs: .nav__item--tag
+		// .nav__item--tag
 		&--tag {
 			a {
 				&:after {
@@ -86,13 +86,13 @@
 
 @include media-query('md') {
 	.nav {
-		// Outputs: .nav__list
+		// .nav__list
 		&__list {
 			> * + * {
 				margin-left: get-size(700);
 			}
 
-			// Outputs: .nav__list--tags
+			// .nav__list--tags
 			&--tags {
 				> * + * {
 					margin-left: get-size(500);

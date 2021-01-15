@@ -13,7 +13,7 @@
 
 				<ul class="[ post-list__item-links ]">
 					<li><a href="{{ item.url }}">Write-up</a></li>
-					<li><a href="{{ item.data.url }}" target="_blank" rel="external noreferrer">Site</a></li>
+					{% if item.data.url %}<li><a href="{{ item.data.url }}" target="_blank" rel="external noreferrer">Site</a></li>{% endif %}
 				</ul>
 			</div>
 

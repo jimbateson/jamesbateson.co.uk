@@ -7,10 +7,22 @@
 	border-top: 1px solid rgba(255, 255, 255, .1);
 	color: var(--color-bg);
 
-	// Outputs: .site-foot__credit
+	// .site-foot__credit
 	&__credit {
 		color: var(--color-light);
 		text-align: center;
+
+		li {
+			display: inline-block;
+			line-height: 1.8;
+
+			&:nth-child(n+2):before {
+				color: var(--color-link-text);
+				content: '/';
+				display: inline-block;
+				margin: 0 .4rem;
+			}
+		}
 
 		a {
 			color: currentColor;
@@ -22,7 +34,7 @@
 		}
 	}
 
-	// Outputs: .site-foot__details
+	// .site-foot__details
 	&__details {
 		align-items: center;
 		display: flex;
@@ -40,7 +52,7 @@
 		}
 	}
 
-	// Outputs: .site-foot__icon
+	// .site-foot__icon
 	&__icon {
 		&:hover,
 		&:focus {
@@ -57,7 +69,7 @@
 		}
 	}
 
-	// Outputs .site-foot__social
+	// .site-foot__social
 	&__social {
 		align-items: center;
 		display: flex;

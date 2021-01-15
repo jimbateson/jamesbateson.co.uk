@@ -5,10 +5,13 @@
 {% set introHeading = title %}
 {% set introSummary %}
 
-<p class="[ intro__meta ] [ pad-bottom-500 ] [ text-500 weight-300 leading-tight ]">
-  <a href="{{ url }}">{{ url }}</a>
-</p>
+{% if url %}
+	<p class="[ intro__meta ] [ pad-bottom-500 ] [ text-500 weight-300 leading-tight ]">
+		<a href="{{ url }}">{{ url }}</a>
+	</p>
+{% endif %}
 {% endset %}
+
 
 {% block content %}
   <main id="main-content" class="project-single" tabindex="-1">
