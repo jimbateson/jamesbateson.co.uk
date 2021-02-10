@@ -25,16 +25,28 @@ bannerSummary: Passionate, hard-working, reliable & keen to learn.
 
 #### I still have a lot to learn, but excited and passionate about further building on this skillset and a career in front-end development.
 
+### Core
+
 * HTML
 * CSS (Sass preprocessor - Scss)
-* JavaScript (jQuery and vanilla)
+* Functional JavaScript (jQuery and vanilla)
 * Git (Gitflow)
 * Accessible development
-* Performant development 
+* Performant development
+* Grunt/Gulp
+
+### Experience with
+
+* Vue
+* Twig & Nunjucks
+* PHP
+* WordPress
+* Node
+* Zeplin, Figma, Adobe XD
 
 ## Educational Experience
 
-### Multimedia Technology at ![Leeds Bekett logo](/images/avatars/twitter/b5feb6c-90.webp) Leeds Metropolitan University
+### Multimedia Technology at ![Leeds Beckett logo](/images/avatars/twitter/b5feb6c-90.webp) Leeds Metropolitan University
 
 #### September 2009 - June 2012
 
