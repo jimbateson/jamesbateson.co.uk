@@ -14,12 +14,13 @@ bannerSummary: Passionate, hard-working, reliable & keen to learn.
 
 ##### Lancaster, UK
 
-* Taking flat designs and transforming into responsive, accessible, resilient, and performant static websites/components
-* Integrating statics templates into dynamic CMS based files (MVC, PHP, etc)
+* Taking flat designs and transforming them into responsive, accessible, resilient, and performant static websites/components
+* Integrating static templates into dynamic CMS based templating files (MVC, PHP, Twig)
 * Contributor and maintainer of the company front-end framework
 * Responsible for quoting projects and jobs
-* Working to deadlines and interacting directly with clients (email, meetings, etc)
+* Working to deadlines and interacting directly with clients (email, meetings)
 * Ran a series of lunchtime learning sessions
+* Worked with both agile and waterfall projects
 
 ## Skills
 
