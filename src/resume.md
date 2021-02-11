@@ -31,17 +31,14 @@ bannerSummary: Passionate, hard-working, reliable & keen to learn.
 * CSS (Sass preprocessor - Scss)
 * Functional JavaScript (jQuery and vanilla)
 * Git (Gitflow)
-* Accessible development
-* Performant development
+* Accessibility practices
+* Performance practices
 * Grunt/Gulp
 
 ### Experience with
 
 * Vue
 * Twig & Nunjucks
-* PHP
-* WordPress
-* Node
 * Zeplin, Figma, Adobe XD
 
 ## Educational Experience
