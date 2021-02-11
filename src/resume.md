@@ -28,7 +28,7 @@ bannerSummary: Passionate, hard-working, reliable & keen to learn.
 ### Core
 
 * HTML
-* CSS (Sass preprocessor - Scss)
+* CSS (Sass)
 * Functional JavaScript (jQuery and vanilla)
 * Git (Gitflow)
 * Accessibility practices
