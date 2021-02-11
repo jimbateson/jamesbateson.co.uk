@@ -1,4 +1,8 @@
 @media print {
+	.post__body--resume {
+		--flow-space: 1.5rem;
+	}
+
 	a,
 	a:not([class]) {
 		text-decoration: none;
@@ -14,10 +18,34 @@
 	}
 
 	.intro {
+		padding-bottom: .5rem;
+		padding-top: 0;
+
+		// .intro__heading
+		&__heading {
+			font-size: 3.5rem;
+			margin-top: 0;
+		}
+
+		// .intro__summary
+		&__summary {
+			font-size: 1.2rem;
+		}
+
+		// .intro__contact
 		&__contact {
 			li {
 				display: inline-block;
 				float: left;
+			}
+
+			li + li {
+				margin-left: 1rem;
+				margin-top: 0;
+			}
+
+			a svg {
+				stroke: var(--color-dark);
 			}
 		}
 	}
@@ -43,16 +71,7 @@
 		}
 	}
 
-	.intro {
-		&__contact {
-			li + li {
-				margin-left: 1rem;
-				margin-top: 0;
-			}
-
-			a svg {
-				stroke: var(--color-dark);
-			}
-		}
+	.post__body--resume h2 {
+		margin-bottom: 20px;
 	}
 }
