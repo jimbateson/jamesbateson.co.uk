@@ -43,6 +43,7 @@ First off we'll need to create a workflow directory and configuration file in ou
 
 Inside that file, paste this configuration (this is the basic one I am using for a scheduled weekly build).
 
+{% raw %}
 ```yaml
 name: Scheduled build
 on:
@@ -57,6 +58,7 @@ jobs:
         TOKEN: ${{{ secrets.NETLIFY_SPEEDLIFY_BUILD_WEEKLY }}}
 	  run: curl -X POST -d {} https://api.netlify.com/build_hooks/${TOKEN}
 ```
+{% endraw %}
 
 <p class="post-note"><strong>Note</strong>Only use double handlebars around the <code>TOKEN</code> value. There's an issue on my site where even in code examples the using moustache templating syntax tries to compile!<br><br>
 <a href="https://github.com/jimbateson/speedlify/blob/main/.github/workflows/weekly-build.yml">Here's a link to my example setup</a> so you can see it properly.</p>
