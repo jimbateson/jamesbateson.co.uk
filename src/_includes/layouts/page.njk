@@ -8,14 +8,14 @@
 {% set introImageClass = bannerImageClass %}
 
 {% block content %}
-  <main id="main-content" tabindex="-1">
-    <article class="[ post ] [ h-entry ]">
-      {% include "partials/components/intro.njk" %}
-      <div class="[ post__body ] [ inner-wrapper ] [ pad-top-600 pad-bottom-max text-500 ] [ sf-flow ] [ e-content ]">
-        {{ content | safe }}
-      </div>
-    </article>
-  </main>
+	<main id="main-content" tabindex="-1">
+		<article class="[ post ] [ h-entry ]">
+			{% include "partials/components/intro.njk" %}
+			<div class="[ post__body ] [ inner-wrapper ] [ pad-top-600 pad-bottom-max text-500 ] [ sf-flow ] [ e-content ]">
+				{{ content | safe }}
+			</div>
+		</article>
+	</main>
 {% endblock %}
 
 {{ content | safe }}

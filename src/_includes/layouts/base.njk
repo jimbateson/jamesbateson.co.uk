@@ -25,7 +25,7 @@
 	{% block head %}
 	{% endblock %}
 
-	{# Feels a bit hacky, but prevents the dreaded flash of incorrect theme #}
+	{# Feels a bit hacky, but prevents a flash of incorrect theme #}
 	<script>
 		if(localStorage.getItem('user-color-scheme') !== null) {
 			const theme = localStorage.getItem('user-color-scheme');
