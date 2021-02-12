@@ -60,9 +60,6 @@ jobs:
 ```
 {% endraw %}
 
-<p class="post-note"><strong>Note</strong>Only use double handlebars around the <code>TOKEN</code> value. There's an issue on my site where even in code examples the using moustache templating syntax tries to compile!<br><br>
-<a href="https://github.com/jimbateson/speedlify/blob/main/.github/workflows/weekly-build.yml">Here's a link to my example setup</a> so you can see it properly.</p>
-
 Before we break down a few of these settings, you'll need to change a couple of bits specific to the bits we set up in previous steps.
 
 * **name (and jobs:build:name)** - change these to something that better describes what your build is doing
