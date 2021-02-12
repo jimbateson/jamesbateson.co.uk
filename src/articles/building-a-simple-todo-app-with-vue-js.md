@@ -66,11 +66,13 @@ data: {
 
 To loop through this data and display it, we need to to use `v-for`
 
+{% raw %}
 ```html
 <li v-for="(todo, index) in todos">
-     ...
+     {{ todo.title }}
 </li>
 ```
+{% endraw %}
 
 Here `todos` is the array we are looping through and `todo` is our name for the array element we are iterating over. You can also pass an (optional) second option to `v-for`, which is the index of the item.
 
