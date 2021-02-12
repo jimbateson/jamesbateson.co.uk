@@ -1,23 +1,12 @@
-.activity-list {
-	background-color: var(--color-intro-bg);
-}
-
 .activity-list__item-right {
 	h3 {
-		color: var(--color-dark-alt);
-
-		[data-user-color-scheme='dark'] & {
-			color: var(--color-link-text);
-		}
+		color: var(--color-text);
 	}
 
 	p {
+		color: var(--color-link-text);
 		margin: 0;
 	}
-}
-
-.activity-list__items {
-	margin-top: get-size(500);
 }
 
 .activity-list__icon {
@@ -73,10 +62,10 @@
 		display: grid;
 		gap: get-size(500) get-size(700);
 		grid-template-columns: repeat(2, 1fr);
-		margin-top: get-size(700);
 
 		li {
-			font-size: 1rem;
+			font-size: .9rem;
+			line-height: 1.4;
 		}
 	}
 
