@@ -49,8 +49,7 @@ hr {
 
 a:not([class]) {
 	color: var(--color-text);
-	text-decoration: underline;
-	text-decoration-color: var(--color-link-text);
+	text-decoration: underline var(--color-link-text) 2px;
 
 	&:hover,
 	&:focus {
