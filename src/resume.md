@@ -35,6 +35,7 @@ bannerSummary: Passionate, hard-working, reliable & keen to learn.
 * Accessibility practices
 * Performance practices
 * Grunt/Gulp
+* Ability to effectively communicate technical issues and solutions
 
 ### Experience with
 
