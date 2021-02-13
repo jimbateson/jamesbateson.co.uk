@@ -4,7 +4,7 @@ layout: layouts/resume.njk
 metaTitle: James Bateson / Résumé
 metaDesc: The résumé of James Bateson. A front-end developer from Lancaster.
 socialImage: /images/social-share-default.jpg
-bannerSummary: Passionate, hard-working, reliable & keen to learn.
+bannerSummary: Passionate, hard-working, reliable and keen to learn.
 ---
 ## Professional Experience
 
@@ -24,7 +24,7 @@ bannerSummary: Passionate, hard-working, reliable & keen to learn.
 
 ## Skills
 
-#### I still have a lot to learn, but excited and passionate about building on my skills and furthering my career in front-end development.
+#### I still have a lot to learn, but I'm excited and passionate about building on my skills and learning new ones to further my career in front-end development.
 
 ### Core
 
@@ -35,6 +35,7 @@ bannerSummary: Passionate, hard-working, reliable & keen to learn.
 * Accessibility practices
 * Performance practices
 * Grunt/Gulp
+* Ability to effectively communicate technical issues and solutions
 
 ### Experience with
 
