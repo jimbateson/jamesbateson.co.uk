@@ -20,7 +20,7 @@ bannerSummary: Passionate, hard-working, reliable and keen to learn.
 * Responsible for quoting projects and jobs
 * Working to deadlines and interacting directly with clients (email, meetings)
 * Ran a series of lunchtime learning sessions
-* Worked with both agile and waterfall projects
+* Worked on projects using both waterfall and agile philosophies
 
 ## Skills
 
