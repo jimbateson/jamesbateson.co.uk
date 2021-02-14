@@ -13,7 +13,7 @@ With a background in design, I'm now focused on the front-end and especially enj
 
 After discovering my passion for building on the web at school when building a website for my five-a-side team, I have over 5 years of experience in creating performant, accessible user experiences and have worked with clients such as Lakeland, Warburtons, and YOTEL.
 
-Day-to-day I use modern front-end techniques to solve a multitude of problems efficiently. Aided by tools such as task runners, linters, and frameworks.
+Day-to-day I use modern front-end techniques to solve a multitude of problems efficiently. Aided by tools such as task runners, linters, and frameworks. Writing code cleanely and having repetitive tasks become automated are things that I strive for.
 
 ## It’s not all about the codes
 
