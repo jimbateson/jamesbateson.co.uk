@@ -18,7 +18,6 @@ bannerSummary: Passionate, hard-working, reliable and keen to learn.
 * Integrating static templates into dynamic CMS based templating files (MVC, PHP, Twig)
 * Contributor and maintainer of the company front-end framework
 * Responsible for quoting projects and jobs
-* Working to deadlines and interacting directly with clients (email, meetings)
 * Ran a series of lunchtime learning sessions
 * Worked on projects using both waterfall and agile philosophies
 
