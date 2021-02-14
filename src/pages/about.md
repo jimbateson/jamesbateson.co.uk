@@ -17,7 +17,7 @@ Day-to-day I use modern front-end techniques to solve a multitude of problems ef
 
 ## It’s not all about the codes
 
-Outside of work, I like to try and keep active, I have become a very keen runner over the last year or so, regularly attending local Parkruns and 5/10K/half marathon events.
+Outside of work, I like to try and keep active, I am a very keen runner, regularly attending local Parkruns and 5/10K/half marathon events and more recently trail/fell runs.
 
 As well as running, I also enjoy getting my walking boots on and going for a hike, especially up in the Lake District fells, occasionally getting the bike out and also going to the gym.
 
