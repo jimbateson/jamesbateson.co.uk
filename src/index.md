@@ -12,7 +12,7 @@ about: >-
 
 
   I've been working at Fat Media now for the duration of my development career and live and work in Lancaster.
-metaTitle: James Bateson / Front-end developer
+metaTitle: James Bateson / Front-End developer
 metaDesc: Lancaster based front-end developer.
 socialImage: ""
 title: "Hi, I’m James 👋 "
