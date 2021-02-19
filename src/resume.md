@@ -29,7 +29,7 @@ bannerSummary: Passionate, hard-working, reliable and keen to learn.
 
 * HTML
 * CSS (Sass)
-* Functional JavaScript (jQuery and vanilla)
+* Presentational JavaScript (jQuery and vanilla)
 * Git (Gitflow)
 * Accessibility practices
 * Performance practices
