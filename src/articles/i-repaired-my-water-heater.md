@@ -19,4 +19,9 @@ Upon closer inspection, there was a handily placed label, near a control that lo
 
 A lot of waffle there, and not really sure where I was going with this. It just hit me that one person's decision to include that small label greatly improved the experience I had when studying the unit. Translated to the web, it made me think about how when we build a UI or add some functionality to a component, it's easy to forget that it's obvious to us building it what things are meant to do, and have expectations on how a user may interact with it. But adding little helpful pointers to assist people who may not be as knowledgable or technically-minded can really improve their experience of your product.
 
+These could be little things as simple as:
+* Labelling form fields suitable, and in a place where they are visible at all times when the user is still typing
+* Providing helper text for form fields that might be more complex
+* Choosing suitable iconography so a user isn't confused by a button's purpose - or possibly providing a small text context for it if that would be better
+
 I was really pleased that I managed to solve my issue and now have hot water again and hopefully won't have to get somebody out to fix it, incurring the stress and cost that would come with that. All because of one little label.
