@@ -22,6 +22,10 @@ This first article will cover the following steps:
 
 To use the Strava API you'll first need to create an app within your Strava account. When logged into Strava head to your account settings and you may see 'My API Application' as the bottom menu item. If however, you've not set one up in the past, you won't see this. If that is the case—head to this url to create one](https://www.strava.com/settings/api).
 
-When setting up your application fill in the relevant details. I chose to categorise my app as "Traning" and you'll only need to pick a club if you have created one and it's assosiated with that. For the website I just put my personal one, the more important one is the callback domain. When first setting up, set it to <strong>localhost</strong>. Once you have done your development work and you're ready to push live, you'll need to change this to your live url.
+When setting up your application fill in the relevant details. I chose to categorise my app as "Traning" and you'll only need to pick a club if you have created one and it's associated with that. For the website I just put my personal one, the more important one is the callback domain. When first setting up, set it to <strong>localhost</strong>. Once you have done your development work and you're ready to push live, you'll need to change this to your live url.
 
-Once you've created the app, you'll see the details you set displayed, as well as your clientID, client secret, authorization token, refresh token and your rate limits.
+Once you've created the app, you'll see the details you set displayed, as well as your clientID, client secret, authorization token, refresh token and your rate limits. These are the details we'll use in the next steps.
+
+## Requesting the correct authorisations for your app
+
+
