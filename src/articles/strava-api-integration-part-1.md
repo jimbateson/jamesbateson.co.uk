@@ -20,7 +20,7 @@ This first article will cover the following steps:
 
 <div class="post-note">
 
-<strong>Note</strong>
+<strong>Must watch</strong>
 
 <p>I followed <a href="https://www.youtube.com/watch?v=sgscChKfGyg">this excellent video tutorial</a> on how to use Postman to create the various tokens required for the Strava API. I would highly recommend going through this. It has all the steps I'll be covering in the article, plus you can watch along and pause when needed.</p>
 
