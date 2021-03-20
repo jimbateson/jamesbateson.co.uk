@@ -36,4 +36,4 @@ Once you've created the app, you'll see the details you set displayed, as well a
 
 ## Requesting the correct authorisations for your app
 
-I'll be using a tool called \[Postman](https://www.postman.com/) in this article to build my requests.
+I'll be using a tool called \[Postman](https://www.postman.com/) in this article to build my request urls.
