@@ -9,7 +9,7 @@ tags:
   - Running
   - JavaScript
 ---
-This week I have added Strava API integration to my site. It was a little bit of pain to set up, to say the least, so I thought I would do a couple of articles writing up how I went about setting up my Strava app and generating the relevant oAuth tokens, and then how I consumed this API and integrated the data into this site.
+Recently I added Strava API integration to my site. It was a little bit of pain to set up, to say the least, so I thought I would do a couple of articles writing up how I went about setting up my Strava app and generating the relevant oAuth tokens, and then how I consumed this API and integrated the data into this site.
 
 This first article will cover the following steps:
 
@@ -17,6 +17,14 @@ This first article will cover the following steps:
 * Requesting the correct authorisations for your app
 * Getting access and refresh tokens
 * Setting up the refresh token so it generates new access tokens when needed
+
+<div class="post-note">
+
+<strong>Note</strong>
+
+<p>I followed <a href="https://www.youtube.com/watch?v=sgscChKfGyg">this excellent video tutorial</a> on how to use Postman to create the various tokens required for the Strava API. I would highly recommend going through this. It has all the steps I'll be covering in the article, plus you can watch along and pause when needed.</p>
+
+</div>
 
 ## Creating a Strava app
 
@@ -27,5 +35,3 @@ When setting up your application fill in the relevant details. I chose to catego
 Once you've created the app, you'll see the details you set displayed, as well as your clientID, client secret, authorization token, refresh token and your rate limits. These are the details we'll use in the next steps.
 
 ## Requesting the correct authorisations for your app
-
-
