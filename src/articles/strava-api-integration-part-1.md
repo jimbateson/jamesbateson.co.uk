@@ -36,4 +36,10 @@ Once you've created the app, you'll see the details you set displayed, as well a
 
 ## Requesting the correct authorisations for your app
 
-I'll be using a tool called \[Postman](https://www.postman.com/) in this article to build my request urls.
+A couple of links here to start with:
+
+\* \[Strava API getting started guides](https://developers.strava.com/docs/getting-started/) - Handy to have a read through. You can also find documentation of all the calls that can be made etc.
+
+\* \[Postman](https://www.postman.com/) - the tool I'll be using to build my URL requests. I found its UI very intuitive.
+
+By default, your app will only have
