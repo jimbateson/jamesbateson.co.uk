@@ -4,16 +4,16 @@
     "description": "Personal website of James Bateson",
     "main": "index.js",
     "dependencies": {
-        "@11ty/eleventy": "^0.11.1",
+        "@11ty/eleventy": "^0.12.1",
         "@11ty/eleventy-img": "^0.8.2",
-        "@11ty/eleventy-plugin-rss": "^1.1.0",
+        "@11ty/eleventy-plugin-rss": "^1.1.1",
         "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.0",
         "@tbranyen/jsdom": "^13.0.0",
         "concurrently": "^6.0.0",
         "dotenv": "^8.2.0",
         "html-minifier": "^4.0.0",
         "json-to-scss": "^1.6.2",
-        "slugify": "^1.4.7",
+        "slugify": "^1.5.0",
         "stalfos": "git://github.com/andybelldesign/stalfos.git#c8971d22726326cfc04089b2da4d51eeb1ebb0eb"
     },
     "devDependencies": {
@@ -22,7 +22,7 @@
         "fast-glob": "^3.2.5",
         "make-dir-cli": "^2.0.0",
         "prettier": "^2.2.1",
-        "rollup": "^2.42.0",
+        "rollup": "^2.42.2",
         "rollup-plugin-commonjs": "^10.0.0",
         "rollup-plugin-json": "^4.0.0",
         "rollup-plugin-node-builtins": "^2.1.2",
