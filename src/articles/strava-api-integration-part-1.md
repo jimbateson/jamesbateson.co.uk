@@ -38,8 +38,12 @@ Once you've created the app, you'll see the details you set displayed, as well a
 
 A couple of links here to start with:
 
-\* \[Strava API getting started guides](https://developers.strava.com/docs/getting-started/) - Handy to have a read through. You can also find documentation of all the calls that can be made etc.
+[Strava API getting started guides](https://developers.strava.com/docs/getting-started/) - Handy to have a read through. You can also find documentation of all the calls that can be made etc.
 
-\* \[Postman](https://www.postman.com/) - the tool I'll be using to build my URL requests. I found its UI very intuitive.
+[Postman](https://www.postman.com/) - the tool I'll be using to build my URL requests. I found its UI very intuitive.
 
-By default, your app will only have
+To return a list of recent activities we need to [List athlete activities](https://developers.strava.com/docs/reference/#api-Activities-getLoggedInAthleteActivities) as you will see from that link that requires `activities:read_all`.
+
+> Requires activity:read. Only Me activities will be filtered out unless requested by a token with activity:read_all
+
+However, by default, your app authorisation will only be `read`.
