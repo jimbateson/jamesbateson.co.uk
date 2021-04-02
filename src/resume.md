@@ -10,7 +10,7 @@ bannerSummary: Passionate, hard-working, reliable and keen to learn.
 
 ### Front-End Developer for ![Fat Media logo](/images/avatars/twitter/34f7590a-90.webp) [Fat Media](https://www.fatmedia.co.uk/)
 
-#### September 2013 - Present
+#### September 2013 - March 2021
 
 ##### Lancaster, UK
 
