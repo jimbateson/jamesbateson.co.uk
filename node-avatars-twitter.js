@@ -22,8 +22,8 @@ async function fetch(name) {
 	if(!fs.pathExistsSync(path)) {
 		console.log( "Getting image url for", name );
 		let result = await getTwitterAvatarUrl(name);
-		if(result && result.url.large) {
-			let stats = await eleventyImg(result.url.large, {
+		if(result && result[0].url.large) {
+			let stats = await eleventyImg(result[0].url.large, {
 				formats: ["webp", "jpeg"],
 				widths: [90],
 				urlPath: "./src/images/avatars/twitter/",
