@@ -34,7 +34,7 @@ When setting up your application fill in the relevant details. I chose to catego
 
 Once you've created the app, you'll see the details you set displayed, as well as your clientID, client secret, authorization token, refresh token, and your rate limits. These are the details we'll use in the next steps.
 
-## Requesting the correct authorisations for your app
+## Requesting the correct authorisation for your app
 
 A couple of links here to start with:
 
@@ -46,4 +46,17 @@ To return a list of recent activities we need to [List athlete activities](https
 
 > Requires activity:read. Only Me activities will be filtered out unless requested by a token with activity:read_all
 
-However, by default, your app authorisation will only be `read`.
+However, by default, your app authorisation will only be `read`. So there are a few things we need to request to be able to get the activities we want.
+
+First up let's request an authorisation code, this is a one-time thing that will need to be done, and can just be pasted into your browser. Here's the URL you will need (you'll need to remember to add your own `client_id` here - find this in your settings and then My API Application):
+
+`https://www.strava.com/oauth/authorize?client_id={your client id}&response_type=code&redirect_uri=http://localhost/exchange_token&approval_prompt=force&scope=read_all`
+
+On the resulting page, you should see a screen that asks you to authorise your app, authorise and then you will then probably see a screen that makes it look like this didn't work. However, what we're after here is the number after `code=` in the URL of that page.
+
+## Exchange authorisation code for access and refresh tokens
+
+Now's the time to hop into Postman, we need to make a `POST` request to get our tokens. Here's an example API URL:
+
+`https://www.strava.com/oauth/token?client_id={your client id}&client_secret={your client secret}&code={your authorisation code}&grant_type=authorization_code`
+
