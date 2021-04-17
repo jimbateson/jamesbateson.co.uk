@@ -42,6 +42,11 @@ A couple of links here to start with:
 
 [Postman](https://www.postman.com/) - the tool I'll be using to build my URL requests. I found its UI very intuitive.
 
+<div class="post-note">
+<h3><strong>Tip</strong></h3>
+<p>It's also probably worth just creating a new blank file in your text editor or something, to copy in the various codes we'll be receiving. Make a note next to each one as to what it's for.</p>
+</div>
+
 To return a list of recent activities we need to [List athlete activities](https://developers.strava.com/docs/reference/#api-Activities-getLoggedInAthleteActivities) as you will see from that link that requires `activities:read_all`.
 
 > Requires activity:read. Only Me activities will be filtered out unless requested by a token with activity:read_all
@@ -52,11 +57,17 @@ First up let's request an authorisation code, this is a one-time thing that will
 
 `https://www.strava.com/oauth/authorize?client_id={your client id}&response_type=code&redirect_uri=http://localhost/exchange_token&approval_prompt=force&scope=read_all`
 
-On the resulting page, you should see a screen that asks you to authorise your app, authorise and then you will then probably see a screen that makes it look like this didn't work. However, what we're after here is the number after `code=` in the URL of that page.
+On the resulting page, you should see a screen that asks you to authorise your app, authorise and then you will then probably see a screen that makes it look like this didn't work. However, what we're after here is the number after `code=` in the URL of that page. Copy this code somewhere handy.
 
 ## Exchange authorisation code for access and refresh tokens
+<br>
+<div class="post-note">
+<h3><strong>Note</strong></h3>
+<p>From this point I found the official [Strava developer getting started docs](https://developers.strava.com/docs/getting-started/) made a lot more sense.
+</div>
 
 Now's the time to hop into Postman, we need to make a `POST` request to get our tokens. Here's an example API URL:
 
 `https://www.strava.com/oauth/token?client_id={your client id}&client_secret={your client secret}&code={your authorisation code}&grant_type=authorization_code`
 
+When you hit 'send' on that request in Postman, you should then see a response in the panel below, you will notice this includes `access_token` and `refresh_token`. Copy both of these somewhere handy.
