@@ -38,7 +38,7 @@ Once you've created the app, you'll see the details you set displayed, as well a
 
 A couple of links here to start with:
 
-[Strava API getting started guides](https://developers.strava.com/docs/getting-started/) - Handy to have a read through. You can also find documentation of all the calls that can be made etc.
+[Strava API getting started guides](https://developers.strava.com/docs/getting-started/) - Handy to have a read-through. You can also find documentation of all the calls that can be made etc.
 
 [Postman](https://www.postman.com/) - the tool I'll be using to build my URL requests. I found its UI very intuitive.
 
@@ -102,14 +102,14 @@ This is probably meat and drink to people who have experience with oAuth, but th
 
 ## Summary - What we've done
 
-So, hopefully this has all made sense, and you've been able to hit some Strava APIs.
+So, hopefully, this has all made sense, and you've been able to hit some Strava APIs.
 
 We are now able to request our latest activities, and we now have all the tokens we're going to need to consume this API with our code.
 
 ## What's next?
 
-This is the first of a two-part article. The second article will be how you can now use all these API details with your code and integrate Strava date into your site.
+This is the first of a two-part article. The second article will be how you can now use all these API details with your code and integrate Strava data into your site.
 
 I've kept these articles separate, just in case you want to integrate into a different environment or use another method. I wanted to keep this one purely about getting the whole oAuth2 setup sorted.
 
-Hopefully this has been useful and you have managed to follow it through. If there is anything wrong with the article, or you're having issues, please reach out and I'll make the relevant changes and endevour to help!
+Hopefully, this has been useful and you have managed to follow it through. If there is anything wrong with the article, or you're having issues, please reach out and I'll make the relevant changes and endeavor to help!
