@@ -51,7 +51,7 @@ To return a list of recent activities we need to [List athlete activities](https
 
 > Requires activity:read. Only Me activities will be filtered out unless requested by a token with activity:read_all
 
-However, by default, your app authorisation will only be `read`. So there are a few things we need to request to be able to get the activities we want.
+However, by default, your app authorisation will only be `read`. So there are several things we need to request to be able to get the activities we want.
 
 First up let's request an authorisation code, this is a one-time thing that will need to be done, and can just be pasted into your browser. Here's the URL you will need (you'll need to remember to add your own `client_id` here - find this in your settings and then My API Application):
 
@@ -71,3 +71,5 @@ Now's the time to hop into Postman, we need to make a `POST` request to get our 
 `https://www.strava.com/oauth/token?client_id={your client id}&client_secret={your client secret}&code={your authorisation code}&grant_type=authorization_code`
 
 When you hit 'send' on that request in Postman, you should then see a response in the panel below, you will notice this includes `access_token` and `refresh_token`. Copy both of these somewhere handy.
+
+## Use your generated access token to get your activities
