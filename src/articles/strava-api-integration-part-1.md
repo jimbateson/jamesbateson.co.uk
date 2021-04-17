@@ -89,3 +89,8 @@ You can also just paste that URL into your browser as well, and you'll see the J
 So, oAuth2 access tokens have an expiry time, normally 4 hours. This means that our access token is going to change regularly and we'll need to check this and use our refresh token to generate a new one.
 
 This will make more sense when we come to consume this API response in the second part of this tutorial, but we need to get this setup right from the off. 
+
+So back into Postman we go, and we need to do another 'GET' request now. So again, open a new tab and make sure 'GET' is set. Here's an example of the API URL we need to build. again make sure to replace your details here that you should (hopefully) have pasted into a handy document!
+
+`https://www.strava.com/api/v3/oauth/token?&client_id={you client id}&client_secret={your client secret}&grant_type=refresh_token&refresh_token={your refresh token}`
+
