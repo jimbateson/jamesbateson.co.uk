@@ -94,3 +94,6 @@ So back into Postman we go, and we need to do another 'GET' request now. So agai
 
 `https://www.strava.com/api/v3/oauth/token?&client_id={you client id}&client_secret={your client secret}&grant_type=refresh_token&refresh_token={your refresh token}`
 
+In the Postman response panel, you will now see an `access_token` and a `refresh_token` (this will be the same as the one you used in the URL query, and it never expires).
+
+This is an important request. We'll basically need to run this request each time we hit our API, to use the refresh token to get a new access token if it has expired, and along with the previous request, are the ones we will use when consuming the API with our code in the next tutorial.
