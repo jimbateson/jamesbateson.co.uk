@@ -73,3 +73,11 @@ Now's the time to hop into Postman, we need to make a `POST` request to get our 
 When you hit 'send' on that request in Postman, you should then see a response in the panel below, you will notice this includes `access_token` and `refresh_token`. Copy both of these somewhere handy.
 
 ## Use your generated access token to get your activities
+
+Back into Postman we go, and this time we need to do a `GET` request, so open a new tab in there and make sure 'GET' is set.
+
+Here's an example of the URL we need to query:
+
+`https://www.strava.com/api/v3/athlete/activities?access_token={your access token}`
+
+In the Postman response panel, you should now see ~30 (I _think_ - this is the API `per_page` parameter default) of your activities. Boom!
