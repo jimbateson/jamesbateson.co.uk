@@ -1,10 +1,10 @@
 ---
 layout: layouts/post.njk
-title: "Strava API integration: Part 1"
-metaTitle: How to integrate the Strava JavaScript API
-metaDesc: Setting up a the Strava API
+title: "Strava API (V3) integration: Part 1"
+metaTitle: How to integrate the Strava JavaScript API (V3)
+metaDesc: Setting up a the Strava API (V3)
 socialImage: /images/social-share-default.jpg
-date: 2021-01-15T06:40:44.790Z
+date: 2021-04-17T16:56:22.804Z
 tags:
   - Running
   - JavaScript
@@ -96,4 +96,20 @@ So back into Postman we go, and we need to do another 'GET' request now. So agai
 
 In the Postman response panel, you will now see an `access_token` and a `refresh_token` (this will be the same as the one you used in the URL query, and it never expires).
 
-This is an important request. We'll basically need to run this request each time we hit our API, to use the refresh token to get a new access token if it has expired, and along with the previous request, are the ones we will use when consuming the API with our code in the next tutorial.
+This is an important request. We'll basically need to run this request each time we hit our API, to use the refresh token to get a new access token if it has expired, and along with the previous request, are the ones we will use when consuming the API with our code in the next tutorial. Essentially once we have established the correct access token, we can then use that to request our activities - you should hopefully get the idea now.
+
+This is probably meat and drink to people who have experience with oAuth, but this is the first time I'd ever used it, so wanted to go through basic principles.
+
+## Summary - What we've done
+
+So, hopefully this has all made sense, and you've been able to hit some Strava APIs.
+
+We are now able to request our latest activities, and we now have all the tokens we're going to need to consume this API with our code.
+
+## What's next?
+
+This is the first of a two-part article. The second article will be how you can now use all these API details with your code and integrate Strava date into your site.
+
+I've kept these articles separate, just in case you want to integrate into a different environment or use another method. I wanted to keep this one purely about getting the whole oAuth2 setup sorted.
+
+Hopefully this has been useful and you have managed to follow it through. If there is anything wrong with the article, or you're having issues, please reach out and I'll make the relevant changes and endevour to help!
