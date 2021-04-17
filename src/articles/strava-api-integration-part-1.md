@@ -80,4 +80,12 @@ Here's an example of the URL we need to query:
 
 `https://www.strava.com/api/v3/athlete/activities?access_token={your access token}`
 
-In the Postman response panel, you should now see ~30 (I _think_ - this is the API `per_page` parameter default) of your activities. Boom!
+In the Postman response panel, you should now see ~30 (I _think_ - this is the API `per_page` parameter default) of your activities. Boom! We have what we need.
+
+You can also just paste that URL into your browser as well, and you'll see the JSON response.
+
+## Use your refresh token to get new access tokens
+
+So, oAuth2 access tokens have an expiry time, normally 4 hours. This means that our access token is going to change regularly and we'll need to check this and use our refresh token to generate a new one.
+
+This will make more sense when we come to consume this API response in the second part of this tutorial, but we need to get this setup right from the off. 
