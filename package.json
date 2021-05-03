@@ -28,7 +28,7 @@
         "rollup-plugin-node-builtins": "^2.1.2",
         "rollup-plugin-node-resolve": "^5.0.3",
         "sass": "^1.32.12",
-        "stylelint": "^13.13.0",
+        "stylelint": "^13.13.1",
         "stylelint-a11y": "^1.2.1",
         "stylelint-order": "^4.1.0",
         "twitter-avatar-url": "^2.0.3"
