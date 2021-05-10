@@ -13,7 +13,7 @@
         "dotenv": "^9.0.0",
         "html-minifier": "^4.0.0",
         "json-to-scss": "^1.6.2",
-        "slugify": "^1.5.1",
+        "slugify": "^1.5.2",
         "stalfos": "git://github.com/andybelldesign/stalfos.git#c8971d22726326cfc04089b2da4d51eeb1ebb0eb"
     },
     "devDependencies": {
