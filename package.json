@@ -9,11 +9,11 @@
         "@11ty/eleventy-plugin-rss": "^1.1.1",
         "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.0",
         "@tbranyen/jsdom": "^13.0.0",
-        "concurrently": "^6.0.2",
+        "concurrently": "^6.1.0",
         "dotenv": "^9.0.2",
         "html-minifier": "^4.0.0",
         "json-to-scss": "^1.6.2",
-        "slugify": "^1.5.1",
+        "slugify": "^1.5.3",
         "stalfos": "git://github.com/andybelldesign/stalfos.git#c8971d22726326cfc04089b2da4d51eeb1ebb0eb"
     },
     "devDependencies": {
@@ -21,7 +21,7 @@
         "cross-env": "7.0.3",
         "fast-glob": "^3.2.5",
         "make-dir-cli": "^3.0.0",
-        "prettier": "^2.2.1",
+        "prettier": "^2.3.0",
         "rollup": "^2.47.0",
         "rollup-plugin-commonjs": "^10.0.0",
         "rollup-plugin-json": "^4.0.0",
