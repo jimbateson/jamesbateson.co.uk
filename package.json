@@ -27,7 +27,7 @@
         "rollup-plugin-json": "^4.0.0",
         "rollup-plugin-node-builtins": "^2.1.2",
         "rollup-plugin-node-resolve": "^5.0.3",
-        "sass": "^1.32.12",
+        "sass": "^1.32.13",
         "stylelint": "^13.13.1",
         "stylelint-a11y": "^1.2.1",
         "stylelint-order": "^4.1.0",
