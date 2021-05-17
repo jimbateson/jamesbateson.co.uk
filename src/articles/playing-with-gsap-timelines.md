@@ -105,7 +105,7 @@ master.add(intro())
       .add(conclusion(), "-=1") //overlap by 1 second
 ```
 
-## Exciting this to build
+## Exciting things to build
 
 
 
