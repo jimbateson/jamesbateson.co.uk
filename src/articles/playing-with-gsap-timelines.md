@@ -2,7 +2,7 @@
 layout: layouts/post.njk
 title: Playing with GSAP timelines
 metaTitle: GSAP timeline learnings
-metaDesc: A few bits I have picked up having a little play around with GSAP timelines
+metaDesc: A few bits learned from having a little play around with GSAP timelines
 socialImage: /images/social-share-default.jpg
 date: 2021-05-14T16:55:28.931Z
 tags:
