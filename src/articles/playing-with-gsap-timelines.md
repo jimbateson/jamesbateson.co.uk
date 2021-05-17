@@ -8,6 +8,7 @@ date: 2021-05-14T16:55:28.931Z
 tags:
   - JavaScript
   - GSAP
+  - Animation
 ---
  Recently I've been trying to improve on my development skillset, and as part of this I've (unofficially) started on the 100 days of code challenge. Just thought it would be worth writing up what I've learned about GSAP timelines today.
 
