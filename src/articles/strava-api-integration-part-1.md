@@ -20,11 +20,7 @@ This first article will cover the following steps:
 
 <div class="post-note">
 
-<h3><strong>Must watch</strong></h3>
-
-<p>I followed <a href="https://www.youtube.com/watch?v=sgscChKfGyg">this excellent video tutorial</a> on how to use Postman to create the various tokens required for the Strava API. I would highly recommend going through this. It has all the steps I'll be covering in the article, plus you can watch along and pause when needed.</p>
-
-</div>
+<h3>Must watch</h3><p>I followed <a href="https://www.youtube.com/watch?v=sgscChKfGyg">this excellent video tutorial</a> on how to use Postman to create the various tokens required for the Strava API. I would highly recommend going through this. It has all the steps I'll be covering in the article, plus you can watch along and pause when needed.</p></div>
 
 ## Creating a Strava app
 
@@ -42,8 +38,7 @@ A couple of links here to start with:
 
 [Postman](https://www.postman.com/) - the tool I'll be using to build my URL requests. I found its UI very intuitive.
 
-<div class="post-note">
-<h3><strong>Tip</strong></h3>
+<div class="post-note"><h3>Tip</h3>
 <p>It's also probably worth just creating a new blank file in your text editor or something, to copy in the various codes we'll be receiving. Make a note next to each one as to what it's for.</p>
 </div>
 
@@ -61,8 +56,7 @@ On the resulting page, you should see a screen that asks you to authorise your a
 
 ## Exchange authorisation code for access and refresh tokens
 <br>
-<div class="post-note">
-<h3><strong>Note</strong></h3>
+<div class="post-note"><h3>Note</h3>
 <p>From this point I found the official [Strava developer getting started docs](https://developers.strava.com/docs/getting-started/) made a lot more sense.
 </div>
 
