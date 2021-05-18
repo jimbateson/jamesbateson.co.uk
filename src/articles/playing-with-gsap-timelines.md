@@ -10,7 +10,7 @@ tags:
   - GSAP
   - Animation
 ---
-Recently I've been trying to improve on my development skillset, and as part of this I've (unofficially) started on the 100 days of code challenge. Just thought it would be worth writing up what I've learned about GSAP timelines today.
+Recently I've been trying to improve on my development skillset, and as part of this I've (unofficially) started on the 100 days of code challenge. Just thought it would be worth writing up what I've learned about GSAP timelines.
 
 ## What have I been building?
 
@@ -26,7 +26,7 @@ To be upfront, I'm very new to using GSAP and this is not an expert article, I'l
 
 For my given grid I had 5 elements, each of which I needed to animate using the `.to()` method.
 
-Originally I took a different approach to timelines, using what I've seen referred to as 'loose tweens' these are tweens that have no relationship to each other running on their own. I then run just ran these in reverse for my `mouseleave` event. This however didn't really give me the effect or control I needed, as well as meaning repeated code. I had to define each tween as a variable, start that on `mouseenter` and then reverse each one on `mouseleave` this included all properties (ease, duration, etc) for each tween. Enter timelines.
+Originally I took a different approach to timelines, using what I've seen referred to as 'loose tweens' these are tweens that have no relationship to each other running on their own. I then just ran these in reverse for my `mouseleave` event. This however didn't really give me the effect or control I needed, as well as meaning repeated code. I had to define each tween as a variable, start that on `mouseenter` and then reverse each one on `mouseleave` this included all properties (ease, duration, etc) for each tween. Enter timelines.
 
 [The GSAP docs](https://greensock.com/docs/v3/GSAP/Timeline) state:
 
