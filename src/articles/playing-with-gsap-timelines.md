@@ -4,7 +4,7 @@ title: Playing with GSAP timelines
 metaTitle: GSAP timeline learnings
 metaDesc: A few bits learned from having a little play around with GSAP timelines
 socialImage: /images/social-share-default.jpg
-date: 2021-05-14T16:55:28.931Z
+date: 2021-05-18T06:33:32.653Z
 tags:
   - JavaScript
   - GSAP
