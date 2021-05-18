@@ -1,7 +1,7 @@
 ---
 layout: layouts/page.njk
 title: About
-bannerSummary: I’m James, a front-end developer from Lancaster.
+bannerSummary: I’m James, a Front End Engineer from Lancaster.
 bannerImage: /images/coniston-15.png
 bannerImageClass: rounded
 permalink: /about/
