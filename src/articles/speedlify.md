@@ -13,7 +13,7 @@ Speedlify is a [tool from Zach Leatherman](https://www.speedlify.dev/) that uses
 
 In this article, I will document how I created a personal instance of Speedlify to help monitor performance measurements on this site.
 
-<p class="post-note"><strong>Important Read</strong>Zach has already <a href="https://www.zachleat.com/web/speedlify/">written a great article</a> introducing Speedlify, much better than I could ever hope to. So I'd recommend reading that first to learn a bit more about the project.</p>
+<div class="post-note"><h3>Important Read</h3><p>Zach has already <a href="https://www.zachleat.com/web/speedlify/">written a great article</a> introducing Speedlify, much better than I could ever hope to. So I'd recommend reading that first to learn a bit more about the project.</p></div>
 
 ## Getting setup
 
@@ -35,7 +35,7 @@ Once your basic settings are sorted, it's then a case of listing the urls you wa
 
 So now we have our config setup, it's time to run Speedlify against this. As per the readme, the three commands we'll want are:
 
-```javascript
+``` js
 npm install
 npm run test-pages
 npm run start
@@ -53,7 +53,7 @@ Now we have our Speedlify instance and have our data showing, we can publish thi
 
 <p class="post-note"><strong>Note</strong>By default Netlify will give your new site a nice humourous name. You can change this in the site setting, as well as set up custom domains, etc should you wish.</p>
 
-It's also worth noting, that if you didn't want to publish these results, I guess you could just keep running this locally when you wanted to check on thigs, and just use the start task to check your results on the local url. Use whatever setup works best for you.
+It's also worth noting, that if you didn't want to publish these results, I guess you could just keep running this locally when you wanted to check on things, and just use the start task to check your results on the local url. Use whatever setup works best for you.
 
 ## Taking thigs further
 
@@ -71,9 +71,9 @@ This is something that I am keen to get set up next. It's great being able to ma
 
 I still need to work out how to achieve this, so I'll update this post once I have got something in place. However, it's looking like using Netlify build hooks (something I've never used before) is going to be the way forward. 
 
-In all honesty, this will more likely be useful for sites where content is getting updated quite regularly (although watch your build minutes here if your on the free tier you get 300 a month), monitoring performance a few times a week may be beneficial if you're publishing quite a lot of new content/constantly making changes. For this site, I'll probably set it to run once a week, then publish it to my Speedlify site if the results have changed.
+In all honesty, this will more likely be useful for sites where content is getting updated quite regularly (although watch your build minutes here if you're on the free tier you get 300 a month), monitoring performance a few times a week may be beneficial if you're publishing quite a lot of new content/constantly making changes. For this site, I'll probably set it to run once a week, then publish it to my Speedlify site if the results have changed.
 
-<div class="post-note post-note--update"><h3><strong>Update</strong></h3><p>After quite a bit of searching around, I have got an automation workflow that I am pretty happy with. Whilst on the Netlify community forum looking over a thread with people looking to do similar things with their sites, I stumbled across <a href="https://ericjinks.com/blog/2019/netlify-scheduled-build/">this article</a>.</p><br><p>It turns out that using Netlify's build hooks and a scheduled Github action is easy to get set up and effective! Here are the steps you'll need to take:</p><br><ol><li>Setup a Netlify build hook - In your site settings, find the Build & deploy nav item and inside that section, you'll see a Build Hooks panel. Create a new sensibly-named hook here and you should be given a url which includes your unique token at the end, copy just the token id to your clipboard.</li><li>Now go to your Github repo for this project. Find the settings tab and then Secrets in the left-hand nav. Add a new secret and give it a suitable name. I called mine "NETLIFY_SPEEDLIFY_BUILD_WEEKLY". In the value, copy in your token id from the build hook. Here we are ensuring that we won't have to check in our build hook id to a public repo. Only with the right auth (your login) can someone see your secret tokens.</li><li>Our next step is to create our Github action, buy creating a workflow. In your text editor create a <code>.github/workflows</code> directory and inside there a <code>.yml</code> config file. This is where you set up what the action should do and when.
+<div class="post-note post-note--update"><h3>Update</h3><p>After quite a bit of searching around, I have got an automation workflow that I am pretty happy with. Whilst on the Netlify community forum looking over a thread with people looking to do similar things with their sites, I stumbled across <a href="https://ericjinks.com/blog/2019/netlify-scheduled-build/">this article</a>.</p><br><p>It turns out that using Netlify's build hooks and a scheduled Github action is easy to get set up and effective! Here are the steps you'll need to take:</p><br><ol><li>Setup a Netlify build hook - In your site settings, find the Build & deploy nav item and inside that section, you'll see a Build Hooks panel. Create a new sensibly-named hook here and you should be given a url which includes your unique token at the end, copy just the token id to your clipboard.</li><li>Now go to your Github repo for this project. Find the settings tab and then Secrets in the left-hand nav. Add a new secret and give it a suitable name. I called mine "NETLIFY_SPEEDLIFY_BUILD_WEEKLY". In the value, copy in your token id from the build hook. Here we are ensuring that we won't have to check in our build hook id to a public repo. Only with the right auth (your login) can someone see your secret tokens.</li><li>Our next step is to create our Github action, buy creating a workflow. In your text editor create a <code>.github/workflows</code> directory and inside there a <code>.yml</code> config file. This is where you set up what the action should do and when.
 
 {% raw %}
 ```yaml
