@@ -22,7 +22,7 @@ Today has 4 main actions:
 
 This post will detail how I went about using Vue to achieve each of these.
 
-<p class="post-note"><strong>Note</strong> This post will not go into, or apply any styling to the todo list, or detail any of the Electron implementation (I'll cover those in a further, more in-depth post once it's all good to go).</p>
+<div class="post-note"><h3>Note</h3> <p>This post will not go into, or apply any styling to the todo list, or detail any of the Electron implementation (I'll cover those in a further, more in-depth post once it's all good to go).</p></div>
 
 Here's the finished Codepen of what I built (see the note above about styling etc)
 
@@ -37,7 +37,7 @@ Here's the finished Codepen of what I built (see the note above about styling et
 
 The first thing we need to do is attach Vue to a DOM node
 
-```javascript
+``` js
 new Vue({
 	el: '.js-todo-app'
 });
@@ -49,7 +49,7 @@ For this demo, I've used some dummy data, when I integrate this with my Electron
 
 Vue reads all data from its `data` object. So in here, we define our todos array
 
-```javascript
+``` js
 data: {
 	todos: [
 	    {
@@ -130,7 +130,7 @@ First let's create a button that will trigger this.
 
 Then create a method in our instance.
 
-``` javascript
+``` js
 deleteTodo(index) {
     this.$delete(this.todos, index);
 }
