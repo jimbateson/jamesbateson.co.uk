@@ -22,7 +22,7 @@ It used CSS Grid for layout and kind of 'exploded' with a nice transition on swi
 
 To be upfront, I'm very new to using GSAP and this is not an expert article, I'll possibly draft an intro article on my learnings at some point, but this article is just a 'things I learned about timelines in a day of experimenting' thing.
 
-<div class="post-note"><h3><strong>Note</strong></h3><p>If you're wanting to learn more about GSAP also, I recommend starting with the <a href="https://www.creativecodingclub.com/courses/gsap-3-express?ref=44f484" rel="nofollow" rel="noreferrer">GSAP 3 Express course</a> from Carl Schoof. I've been working my way through this and it's been great at introducing concepts and giving clear examples and things to practice.</p></div>
+<div class="post-note"><h3>Note</h3><p>If you're wanting to learn more about GSAP also, I recommend starting with the <a href="https://www.creativecodingclub.com/courses/gsap-3-express?ref=44f484" rel="nofollow" rel="noreferrer">GSAP 3 Express course</a> from Carl Schoof. I've been working my way through this and it's been great at introducing concepts and giving clear examples and things to practice.</p></div>
 
 For my given grid I had 5 elements, each of which I needed to animate using the `.to()` method.
 
