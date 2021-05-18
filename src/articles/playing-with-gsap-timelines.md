@@ -20,9 +20,9 @@ It used CSS Grid for layout and kind of 'exploded' with a nice transition on swi
 
 ## Why timelines?
 
-To be totally upfront, I'm very new to using GSAP and this is absolutely not an expert article, I'll possibly draft an intro article on my learnings at some point, but this article is just a 'things I learned about timelines in a day of experimenting' thing.
+To be upfront, I'm very new to using GSAP and this is not an expert article, I'll possibly draft an intro article on my learnings at some point, but this article is just a 'things I learned about timelines in a day of experimenting' thing.
 
-<div class="post-note"><h3><strong>Note</strong></h3><p>If you're wanting to learn more about GSAP also, I recommend starting with the <a href="https://www.creativecodingclub.com/courses/gsap-3-express?ref=44f484" rel="nofollow" rel="noreferrer">GSAP 3 Express course</a> from Carl Schoof. I've been working my way through this and it's been great at intrducing concepts and giving clear examples and things to practice.</p></div>
+<div class="post-note"><h3><strong>Note</strong></h3><p>If you're wanting to learn more about GSAP also, I recommend starting with the <a href="https://www.creativecodingclub.com/courses/gsap-3-express?ref=44f484" rel="nofollow" rel="noreferrer">GSAP 3 Express course</a> from Carl Schoof. I've been working my way through this and it's been great at introducing concepts and giving clear examples and things to practice.</p></div>
 
 For my given grid I had 5 elements, each of which I needed to animate using the `.to()` method.
 
@@ -81,7 +81,7 @@ A couple more examples of the syntax I found useful:
 * `+=1` - delay this item starting after the previous by 1 second
 * `-=1` - this item should start 1 second before the previous item animation has finished
 
-There are a bunch more examples on the docs site that are worth taking a look at. I found this to be a really nice feature that I can see being really powerful for creating more complex animations in the future.
+There are a bunch more examples on the docs site that are worth taking a look at. I found this to be a great feature that I can see being powerful for creating more complex animations in the future.
 
 ## Nesting timelines
 
@@ -123,7 +123,7 @@ As mentioned at the start of the post, I'll put together an article on my basic 
 
 ## Here's one I made earlier
 
-Just for reference this is the animated grid pen I have been refercing in this article should you wish to see it.
+Just for reference, this is the animated grid pen I have been referencing in this article should you wish to see it.
 
 <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="result" data-user="jim-bateson" data-slug-hash="dyvGaRG" data-preview="true" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Grid animation">
   <span>See the Pen <a href="https://codepen.io/jim-bateson/pen/dyvGaRG">
