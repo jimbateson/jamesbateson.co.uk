@@ -151,12 +151,18 @@
 				}
 			}
 
-			strong {
+			h3 {
+				align-items: center;
 				border-bottom: 1px solid rgba(255, 255, 255, .25);
-				display: block;
+				display: flex;
 				font-size: get-size(600);
 				margin-bottom: 10px;
 				padding-bottom: 10px;
+				position: relative;
+
+				.heading-permalink {
+					margin-left: calc(var(--flow-space) / 3);
+				}
 			}
 
 			// post-note--update
