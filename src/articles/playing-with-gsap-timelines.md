@@ -34,7 +34,7 @@ Originally I took a different approach to timelines, using what I've seen referr
 
 ## Creating a timeline
 
-Creating a new timeline, it's as easy as `const tl = gsap.timeline();`
+Creating a new timeline, is as easy as `const tl = gsap.timeline();`
 
 ## The timeline object
 
