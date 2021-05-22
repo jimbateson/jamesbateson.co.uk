@@ -31,6 +31,11 @@
 {% if socialImage %}
 	<meta property="og:image" content="{{ site.url }}{{ socialImage }}" />
 	<meta name="twitter:image" content="{{ site.url }}{{ socialImage }}" />
-	<meta property="og:image:alt" content="Page image for {{ site.name }}" />
-	<meta name="twitter:image:alt" content="Page image for {{ site.name }}" />
+
+	{% else %}
+	<meta property="og:image" content="{% GenerateSocialImage title %}" />
+	<meta name="twitter:image" content="{% GenerateSocialImage title %}" />
 {% endif %}
+
+<meta property="og:image:alt" content="Page image for {{ site.name }}" />
+<meta name="twitter:image:alt" content="Page image for {{ site.name }}" />

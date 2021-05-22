@@ -16,7 +16,10 @@ const parseTransform = require('./src/transforms/parse-transform.js');
 // Import data files
 const site = require('./src/_data/site.json');
 
-module.exports = function(config) {
+// Generate social share images
+const generateSocialImages = require("@manustays/eleventy-plugin-generate-social-images");
+
+module.exports = config => {
 	// Filters
 	config.addFilter('dateFilter', dateFilter);
 	config.addFilter('secondsFilter', secondsFilter);
@@ -93,6 +96,15 @@ module.exports = function(config) {
 				});
 			}
 		}
+	});
+
+	config.addPlugin(generateSocialImages, {
+		promoImage: "./src/images/avatar-rounded.png",
+		outputDir: "./dist/images/social-preview",
+		urlPath: "/images/social-preview",
+		siteName: "jamesbateson.co.uk",
+		titleColor: "#ffe000",
+		bgColor: "#444",
 	});
 
 	return {

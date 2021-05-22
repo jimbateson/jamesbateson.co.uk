@@ -17,6 +17,7 @@
         "stalfos": "git://github.com/andybelldesign/stalfos.git#c8971d22726326cfc04089b2da4d51eeb1ebb0eb"
     },
     "devDependencies": {
+        "@manustays/eleventy-plugin-generate-social-images": "^4.1.0",
         "chokidar-cli": "^2.1.0",
         "cross-env": "7.0.3",
         "fast-glob": "^3.2.5",
