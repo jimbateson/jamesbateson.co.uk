@@ -20,6 +20,17 @@ const site = require('./src/_data/site.json');
 const generateSocialImages = require("@manustays/eleventy-plugin-generate-social-images");
 
 module.exports = config => {
+	// Plugins
+	config.addPlugin(generateSocialImages, {
+		promoImage: "./src/images/avatar-rounded.png",
+		outputDir: "./dist/images/social-preview",
+		urlPath: "/images/social-preview",
+		siteName: "jamesbateson.co.uk",
+		titleColor: "#ffe000",
+		bgColor: "#444",
+		"customFontFilename": "ministry-bold.woff",
+	});
+
 	// Filters
 	config.addFilter('dateFilter', dateFilter);
 	config.addFilter('secondsFilter', secondsFilter);
@@ -96,15 +107,6 @@ module.exports = config => {
 				});
 			}
 		}
-	});
-
-	config.addPlugin(generateSocialImages, {
-		promoImage: "./src/images/avatar-rounded.png",
-		outputDir: "./dist/images/social-preview",
-		urlPath: "/images/social-preview",
-		siteName: "jamesbateson.co.uk",
-		titleColor: "#ffe000",
-		bgColor: "#444",
 	});
 
 	return {

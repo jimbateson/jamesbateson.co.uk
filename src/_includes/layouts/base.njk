@@ -19,6 +19,9 @@
 	<link rel="preload" as="font" type="font/woff2" href="/fonts/ministry/ministry-bold.woff2" crossorigin/>
 	<link rel="preload" as="font" type="font/woff2" href="/fonts/ministry/ministry-xbold.woff2" crossorigin/>
 
+	<meta property="og:image" content="{% GenerateSocialImage pageTitle %}" />
+	<meta name="twitter:image" content="{% GenerateSocialImage pageTitle %}" />
+
 	{% include "partials/global/meta-info.njk" %}
 	<style>{% include "assets/css/global.css" %}</style>
 
