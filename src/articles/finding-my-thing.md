@@ -2,13 +2,13 @@
 layout: layouts/post.njk
 title: Finding my thing
 metaTitle: Finding my thing
-metaDesc: Asking myself honestly where or if I fit into the web industry
+metaDesc: Asking myself honestly where or if I fit into front-end development
 socialImage: /images/social-share-default.jpg
 date: 2021-05-28T18:07:08.551Z
 tags:
   - General
 ---
-Do I have a place in the web industry? That's a question that I've been asking myself a lot over the last few months. Am I good enough? Do I have the required skills? Are the things that excite me valuable in today's JS heavy stack.
+Do I have a place in the front-end development? That's a question that I've been asking myself a lot over the last few months. Am I good enough? Do I have the required skills? Are the things that excite me valuable in today's JS heavy stack.
 
 ## JavaScript
 This has always been the major doubt that's planted doubts in my mind throughout my development career. It's such a huge part of building for the web (and beyond) these days, and the tools and results it can produce are FANTASTIC.
@@ -25,15 +25,15 @@ Yes, this is absolutely something I'm dealing with at the moment, and one of the
 ## So what does excite me?
 Culture, HTML, CSS, UI development, performance, accessibility, design, UX, and animation.
 
-When I type those out to myself, it gives me confidence that I do have a place in this industry. These are the things that I am so passionate about and mean so much to me.
+When I type those out to myself, it gives me confidence that I do have a place in front-end development. These are the things that I am so passionate about and mean so much to me.
 
 I'm lucky to have recently started a position at a company that has so many talented individuals (and always more on the way) that are also passionate about these things, and the communities and collaboration on offer to support learning and knowledge sharing in these areas is so so exciting and I'm loving being part of it and really feel I can thrive in the environment.
 
 I think that JS is just such a huge part and requirement of modern front-end development, that I just can't shake the fact that I'm falling short in what's required of me.
 
 ## Creating my niche
-Rather than keep digging myself into the mindset that I'm not good enough and that I don't know enough to be part of this industry. I need to make myself valuable and an asset with the skills and passion I have.
+Rather than keep digging myself into the mindset that I'm not good enough and that I don't know enough to be part of this disipline. I need to make myself valuable and an asset with the skills and passion I have.
 
 How I'm going to go about this, I'm still in the process of thinking about. but jotting these thoughts down has given me a determination to make this happen.
 
-I love what I do, I love where I work and who I work with, and I need to fight to get myself where I want to be.
+I love what I do, and I don't want this to come across as having no drive or ambition, I have plenty of both. I love where I work and who I work with, and I need to fight to get myself where I want to be.
