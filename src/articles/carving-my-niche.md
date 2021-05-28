@@ -3,7 +3,8 @@ layout: layouts/post.njk
 title: Finding my thing
 metaTitle: Finding my thing
 metaDesc: Asking myself honestly where or if I fit into the web industry
-date: 2021-05-28T08:01:10.702Z
+socialImage: /images/social-share-default.jpg
+date: 2021-05-28T18:07:08.551Z
 tags:
   - General
 ---
