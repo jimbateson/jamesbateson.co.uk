@@ -16,7 +16,7 @@ On a personal level, it's never really 'clicked' for me. I have a fairly solid u
 
 I have started looking into previously mentioned frameworks, and whilst they are _really_ cool, I'm just not excited by learning them. I feel like I should be, there are so many people using them, so much relies on them, I feel like I'm just so far behind in the modern JavaScript landscape.
 
-Could/should I be doing more to get over this and learn them properly, maybe? But when there are other things that excite me so much more, it's difficult.
+Could/should I be doing more to get over this and learn them properly, maybe? But when other things excite me so much more, it's difficult.
 
 ## Imposter Syndrome?
 Yes, this is absolutely something I'm dealing with at the moment, and one of the reasons I decided to write this post so candidly as I had the thoughts. It's tough to get out of this mindset, and I'm hoping by writing some positive things down and remind myself of the things I am passionate about, I can reflect on this post.
