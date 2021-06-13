@@ -8,7 +8,7 @@ date: 2021-06-13T10:09:09.228Z
 tags:
   - Running
 ---
-After struggling with my running motivation for the past few weeks, I've decided to set myself a challenge give myself something to aim towards.
+After struggling with my running motivation for the past few weeks, I've decided to set myself a challenge and give myself something to aim towards.
 
 Admittedly an ultramarathon is quite extreme, and it was slightly spur of the moment, as I've never even run marathon distance before. However, after seeking some advice on my lack of motivation from a running friend and them mentioning that they were doing this particular event, I was sold.
 
