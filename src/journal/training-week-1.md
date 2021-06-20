@@ -20,6 +20,8 @@ This week:
 - Saturday: Rest
 - Sunday: 8 miles @long
 
+## Some thoughts
+
 I've been enjoying the easier pace of runs, not just because they are easier, but it's got me back enjoying runs and looking forward to them again.
 
 They are taking some adjusting to though, having always just "run" with no plan at a medium-hard pace all the time, I had started to lose my way a little.
