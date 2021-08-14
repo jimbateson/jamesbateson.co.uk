@@ -6,12 +6,16 @@
 			background-color: var(--color-intro-bg);
 			content: '';
 			height: 110%;
-			left: -5%;
+			left: 0;
 			position: absolute;
 			top: -5%;
 			transform: rotate(-2deg);
-			width: 45%;
+			width: 100%;
 			z-index: -1;
+			@media (min-width: 1024px) {
+				left: -5%;
+				width: 45%;
+			}
 		}
 	}
 
