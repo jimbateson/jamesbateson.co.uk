@@ -11,3 +11,13 @@ tags:
   - Next
 ---
 The tech stack on my new project at work involves me working with Next.js — something I have no experience using. However, having got stuck in, there's a lovely component I've used that I thought was worth writing about — the `<Image>` component.
+
+
+
+<div class="post-note">
+
+<h3>Mindset change</h3>
+
+<p>First off I just wanted to address something from <a href="">my previous post</a>. In this post, I talked about how JavaScript frameworks and such didn't really excite me. However, due to this project using React, I've started to dive into focusing on how this works. I have to say that I'm <strong>really</strong> enjoying it and this has changed my thought process on these technologies considerably.</p>
+
+</div>
