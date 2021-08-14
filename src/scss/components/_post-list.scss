@@ -1,4 +1,27 @@
 .post-list {
+	.wrapper {
+		position: relative;
+
+		&:after {
+			background-color: var(--color-intro-bg);
+			content: '';
+			height: 110%;
+			left: -5%;
+			position: absolute;
+			top: -5%;
+			transform: rotate(-2deg);
+			width: 45%;
+			z-index: -1;
+		}
+	}
+
+	&:nth-child(odd) {
+		.wrapper {
+			&:after {
+				display: none;
+			}
+		}
+	}
 	// .post-list__item
 	&__item {
 		--flow-space: #{get-size(700)};
