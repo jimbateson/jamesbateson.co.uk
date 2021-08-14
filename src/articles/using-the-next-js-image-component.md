@@ -19,9 +19,11 @@ So, here's the use case: in a component, I'm building for a React application (u
 Enter the Next.js `<Image>` component — it handles all of this for you! One of the reasons I wanted to write this article was that I was <strong>so</strong> impressed with how much this did.
 
 The image component has a few default options you need to pass it. These are:
-- `src` - pretty obvious here. Next  assumes the root of these images is `root` so start your path from there.
+- `src` - pretty obvious here. Next assumes the root of these images is `root` so start your path from there.
 - `width` - unless you're using an optional option such a `layout`
 - `height` - unless you're using an optional option such a `layout`
+
+## Easy wins
 
 A basic example of this usage might look like this
 
@@ -29,4 +31,6 @@ A basic example of this usage might look like this
 <Image src="{public dir}/images/my-image-src.jpg" alt="" width={600}  height={300} />
 ```
 
+Even with nothing style-opinionated like this, the image component will make sure the image you're delivering is optimised for the screen size of the user using `sizes`. You'll also get a webp version of the image if your browser supports it. By default, there's a .75 quality applied, meaning giving us some optimisation (this can be tweaked).
 
+## Styling
