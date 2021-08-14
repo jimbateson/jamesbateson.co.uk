@@ -16,7 +16,8 @@ metaTitle: James Bateson / Front End Engineer
 metaDesc: Lancaster based Front End Engineer.
 socialImage: ""
 title: "Hi, I’m James 👋 "
-bannerSummary: A Front End Engineer from Lancaster.
+bannerSummary: A Front End Engineer from Lancaster. With a passion for HTML,
+  CSS, UX, accessibility, and performance.
 postsHeading: Recent Articles
 postsSummary: A mix of development related articles, thoughts and notes.
 journalSummary: Articles on being active, mental wellbeing, life, and more.
