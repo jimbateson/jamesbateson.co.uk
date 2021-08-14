@@ -46,14 +46,15 @@
 		&:hover,
 		&:focus {
 			svg {
-				fill: var(--color-light);
+				opacity: 1;
 			}
 		}
 
 		svg {
-			fill: #969697;
+			fill: var(--color-text);
 			height: 35px;
-			transition: fill 0.5s ease;
+			opacity: 0.5;
+			transition: opacity 0.5s ease;
 			width: 35px;
 		}
 	}
