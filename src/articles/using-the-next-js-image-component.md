@@ -19,14 +19,14 @@ So, here's the use case: in a component, I'm building for a React application (u
 Enter the Next.js `<Image>` component — it handles all of this for you! One of the reasons I wanted to write this article was that I was <strong>so</strong> impressed with how much this did.
 
 The image component has a few default options you need to pass it. These are:
-- `src` - pretty obvious here. With Next.js it assumes the root of these images is `root` so start your path from there.
+- `src` - pretty obvious here. Next  assumes the root of these images is `root` so start your path from there.
 - `width` - unless you're using an optional option such a `layout`
 - `height` - unless you're using an optional option such a `layout`
 
 A basic example of this usage might look like this
 
 ```javascript
-<Image src="/images/my-image-src.jpg" alt="" width={600}  height={300} />
+<Image src="{public dir}/images/my-image-src.jpg" alt="" width={600}  height={300} />
 ```
 
 
