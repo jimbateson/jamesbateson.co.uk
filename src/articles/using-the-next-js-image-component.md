@@ -14,4 +14,4 @@ The tech stack on my new project at work involves me working with Next.js — so
 
 
 
-<div class="post-note"><h3>Mindset change</h3><p>First off I just wanted to address something from <a href="">my previous post</a>. In this post, I talked about how JavaScript frameworks and such didn't really excite me. However, due to this project using React, I've started to dive into focusing on how this works. I have to say that I'm <strong>really</strong> enjoying it and this has changed my thought process on these technologies considerably.</p></div>
+<div class="post-note"><h3>Mindset change</h3><p>First off I just wanted to address something from <a href="">my previous post</a>. In this post, In I mentioned about how JavaScript frameworks and such didn't really excite me. However, due to this project using React, I've started to dive into focusing on how this works. I have to say that I'm <strong>really</strong> enjoying it and this has changed my thought process on these technologies considerably.</p></div>
