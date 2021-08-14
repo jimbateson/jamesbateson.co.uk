@@ -6,8 +6,6 @@
 
 	// .intro__heading
 	&__heading {
-		line-height: 1.1;
-
 		// .intro__heading--compact
 		&--compact {
 			max-width: 40vw;
@@ -17,6 +15,7 @@
 	// .intro__summary
 	&__summary {
 		--flow-space: #{get-size(500)};
+		font-weight: 600;
 
 		a {
 			color: currentColor;

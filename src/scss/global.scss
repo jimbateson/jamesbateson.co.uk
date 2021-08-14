@@ -17,11 +17,11 @@
 html {
 	background-color: var(--color-bg);
 	position: relative;
-	transition: background-color .3s ease-in-out 0s;
+	transition: background-color 0.3s ease-in-out 0s;
 
 	&[data-user-color-scheme='dark'] {
 		img {
-			opacity: .85;
+			opacity: 0.85;
 		}
 	}
 }
@@ -63,7 +63,7 @@ a:not([class]) {
 	background-repeat: no-repeat;
 	background-size: 0 3px;
 	text-decoration: none;
-	transition: background-size .3s cubic-bezier(.365, .005, .355, 1);
+	transition: background-size 0.3s cubic-bezier(0.365, 0.005, 0.355, 1);
 
 	&:hover,
 	&:focus {

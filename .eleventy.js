@@ -17,18 +17,18 @@ const parseTransform = require('./src/transforms/parse-transform.js');
 const site = require('./src/_data/site.json');
 
 // Generate social share images
-const generateSocialImages = require("@manustays/eleventy-plugin-generate-social-images");
+const generateSocialImages = require('@manustays/eleventy-plugin-generate-social-images');
 
-module.exports = config => {
+module.exports = (config) => {
 	// Plugins
 	config.addPlugin(generateSocialImages, {
-		promoImage: "./src/images/avatar-rounded.png",
-		outputDir: "./dist/images/social-preview",
-		urlPath: "/images/social-preview",
-		siteName: "jamesbateson.co.uk",
-		titleColor: "#ffe000",
-		bgColor: "#444",
-		"customFontFilename": "ministry-bold.woff",
+		promoImage: './src/images/avatar-rounded.png',
+		outputDir: './dist/images/social-preview',
+		urlPath: '/images/social-preview',
+		siteName: 'jamesbateson.co.uk',
+		titleColor: '#ffe000',
+		bgColor: '#444',
+		customFontFilename: 'nunito-black.woff',
 	});
 
 	// Filters
@@ -54,40 +54,34 @@ module.exports = config => {
 	config.addPassthroughCopy('src/admin/previews.js');
 	config.addPassthroughCopy('node_modules/nunjucks/browser/nunjucks-slim.js');
 
-  	const now = new Date();
+	const now = new Date();
 
 	// Custom collections
-	const liveArticles = post => post.date <= now && !post.data.draft;
-	config.addCollection('articles', collection => {
-	return [
-		...collection.getFilteredByGlob('./src/articles/*.md').filter(liveArticles)
-	].reverse();
+	const liveArticles = (post) => post.date <= now && !post.data.draft;
+	config.addCollection('articles', (collection) => {
+		return [...collection.getFilteredByGlob('./src/articles/*.md').filter(liveArticles)].reverse();
 	});
 
-	const liveJournal = journal => journal.date <= now && !journal.data.draft;
-	config.addCollection('journal', collection => {
-		return [
-			...collection.getFilteredByGlob('./src/journal/*.md').filter(liveJournal)
-		].reverse();
+	const liveJournal = (journal) => journal.date <= now && !journal.data.draft;
+	config.addCollection('journal', (collection) => {
+		return [...collection.getFilteredByGlob('./src/journal/*.md').filter(liveJournal)].reverse();
 	});
 
-	config.addCollection('postFeed', collection => {
-		return [
-			...collection.getFilteredByGlob('./src/articles/*.md').filter(liveArticles)
-		].reverse().slice(0, site.maxPostsPerPage);
+	config.addCollection('postFeed', (collection) => {
+		return [...collection.getFilteredByGlob('./src/articles/*.md').filter(liveArticles)]
+			.reverse()
+			.slice(0, site.maxPostsPerPage);
 	});
 
-	config.addCollection('journalFeed', collection => {
-		return [
-			...collection.getFilteredByGlob('./src/journal/*.md').filter(liveJournal)
-		].reverse().slice(0, site.maxPostsPerPage);
+	config.addCollection('journalFeed', (collection) => {
+		return [...collection.getFilteredByGlob('./src/journal/*.md').filter(liveJournal)]
+			.reverse()
+			.slice(0, site.maxPostsPerPage);
 	});
 
-	const liveProject = project => project.date <= now && !project.data.draft;
-	config.addCollection('projects', collection => {
-		return [
-			...collection.getFilteredByGlob('./src/project/*.md').filter(liveProject)
-		].reverse();
+	const liveProject = (project) => project.date <= now && !project.data.draft;
+	config.addCollection('projects', (collection) => {
+		return [...collection.getFilteredByGlob('./src/project/*.md').filter(liveProject)].reverse();
 	});
 
 	// Plugins
@@ -100,21 +94,21 @@ module.exports = config => {
 			ready: function (err, browserSync) {
 				const content_404 = fs.readFileSync('dist/404.html');
 
-				browserSync.addMiddleware("*", (req, res) => {
+				browserSync.addMiddleware('*', (req, res) => {
 					// Provides the 404 content without redirect.
 					res.write(content_404);
 					res.end();
 				});
-			}
-		}
+			},
+		},
 	});
 
 	return {
 		templateFormats: ['njk', 'md', 'html', '11ty.js'],
 		dir: {
 			input: 'src',
-			output: 'dist'
+			output: 'dist',
 		},
-		passthroughFileCopy: true
+		passthroughFileCopy: true,
 	};
 };

@@ -34,6 +34,7 @@
 		a {
 			color: var(--color-text);
 			font-size: get-size(500);
+			font-weight: 600;
 
 			&:not(:hover),
 			&:not(:focus) {
