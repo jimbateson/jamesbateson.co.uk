@@ -15,7 +15,7 @@
 				{% endif %}
 
 				<li class="nav__item {% if page.url == item.url %} active{% endif %}">
-					<a href="{{ item.url }}" class="link-hover" {{ externalAttribute | safe }}{{ currentAttribute | safe }}>
+					<a href="{{ item.url }}" {{ externalAttribute | safe }}{{ currentAttribute | safe }}>
 						<span>{{ item.text }}</span>
 					</a>
 				</li>
