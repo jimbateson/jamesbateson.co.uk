@@ -12,7 +12,7 @@ tags:
 ---
 The tech stack on my new project at work involves me working with Next.js — something I have no experience using. However, having got stuck in, there's a lovely component I've used that I thought was worth writing about — the `<Image>` component.
 
-<div class="post-note"><h3>Mindset change</h3><p>First off I just wanted to address something from <a href="">my previous post</a>. In this post, In I mentioned how JavaScript frameworks and such didn't really excite me. However, due to this project using React, I've started to dive into focusing on how this works. I have to say that I'm <strong>really</strong> enjoying it and this has changed my thought process on these technologies considerably.</p></div>
+<div class="post-note"><h3>Mindset change</h3><p>First off I just wanted to address something from <a href="https://jamesbateson.co.uk/articles/finding-my-thing/">my previous post</a>. In this post, In I mentioned how JavaScript frameworks and such didn't really excite me. However, due to this project using React, I've started to dive into focusing on how this works. I have to say that I'm <strong>really</strong> enjoying it and this has changed my thought process on these technologies considerably.</p></div>
 
 So, here's the use case: in a component, I'm building for a React application (using Next.js) I need to display a statically rendered image. I would like this image to be accessible, optimised, and reusable. I could probably default to using the `<picture>` tag, asking a designer for responsive versions of the image, running the image through an optimiser, make sure I have the optimised file format for the image (webp for example), how will the image lazyload, how will it be positioned, how will it be styled, the list could go on.
 
@@ -54,7 +54,5 @@ Despite all the glory it offers, there were a couple of things that caught me ou
 Despite a few issues with the styling (possibly down to my continued learning), I'm so impressed with how this component behaved by default.
 
 In this case, I passed in a large 295kb `.jpg` file as my source image, and when inspecting the network tab, not only was a correctly sized image for my current viewport being passed in, but it was in `.webp` format and down to a mere 35kb! With very little config! I had to apply no extra styles to size it my containing element as well. If you're using Next.js in your tech stack, give this component a try.
-
-
 
 <div class="post-note"><h3>Disclaimer</h3><p>I'm still very new to the whole React/Next ecosystem, so bear with me if some things don't quite ring true, I'm learning everyday!</p></div>
