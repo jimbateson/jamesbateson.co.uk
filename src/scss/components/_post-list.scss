@@ -2,6 +2,23 @@
 	.wrapper {
 		position: relative;
 
+		> *:not(.generator__canvas) {
+			position: relative;
+			z-index: 2;
+		}
+
+		.decoration {
+			bottom: -4.85em;
+			display: none;
+			left: -10em;
+			position: absolute;
+			width: 20em;
+			z-index: 0;
+			@media (min-width: 1024px) {
+				display: block;
+			}
+		}
+
 		&:after {
 			background-color: var(--color-intro-bg);
 			content: '';
@@ -11,7 +28,7 @@
 			top: -5%;
 			transform: rotate(-2deg);
 			width: 100%;
-			z-index: -1;
+			z-index: 1;
 			@media (min-width: 1024px) {
 				left: -5%;
 				width: 45%;
