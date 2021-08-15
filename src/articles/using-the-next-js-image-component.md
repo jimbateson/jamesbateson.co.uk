@@ -21,8 +21,8 @@ Enter the Next.js `<Image>` component — it handles all of this for you! One of
 The image component has a few default options you need to pass it. These are:
 
 * `src` - pretty obvious here. Next assumes that the root of these images is `public` so start your path from there.
-* `width` - unless you're using an optional option such a `layout`
-* `height` - unless you're using an optional option such a `layout`
+* `width` - unless you're using an option such a `layout`
+* `height` - unless you're using an option such a `layout`
 
 ## Easy wins
 
