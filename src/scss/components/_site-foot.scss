@@ -46,15 +46,13 @@
 		&:hover,
 		&:focus {
 			svg {
-				opacity: 1;
+				fill: var(--color-link-text);
 			}
 		}
 
 		svg {
 			fill: var(--color-text);
 			height: 35px;
-			opacity: 0.5;
-			transition: opacity 0.5s ease;
 			width: 35px;
 		}
 	}

@@ -11,17 +11,17 @@
 .post-list__item-links {
 	display: flex;
 	flex-wrap: wrap;
-	margin-top: .5rem;
+	margin-top: 0.5rem;
 
 	li {
 		+ li {
-			margin-left: .3rem;
+			margin-left: 0.3rem;
 
 			&:before {
 				color: var(--color-link-text);
 				content: '/';
 				display: inline-block;
-				margin-right: .3rem;
+				margin-right: 0.3rem;
 			}
 		}
 	}

@@ -12,8 +12,8 @@
 				<h3 class="[ leading-tight text-700 ]">{{ item.data.title }}</h3>
 
 				<ul class="[ post-list__item-links ]">
-					<li><a href="{{ item.url }}">Write-up</a></li>
-					{% if item.data.url %}<li><a href="{{ item.data.url }}" target="_blank" rel="external noreferrer">Site</a></li>{% endif %}
+					<li><a href="{{ item.url }}">Write-up <span class="visually-hidden">for {{ item.data.title }}</span></a></li>
+					{% if item.data.url %}<li><a href="{{ item.data.url }}" target="_blank" rel="external noreferrer"><span class="visually-hidden">visit {{ item.data.title }}</span> Site</a></li>{% endif %}
 				</ul>
 			</div>
 
