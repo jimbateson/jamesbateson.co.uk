@@ -32,7 +32,7 @@ A basic example of this usage might look like this
 <Image src="{public dir}/images/my-image-src.jpg" alt="" width={600}  height={300} />
 ```
 
-Even with nothing style-opinionated like this, the image component will make sure the image you're delivering is optimised for the screen size of the user using `sizes`. You'll also get a webp version of the image if your browser supports it. By default, there's a .75 quality applied, meaning giving us some optimisation (this can be tweaked).
+Even with nothing style-opinionated like this, the image component will make sure the image you're delivering is optimised for the screen size of the user using `sizes`. You'll also get a webp version of the image if your browser supports it. By default, there's a .75 quality applied, giving us some optimisation (this can be tweaked).
 
 ## Styling
 
