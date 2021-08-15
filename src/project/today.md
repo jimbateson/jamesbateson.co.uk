@@ -1,14 +1,14 @@
 ---
 layout: layouts/project-single.njk
-title: Today
 url: https://github.com/jimbateson/today/releases
-listingImage: /images/today-listing.jpg
 shortDescription: The simple todo app that nobody asked for or needed. Built
   with Electron and Vue.
 metaTitle: James Bateson | Today
 metaDesc: Today - the simple todo app that nobody asked for or needed
 socialImage: /images/social-share-default.jpg
 date: 2020-08-05T19:18:24.400Z
+listingImage: /images/today-listing.jpg
+title: Today
 tags:
   - Vue.js
   - Electron
@@ -25,7 +25,7 @@ It all started with [this tutorial](https://codeburst.io/build-a-todo-app-with-e
 
 However, there were a few things I wanted to change, for example moving the adding of new todos to the main window, completing todos, etc. This cam at the time I had started learning Vue and I thought combining these would be a perfect marriage!
 
-<div class="post-note"><p><strong>Note</strong>I wrote a little guide on how I implemented Vue into my app <a href="https://jamesbateson.co.uk/articles/building-a-simple-todo-app-with-vue-js/">in this article</a>.</p></div>
+<div class="post-note"><h3>Note</h3><p>I wrote a little guide on how I implemented Vue into my app <a href="https://jamesbateson.co.uk/articles/building-a-simple-todo-app-with-vue-js/">in this article</a>.</p></div>
 
 ## So what does it do?
 

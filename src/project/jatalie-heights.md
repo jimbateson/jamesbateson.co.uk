@@ -17,7 +17,7 @@ tags:
 ---
 As mentioned on my [about page](/about/), Iʼm a keen walker, and love to get up to The Lakes. This project is somewhere I can document these walks, and reflect on enjoying the great outdoors.
 
-<p class="post-note"><strong>Update</strong>This project is now deprecated and will eventually be replaced by <a href="https://walks.jamesbateson.co.uk/">https://walks.jamesbateson.co.uk/</a>. Updates coming soon!</p>
+<div class="post-note"><h3>Update</h3><p>This project is now deprecated and will eventually be replaced by <a href="https://walks.jamesbateson.co.uk/">https://walks.jamesbateson.co.uk/</a>. Updates coming soon!</p></div>
 
 ## Project Background
 
