@@ -201,12 +201,16 @@
 				img {
 					border: 2px solid var(--color-text);
 					border-radius: 50%;
+					display: none;
 					height: 40px;
 					margin-left: 5px;
 					margin-right: 5px;
 					min-width: 40px;
 					vertical-align: middle;
 					width: 40px;
+					@include media-query('md') {
+						display: inline-block;
+					}
 				}
 			}
 
