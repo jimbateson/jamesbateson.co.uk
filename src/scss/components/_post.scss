@@ -43,13 +43,26 @@
 
 		blockquote {
 			background-color: var(--color-intro-bg);
-			border-left: 0.4rem solid var(--color-link-text);
 			border-radius: 10px;
 			color: var(--color-text);
-			font-size: get-size(600);
+			font-size: get-size(500);
 			margin-left: 0;
-			padding-left: get-size(500);
+			padding: get-size(500);
+			position: relative;
 			width: 100%;
+
+			&:after {
+				background-color: var(--color-link-text);
+				border-radius: 10px;
+				content: '';
+				display: block;
+				height: 100%;
+				left: 0.5rem;
+				position: absolute;
+				top: 0.5rem;
+				width: 100%;
+				z-index: -1;
+			}
 
 			p {
 				opacity: 0.85;
