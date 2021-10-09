@@ -33,3 +33,6 @@ Less CSS needed, no random values being entered. Design/developer collab.
 - Design systems working group tool
 
 Use these together.
+
+## Looking ahead
+Auto-generate tokens from Figma designs. JSON format and then convert to CSS.
