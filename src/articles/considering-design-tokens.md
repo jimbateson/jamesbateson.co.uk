@@ -27,3 +27,5 @@ Using font-weight numbering pattern. Trying to set rules to look out for in term
 
 ## Making life easier for developers
 Less CSS needed, no random values being entered. Design/developer collab.
+
+## Token generation and managing tools
