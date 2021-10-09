@@ -16,6 +16,27 @@ The first was how to structure/categorise your tokens. Splitting them out to bot
 ### Global tokens
 High level, core branding, etc. Change to alter sitewide things.
 
+Examples:
+
+```css
+/* Global tokens */
+
+--color-yellow-400: #ffe900;
+--color-yellow-500: #ffe000;
+--color-yellow-600: #d0bd33;
+
+--font-size-400: .85rem;
+--font-size-500: 1rem;
+--font-size-600: 1.25rem;
+
+--spacing-400: .85rem;
+--sapcing-500: 1rem;
+--spacing-600: 1.25rem;
+
+--line-height-body: 1.4;
+--line-height-heading: 1.2;
+```
+
 ### Contextual tokens
 Where the bulk of styling will come from. Where and how global token values should be used. 'primary', 'accent' etc.
 
@@ -29,8 +50,8 @@ Using font-weight numbering pattern. Trying to set rules to look out for in term
 Less CSS needed, no random values being entered. Design/developer collab.
 
 ## Token generation and managing tools
-- Amazon tool
-- Design systems working group tool
+- [Amazon tool](https://amzn.github.io/style-dictionary/#/)
+- [Design systems working group tool](https://github.com/design-tokens/community-group)
 
 Use these together.
 
