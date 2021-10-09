@@ -38,13 +38,13 @@ Examples:
 ```
 
 ### Contextual tokens
-Where the bulk of styling will come from. Where and how global token values should be used. 'primary', 'accent' etc.
+Where the bulk of styling will come from. Where and how global token values should be used. 'primary', 'accent' etc. Change to alter multiple components in certian contexts.
 
 ### Component tokens
 More fine-grain controlling over how components should look can be made up of global and contextual tokens. Change component visuals without touching any CSS.
 
 ## Token naming and accessibility
-Using font-weight numbering pattern. Trying to set rules to look out for in terms of matching what combinations would be accessible.
+Using font-weight numbering pattern. Trying to set rules to look out for in terms of matching what combinations would be accessible. Change to control specific component.
 
 ## Making life easier for developers
 Less CSS needed, no random values being entered. Design/developer collab.
