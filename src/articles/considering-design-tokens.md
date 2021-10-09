@@ -29,3 +29,7 @@ Using font-weight numbering pattern. Trying to set rules to look out for in term
 Less CSS needed, no random values being entered. Design/developer collab.
 
 ## Token generation and managing tools
+- Amazon tool
+- Design systems working group tool
+
+Use these together.
