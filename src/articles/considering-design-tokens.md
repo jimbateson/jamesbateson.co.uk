@@ -46,6 +46,9 @@ More fine-grain controlling over how components should look can be made up of gl
 ## Token naming and accessibility
 Using font-weight numbering pattern. Trying to set rules to look out for in terms of matching what combinations would be accessible. Change to control specific components.
 
+## Resliance
+
+
 ## Making life easier for developers
 Less CSS needed, no random values being entered. Design/developer collab.
 
