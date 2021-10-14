@@ -2,7 +2,8 @@
 layout: layouts/post.njk
 title: Considering design tokens
 metaTitle: Considering design tokens
-metaDesc: Some interesting ideas learnt relating to design tokens.
+metaDesc: Some interesting ideas learnt relating to design tokens and how and
+  why they might be used.
 socialImage: /images/social-share-default.jpg
 date: 2021-10-09T11:57:57.513Z
 tags:
