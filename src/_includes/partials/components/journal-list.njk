@@ -1,8 +1,10 @@
 {% if journalListItems.length %}
 <section class="[ post-list ] [ pad-top-700 pad-bottom-700 md:pad-top-600 md:pad-bottom-max ]">
 	<div class="[ wrapper ] [ sf-flow ]">
-		<h2 class="[ post-list__heading ] [ text-700 md:text-900 ]">{{ journalListHeading }}</h2>
-		<p class="section-intro">{{ journalListSummary }}</p>
+		{% if journalListHeading %}
+			<h2 class="[ post-list__heading ] [ text-700 md:text-900 ]">{{ journalListHeading }}</h2>
+			<p class="section-intro">{{ journalListSummary }}</p>
+		{% endif %}
 		<ol class="[ post-list__items ] [ sf-flow ] [ pad-top-500 ]" reversed>
 		{% for item in journalListItems %}
 		<li class="post-list__item">

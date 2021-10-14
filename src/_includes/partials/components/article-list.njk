@@ -2,8 +2,10 @@
 <section class="[ post-list ] [ pad-top-700 pad-bottom-700 md:pad-bottom-max ]">
 	<div class="[ wrapper ] [ sf-flow ]">
 		{% include "partials/dots.svg" %}
-		<h2 class="[ post-list__heading ] [ text-700 md:text-900 ]">{{ postListHeading }}</h2>
-		<p class="section-intro">{{ postListSummary }}</p>
+		{% if postListHeading %}
+			<h2 class="[ post-list__heading ] [ text-700 md:text-900 ]">{{ postListHeading }}</h2>
+			<p class="section-intro">{{ postListSummary }}</p>
+		{% endif %}
 		<ol class="[ post-list__items ] [ sf-flow ] [ pad-top-500 ]" reversed>
 			{% for item in postListItems %}
 				<li class="post-list__item">
