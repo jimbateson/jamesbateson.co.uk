@@ -52,9 +52,9 @@ Using font-weight numbering pattern. Trying to set rules to look out for in term
 ## Making life easier for developers
 Less CSS needed, no random values being entered. Design/developer collab.
 
-## Token generation and managing tools
-- [Amazon tool](https://amzn.github.io/style-dictionary/#/)
-- [Design systems working group tool](https://github.com/design-tokens/community-group)
+## Token handling tools
+* [Amazon style dictionary](https://amzn.github.io/style-dictionary/#/) - export key/value pairs to language or platform needed. 
+* [Design systems working group tool](https://github.com/design-tokens/community-group)
 
 Use these together.
 
