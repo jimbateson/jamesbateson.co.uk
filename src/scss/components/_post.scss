@@ -25,7 +25,7 @@
 		a:not([class]) {
 			@include apply-utility('leading', 'tight');
 			text-decoration-thickness: 2px;
-			transition: color 0.35s ease;
+			transition: color .35s ease;
 		}
 
 		code,
@@ -33,7 +33,7 @@
 			background-color: var(--color-intro-bg);
 			border-radius: 3px;
 			color: var(--color-text);
-			padding: 0.2rem 0.5rem;
+			padding: .2rem .5rem;
 		}
 
 		pre > code {
@@ -57,16 +57,16 @@
 				content: '';
 				display: block;
 				height: 100%;
-				left: 0.35rem;
-				opacity: 0.85;
+				left: .35rem;
+				opacity: .85;
 				position: absolute;
-				top: 0.35rem;
+				top: .35rem;
 				width: 100%;
 				z-index: -1;
 			}
 
 			p {
-				opacity: 0.85;
+				opacity: .85;
 				padding: get-size(500) 0;
 			}
 		}
@@ -98,14 +98,12 @@
 			margin-left: 50%; /* changing this value to 47% removes the horizontal scrollbar once the viewport is < 930px */
 			max-width: map-get($metrics, 'wrap-max-width');
 			position: relative;
-			transform: translateX(
-				-50%
-			); /* changing this value to 49% allows for the suggestion above to also eliminate the horizontal scroll. */
+			transform: translateX(-50%); /* changing this value to 49% allows for the suggestion above to also eliminate the horizontal scroll. */
 			width: 100vw;
 		}
 
 		figure img .video-player {
-			box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+			box-shadow: 3px 3px 0 rgba(0, 0, 0, .1);
 		}
 
 		figure img {
@@ -114,21 +112,19 @@
 		}
 
 		figcaption {
-			font-size: 0.8em;
+			font-size: .8em;
 			font-style: italic;
-			margin: 0.5rem auto 0;
+			margin: .5rem auto 0;
 			max-width: map-get($metrics, 'wrap-inner-max-width');
 			padding: 0 get-size(500);
 		}
 
 		pre[class*='language'] {
 			background-color: var(--color-dark-alt);
-			box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+			box-shadow: 3px 3px 0 rgba(0, 0, 0, .1);
 			margin-left: 50%; /* changing this value to 47% removes the horizontal scrollbar once the viewport is < 930px */
 			position: relative;
-			transform: translateX(
-				-50%
-			); /* changing this value to 49% allows for the suggestion above to also eliminate the horizontal scroll. */
+			transform: translateX(-50%); /* changing this value to 49% allows for the suggestion above to also eliminate the horizontal scroll. */
 			width: 100vw;
 		}
 
@@ -161,6 +157,7 @@
 			&:not(.post-note--update) {
 				a {
 					color: currentColor;
+					text-decoration-color: var(--color-accent-alt);
 
 					&:hover,
 					&:focus {
@@ -171,7 +168,7 @@
 
 			h3 {
 				align-items: center;
-				border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+				border-bottom: 1px solid rgba(255, 255, 255, .25);
 				display: flex;
 				font-size: get-size(600);
 				margin-bottom: 10px;
