@@ -2,14 +2,14 @@
 layout: layouts/post.njk
 title: Considering design tokens
 metaTitle: Considering design tokens
-metaDesc: Some interesting ideas learnt relating to design tokens and how and
+metaDesc: Some interesting ideas learnt on approaching design tokens and how and
   why they might be used.
 socialImage: /images/social-share-default.jpg
 date: 2021-10-09T11:57:57.513Z
 tags:
   - CSS
 ---
-Last week I watched [the latest stream from SomeAnticsDev](https://www.twitch.tv/videos/1168203379). It was with Mike Aparicino and on the topic of creating design systems. There were a couple of ideas and principles they touched upon that resonated with me and I found myself nodding along with and I thought I'd jot them down here.
+Last week I watched [the latest stream from SomeAnticsDev](https://www.twitch.tv/videos/1168203379) featuring Mike Aparicino and on the topic of creating design systems. There were some approaches and principles they touched upon that resonated with me and I found myself nodding along with them and I thought it'd be useful for me to document them here.
 
 ## Purpose of tokens
 The first was how to structure/categorise your tokens. Splitting them out to both feed into each other, but also serve slightly different purposes, allowing more manageable and scaleable updating of your system in the future.
