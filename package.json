@@ -30,7 +30,7 @@
 		"sass": "^1.43.3",
 		"stylelint": "^14.0.0",
 		"stylelint-a11y": "^1.2.1",
-		"stylelint-order": "^4.1.0",
+		"stylelint-order": "^5.0.0",
 		"twitter-avatar-url": "^2.1.0"
 	},
 	"scripts": {
