@@ -11,7 +11,7 @@
 				color: var(--color-link-text);
 				content: '/';
 				display: inline-block;
-				margin: 0 0.4rem;
+				margin: 0 .4rem;
 			}
 		}
 
@@ -31,8 +31,8 @@
 		width: 100%;
 
 		a {
-			opacity: 0.5;
-			transition: opacity 0.5s ease;
+			opacity: .5;
+			transition: opacity .5s ease;
 
 			&:hover,
 			&:focus {
