@@ -1,168 +1,183 @@
 backend:
-  name: git-gateway
-  branch: main
+    name: git-gateway
+    branch: main
 publish_mode: editorial_workflow
-site_url: "https://jamesbateson.co.uk"
-media_folder: "src/images"
-public_folder: "/images"
+site_url: 'https://jamesbateson.co.uk'
+media_folder: 'src/images'
+public_folder: '/images'
 collections:
-  - name: "pages"
-    label: "Pages"
-    files:
-      - name: "home"
-        label: "Homepage"
-        delete: false
-        file: "src/index.md"
-        slug: "{{slug}}"
-        create: false
-        fields:
-          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/njk.njk"}
-          - {label: "SEO Meta Title", name: "metaTitle", widget: "string", required: false}
-          - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
-          - {label: "Social Image", name: "socialImage", widget: "image", required: false}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Banner Summary", name: "bannerSummary", widget: "string"}
-          - {label: "Post Feed Heading", name: "postsHeading", widget: "string", default: "Latest posts"}
-          - {label: "Post Feed Summary", name: "postsSummary", widget: "string"}
-          - {label: "Journal Feed Heading", name: "journalHeading", widget: "string", default: "Latest thoughts"}
-          - {label: "Journal Feed Summary", name: "journalSummary", widget: "string"}
-      - name: "resume"
-        label: "Résumé"
-        delete: false
-        file: "src/resume.md"
-        slug: "{{slug}}"
-        create: false
-        fields:
-          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/njk.njk"}
-          - {label: "SEO Meta Title", name: "metaTitle", widget: "string", required: false}
-          - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
-          - {label: "Social Image", name: "socialImage", widget: "image", required: false}
-          - {label: "Banner Summary", name: "bannerSummary", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-  - name: "generic_pages"
-    label: "Generic Pages"
-    folder: "src/pages"
-    slug: "{{slug}}"
-    preview_path: "pages/{{slug}}"
-    create: true
-    fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.njk"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Banner Summary", name: "bannerSummary", widget: "string"}
-      - {label: "Banner Image", name: "bannerImage", widget: "image"}
-      - {label: "Banner Image Class", name: "bannerImageClass", widget: "string"}
-      - {label: "Permalink Override", name: "permalink", widget: "string"}
-      - {label: "SEO Meta Title", name: "metaTitle", widget: "string", required: false}
-      - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
-      - {label: "Social Image", name: "socialImage", widget: "image", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "articles"
-    label: "Articles"
-    folder: "src/articles"
-    slug: "{{slug}}"
-    preview_path: "articles/{{slug}}"
-    create: true
-    fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "SEO Meta Title", name: "metaTitle", widget: "string", required: false}
-      - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
-      - {label: "Social Image", name: "socialImage", widget: "image", required: false}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Tags", name: "tags", widget: "list", allow_add: true}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "journal"
-    label: "Journal"
-    folder: "src/journal"
-    slug: "{{slug}}"
-    preview_path: "journal/{{slug}}"
-    create: true
-    fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "SEO Meta Title", name: "metaTitle", widget: "string", required: false}
-      - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
-      - {label: "Social Image", name: "socialImage", widget: "image", required: false}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Tags", name: "tags", widget: "list", allow_add: true}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "project"
-    label: "Projects"
-    folder: "src/project"
-    slug: "{{slug}}"
-    preview_path: "project/{{slug}}"
-    create: true
-    fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/project-single.njk"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Url", name: "url", widget: "string", required: false}
-      - {label: "Banner Image", name: "bannerImage", widget: "image", required: false}
-      - {label: "Short Description", name: "shortDescription", widget: "string"}
-      - {label: "SEO Meta Title", name: "metaTitle", widget: "string", required: false}
-      - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
-      - {label: "Social Image", name: "socialImage", widget: "image", required: false}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Tags", name: "tags", widget: "list", allow_add: true}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - label: "Globals"
-    name: "globals"
-    files:
-      - label: "Site Data"
-        name: "site_data"
-        delete: false
-        file: "src/_data/site.json"
-        fields:
-          - {label: "Site Name", name: "name", widget: "string"}
-          - {label: "Site Url", name: "url", widget: "string"}
-          - {label: "Author Name", name: "authorName", widget: "string"}
-          - {label: "Author Email Address", name: "authorEmail", widget: "string"}
-          - {label: "Author Twitter Handle", name: "authorHandle", widget: "string", required: false}
-          - {label: "Footer Short Description", name: "shortDesc", widget: "string"}
-          - {label: "Maximum Posts Per Page", name: "maxPostsPerPage", widget: "number", default: 5}
-          - {label: "Show Theme Credit", name: "showThemeCredit", widget: "boolean", default: true}
-          - {label: "Enable Third Party Comments Area", name: "enableThirdPartyComments", widget: "boolean", default: false}
-      - label: "Navigation"
-        name: "nav"
-        delete: false
-        file: "src/_data/navigation.json"
-        fields:
-          - label: "Items"
-            name: "items"
-            widget: "list"
+    - name: 'pages'
+      label: 'Pages'
+      files:
+          - name: 'home'
+            label: 'Homepage'
+            delete: false
+            file: 'src/index.md'
+            slug: '{{slug}}'
+            create: false
             fields:
-              - {label: "Text", name: "text", widget: "string"}
-              - {label: "Url", name: "url", widget: "string"}
-              - {label: "Is url to external site?", name: "external", widget: "boolean", required: false}
-              - {label: "Show on mobile?", name: "mobile", widget: "boolean", required: false}
-      - label: "Theme Settings"
-        name: "theme"
-        delete: false
-        file: "src/_data/tokens.json"
-        fields:
-          - label: "Size Scale"
-            name: "size-scale"
-            widget: "object"
+                - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'layouts/njk.njk'}
+                - {label: 'SEO Meta Title', name: 'metaTitle', widget: 'string', required: false}
+                - {label: 'SEO Meta Description', name: 'metaDesc', widget: 'string', required: false}
+                - {label: 'Social Image', name: 'socialImage', widget: 'image', required: false}
+                - {label: 'Title', name: 'title', widget: 'string'}
+                - {label: 'Banner Summary', name: 'bannerSummary', widget: 'string'}
+                - {label: 'Post Feed Heading', name: 'postsHeading', widget: 'string', default: 'Latest posts'}
+                - {label: 'Post Feed Summary', name: 'postsSummary', widget: 'string'}
+                - {label: 'Journal Feed Heading', name: 'journalHeading', widget: 'string', default: 'Latest thoughts'}
+                - {label: 'Journal Feed Summary', name: 'journalSummary', widget: 'string'}
+          - name: 'resume'
+            label: 'Résumé'
+            delete: false
+            file: 'src/resume.md'
+            slug: '{{slug}}'
+            create: false
             fields:
-              - {label: "Base Size", name: "base", widget: "string", default: "1rem"}
-              - {label: "Ratio: 300", name: "300", widget: "string", default: "0.8rem"}
-              - {label: "Ratio: 500", name: "500", widget: "string", default: "1.25rem"}
-              - {label: "Ratio: 600", name: "600", widget: "string", default: "1.56rem"}
-              - {label: "Ratio: 700", name: "700", widget: "string", default: "1.95rem"}
-              - {label: "Ratio: 800", name: "800", widget: "string", default: "2.44rem"}
-              - {label: "Ratio: 900", name: "900", widget: "string", default: "3.05rem"}
-              - {label: "Max Size", name: "max", widget: "string", default: "4rem"}
-          - label: "Colors"
-            name: "colors"
-            widget: "object"
+                - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'layouts/njk.njk'}
+                - {label: 'SEO Meta Title', name: 'metaTitle', widget: 'string', required: false}
+                - {label: 'SEO Meta Description', name: 'metaDesc', widget: 'string', required: false}
+                - {label: 'Social Image', name: 'socialImage', widget: 'image', required: false}
+                - {label: 'Banner Summary', name: 'bannerSummary', widget: 'string'}
+                - {label: 'Body', name: 'body', widget: 'markdown'}
+    - name: 'generic_pages'
+      label: 'Generic Pages'
+      folder: 'src/pages'
+      slug: '{{slug}}'
+      preview_path: 'pages/{{slug}}'
+      create: true
+      fields:
+          - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'layouts/page.njk'}
+          - {label: 'Title', name: 'title', widget: 'string'}
+          - {label: 'Banner Summary', name: 'bannerSummary', widget: 'string'}
+          - {label: 'Banner Image', name: 'bannerImage', widget: 'image', required: false}
+          - {label: 'Banner Image Class', name: 'bannerImageClass', widget: 'string', required: false}
+          - {label: 'Permalink Override', name: 'permalink', widget: 'string'}
+          - {label: 'SEO Meta Title', name: 'metaTitle', widget: 'string', required: false}
+          - {label: 'SEO Meta Description', name: 'metaDesc', widget: 'string', required: false}
+          - {label: 'Social Image', name: 'socialImage', widget: 'image', required: false}
+          - {label: 'Body', name: 'body', widget: 'markdown'}
+    - name: 'articles'
+      label: 'Articles'
+      folder: 'src/articles'
+      slug: '{{slug}}'
+      preview_path: 'articles/{{slug}}'
+      create: true
+      fields:
+          - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'layouts/post.njk'}
+          - {label: 'Title', name: 'title', widget: 'string'}
+          - {label: 'SEO Meta Title', name: 'metaTitle', widget: 'string', required: false}
+          - {label: 'SEO Meta Description', name: 'metaDesc', widget: 'string', required: false}
+          - {label: 'Social Image', name: 'socialImage', widget: 'image', required: false}
+          - {label: 'Publish Date', name: 'date', widget: 'datetime'}
+          - {label: 'Tags', name: 'tags', widget: 'list', allow_add: true}
+          - {label: 'Body', name: 'body', widget: 'markdown'}
+    - name: 'journal'
+      label: 'Journal'
+      folder: 'src/journal'
+      slug: '{{slug}}'
+      preview_path: 'journal/{{slug}}'
+      create: true
+      fields:
+          - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'layouts/post.njk'}
+          - {label: 'Title', name: 'title', widget: 'string'}
+          - {label: 'SEO Meta Title', name: 'metaTitle', widget: 'string', required: false}
+          - {label: 'SEO Meta Description', name: 'metaDesc', widget: 'string', required: false}
+          - {label: 'Social Image', name: 'socialImage', widget: 'image', required: false}
+          - {label: 'Publish Date', name: 'date', widget: 'datetime'}
+          - {label: 'Tags', name: 'tags', widget: 'list', allow_add: true}
+          - {label: 'Body', name: 'body', widget: 'markdown'}
+    - name: 'project'
+      label: 'Projects'
+      folder: 'src/project'
+      slug: '{{slug}}'
+      preview_path: 'project/{{slug}}'
+      create: true
+      fields:
+          - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'layouts/project-single.njk'}
+          - {label: 'Title', name: 'title', widget: 'string'}
+          - {label: 'Url', name: 'url', widget: 'string', required: false}
+          - {label: 'Banner Image', name: 'bannerImage', widget: 'image', required: false}
+          - {label: 'Short Description', name: 'shortDescription', widget: 'string'}
+          - {label: 'SEO Meta Title', name: 'metaTitle', widget: 'string', required: false}
+          - {label: 'SEO Meta Description', name: 'metaDesc', widget: 'string', required: false}
+          - {label: 'Social Image', name: 'socialImage', widget: 'image', required: false}
+          - {label: 'Publish Date', name: 'date', widget: 'datetime'}
+          - {label: 'Tags', name: 'tags', widget: 'list', allow_add: true}
+          - {label: 'Body', name: 'body', widget: 'markdown'}
+    - label: 'Globals'
+      name: 'globals'
+      files:
+          - label: 'Site Data'
+            name: 'site_data'
+            delete: false
+            file: 'src/_data/site.json'
             fields:
-              - {label: "Primary", name: "primary", widget: "string", default: "hsl(205.5, 55.8%, 48.8%)"}
-              - {label: "Primary Shade (darker)", name: "primary-shade", widget: "string", default: "hsl(208, 56%, 14%)"}
-              - {label: "Primary Glare (lighter)", name: "primary-glare", widget: "string", default: "hsl(207, 57%, 31%)"}
-              - {label: "Highlight", name: "highlight", widget: "string", default: "hsl(42, 98%, 77%)"}
-              - {label: "Light", name: "light", widget: "string", default: "hsl(0, 0%, 100%)"}
-              - {label: "Mid", name: "mid", widget: "string", default: "hsl(0, 0%, 80%)"}
-              - {label: "Dark", name: "dark", widget: "string", default: "hsl(0, 0%, 20%)"}
-          - label: "Fonts"
-            name: "fonts"
-            widget: "hidden"
-            default: { "base": "\"Skolar Sans Latin, Helvetica, sans-serif\"", "serif": "\"'Sutro', Georgia, serif\""}
+                - {label: 'Site Name', name: 'name', widget: 'string'}
+                - {label: 'Site Url', name: 'url', widget: 'string'}
+                - {label: 'Author Name', name: 'authorName', widget: 'string'}
+                - {label: 'Author Email Address', name: 'authorEmail', widget: 'string'}
+                - {label: 'Author Twitter Handle', name: 'authorHandle', widget: 'string', required: false}
+                - {label: 'Footer Short Description', name: 'shortDesc', widget: 'string'}
+                - {label: 'Maximum Posts Per Page', name: 'maxPostsPerPage', widget: 'number', default: 5}
+                - {label: 'Show Theme Credit', name: 'showThemeCredit', widget: 'boolean', default: true}
+                - {
+                      label: 'Enable Third Party Comments Area',
+                      name: 'enableThirdPartyComments',
+                      widget: 'boolean',
+                      default: false,
+                  }
+          - label: 'Navigation'
+            name: 'nav'
+            delete: false
+            file: 'src/_data/navigation.json'
+            fields:
+                - label: 'Items'
+                  name: 'items'
+                  widget: 'list'
+                  fields:
+                      - {label: 'Text', name: 'text', widget: 'string'}
+                      - {label: 'Url', name: 'url', widget: 'string'}
+                      - {label: 'Is url to external site?', name: 'external', widget: 'boolean', required: false}
+                      - {label: 'Show on mobile?', name: 'mobile', widget: 'boolean', required: false}
+          - label: 'Theme Settings'
+            name: 'theme'
+            delete: false
+            file: 'src/_data/tokens.json'
+            fields:
+                - label: 'Size Scale'
+                  name: 'size-scale'
+                  widget: 'object'
+                  fields:
+                      - {label: 'Base Size', name: 'base', widget: 'string', default: '1rem'}
+                      - {label: 'Ratio: 300', name: '300', widget: 'string', default: '0.8rem'}
+                      - {label: 'Ratio: 500', name: '500', widget: 'string', default: '1.25rem'}
+                      - {label: 'Ratio: 600', name: '600', widget: 'string', default: '1.56rem'}
+                      - {label: 'Ratio: 700', name: '700', widget: 'string', default: '1.95rem'}
+                      - {label: 'Ratio: 800', name: '800', widget: 'string', default: '2.44rem'}
+                      - {label: 'Ratio: 900', name: '900', widget: 'string', default: '3.05rem'}
+                      - {label: 'Max Size', name: 'max', widget: 'string', default: '4rem'}
+                - label: 'Colors'
+                  name: 'colors'
+                  widget: 'object'
+                  fields:
+                      - {label: 'Primary', name: 'primary', widget: 'string', default: 'hsl(205.5, 55.8%, 48.8%)'}
+                      - {
+                            label: 'Primary Shade (darker)',
+                            name: 'primary-shade',
+                            widget: 'string',
+                            default: 'hsl(208, 56%, 14%)',
+                        }
+                      - {
+                            label: 'Primary Glare (lighter)',
+                            name: 'primary-glare',
+                            widget: 'string',
+                            default: 'hsl(207, 57%, 31%)',
+                        }
+                      - {label: 'Highlight', name: 'highlight', widget: 'string', default: 'hsl(42, 98%, 77%)'}
+                      - {label: 'Light', name: 'light', widget: 'string', default: 'hsl(0, 0%, 100%)'}
+                      - {label: 'Mid', name: 'mid', widget: 'string', default: 'hsl(0, 0%, 80%)'}
+                      - {label: 'Dark', name: 'dark', widget: 'string', default: 'hsl(0, 0%, 20%)'}
+                - label: 'Fonts'
+                  name: 'fonts'
+                  widget: 'hidden'
+                  default: {'base': '"Nunito, Helvetica, sans-serif"'}
