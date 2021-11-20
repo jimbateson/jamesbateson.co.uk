@@ -10,4 +10,4 @@ metaDesc: I care about making this site as accessible to as many people as
   possible and here's how.
 socialImage: /images/social-share-default.jpg
 ---
-Accessibility statement
+I'm committed to making this site as accessible as possible to the widest possible audience. To do this `i'm always looking to improve the site and adhere to available and relevant guidelines, standards, and principles.
