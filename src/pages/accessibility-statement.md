@@ -3,7 +3,7 @@ layout: layouts/page.njk
 title: Accessibility Statement
 bannerSummary: Summary to go here
 bannerImage: ""
-bannerImageClass: test
+bannerImageClass: ""
 permalink: a11y
 metaTitle: James Bateson / Accessibility Statement
 metaDesc: This website is committed to providing an experience that is
