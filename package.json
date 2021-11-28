@@ -13,7 +13,7 @@
 		"dotenv": "^10.0.0",
 		"html-minifier": "^4.0.0",
 		"json-to-scss": "^1.6.2",
-		"slugify": "^1.6.2",
+		"slugify": "^1.6.3",
 		"stalfos": "git://github.com/andybelldesign/stalfos.git#c8971d22726326cfc04089b2da4d51eeb1ebb0eb"
 	},
 	"devDependencies": {
@@ -21,15 +21,14 @@
 		"cross-env": "7.0.3",
 		"fast-glob": "^3.2.7",
 		"make-dir-cli": "^3.0.0",
-		"prettier": "^2.4.1",
-		"rollup": "^2.60.0",
+		"prettier": "^2.5.0",
+		"rollup": "^2.60.1",
 		"rollup-plugin-commonjs": "^10.0.0",
 		"rollup-plugin-json": "^4.0.0",
 		"rollup-plugin-node-builtins": "^2.1.2",
 		"rollup-plugin-node-resolve": "^5.0.3",
-		"sass": "^1.43.4",
+		"sass": "^1.43.5",
 		"stylelint": "^14.1.0",
-		"stylelint-a11y": "^1.2.1",
 		"stylelint-order": "^5.0.0",
 		"twitter-avatar-url": "^2.1.0"
 	},
