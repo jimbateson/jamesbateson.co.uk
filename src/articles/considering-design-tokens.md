@@ -9,7 +9,7 @@ date: 2021-10-09T11:57:57.513Z
 tags:
   - CSS
 ---
-Recently I watched [the latest stream from SomeAnticsDev](https://www.twitch.tv/videos/1168203379) featuring Mike Aparicino and on the topic of creating design systems. There were some approaches and principles they touched upon that resonated with me and I found myself nodding along with them and I thought it'd be useful for me to document them here.
+Recently I watched [the latest stream from SomeAnticsDev](https://someantics.dev/build-your-own-design-system/) featuring Mike Aparicino and on the topic of creating design systems. There were some approaches and principles they touched upon that resonated with me and I found myself nodding along with them and I thought it'd be useful for me to document them here.
 
 ## Purpose of tokens
 The first was how to structure/categorise your tokens. Splitting them out to both feed into each other, but also serve slightly different purposes, allowing more manageable and scaleable updating of your system in the future.
