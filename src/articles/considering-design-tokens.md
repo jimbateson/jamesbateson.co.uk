@@ -61,10 +61,40 @@ Where the bulk of styling will come from. Where and how global tokens should be 
 --text-large-font-size: var(--font-size-600);
 --heading-1-font-size: var(--font-size-800);
 --heading-2-font-size: var(--font-size-700);
+
+--spacing-xsmall: var(--spacing-400);
+--spacing-small: var(--spacing-500);
+--spacing-medium: var(--spacing-600);
+
+--radius-small: var(--spacing-xsmall);
+--radius-medium: var(--spacing-small);
+--radius-large: var(--spacing-medium);
 ```
 
 3. ### Component tokens
 Finely tuned control over how individual components should look. Can refer back to global and contextual tokens. Change component visuals without touching any CSS.
+
+```css
+/* Component tokens */
+
+--card-max-width: 300px;
+--card-max-count: 3;
+--card-link-underline: none;
+--card-link-color: var(--color-text-default);
+--card-image-radius: var(--radius-medium);
+--card-text-size: var(--text-medium-font-size);
+--card-heading-color: var(--color-text-brand);
+--card-text-color: var(--color-text-default);
+
+--button-text-color: var(--color-text-default);
+--button-background-color: var(--color-background-accent);
+--button-border: var(--border-width-thin) solid transparent;
+--button-padding: var(--spacing-small) var(--spacing-medium);
+--button-radius: var(--radius-small);
+--button-font-size: var(--text-medium-font-size);
+--button-font-weight: var(--font-weight-bold);
+--button-hover-background-color: var(--color-background-accent-hover);
+```
 
 ## Token naming and accessibility
 Using font-weight numbering pattern. Trying to set rules to look out for in terms of matching what combinations would be accessible. Change to control specific components. Font-size scale. Ensure that accessible patterns are setup and then reused.
