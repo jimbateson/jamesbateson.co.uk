@@ -20,7 +20,7 @@ Design systems should be tech agnostic and work with any/different stacks, and s
 How to organise and categorise your tokens. Splitting them out to both feed into each other, but also serve slightly different purposes. Allowing more manageable and scaleable updating of your system in the future.
 
 1. ### Global tokens
-High-level, core settings. Colors, fonts, spacing, etc. Changing these will result in changing something everywhere. Color, type, space, and size are such a large part of the CSS rules we write for a project. So setting up some core global tokens for these in a design system is key.
+High-level, core settings. Colors, fonts, spacing, etc. Changing these will result in changing something everywhere. Color, type, space, and size are such a large part of the CSS rules we write in a project. So setting up some core global tokens for these in a design system is key.
 
 ```css
 /* Global tokens */
@@ -49,7 +49,7 @@ High-level, core settings. Colors, fonts, spacing, etc. Changing these will resu
 ```
 
 2. ### Contextual tokens
-Where and how global tokens should be used. 'primary', 'accent', etc. Change to alter multiple components in certain contexts.
+Where and how global tokens should be used. 'primary', 'accent', etc. Change to alter multiple components in certain contexts. Here we start to use more 't-shirt' sizing naming. This differentiates from our global tokens and makes more sense in contexts.
 
 ```css
 /* Contextual tokens */
@@ -74,7 +74,7 @@ Where and how global tokens should be used. 'primary', 'accent', etc. Change to 
 ```
 
 3. ### Component tokens
-Finely tuned control over how individual components should look. Can refer back to global and contextual tokens. Change component visuals without touching any CSS.
+Finely tuned control over how individual components should look. Can refer back to global and contextual tokens. Change component visuals without touching any CSS values and adding random ones in.
 
 ```css
 /* Component tokens */
@@ -99,7 +99,7 @@ Finely tuned control over how individual components should look. Can refer back 
 ```
 <div class="post-note">
 <h3>Note</h3>
-<p>I'm using a hundredth scale naming convention in some of the token examples above (taken from font-weight). I find this an easy way to quickly tell if a certain color token would be lighter or darker, font-size smaller or bigger, etc, and also not having to resort to more obscure names (particularly useful for greyscales!). But not covering or worrying about naming tokens here.</p>
+<p>I'm using a hundredth scale naming convention in the global token examples above (similar to font-weight). I find this an easy way to quickly tell if a certain color token would be lighter or darker, font-size smaller or bigger, etc, and also not having to resort to more obscure names (particularly useful for greyscales!). But not covering or worrying about naming tokens here.</p>
 </div>
 
 ## Token accessibility
