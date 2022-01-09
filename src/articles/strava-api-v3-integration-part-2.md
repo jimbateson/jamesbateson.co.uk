@@ -7,7 +7,16 @@ tags:
   - Running
   - JavaScript
 ---
-This is the second article in the write-up I am doing on how to integrate the Strava JavaScript API. You can read the [First article here](https://jamesbateson.co.uk/articles/strava-api-integration-part-1/). This details how to set up your Strava app and deal with the oAuth2 setup. In this article, I'll detail how I went about consuming this API and using the data to display my latest 6 activities on this site.
+This is the second article in the write-up I am doing on how to integrate the Strava JavaScript API. You can [read the first article here](https://jamesbateson.co.uk/articles/strava-api-integration-part-1/). In this article, I'll detail how I went about consuming the Strava API and using the data to display my latest 6 activities.
 
-<div class="post-note"><h3>Heads up</h3><p>As this site is built with Eleventy, I used the <a href="https://www.11ty.dev/docs/plugins/cache/">Eleventy Cache Assets plugin</a>. So this article does have details that use this, however, many of the implementation techniques/syntax used can be transferred to other stacks.</p></div>
+<div class="post-note"><h3>Heads up</h3><p>As this site is built with Eleventy, I used the <a href="https://www.11ty.dev/docs/plugins/cache/">Eleventy Cache Assets plugin</a>. So this article does have details that use this, however, many of the implementation techniques/syntax used can be transferred to other stacks.</p><br><p>It's also worth noting that currently I'm not displaying these activities on the site. But they'll be back soon!</div>
+
+## What we should have so far
+In part one of this article we got the following set up:
+* A Strava app
+* Correct authorisations for the app
+* Access and refresh tokens
+* New access tokens that generate on expiration (handled by the refresh token)
+
+
 
