@@ -23,13 +23,20 @@ High level, core settings. Colours, fonts, spacing, etc. Changing these will res
 ```css
 /* Global tokens */
 
+--color-black: #000;
+--color-white: #fff;
+
 --color-yellow-400: #ffe900;
 --color-yellow-500: #ffe000;
 --color-yellow-600: #d0bd33;
 
+--color-blue-400: #265c85;
+
 --font-size-400: .85rem;
 --font-size-500: 1rem;
 --font-size-600: 1.25rem;
+--font-size-700: 2rem;
+--font-size-800: 3rem;
 
 --spacing-400: .85rem;
 --sapcing-500: 1rem;
@@ -41,6 +48,20 @@ High level, core settings. Colours, fonts, spacing, etc. Changing these will res
 
 2. ### Contextual tokens
 Where the bulk of styling will come from. Where and how global tokens should be used. 'primary', 'accent', etc. Change to alter multiple components in certain contexts.
+
+```css
+/* Contextual tokens */
+
+--color-text-default: var(--color-black);
+--color-text-brand: var(--color-blue-400);
+--color-text-accent: var(--color-yellow-400);
+
+--text-small-font-size: var(--font-size-400);
+--text-medium-font-size: var(--font-size-500);
+--text-large-font-size: var(--font-size-600);
+--heading-1-font-size: var(--font-size-800);
+--heading-2-font-size: var(--font-size-700);
+```
 
 3. ### Component tokens
 Finely tuned control over how individual components should look. Can refer back to global and contextual tokens. Change component visuals without touching any CSS.
