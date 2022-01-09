@@ -47,7 +47,7 @@ High level, core settings. Colours, fonts, spacing, etc. Changing these will res
 ```
 
 2. ### Contextual tokens
-Where the bulk of styling will come from. Where and how global tokens should be used. 'primary', 'accent', etc. Change to alter multiple components in certain contexts.
+Where and how global tokens should be used. 'primary', 'accent', etc. Change to alter multiple components in certain contexts.
 
 ```css
 /* Contextual tokens */
@@ -95,9 +95,13 @@ Finely tuned control over how individual components should look. Can refer back 
 --button-font-weight: var(--font-weight-bold);
 --button-hover-background-color: var(--color-background-accent-hover);
 ```
+<div class="post-note">
+<h3>Note</h3>
+<p>I'm using a hundredths scale naming convention in some of the token examples above (taken from font-weight). I find this an easy way to quickley tell if a colour would be lighter or darker, font-size smaller or bigger etc. But not really covering or woreying about naming tokens here.</p>
+</div>
 
-## Token naming and accessibility
-Using font-weight numbering pattern. Trying to set rules to look out for in terms of matching what combinations would be accessible. Change to control specific components. Font-size scale. Ensure that accessible patterns are setup and then reused.
+## Token accessibility
+Trying to set rules to look out for in terms of matching what combinations would be accessible. Change to control specific components. Font-size scale. Ensure that accessible patterns are set up and then reused.
 
 ## Resiliance
 
