@@ -20,7 +20,7 @@ Design systems should be tech agnostic and work with any/different stacks, and s
 How to organise and categorise your tokens. Splitting them out to both feed into each other, but also serve slightly different purposes. Allowing more manageable and scaleable updating of your system in the future.
 
 1. ### Global tokens
-High-level, core settings. Colors, fonts, spacing, etc. Changing these will result in changing something everywhere.
+High-level, core settings. Colors, fonts, spacing, etc. Changing these will result in changing something everywhere. Color, type, space, and size are such a large part of the CSS rules we write for a project. So setting up some core global tokens for these in a design system is key.
 
 ```css
 /* Global tokens */
