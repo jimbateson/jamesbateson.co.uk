@@ -9,7 +9,7 @@ date: 2022-01-09T12:29:00.010Z
 tags:
   - CSS
 ---
-Recently I watched [the latest stream from SomeAnticsDev](https://someantics.dev/build-your-own-design-system/) featuring Mike Aparicino and on the topic of creating design systems. There were some approaches and principles they touched upon that resonated with me and I thought it might be a useful approach when starting a new project, so just thought I would write some of my takeaways up to look back on.
+Recently I watched [a stream from SomeAnticsDev](https://someantics.dev/build-your-own-design-system/) featuring Mike Aparicino and on the topic of creating design systems. There were some approaches and principles they touched upon that resonated with me and I thought it might be a useful approach when starting a new project, so just thought I would write some of my takeaways up to look back on.
 
 ## What is a design token?
 A design system is a collection of visual style decisions. For example, color palette, typography, spacing, etc and design tokens are a way we can translate these into code. Whilst they are similar to variables ([they are much more powerful](https://piccalil.li/tutorial/what-are-design-tokens/)), design tokens allow us to use these values cross-platform, so not only on the web but also android, iOS even keynote, etc.
