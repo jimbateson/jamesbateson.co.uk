@@ -9,13 +9,16 @@ date: 2021-10-09T11:57:57.513Z
 tags:
   - CSS
 ---
-Recently I watched [the latest stream from SomeAnticsDev](https://someantics.dev/build-your-own-design-system/) featuring Mike Aparicino and on the topic of creating design systems. There were some approaches and principles they touched upon that resonated with me and I found myself nodding along with them and I thought it'd be useful for me to document them here.
+Recently I watched [the latest stream from SomeAnticsDev](https://someantics.dev/build-your-own-design-system/) featuring Mike Aparicino and on the topic of creating design systems. There were some approaches and principles they touched upon that resonated with me and I thought may be a useful approach when starting a new project, so just thought I would write some of my takeaways up to look back on.
 
-## Purpose of tokens
+## What is a design token?
+A design system is a collection of visual style decisions. For example, colour palette, typography, spacing, etc and design tokens are a way we can translate these into code. Whilst they are similar to variables ([they are much more powerful](https://piccalil.li/tutorial/what-are-design-tokens/)), design tokens allow us to use these values cross-platform, so not only on the web but also android, iOS even keynote, etc.
+
+## Separating the purpose of tokens
 The first was how to structure/categorise your tokens. Splitting them out to both feed into each other, but also serve slightly different purposes, allowing more manageable and scaleable updating of your system in the future.
 
 ### Global tokens
-High level, core branding, etc. Change to alter sitewide things.
+High level, core branding, etc. Change to alter sitewide settings.
 
 Examples:
 
@@ -45,7 +48,7 @@ Where the bulk of styling will come from. Where and how global token values shou
 More fine-grain controlling over how components should look can be made up of global and contextual tokens. Change component visuals without touching any CSS.
 
 ## Token naming and accessibility
-Using font-weight numbering pattern. Trying to set rules to look out for in terms of matching what combinations would be accessible. Change to control specific components.
+Using font-weight numbering pattern. Trying to set rules to look out for in terms of matching what combinations would be accessible. Change to control specific components. Font-size scale. Ensure that accessible patterns are setup and then reused.
 
 ## Resiliance
 
