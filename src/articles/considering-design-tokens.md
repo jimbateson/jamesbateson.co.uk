@@ -9,16 +9,18 @@ date: 2021-10-09T11:57:57.513Z
 tags:
   - CSS
 ---
-Recently I watched [the latest stream from SomeAnticsDev](https://someantics.dev/build-your-own-design-system/) featuring Mike Aparicino and on the topic of creating design systems. There were some approaches and principles they touched upon that resonated with me and I thought may be a useful approach when starting a new project, so just thought I would write some of my takeaways up to look back on.
+Recently I watched [the latest stream from SomeAnticsDev](https://someantics.dev/build-your-own-design-system/) featuring Mike Aparicino and on the topic of creating design systems. There were some approaches and principles they touched upon that resonated with me and I thought it might be a useful approach when starting a new project, so just thought I would write some of my takeaways up to look back on.
 
 ## What is a design token?
-A design system is a collection of visual style decisions. For example, colour palette, typography, spacing, etc and design tokens are a way we can translate these into code. Whilst they are similar to variables ([they are much more powerful](https://piccalil.li/tutorial/what-are-design-tokens/)), design tokens allow us to use these values cross-platform, so not only on the web but also android, iOS even keynote, etc.
+A design system is a collection of visual style decisions. For example, color palette, typography, spacing, etc and design tokens are a way we can translate these into code. Whilst they are similar to variables ([they are much more powerful](https://piccalil.li/tutorial/what-are-design-tokens/)), design tokens allow us to use these values cross-platform, so not only on the web but also android, iOS even keynote, etc.
+
+Design systems should be tech agnostic and work with any/different stacks, and setting up tokens can help make these transitions consistent, not just for development but also for design.
 
 ## Separating the purpose of tokens
 How to organise and categorise your tokens. Splitting them out to both feed into each other, but also serve slightly different purposes. Allowing more manageable and scaleable updating of your system in the future.
 
 1. ### Global tokens
-High level, core settings. Colours, fonts, spacing, etc. Changing these will result in changing something everywhere.
+High-level, core settings. Colors, fonts, spacing, etc. Changing these will result in changing something everywhere.
 
 ```css
 /* Global tokens */
@@ -97,13 +99,15 @@ Finely tuned control over how individual components should look. Can refer back 
 ```
 <div class="post-note">
 <h3>Note</h3>
-<p>I'm using a hundredths scale naming convention in some of the token examples above (taken from font-weight). I find this an easy way to quickley tell if a colour would be lighter or darker, font-size smaller or bigger etc. But not really covering or woreying about naming tokens here.</p>
+<p>I'm using a hundredth scale naming convention in some of the token examples above (taken from font-weight). I find this an easy way to quickly tell if a certain color token would be lighter or darker, font-size smaller or bigger, etc, and also not having to resort to more obscure names (particularly useful for greyscales!). But not covering or worrying about naming tokens here.</p>
 </div>
 
 ## Token accessibility
-Trying to set rules to look out for in terms of matching what combinations would be accessible. Change to control specific components. Font-size scale. Ensure that accessible patterns are set up and then reused.
+Trying to set rules to look out for in terms of matching what combinations would be accessible. This can actually be helped by using the numbering scale (see previous note) for token names, as it allows you to match up passing combinations relatively easily.
 
-## Resiliance
+Having these rules set up, it ensures you're meeting contrast requirements when building components, which in turn means when building out your product using those components, you're using accessible patterns established in your tokens.
+
+## Resilience
 
 ## Making life easier for developers
 Less CSS needed, no random values being entered. Design/developer collab.
