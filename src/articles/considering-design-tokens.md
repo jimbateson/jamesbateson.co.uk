@@ -18,7 +18,7 @@ A design system is a collection of visual style decisions. For example, colour p
 The first was how to structure/categorise your tokens. Splitting them out to both feed into each other, but also serve slightly different purposes, allowing more manageable and scaleable updating of your system in the future.
 
 ### Global tokens
-High level, core branding. Colours, fonts, spacing, etc. Change to alter sitewide settings.
+High level, core setting. Colours, fonts, spacing, etc. Changing these will result in changing something everywhere.
 
 ```css
 /* Global tokens */
