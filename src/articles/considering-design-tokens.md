@@ -18,9 +18,7 @@ A design system is a collection of visual style decisions. For example, colour p
 The first was how to structure/categorise your tokens. Splitting them out to both feed into each other, but also serve slightly different purposes, allowing more manageable and scaleable updating of your system in the future.
 
 ### Global tokens
-High level, core branding, etc. Change to alter sitewide settings.
-
-Examples:
+High level, core branding. Colours, fonts, spacing, etc. Change to alter sitewide settings.
 
 ```css
 /* Global tokens */
@@ -42,10 +40,10 @@ Examples:
 ```
 
 ### Contextual tokens
-Where the bulk of styling will come from. Where and how global token values should be used. 'primary', 'accent' etc. Change to alter multiple components in certian contexts.
+Where the bulk of styling will come from. Where and how global tokens should be used. 'primary', 'accent', etc. Change to alter multiple components in certain contexts.
 
 ### Component tokens
-More fine-grain controlling over how components should look can be made up of global and contextual tokens. Change component visuals without touching any CSS.
+More fine-grain controlling over how components should look. Can refer back to global and contextual tokens. Change individual component visuals without touching any CSS.
 
 ## Token naming and accessibility
 Using font-weight numbering pattern. Trying to set rules to look out for in terms of matching what combinations would be accessible. Change to control specific components. Font-size scale. Ensure that accessible patterns are setup and then reused.
@@ -56,7 +54,7 @@ Using font-weight numbering pattern. Trying to set rules to look out for in term
 Less CSS needed, no random values being entered. Design/developer collab.
 
 ## Token handling tools
-* [Amazon style dictionary](https://amzn.github.io/style-dictionary/#/) - export key/value pairs to language or platform needed. 
+* [Amazon style dictionary](https://amzn.github.io/style-dictionary/#/) - store key/value pairs as JSON and export them to a form the language/platform format required. 
 * [Design systems working group tool](https://github.com/design-tokens/community-group)
 
 Use these together.
