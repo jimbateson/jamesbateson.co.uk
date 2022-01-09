@@ -1,7 +1,7 @@
 ---
 layout: layouts/page.njk
 title: Accessibility Statement
-bannerSummary: Summary to go here
+bannerSummary: I care about making this site as accessible to as many people as possible.
 bannerImage: ""
 bannerImageClass: ""
 permalink: /accessibility-statement/
