@@ -7,3 +7,18 @@ tags:
   - Accessibility
 ---
 Hello
+
+## The problem
+What was wrong?
+
+<div class="post-note"><h3>Must read</h3><p>Links to ARIA authoring practice and inclusive components.</p></div>
+
+## aria-selected
+
+## role="tab"
+
+## Arrow key behavior
+
+## Focus behavior
+
+## Tabindex
