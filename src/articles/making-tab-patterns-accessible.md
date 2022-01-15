@@ -1,12 +1,12 @@
 ---
 layout: layouts/post.njk
-title: Making tab patterns accessible
-metaDesc: Learnings from making a tab pattern component accessible.
+title: Making tabs accessible
+metaDesc: Learnings from making an aria tab component accessible.
 date: 2022-01-15T15:12:52.509Z
 tags:
   - Accessibility
 ---
-Hello
+Whilst investigating some accessibility audit feedback for a client at work recently, I was required to do some research into what makes the aria tab pattern fully accessible. I learned a lot and thought it would be useful to document these for my future self.
 
 ## The problem
 What was wrong?
