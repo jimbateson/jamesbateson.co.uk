@@ -24,7 +24,9 @@ Here are some terms that will be used throughout this article and any ways I may
 ## The problem
 The report described the issue as 'mouse dependant areas' with the following description:
 
-> Add description from the audit here
+> An element with a role that hides child elements contains focusable child elements.
+>
+>This role element marks child elements as presentational, which hides them from the accessibility tree, but some of these children are focusable, so they can be navigated to, but are not voiced in a screen reader.
 
 It's worth noting that this is a legacy codebase, and it was apparent that an effort had been made to make the component accessible, which I think is commendable. The issue was that the aria had been misused, creating more problems than it was intended to solve. [Highlighting that aria should be used only when needed and properly](https://www.w3.org/TR/using-aria/).
 
