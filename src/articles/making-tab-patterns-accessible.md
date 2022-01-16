@@ -10,7 +10,7 @@ tags:
 ---
 Whilst investigating some accessibility audit feedback for a client at work recently, I was required to do some research into what makes the ARIA tab pattern fully accessible and apply this to our component to make sure it was inclusive. I learned a lot and thought it would be useful to document these for my future self. This is not a full tabs implementation guide. See the further reading note for more detailed guides on how to build a tabbed component.
 
-Here are some terms that will be used throughout this article and any ways I may refer to them.
+Here is some terminology that will be used throughout this article and any way I may refer to it.
 
 <dl>
 <dt>tablist</dt>
@@ -34,10 +34,10 @@ It's worth noting that this is a legacy codebase, and it was apparent that an ef
 
 <br aria-hidden="true" />
 
-<div class="post-note"><h3>Further reading</h3><p>There are a couple of resources that are my go-to when learning how to make common component patterns accessible and both came in handy here.</p><br/><p>The first are the <a href="https://www.w3.org/TR/wai-aria-practices/">aria authoring practices examples.</a> These serve as guides on how aria should be used to make accessible patterns along with concept explanations. Probably not the best idea to just copy and paste these examples, but use as a starting point to learn the features you need to implement.</p>
+<div class="post-note"><h3>Further reading</h3><p>There are a couple of resources that are my go-to when learning how to make common component patterns accessible and both came in handy here.</p><br/><p>The first are the <a href="https://www.w3.org/TR/wai-aria-practices/">aria authoring practices examples.</a> These serve as guides on how aria should be used to make accessible patterns along with concept explanations. Probably not the best idea to just copy and paste these examples, but use them as a starting point to learn the features you need to implement.</p>
 <br/>
 
-<p>Secondaly there is <a href="https://inclusive-components.design/">Inclusive Components from Heydon Pickering</a>. I love how thorough the examples are in this book (also available as a physical book). Heydon starts by covering the minimum viable experience the component should cover, be that with no CSS/JS, and then enhances with JS to make it fully inclusive.</p></div>
+<p>Secondly there is <a href="https://inclusive-components.design/">Inclusive Components from Heydon Pickering</a>. I love how thorough the examples are in this book (also available as a physical book). Heydon starts by covering the minimum viable experience the component should cover, be that with no CSS/JS, and then enhances with JS to make it fully inclusive.</p></div>
 
 So now we know the initial issue that was reported and have some examples of how tabs should be marked up and function accessibly, I'm going to run through each point I learned whilst fixing my broken component. Note that I've removed/edited some attribute names/content for brevity.
 
@@ -72,32 +72,32 @@ There are three arrow key behaviors we need to consider for tabs. It sounds conf
 
 * Left arrow — should switch the active tab to the previous tab item. If you have quite a few tabs it might be worth adding the ability to jump to the last tab if the first one is active.
 * Right arrow — should switch the active tab to the next tab item. Again it might be worth adding the ability to jump back to the first tab if the active tab is the last one in the tablist.
-* Down arrow — should switch the users focus to the open tabpanel (content) for the currently active tab. [If a screen reader user is navigating](https://webaim.org/resources/shortcuts/nvda#reading) through the page with the down arrow key, without setting this up they will be switched to the next tab in the tablist. By intercepting this and moving to the open tabpanel content it means this isn't missed.
+* Down arrow — should switch the user's focus to the open tabpanel (content) for the currently active tab. [If a screen reader user is navigating](https://webaim.org/resources/shortcuts/nvda#reading) through the page with the down arrow key, without setting this up they will be switched to the next tab in the tablist. By intercepting this and moving to the open tabpanel content it means this isn't missed.
 
-After making sure these key bindings were setup, one more issue cropped up. When announcing the tabs, VoiceOver was only annoucing that there was one tab. This was strange as the tablist role was set on an element wrapping the tabs and both buttons had the tab role. The fix for this was to make sure that the tab elements are direct children of the tablist element. There was some extra grid related markup which nested the tab buttons an extra level. Removing these wrappers resulted in VoiceOver correctly announcing there where two tabs.
+After making sure these key bindings were set up, one more issue cropped up. When announcing the tabs, VoiceOver was only announcing that there was one tab. This was strange as the tablist role was set on an element wrapping the tabs and both buttons had the tab role. The fix for this was to make sure that the tab elements are direct children of the tablist element. There was some extra grid-related markup which nested the tab buttons an extra level. Removing these wrappers resulted in VoiceOver correctly announcing there were two tabs.
 
 ## Focus behavior
-As well as the down arrow key functionality (see item 3 in the previous section) there are also two other focus related behaviors to setup.
+As well as the down arrow key functionality (see item 3 in the previous section) there are also two other focus-related behaviors to set up.
 
-* `tabpanel` — when the user presses the <kbd>tab</kbd> key they should not navigate between the tabs (see arrow key behavior on that pont). Instead focus should be given to the open tabpanel element that relates to the active tab. This means the user will not have to move past each tab to reach the content for that tab.
-* Active tab — when the use is focused on the active tabpanel using <kbd>Shift</kbd> + <kbd>Tab</kbd> should take the users focus back to the active tab, not the last tab in the tablist and force them to move through them all to find the one they were on. This can be acheived by handling the `tabindex` of all tabs that are not active.
+* `tabpanel` — when the user presses the <kbd>tab</kbd> key they should not navigate between the tabs (see arrow key behavior on that point). Instead, focus should be given to the open tabpanel element that relates to the active tab. This means the user will not have to move past each tab to reach the content for that tab.
+* Active tab — when the use is focused on the active tabpanel using <kbd>Shift</kbd> + <kbd>Tab</kbd> should take the users focus back to the active tab, not the last tab in the tablist, and force them to move through them all to find the one they were on. This can be achieved by handling the `tabindex` of all tabs that are not active.
 
 ## Tabindex
-This leads on nicely from the focus behavior, as it's the `tabindex` attribute that ensures the order of focus is suitable.
+This leads nicely on from the focus behavior, as it's the `tabindex` attribute that ensures the order of focus is suitable.
 
-As mentioned in the previous section, we need to make sure that if the user has focus on the currently open tabpanel that using <kbd>Shift</kbd> + <kbd>Tab</kbd> returns them to the active tablist item. This can be done by ensuring that all tablist items have `tabindex="-1"` set, apart from the active item, which would have no tabindex set. This unsures that inactive tabs are not in the focus order, but do allow focus via a script (for using the arrow navigation).
+As mentioned in the previous section, we need to make sure that if the user focus is on the currently open tabpanel that using <kbd>Shift</kbd> + <kbd>Tab</kbd> returns them to the active tablist item. This can be done by ensuring that all tablist items have `tabindex="-1"` set, apart from the active item, which would have no tabindex set. This ensures that inactive tabs are not in the focus order, but do allow focus via a script (for using the arrow navigation).
 
 Tabindex is also useful on the tabpanel itself. `tabindex="0"` should be set on each to ensure they are in a logical focus order and that the whole tabpanel will receive focus when tabbed to (make sure to set suitable styles for this focus state).
 
 ## aria-label
-It's useful to add and `aria-label` to the element you have set the tablist role on. This is announced by a screen reader when focus enters the tabs component and can make it clear what they relate to. This could probably also be done with aria-labelledby or a suitable heading if within content that suited this approach.
+It's useful to add an `aria-label` to the element you have set the tablist role on. This is announced by a screen reader when focus enters the tabs component and can make it clear what they relate to. This could probably also be done with `aria-labelledby` or a suitable heading if within content that suited this approach.
 
 ## aria-labelledby
-Make sure each tabpanel has this arrtibute set, and its value is that of the id of the related tablist item. This gives the content an accessible name that will be announced by a screen reader when focus is given to the tabpanel, making it obvious where the user is, and which related tab content they are now within.
+Make sure each tabpanel has this attribute set, and its value is that of the id of the related tablist item. This gives the content an accessible name that will be announced by a screen reader when the focus is given to the tabpanel, making it obvious where the user is, and which related tab content they are now within.
 
 ## Summary
-As mentioned at the start of this article, it is in no way a full implementation guide for the tab pattern. These are accessibility related learnings I have taken from a very misconfigured example I have recently fixed.
+As mentioned at the start of this article, it is in no way a full implementation guide for the tab pattern. These are accessibility-related learnings I have taken from a very misconfigured example I have recently fixed.
 
-Tabs can be hard to get right, and it's worth considering if they are really the right way forward for what you're trying to acheive. The example I had, probably didn't in all honesty, and it has caused accessibility issues and complications when another developer has come to look at it.
+Tabs can be hard to get right, and it's worth considering if they are really the right way forward for what you're trying to achieve. The example I had, probably didn't in all honesty, and it has caused accessibility issues and complications when another developer has come to look at it.
 
 However, if you do need to use them. These accessible considerations will ensure that users with different access needs will be able to navigate the tabs along with benefits for sighted/mouse users.
