@@ -10,6 +10,17 @@ tags:
 ---
 Whilst investigating some accessibility audit feedback for a client at work recently, I was required to do some research into what makes the aria tab pattern fully accessible and apply this to our component to make sure it was inclusive. I learned a lot and thought it would be useful to document these for my future self. This is not a full tabs implementation guide. See the further reading note for more detailed guides on how to build a tabbed component.
 
+Here are some terms that will be used throughout this article and any ways I may refer to them.
+
+<dl>
+<dt>tablist</dt>
+<dd>Parent element for the individual tab role items. Must be present.</dd>
+<dt>tab role, tablist item<dt>
+<dd>The individual tabs that reveals its related tabpanel content. They should be direct children of an element with the tablist role set.</dd>
+<dt>tabpanel</dt>
+<dd>The content related to a tab, shown when the tablist item is active.</dd>
+</dl>
+
 ## The problem
 The report described the issue as 'mouse dependant areas' with the following description:
 
@@ -57,18 +68,27 @@ Another incorrect ARIA implementation you may have noticed from the original mar
 ## Arrow key behavior
 There are three arrow key behaviors we need to consider for tabs. It sounds confusing, but the <kbd>tab</kbd> key should not be used to move between tabs(?!). More on that in the focus section.
 
-1. Left arrow — should switch the active tab to the previous tab item. If you have quite a few tabs it might be worth adding the ability to jump to the last tab if the first one is active.
-2. Right arrow — should switch the active tab to the next tab item. Again it might be worth adding the ability to jump back to the first tab if the active tab is the last one in the tablist.
-3. Down arrow — should switch the users focus to the open tabpanel (content) for the currently active tab. [If a screen reader user is navigating](https://webaim.org/resources/shortcuts/nvda#reading) through the page with the down arrow key, without setting this up they will be switched to the next tab in the tablist. By intercepting this and moving to the open tabpanel content it means this isn't missed.
+* Left arrow — should switch the active tab to the previous tab item. If you have quite a few tabs it might be worth adding the ability to jump to the last tab if the first one is active.
+* Right arrow — should switch the active tab to the next tab item. Again it might be worth adding the ability to jump back to the first tab if the active tab is the last one in the tablist.
+* Down arrow — should switch the users focus to the open tabpanel (content) for the currently active tab. [If a screen reader user is navigating](https://webaim.org/resources/shortcuts/nvda#reading) through the page with the down arrow key, without setting this up they will be switched to the next tab in the tablist. By intercepting this and moving to the open tabpanel content it means this isn't missed.
 
 After making sure these key bindings were setup, one more issue cropped up. When announcing the tabs, VoiceOver was only annoucing that there was one tab. This was strange as the tablist role was set on an element wrapping the tabs and both buttons had the tab role. The fix for this was to make sure that the tab elements are direct children of the tablist element. There was some extra grid related markup which nested the tab buttons an extra level. Removing these wrappers resulted in VoiceOver correctly announcing there where two tabs.
 
 ## Focus behavior
 As well as the down arrow key functionality (see item 3 in the previous section) there are also two other focus related behaviors to setup.
 
-1. `tabpanel` — when the user presses the <kbd>tab</kbd> key they should not navigate between the tabs (see arrow key behavior on that pont). Instead focus should be given to the open tabpanel element that relates to the active tab. This means the user will not have to move past each tab to reach the content for that tab.
-2. Active tab — when the use is focused on the active tabpanel using <kbd>Shift</kbd> + <kbd>Tab</kbd> should take the users focus back to the active tab, not the last tab in the tablist and force them to move through them all to find the one they were on. This can be acheived by handling the `tabindex` of all tabs that are not active.
+* `tabpanel` — when the user presses the <kbd>tab</kbd> key they should not navigate between the tabs (see arrow key behavior on that pont). Instead focus should be given to the open tabpanel element that relates to the active tab. This means the user will not have to move past each tab to reach the content for that tab.
+* Active tab — when the use is focused on the active tabpanel using <kbd>Shift</kbd> + <kbd>Tab</kbd> should take the users focus back to the active tab, not the last tab in the tablist and force them to move through them all to find the one they were on. This can be acheived by handling the `tabindex` of all tabs that are not active.
 
 ## Tabindex
+This leads on nicely from the focus behavior, as it's the `tabindex` attribute that ensures the order of focus is suitable.
+
+As mentioned in the previous section, we need to make sure that if the user has focus on the currently open tabpanel that using <kbd>Shift</kbd> + <kbd>Tab</kbd> returns them to the active tablist item. This can be done by ensuring that all tablist items have `tabindex="-1"` set, apart from the active item, which would have no tabindex set. This unsures that inactive tabs are not in the focus order, but do allow focus via a script (for using the arrow navigation).
+
+Tabindex is also useful on the tabpanel itself. `tabindex="0"` should be set on each to ensure they are in a logical focus order and that the whole tabpanel will receive focus when tabbed to (make sure to set suitable styles for this focus state).
+
+## aria-label
+It's useful to add and `aria-label` to the element you have set the tablist role on. This is announced by a screen reader when focus enters the tabs component and can make it clear what they relate to. This could probably also be done with aria-labelledby or a suitable heading if within content that suited this approach.
 
 ## aria-labelledby
+Make sure each tabpanel has this arrtibute set, and its value is that of the id of the related tablist item. This gives the content an accessible name that will be announced by a screen reader when focus is given to the tabpanel, making it obvious where the user is, and which related tab content they are now within.
