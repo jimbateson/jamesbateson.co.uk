@@ -3,12 +3,12 @@ layout: layouts/post.njk
 title: Making tabs accessible
 metaDesc: Learnings from making an aria tab component accessible.
 socialImage: /images/social-share-default.jpg
-date: 2022-01-15T15:12:52.509Z
+date: 2022-01-16T19:46:13.052Z
 tags:
   - Accessibility
   - ARIA
 ---
-Whilst investigating some accessibility audit feedback for a client at work recently, I was required to do some research into what makes the aria tab pattern fully accessible and apply this to our component to make sure it was inclusive. I learned a lot and thought it would be useful to document these for my future self. This is not a full tabs implementation guide. See the further reading note for more detailed guides on how to build a tabbed component.
+Whilst investigating some accessibility audit feedback for a client at work recently, I was required to do some research into what makes the ARIA tab pattern fully accessible and apply this to our component to make sure it was inclusive. I learned a lot and thought it would be useful to document these for my future self. This is not a full tabs implementation guide. See the further reading note for more detailed guides on how to build a tabbed component.
 
 Here are some terms that will be used throughout this article and any ways I may refer to them.
 
@@ -37,7 +37,7 @@ It's worth noting that this is a legacy codebase, and it was apparent that an ef
 
 <p>Secondaly there is <a href="https://inclusive-components.design/">Inclusive Components from Heydon Pickering</a>. I love how thorough the examples are in this book (also available as a physical book). Heydon starts by covering the minimum viable experience the component should cover, be that with no CSS/JS, and then enhances with JS to make it fully inclusive.</p></div>
 
-So now we know the initial issue that was reported and have some examples of how tabs should be marked up and function accessibly, I'm going to run through each point I learned whilst fixing my broken component. Note that I've removed/edited some attribute names for brevity.
+So now we know the initial issue that was reported and have some examples of how tabs should be marked up and function accessibly, I'm going to run through each point I learned whilst fixing my broken component. Note that I've removed/edited some attribute names/content for brevity.
 
 ## role="tab"
 From my reading of the issue in the report, this seemed to be the main thing wrong. Here is an example of how the markup looked for a tab (this shows the one selected by default when the page loads).
@@ -55,7 +55,7 @@ From my reading of the issue in the report, this seemed to be the main thing wro
 
 You'll also probably notice how the markup is a little bit overkill for what we need here, there are form elements being used outside of a form, use of a label and visually hidden text, and our tab role is set on a `<div>`.
 
-I chose to simplify this and use a more suitable and semantic element for our tabs: `<button>`. Whilst being an interactive element it also comes with accessibility bonuses for free.
+I chose to simplify this and use a more suitable and semantic element for our tabs: `<button>`. Whilst being an interactive element it also comes with accessibility goodness for free.
 
 ```html
 <button class="is-active" role="tab" aria-controls="tab-1-content" id="tab-1-id" aria-selected="true" data-tabs-button="0">Tab 1 label</button>
