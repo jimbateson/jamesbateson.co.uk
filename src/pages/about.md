@@ -9,7 +9,7 @@ metaTitle: James Bateson / About Me
 metaDesc: I’m James, a Front End Engineer from Lancaster.
 socialImage: /images/social-share-default.jpg
 ---
-With a background in design, I'm now focused on the front-end and especially enjoy programming with HTML and CSS and advocating accessibility.
+With a background in design, I'm now focused on the front-end and especially enjoy programming with HTML and CSS and advocating for accessibility.
 
 After discovering my passion for design and development at school when building a website for my five-a-side football team, I have over 5 years of experience in creating performant, accessible user experiences and have worked with clients such as Lakeland, Warburtons, and YOTEL.
 
