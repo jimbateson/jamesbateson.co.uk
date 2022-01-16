@@ -98,4 +98,4 @@ As mentioned at the start of this article, it is in no way a full implementation
 
 Tabs can be hard to get right, and it's worth considering if they are really the right way forward for what you're trying to acheive. The example I had, probably didn't in all honesty, and it has caused accessibility issues and complications when another developer has come to look at it.
 
-However, if you do need to use them. These accessible considerations will stop any access barriers making them unusable to everyone but sighted users.
+However, if you do need to use them. These accessible considerations will ensure that users with different access needs will be able to navigate the tabs along with benefits for sighted/mouse users.
