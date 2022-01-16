@@ -92,3 +92,10 @@ It's useful to add and `aria-label` to the element you have set the tablist role
 
 ## aria-labelledby
 Make sure each tabpanel has this arrtibute set, and its value is that of the id of the related tablist item. This gives the content an accessible name that will be announced by a screen reader when focus is given to the tabpanel, making it obvious where the user is, and which related tab content they are now within.
+
+## Summary
+As mentioned at the start of this article, it is in no way a full implementation guide for the tab pattern. These are accessibility related learnings I have taken from a very misconfigured example I have recently fixed.
+
+Tabs can be hard to get right, and it's worth considering if they are really the right way forward for what you're trying to acheive. The example I had, probably didn't in all honesty, and it has caused accessibility issues and complications when another developer has come to look at it.
+
+However, if you do need to use them. These accessible considerations will stop any access barriers making them unusable to everyone but sighted users.
