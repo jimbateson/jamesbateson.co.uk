@@ -147,6 +147,29 @@
 			margin-top: var(--flow-space);
 		}
 
+		kbd {
+			font-size: .75em;
+			padding: .0625rem .5rem;
+			border-radius: .125rem;
+			border: 2px solid;
+			box-shadow: 1px 1px 0 currentColor, 2px 2px 0 currentColor;
+		}
+
+		dl {
+			--flow-space: .5rem;
+
+			dt {
+				color: var(--color-link-text);
+				font-weight: 600;
+			}
+
+			dd + dt {
+				border-top: 1px dotted var(--color-link-text);
+				margin-top: var(--flow-space);
+				padding-top: var(--flow-space);
+			}
+		}
+
 		.post-note {
 			background-color: #195e9b;
 			border-radius: 10px;
