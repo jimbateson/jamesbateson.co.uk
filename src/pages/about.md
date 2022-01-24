@@ -1,12 +1,12 @@
 ---
 layout: layouts/page.njk
 title: About
-bannerSummary: I’m James, a Front End Engineer from Lancaster.
+bannerSummary: I’m James, a Front End Engineer from Manchester.
 bannerImage: /images/coniston-15.png
 bannerImageClass: rounded
 permalink: /about/
 metaTitle: James Bateson / About Me
-metaDesc: I’m James, a Front End Engineer from Lancaster.
+metaDesc: I’m James, a Front End Engineer from Manchester.
 socialImage: /images/social-share-default.jpg
 ---
 With a background in design, I'm now focused on the front-end and especially enjoy programming with HTML and CSS and advocating for accessibility.
