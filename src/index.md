@@ -13,10 +13,10 @@ about: >-
 
   I've been working at Fat Media now for the duration of my development career and live and work in Lancaster.
 metaTitle: James Bateson / Front End Engineer
-metaDesc: Lancaster based Front End Engineer.
+metaDesc: Manchester based Front End Engineer.
 socialImage: ""
 title: "Hi, I’m James 👋 "
-bannerSummary: A Front End Engineer from Lancaster. With a passion for HTML,
+bannerSummary: A Front End Engineer from Manchester. With a passion for HTML,
   CSS, UX, accessibility, and performance.
 postsHeading: Recent Articles
 postsSummary: A mix of development related articles, thoughts and notes.
