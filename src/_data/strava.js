@@ -1,4 +1,4 @@
-const Cache = require('@11ty/eleventy-cache-assets');
+const Cache = require('@11ty/eleventy-fetch');
 const fetch = require('node-fetch');
 const dotenv = require('dotenv');
 dotenv.config();
