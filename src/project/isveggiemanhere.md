@@ -1,6 +1,6 @@
 ---
 layout: layouts/project-single.njk
-url: https://isveggiemanhere.co.uk
+url: ""
 bannerImage: /images/is-veggie-man-here-banner.jpg
 shortDescription: The answer to the most important question every Wednesday and
   Saturday. Is veggie man here?
