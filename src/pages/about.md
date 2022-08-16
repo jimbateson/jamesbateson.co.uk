@@ -1,7 +1,7 @@
 ---
 layout: layouts/page.njk
 title: About
-bannerSummary: I’m James, a Front End Engineer from Manchester.
+bannerSummary: I’m James, a Front End Designer from Manchester.
 bannerImage: /images/coniston-15.png
 bannerImageClass: rounded
 permalink: /about/
