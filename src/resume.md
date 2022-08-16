@@ -2,7 +2,7 @@
 title: James Bateson Résumé
 layout: layouts/resume.njk
 metaTitle: James Bateson / Résumé
-metaDesc: The résumé of James Bateson. A front-end developer from Lancaster.
+metaDesc: The résumé of James Bateson. A Front End Designer from Manchester.
 socialImage: /images/social-share-default.jpg
 bannerSummary: Passionate, hard-working, reliable and keen to learn.
 ---
