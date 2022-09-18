@@ -12,12 +12,14 @@ about: >-
 
 
   I've been working at Fat Media now for the duration of my development career and live and work in Lancaster.
-metaTitle: James Bateson / Front End Engineer
+metaTitle: James Bateson / Front End Designer
 metaDesc: Manchester based Front End Designer.
 socialImage: ""
-title: "Hi, I’m James 👋 "
-bannerSummary: A Front End Designer from Manchester. With a passion for HTML,
-  CSS, UX, accessibility, and performance.
+title: Hello, I'm James. A Front End Designer working in Manchester for Code
+  Computerlove
+bannerSummary: I'm very much 'front-of-front-end' have a passion for HTML, CSS,
+  UX, accessibility, and performance. Outside of work I love to run, hike, and
+  cook.
 postsHeading: Recent Articles
 postsSummary: A mix of development related articles, thoughts and notes.
 journalSummary: Articles on being active, mental wellbeing, life, and more.
