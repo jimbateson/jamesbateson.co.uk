@@ -1,7 +1,7 @@
 .intro {
 	color: var(--color-text);
 	margin-bottom: 3.5rem;
-	padding-top: 4rem;
+	padding-top: 1rem;
 	position: relative;
 	transition: background-color 300ms ease-in-out 0s, color 300ms ease-in-out 0s;
 
@@ -9,11 +9,10 @@
 		&:after {
 			background-color: var(--color-link-text);
 			content: '';
-			height: 5px;
+			height: 2px;
 			left: auto;
 			position: absolute;
-			top: 103%;
-			transform: rotate(2deg);
+			top: 100%;
 			width: 85px;
 		}
 	}
