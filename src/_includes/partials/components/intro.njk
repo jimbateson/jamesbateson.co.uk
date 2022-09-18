@@ -1,10 +1,10 @@
 <header class="[ intro {% if introImage %} intro__flex {% endif %} ] [ pad-bottom-600 ]">
 	<div class="[ wrapper ] [ {% if introImage %} sf-flow {% endif %}  ]">
 		<div>
-			<h1 class="[ intro__heading ] [ leading-tight text-900 md:text-max ] [ p-name ] [ gap-top-900 ]">{{ introHeading }}</h1>
+			<h1 class="[ intro__heading ] [ leading-tight ] [ p-name ] [ gap-top-800 gap-bottom-800 ]">{{ introHeading }}</h1>
 
 			{% if introSummary %}
-			<div class="[ intro__summary ] [ sf-flow ] [ text-600 md:text-700 leading-tight ]">{{ introSummary | safe }}</div>
+			<div class="[ intro__summary ] [ sf-flow ] [ text-600 leading-tight ]">{{ introSummary | safe }}</div>
 			{% endif %}
 
 			{% if page.url == '/resume/' %}
