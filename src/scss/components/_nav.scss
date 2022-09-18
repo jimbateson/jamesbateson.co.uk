@@ -27,19 +27,9 @@
 
 		&.active {
 			a {
-				background-size: 50% 3px;
-				position: relative;
-
-				&:after {
-					background-color: var(--color-link-text);
-					content: '';
-					height: 5px;
-					left: 0;
-					position: absolute;
-					top: 103%;
-					transform: rotate(2deg);
-					width: 100%;
-				}
+				color: var(--color-link-text);
+				text-decoration: underline;
+				text-decoration-thickness: 2px;
 			}
 		}
 
@@ -47,11 +37,7 @@
 			color: var(--color-text);
 			font-size: get-size(500);
 			font-weight: 600;
-
-			&:not(:hover),
-			&:not(:focus) {
-				text-decoration: none;
-			}
+			text-decoration: none;
 		}
 
 		// .nav__item--tag

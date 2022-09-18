@@ -8,16 +8,13 @@
 
 	<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml" />
 
-	<meta name="theme-color" content="#265c85" media="(prefers-color-scheme: light)">
-	<meta name="theme-color" content="#ffd53d" media="(prefers-color-scheme: dark)">
+	<meta name="theme-color" content="#ffd53d">
 	<link rel="icon" href="/images/favicons/favicon.svg">
 	<link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" color="#4b87bd">
 	<link rel="apple-touch-icon" href="/images/favicons/apple-touch-icon.png">
 	<link rel="manifest" href="/images/favicons/manifest.json">
 
-	<link rel="preload" as="font" type="font/woff2" href="/fonts/nunito/nunito-black.woff2" crossorigin/>
-	<link rel="preload" as="font" type="font/woff2" href="/fonts/nunito/nunito-semibold.woff2" crossorigin/>
-	<link rel="preload" as="font" type="font/woff2" href="/fonts/nunito/nunito-regular.woff2" crossorigin/>
+	<link rel="preload" as="font" type="font/woff2" href="/fonts/red-hat/red-hat.woff2" crossorigin/>
 
 	{% include "partials/global/meta-info.njk" %}
 	<style>{% include "assets/css/global.css" %}</style>
@@ -26,12 +23,12 @@
 	{% endblock %}
 
 	{# Feels a bit hacky, but prevents a flash of incorrect theme #}
-	<script>
+	{# <script>
 		if(localStorage.getItem('user-color-scheme') !== null) {
 			const theme = localStorage.getItem('user-color-scheme');
 			document.documentElement.dataset.userColorScheme = theme;
 		}
-  </script>
+  </script> #}
 </head>
 
 <body>
@@ -42,7 +39,7 @@
 	{% block foot %}
 	{% endblock %}
 
-	<script type="module" src="/js/components/light-dark-toggle.js" async></script>
+	{# <script type="module" src="/js/components/light-dark-toggle.js" async></script> #}
 
 	<script>
 		if ('serviceWorker' in navigator) {

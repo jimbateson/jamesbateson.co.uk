@@ -24,23 +24,6 @@
 	}
 }
 
-@include dark-mode() {
-	--color-bg: #1f1a24;
-	--color-bg-glare: #{get-color('dark')};
-	--color-text: #{get-color('light')};
-	--color-link-text: #{get-color('accent-alt')};
-	--color-selection-text: #{get-color('dark')};
-	--color-selection-bg: #{get-color('light')};
-	--color-stroke: #{get-color('dark')};
-	--color-theme-primary-glare: #{lighten(get-color('primary-glare'), 50%)};
-	--color-action-bg: var(--color-theme-primary-glare);
-	--color-action-text: #{get-color('dark')};
-	--color-theme-highlight: #{get-color('accent')};
-	--color-theme-highlight-block: #{get-color('dark')};
-	--color-theme-feature-text: #{get-color('accent')};
-	--color-intro-bg: #141118;
-}
-
 body {
 	background-color: var(--color-bg);
 	color: var(--color-text);
