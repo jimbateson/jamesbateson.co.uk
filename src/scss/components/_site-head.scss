@@ -18,17 +18,7 @@
 
 	&:hover,
 	&:focus {
-		fill: var(--color-link-text);
-	}
-}
-
-@media screen and (max-width: 767px) {
-	.site-head {
-		background-color: var(--color-intro-bg);
-
-		> svg {
-			top: 100%;
-		}
+		fill: var(--color-accent);
 	}
 }
 

@@ -141,7 +141,7 @@
 		}
 
 		dl {
-			--flow-space: 1.1rem;
+			--flow-space: #{get-size(400)};
 
 			dt {
 				color: var(--color-accent);
@@ -273,10 +273,7 @@
 
 		ul {
 			justify-content: flex-start;
-
-			li + li {
-				margin-left: 1rem;
-			}
+			gap: 1rem;
 		}
 
 		a {

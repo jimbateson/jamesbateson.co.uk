@@ -1,11 +1,10 @@
 :root {
 	// Set theme aliases
-	--color-mode: 'light';
 	--color-bg: #{get-color('light')};
 	--color-text: #{get-color('dark')};
 	--color-link-text: #{get-color('primary')};
 	--color-selection-text: #{get-color('light')};
-	--color-selection-bg: #{get-color('dark')};
+	--color-selection-bg: #{get-color('accent')};
 	--color-stroke: #{get-color('mid')};
 	--color-action-bg: #{get-color('primary')};
 	--color-action-text: #{get-color('light')};
@@ -13,10 +12,11 @@
 	--color-theme-primary-glare: #{get-color('primary-glare')};
 	--color-intro-bg: #{get-color('grey-alt')};
 	--color-light: #{get-color('light')};
+	--color-white: #{get-color('white')};
 	--color-grey-light: #{get-color('grey-light')};
 	--color-grey-med: #{get-color('grey-med')};
 	--color-accent: #{get-color('accent')};
-	color-scheme: light dark;
+	--color-accent-alt: #{get-color('accent-alt')};
 
 	// Pull the tokens and generate custom props
 	@each $color in $stalfos-colors {
@@ -36,4 +36,8 @@ main {
 ::selection {
 	background-color: var(--color-selection-bg);
 	color: var(--color-selection-text);
+
+	a {
+		text-decoration-color: var(--color-selection-text);
+	}
 }
