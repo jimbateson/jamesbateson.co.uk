@@ -1,21 +1,10 @@
 .intro {
+	background-color: var(--color-accent-alt);
 	color: var(--color-text);
-	margin-bottom: 3.5rem;
 	padding-top: 1rem;
+	padding-bottom: 8rem;
 	position: relative;
 	transition: background-color 300ms ease-in-out 0s, color 300ms ease-in-out 0s;
-
-	.wrapper {
-		&:after {
-			background-color: var(--color-link-text);
-			content: '';
-			height: 2px;
-			left: auto;
-			position: absolute;
-			top: 100%;
-			width: 85px;
-		}
-	}
 
 	// .intro__heading
 	&__heading {
@@ -28,7 +17,7 @@
 	// .intro__summary
 	&__summary {
 		--flow-space: #{get-size(500)};
-		font-weight: 600;
+		font-weight: 550;
 
 		a {
 			color: currentcolor;
@@ -43,7 +32,7 @@
 	// . intro__meta
 	&__meta {
 		color: var(--color-text);
-		font-weight: 500;
+		font-weight: 550;
 	}
 
 	// .intro__image
@@ -70,11 +59,13 @@
 		a {
 			align-items: center;
 			display: flex;
-			font-size: 1.1rem;
+			font-size: get-size(400);
+			font-weight: 525;
 
 			svg {
-				margin-right: 5px;
+				margin-right: .4rem;
 				stroke: var(--color-link-text);
+				stroke-width: 2px;
 			}
 		}
 	}
