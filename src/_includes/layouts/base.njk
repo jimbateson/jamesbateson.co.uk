@@ -14,21 +14,11 @@
 	<link rel="apple-touch-icon" href="/images/favicons/apple-touch-icon.png">
 	<link rel="manifest" href="/images/favicons/manifest.json">
 
-	<link rel="preload" as="font" type="font/woff2" href="/fonts/red-hat/red-hat.woff2" crossorigin/>
-
 	{% include "partials/global/meta-info.njk" %}
 	<style>{% include "assets/css/global.css" %}</style>
 
 	{% block head %}
 	{% endblock %}
-
-	{# Feels a bit hacky, but prevents a flash of incorrect theme #}
-	{# <script>
-		if(localStorage.getItem('user-color-scheme') !== null) {
-			const theme = localStorage.getItem('user-color-scheme');
-			document.documentElement.dataset.userColorScheme = theme;
-		}
-  </script> #}
 </head>
 
 <body>
@@ -38,8 +28,6 @@
 	{% include "partials/global/site-foot.njk" %}
 	{% block foot %}
 	{% endblock %}
-
-	{# <script type="module" src="/js/components/light-dark-toggle.js" async></script> #}
 
 	<script>
 		if ('serviceWorker' in navigator) {
