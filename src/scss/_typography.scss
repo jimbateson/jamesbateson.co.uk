@@ -6,6 +6,15 @@
 	src: url('/fonts/red-hat/red-hat-test.woff2') format('woff2');
 }
 
+@font-face {
+	font-family: custom-fallback;
+	src: local(arial);
+	size-adjust: 100%;
+	ascent-override: 102%;
+	descent-override: normal;
+	line-gap-override: 6%;
+}
+
 body {
 	@include apply-utility('font', 'base');
 	font-weight: 400;
