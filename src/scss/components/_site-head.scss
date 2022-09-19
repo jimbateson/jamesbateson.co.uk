@@ -2,6 +2,10 @@
 	background-color: var(--color-accent-alt);
 	position: relative;
 
+	&__site-name {
+		color: var(--color-accent);
+	}
+
 	> svg {
 		left: 0;
 		position: absolute;
