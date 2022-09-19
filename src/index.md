@@ -17,10 +17,10 @@ metaDesc: Manchester based Front End Designer.
 socialImage: ""
 title: Hello, I'm James. A Front End Designer working in Manchester for Code
   Computerlove
-bannerSummary: Welcome to my digital notebook. A place where I can post the
-  occasional thought and learning, and a place to practice my writing. I'm very
-  much 'front-of-front-end' have a passion for HTML, CSS, UX, accessibility, and
-  performance. Outside of work I love to run, hike, and cook.
+bannerSummary: Welcome to my digital notebook. Somewhere I can post the
+  occasional thought or learning, and a place to practice my writing. I'm very
+  much 'front-of-front-end' and have a passion for HTML, CSS, UX, accessibility,
+  and performance. Outside of work I love to run, hike, and cook.
 postsHeading: Recent Articles
 postsSummary: A mix of development related articles, thoughts and notes.
 journalSummary: Articles on being active, mental wellbeing, life, and more.
