@@ -18,12 +18,6 @@ html {
 	background-color: var(--color-bg);
 	position: relative;
 	transition: background-color 0.3s ease-in-out 0s;
-
-	&[data-user-color-scheme='dark'] {
-		img {
-			opacity: 0.85;
-		}
-	}
 }
 
 body {
@@ -49,16 +43,16 @@ hr {
 
 a:not([class]) {
 	color: var(--color-text);
-	text-decoration: underline var(--color-link-text) 2px;
+	text-decoration: underline var(--color-accent) 2px;
 
 	&:hover,
 	&:focus {
-		color: var(--color-link-text);
+		color: var(--color-accent);
 	}
 }
 
 .link-hover {
-	background-image: linear-gradient(var(--color-link-text), var(--color-link-text));
+	background-image: linear-gradient(var(--color-accent-alt), var(--color-accent-alt));
 	background-position: 0 100%;
 	background-repeat: no-repeat;
 	background-size: 0 3px;
@@ -69,15 +63,6 @@ a:not([class]) {
 	&:focus {
 		background-size: 100% 3px;
 		text-decoration: none;
-	}
-}
-
-@include media-query('md') {
-	html {
-		&:before,
-		&:after {
-			opacity: 1;
-		}
 	}
 }
 

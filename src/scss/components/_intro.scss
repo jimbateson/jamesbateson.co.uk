@@ -39,7 +39,7 @@
 	&__image {
 		// .intro__image--rounded
 		&--rounded {
-			border: 10px solid var(--color-link-text);
+			border: 10px solid var(--color-accent);
 			border-radius: 50%;
 			display: block;
 			height: 250px;
@@ -74,6 +74,10 @@
 .section-intro {
 	font-size: 1.1rem;
 	margin-top: 0;
+
+	a {
+		color: currentcolor;
+	}
 }
 
 @include media-query('md') {
