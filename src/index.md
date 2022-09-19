@@ -15,8 +15,8 @@ about: >-
 metaTitle: James Bateson / Front End Designer
 metaDesc: Manchester based Front End Designer.
 socialImage: ""
-title: Hello, I'm James. A Front End Designer working in Manchester for Code
-  Computerlove
+title: Hello, I'm James. A Front End Designer working in Manchester at Code
+  Computerlove.
 bannerSummary: Welcome to my digital notebook. Somewhere I can post the
   occasional thought or learning, and a place to practice my writing. I'm very
   much 'front-of-front-end' and have a passion for HTML, CSS, UX, accessibility,
