@@ -2,7 +2,7 @@
 	background-color: var(--color-accent-alt);
 	color: var(--color-text);
 	padding-top: 1rem;
-	padding-bottom: 8rem;
+	padding-bottom: 4rem;
 	position: relative;
 	transition: background-color 300ms ease-in-out 0s, color 300ms ease-in-out 0s;
 
@@ -116,5 +116,11 @@
 
 	.section-intro {
 		max-width: 65ch;
+	}
+}
+
+@include media-query('lg') {
+	.intro {
+		padding-bottom: 8rem;
 	}
 }
