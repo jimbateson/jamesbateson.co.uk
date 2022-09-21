@@ -31,3 +31,5 @@ After the event, I think somewhat understandably, but also frustratingly my runn
 As mentioned when moving I joined a running club in Prestwich, which was great for meeting new people and learning some local routes. I've also joined a club local to Castlefield as well. Running can be a very lonely sort, so to have runs where I can go along, meet new people, run new routes, and just have a chat whilst doing it, is great for my mental health.
 
 I've got no more big events planned for this year, but have a distance goal I'm working towards and a few half-marathon races coming up. I need to decide if I want to put myself through another ultra next year or just stick to marathon distance for a bit.
+
+## Public speaking
