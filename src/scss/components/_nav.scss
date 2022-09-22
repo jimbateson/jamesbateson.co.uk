@@ -24,21 +24,26 @@
 
 		&.active {
 			a {
-				color: var(--color-accent);
+				color: var(--color-accent-alt);
 				text-decoration: underline;
 				text-decoration-thickness: 2px;
 			}
 		}
 
 		a {
-			color: var(--color-text);
+			color: var(--color-white);
 			font-size: get-size(500);
 			font-weight: 600;
 			padding: .3rem;
 			text-decoration: none;
 
 			&:focus-visible {
-				outline: 4px solid var(--color-accent);
+				color: var(--color-accent-alt);
+				outline: 4px solid var(--color-accent-alt);
+			}
+
+			&:hover {
+				color: var(--color-accent-alt);
 			}
 		}
 	}

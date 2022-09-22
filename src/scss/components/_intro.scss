@@ -1,6 +1,6 @@
 .intro {
-	background-color: var(--color-accent-alt);
-	color: var(--color-text);
+	background-color: var(--color-accent);
+	color: var(--color-white);
 	padding-top: 1rem;
 	padding-bottom: 4rem;
 	position: relative;
@@ -39,7 +39,7 @@
 	&__image {
 		// .intro__image--rounded
 		&--rounded {
-			border: 10px solid var(--color-accent);
+			border: 10px solid var(--color-accent-alt);
 			border-radius: 50%;
 			display: block;
 			height: 250px;
@@ -64,7 +64,7 @@
 
 			svg {
 				margin-right: .4rem;
-				stroke: var(--color-link-text);
+				stroke: var(--color-accent-alt);
 				stroke-width: 2px;
 			}
 		}

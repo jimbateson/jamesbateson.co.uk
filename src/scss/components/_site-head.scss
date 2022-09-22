@@ -1,9 +1,9 @@
 .site-head {
-	background-color: var(--color-accent-alt);
+	background-color: var(--color-accent);
 	position: relative;
 
 	&__site-name {
-		color: var(--color-accent);
+		color: var(--color-white);
 	}
 
 	> svg {
@@ -16,13 +16,13 @@
 }
 
 .site-logo {
-	fill: var(--color-text);
+	fill: var(--color-white);
 	transition: fill .3s;
 	width: 60px;
 
 	&:hover,
 	&:focus {
-		fill: var(--color-accent);
+		fill: var(--color-accent-alt);
 	}
 }
 
