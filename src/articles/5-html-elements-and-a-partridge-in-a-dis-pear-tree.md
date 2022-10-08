@@ -26,30 +26,36 @@ This can be achieved with an ARIA role:
 <div role="button" tabindex="0">Why</div>
 ```
 
-TODO: Link to Fable assistive technology dictionary/glossary/defenition
+This div would now be announced as an interactive element by assistive technology, this is all well and good, but why?
 
-This div would now be announced as an interactive element by assitive technology, this is all well and good, but why?
-
-As well as this extra role, we'd also then need to handle focus states manually using JavaScript and the `tabindex` attribute. This adds unescessay compliexty and requires the user to download JavaScript just to do something that could be done with a native element.
+As well as this extra role, we'd also then need to handle focus behaviour manually using JavaScript and the `tabindex` attribute. This adds unnecessary complexity and requires the user to download JavaScript just to do something that could be done with a native element.
 
 ```html
 <button>That's better</button>
 ```
-TODO: Link to 5 rules of ARIA (no ARIA is better than bad ARIA, should only be a last resort etc)
-
-It's worth noting that there are circumstances that might warrent using this ARIA pattern. But consider these rules of ARIA when deciding on this-
 
 ### Extra considerations
-Whilst using a native button is a great start, there are some other things to think about:
 
-TODO: add links to articles here
+Whilst using a native button is a great start, there are other things to consider. Does your button have a suitable accessible name? If the buttons purpose it to take the user to another page, should it actually be a link?
 
-- Suitable button text (make sure it has an accessible name)
-- Should it be a button or a link (`<a>`)
+- Suitable button text (make sure it has an accessible name) - TODO: Link needed
+- [Links, Buttons, Submits, and Divs, Oh Hell](https://adrianroselli.com/2016/01/links-buttons-submits-and-divs-oh-hell.html) - Adrian Roselli
 
 These points are beyond the scope of this article, but the links provided are great resources for helping create a great button (or link).
 
 ## `<select>`
+
+A `<select>` is a control that provides a menu of options.
+
+```html
+<label for="select">Sort by</label>
+<select id="select" name="select">
+    <option value="popularity">By popularity</option>
+    <option value="price-low-high">By lowest price</option>
+    <option value="price-high-low">By highest price</option>
+</select>
+```
+
 
 ## `<nav>`
 
