@@ -55,6 +55,18 @@ A `<select>` is a control that provides a menu of options.
     <option value="price-high-low">By highest price</option>
 </select>
 ```
+When a person changes the option of the select, the value of it then becomes the new options value, nice! All browsers support this control and [assistive technology support](https://a11ysupport.io/tech/html/select_element) is strong too. With screen readers annoucing the control accessible name (our label in this example), how to open the select menu, the list of options, and then the value when selected.
+
+For what is an important interaction for many products, it's suprising how many custom-built 'select' controls there are in the wild. This normally comes down to a few reasons, all fairly related to each other:
+
+* The design has come through and included other elements than text in the select options (checkboxes, images, etc)
+* Select controls can be notoriously difficult to style, even more so the options
+* Rendering inconsistencies between browsers/OS - although the functionality remains consistent, a select and it's states can look very different from one browser to another and especially with their options showing
+
+### Why not 'fake' a select though?
+
+As with other element examples in the post, you can create custom select menus using different HTML element mixed with ARIA attributes, for example:
+
 
 
 ## `<nav>`
