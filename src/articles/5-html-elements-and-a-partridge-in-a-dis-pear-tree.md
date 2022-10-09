@@ -67,7 +67,13 @@ For what is an important interaction for many products, it's suprising how many 
 
 As with other element examples in the post, you can create custom select menus using different HTML element mixed with ARIA attributes, for example:
 
+https://24ways.org/2019/making-a-better-custom-select-element/
 
+TODO:
+
+- Have a think about how to frame this one, as the example does look good (Although a lot more work) and there are a few downsides to the select element
+- Mention having a conversation with design?
+- Mention Open UI selectmenu
 
 ## `<nav>`
 
