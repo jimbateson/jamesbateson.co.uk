@@ -158,6 +158,8 @@ Ensure that colour alone is not being relied on convey validation messaging. It 
 
 Make sure that the messaging is suitable announced to assistive technology. This can be done via a live region. When we think about errors on inputs in particular, not having this surfaced immediately could create barriers for people relying on using a form to complete a journey/access a vital service.
 
+## In conclusion
+
 ## Further reading
 
 TODO: Useful links I've come across whilst researching/learning 'over the years'
