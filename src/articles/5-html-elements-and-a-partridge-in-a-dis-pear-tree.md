@@ -24,7 +24,7 @@ Unfortunantaly a pattern that is reached for far to often, and in the wrong circ
 This can be achieved with an ARIA role:
 
 ```html
-<div role="button" tabindex="0">Why</div>
+<div role="button" tabindex="0">I'm not a button</div>
 ```
 
 This div would now be announced as an interactive element by assistive technology, this is all well and good, but why?
