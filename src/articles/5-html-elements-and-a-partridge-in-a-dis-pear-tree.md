@@ -95,6 +95,24 @@ This is a perfectly accessible example of some navigation. No ARIA needed. Howev
 
 ## `<ul/ol>`
 
+Lists (ordered and unordered) are very common elements used on sites. They both have semantic HTML elements:
+
+```html
+<ul>
+    <li>Unordered list item</li>
+    <li>Another unordered list item</li>
+    <li>Yet another unordered list item</li>
+</ul>
+```
+
+```html
+<ol>
+    <li>Ordered list item</li>
+    <li>Another ordered list item</li>
+    <li>Yet another ordered list item</li>
+</ol>
+```
+
 ## `<fieldset>`
 
 ## Further reading
