@@ -2,7 +2,10 @@
 	background-color: var(--color-accent);
 	position: relative;
 
-	&__site-name {
+	// Not sure why Wave reports the visually hidden elements as failing colour contrast
+	// Fixing as is annoying!
+	&__site-name,
+	> .wrapper > span {
 		color: var(--color-white);
 	}
 
