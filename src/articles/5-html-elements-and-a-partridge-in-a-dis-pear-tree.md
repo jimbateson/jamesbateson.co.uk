@@ -112,6 +112,7 @@ Lists (ordered and unordered) are very common elements used on sites. They both 
     <li>Yet another ordered list item</li>
 </ol>
 ```
+
 ### Lists and Safari "Listitis"
 
 Something to consider when using lists and testing behaviour with iOS/MacOS and Safari is the remval of default styles (`list-style: none;`). With this combination of OS and browser, this style will actually remove the semantics using the `<ul>` or `<ol>` element provides. The reasoning behind this comes from the overuse of lists to mark components up.
@@ -126,7 +127,7 @@ To get around this, you can explicitly add a role to the element:
 </ul>
 ```
 
-Although this seems verbose and is an extra 'thing' to remember, it'll make the expereince much better for people using screen readers and encountering a list. For example, the amount of items might be important information to somebody, in a checkout progress stepper.
+Although this seems verbose and is an extra 'thing' to remember, it'll make the experience much better for people using screen readers and encountering a list. For example, the amount of items might be important information to somebody, in a checkout progress stepper.
 
 ## `<fieldset>`
 
