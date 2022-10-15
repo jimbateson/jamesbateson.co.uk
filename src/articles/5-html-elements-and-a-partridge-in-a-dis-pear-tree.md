@@ -35,6 +35,8 @@ As well as this extra role, we'd also then need to handle focus behaviour manual
 <button>That's better</button>
 ```
 
+We now have some default browser styling making it _look like a button_, have focus behaviour handled for us and have events mapped to it (`click`, `buttondown` etc) making it _act like a button_. Because **it is a button!**
+
 ### Extra considerations
 
 Whilst using a native button is a great start, there are other things to consider. Does your button have a suitable accessible name? If the buttons purpose it to take the user to another page, should it actually be a link?
