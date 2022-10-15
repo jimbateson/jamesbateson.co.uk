@@ -141,7 +141,7 @@ Ok, so these do push this article over the 5 elements specified in the title. _H
 
 #### Accessible input names
 
-Don't rely solely on placeholder attributes for input controls that require people to enter text/numbers etc. These con often fail contrast requirements, have patch support for assitive technology, and aren't translated if internationalisation is required.
+Don't rely solely on placeholder attributes for input controls that require people to enter text/numbers etc. These con often fail contrast requirements, have patch support for assistive technology, and aren't translated if internationalisation is required.
 
 One solution could be to add an `aria-label` to the control, this would provide an accessible name, however, event better would be to include an associated visual label for the control. This has benefits for many user groups. 
 
