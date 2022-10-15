@@ -22,11 +22,11 @@
 
 		a {
 			color: currentcolor;
+			text-decoration: underline;
 
 			&:hover,
 			&:focus {
 				color: var(--color-accent-alt);
-				text-decoration: none;
 			}
 		}
 	}
