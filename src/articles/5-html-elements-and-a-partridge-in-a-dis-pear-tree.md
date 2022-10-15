@@ -149,9 +149,9 @@ Do also try to steer clear of the 'floating label' pattern. Although it does see
 
 #### Validation messaging
 
-Ensure that colour alone is not being relied on convey validation messaging. It can be nice UX to include a suitable icon along with the message.
+Ensure that colour alone is not being relied on convey validation messaging. It can be nice UX (user experience) to include a suitable icon along with the message.
 
-Make sure that the messaging is suitable announced to assistive technology. This can be done via a live region. When we think about errors on inputs in particular, not having this surfaced immediatly could create barriers for people relying on using a form to complete a journey/access a vital service.
+Make sure that the messaging is suitable announced to assistive technology. This can be done via a live region. When we think about errors on inputs in particular, not having this surfaced immediately could create barriers for people relying on using a form to complete a journey/access a vital service.
 
 ## Further reading
 
