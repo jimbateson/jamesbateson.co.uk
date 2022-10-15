@@ -131,7 +131,27 @@ Although this seems verbose and is an extra 'thing' to remember, it'll make the 
 
 ## `<fieldset>`
 
-### Other form elements worth noting
+Forms are a critical part of many journeys on a site, but yet they are so often marked up inaccessibly or use patterns that do not take user needs into account. There's also many examples I've seen where native elements have been ignored in favour of overly complex solutions.
+
+The `<fieldset>` and `<legend>` 
+
+### Other form element tips
+
+Ok, so these do push this article over the 5 elements specified in the title. _However_, due to the amount of times these issues come up on forms, and how low-hanging, high impact they can be to fix, I couldn't not mention them.
+
+#### Accessible input names
+
+Don't rely solely on placeholder attributes for input controls that require people to enter text/numbers etc. These con often fail contrast requirements, have patch support for assitive technology, and aren't translated if internationalisation is required.
+
+One solution could be to add an `aria-label` to the control, this would provide an accessible name, however, event better would be to include an associated visual label for the control. This has benefits for many user groups. 
+
+Do also try to steer clear of the 'floating label' pattern. Although it does seem to strike a great balance between the designed 'placeholder' look and having a label. It can often introduce accessibility issues of its own, such as hard to read text and leaving the input feeling crowded.
+
+#### Validation mesaging
+
+Ensure that colour alone is not being relied on convey validation messaging. It can be nice UX to include a suitable icon along with the message.
+
+Make sure that the messaging is suitable announced to assistive technology. This can be done via a live region. When we think about errors on inputs in particular, not having this surfaced immediatly could create barriers for people relying on using a form to complete a journey/access a vital service.
 
 ## Further reading
 
