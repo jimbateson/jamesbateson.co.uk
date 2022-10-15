@@ -131,9 +131,9 @@ Although this seems verbose and is an extra 'thing' to remember, it'll make the 
 
 ## `<fieldset>`
 
-Forms are a critical part of many journeys on a site, but yet they are so often marked up inaccessibly or use patterns that do not take user needs into account. There's also many examples I've seen where native elements have been ignored in favour of overly complex solutions.
+Forms are a critical part of many journeys on a site, but yet they are so often marked up inaccessibly or use patterns that do not take user needs into account. There's also many examples I've seen where native elements have been ignored in favor of overly complex solutions.
 
-The `<fieldset>` and `<legend>` 
+The `<fieldset>` and `<legend>` elements are a great way to break up more complex forms, and can greatly improve the flow and expereince of filling a form out for many user groups.
 
 ### Other form element tips
 
@@ -147,7 +147,7 @@ One solution could be to add an `aria-label` to the control, this would provide 
 
 Do also try to steer clear of the 'floating label' pattern. Although it does seem to strike a great balance between the designed 'placeholder' look and having a label. It can often introduce accessibility issues of its own, such as hard to read text and leaving the input feeling crowded.
 
-#### Validation mesaging
+#### Validation messaging
 
 Ensure that colour alone is not being relied on convey validation messaging. It can be nice UX to include a suitable icon along with the message.
 
