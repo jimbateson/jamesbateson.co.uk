@@ -82,7 +82,7 @@ TODO:
 
 Navigation is a critical part of any site. It allows users to complete important journeys and find the key information they may need.
 
-HTML includes the `<nav>` element. This is a [landmark element](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/roles/landmark_role) and means it will automatically communicate to assistive technology that it's an element being used for navigation links.
+HTML includes the `<nav>` element. This is [a landmark element](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/roles/landmark_role) and means it will automatically communicate to assistive technology that it's an element being used for navigation links.
 
 ```html
 <nav aria-label="Main">
@@ -94,7 +94,7 @@ HTML includes the `<nav>` element. This is a [landmark element](https://develope
 </nav>
 ```
 
-This is a perfectly accessible example of some navigation. No ARIA needed. However, navigation can often require multiple levels of nested dropdowns, and become more complex. The example can still add this and be accessible, which will be shown, first let's look at a pattern often reached for when it comes to navigation with dropdowns - 
+This is a perfectly accessible example of some navigation. No ARIA needed. However, navigation can often require multiple levels of nested dropdowns, and become more complex. The example can still add this and be accessible, which will be shown, first let's look at a pattern often reached for when it comes to navigation with dropdowns - `aria-menu`.
 
 ## `<ul/ol>`
 
