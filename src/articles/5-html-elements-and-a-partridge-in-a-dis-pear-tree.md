@@ -138,7 +138,17 @@ Although this seems verbose and is an extra 'thing' to remember, it'll make the 
 
 Forms are a critical part of many journeys on a site, but yet they are so often marked up inaccessibly or use patterns that do not take user needs into account. There's also many examples I've seen where native elements have been ignored in favor of overly complex solutions.
 
-The `<fieldset>` and `<legend>` elements are a great way to break up more complex forms, and can greatly improve the flow and expereince of filling a form out for many user groups.
+The `<fieldset>` and `<legend>` elements are a great way to break up more complex forms, and can greatly improve the flow and experience of filling a form out for many user groups:
+
+```html
+<form>
+    <fieldset>
+        <legend></legend>
+    </fieldset>
+</form>
+```
+
+
 
 ### Other form element tips
 
@@ -158,7 +168,7 @@ Ensure that colour alone is not being relied on convey validation messaging. It 
 
 Make sure that the messaging is suitable announced to assistive technology. This can be done via a live region. When we think about errors on inputs in particular, not having this surfaced immediately could create barriers for people relying on using a form to complete a journey/access a vital service.
 
-## In conclusion
+## Summary
 
 ## Further reading
 
