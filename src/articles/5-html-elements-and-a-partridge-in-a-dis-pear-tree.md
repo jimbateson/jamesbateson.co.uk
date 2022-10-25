@@ -41,8 +41,8 @@ As well as this extra role, we'd also then need to handle focus behavior manuall
 
 Whilst using a native button is a great start, there can be other things to consider. Does your button have a suitable accessible name? If the buttons purpose it to take the user to another page, should it actually be a link?
 
-- Suitable button text (make sure it has an accessible name) - TODO: Link needed
-- [Links, Buttons, Submits, and Divs, Oh Hell](https://adrianroselli.com/2016/01/links-buttons-submits-and-divs-oh-hell.html) - Adrian Roselli
+- [A complete guide to Links and buttons](https://css-tricks.com/a-complete-guide-to-links-and-buttons/) on CSS-Tricks
+- [Links, Buttons, Submits, and Divs, Oh Hell](https://adrianroselli.com/2016/01/links-buttons-submits-and-divs-oh-hell.html) by Adrian Roselli
 
 These points are beyond the scope of this article, but the links provided are great resources for helping create a great button (or link).
 
