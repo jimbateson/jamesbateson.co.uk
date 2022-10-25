@@ -19,7 +19,7 @@ A button is often used to toggle or activate some dynamic functionality for a us
 
 HTML includes the `<button>` element. This tells people that it can be interacted with and can help communicate the state of a component. By default it is focusable and comes with some browser default styles.
 
-Unfortunantaly a pattern that is reached for far to often, and in the wrong circumstances is to turn a non-interactive element in a faux button.
+Unfortunately a pattern that is reached for far to often, and in the wrong circumstances is to turn a non-interactive element in a faux button.
 
 This can be achieved with an ARIA role:
 
@@ -29,7 +29,7 @@ This can be achieved with an ARIA role:
 
 This div would now be announced as an interactive element by assistive technology, this is all well and good, but why?
 
-As well as this extra role, we'd also then need to handle focus behaviour manually using JavaScript and the `tabindex` attribute. This adds unnecessary complexity and requires the user to download JavaScript just to do something that could be done with a native element:
+As well as this extra role, we'd also then need to handle focus behavior manually using JavaScript and the `tabindex` attribute. This adds unnecessary complexity and requires the user to download JavaScript just to do something that could be done with a native element:
 
 ```html
 <button>That's better</button>
@@ -58,9 +58,10 @@ A `<select>` is a control that provides a menu of options.
     <option value="price-high-low">By highest price</option>
 </select>
 ```
-When a person changes the option of the select, the value of it then becomes the new options value, nice! All browsers support this control and [assistive technology support](https://a11ysupport.io/tech/html/select_element) is strong too. With screen readers annoucing the control accessible name (our label in this example), how to open the select menu, the list of options, and then the value when selected.
 
-For what is an important interaction for many products, it's suprising how many custom-built 'select' controls there are in the wild. This normally comes down to a few reasons, all fairly related to each other:
+When a person changes the option of the select, the value of it then becomes the new options value, nice! All browsers support this control and [assistive technology support](https://a11ysupport.io/tech/html/select_element) is strong too. With screen readers announcing the control accessible name (our label in this example), how to open the select menu, the list of options, and then the value when selected.
+
+For what is an important interaction for many products, it's surprising how many custom-built 'select' controls there are in the wild. This normally comes down to a few reasons, all fairly related to each other:
 
 * The design has come through and included other elements than text in the select options (checkboxes, images, etc)
 * Select controls can be notoriously difficult to style, even more so the options
@@ -76,7 +77,14 @@ TODO:
 
 - Have a think about how to frame this one, as the example does look good (Although a lot more work) and there are a few downsides to the select element
 - Mention having a conversation with design?
-- Mention Open UI selectmenu
+
+### Help on the way?
+
+[The Open UI](https://open-ui.org/prototypes/selectmenu) project is trying to make it easier for designers/developers to both use native controls for elements like `<select>` but have the styling and functionality freedom that often turns people to using more complex custom solutions that can be inaccessible:
+
+> The purpose of Open UI to the web platform is to allow web developers to style and extend built-in web UI controls, such as `<select>` dropdowns, checkboxes, radio buttons, and date/color pickers.<br>
+> To do that, we'll need to fully specify the component parts, states, and behaviors of the built-in controls, as well as necessary accessibility requirements, and provide test suites to ensure compatibility. We'll also implement polyfills for our extensible web UI controls.
+
 
 ## `<nav>`
 
