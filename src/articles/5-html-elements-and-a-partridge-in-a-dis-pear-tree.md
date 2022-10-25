@@ -63,7 +63,7 @@ When a person changes the option of the select, the value of it then becomes the
 
 For what is an important interaction for many products, it's surprising how many custom-built 'select' controls there are in the wild. This normally comes down to a few reasons, all fairly related to each other:
 
-* The design has come through and included other elements than text in the select options (checkboxes, images, mutliselect functionality)
+* The design has come through and included other elements than text in the select options (checkboxes, images, mutli-select functionality)
 * Select controls can be notoriously difficult to style, even more so the options
 * Rendering inconsistencies between browsers/OS - although the functionality remains consistent, a select and it's states can look very different from one browser to another and especially with their options showing
 
@@ -73,7 +73,9 @@ It is of course possible to build something that looks and behaves like a select
 
 Whilst it may be do-able, let's consider a few reasons it might still be better to to suggest and use the good old `<select>`:
 
--
+- Other developers may struggle to pick it up
+- Easy to misconfigure and potentially cause more issues that solve
+- Have a conversation with design
 
 ### Help on the way?
 
@@ -127,7 +129,7 @@ Lists (ordered and unordered) are very common elements used on sites. They both 
 
 They can help with things such as visually and semantically breaking down complex points, give expectations of import steps to complete or consider. Communicating that a list with with items (and possibly links) exists can be important to people using assistive technology, for example it can communicate how many items are the list.
 
-A common mistake that is all to common, is to just visually represent a list with a combination of other HTML elements, for example (taken from HTMLHell): 
+A common mistake that is all to common, is to just visually represent a list with a combination of other HTML elements, for example (taken from HTMLHell):
 
 ```html
 <p>
@@ -143,7 +145,9 @@ Whilst this may visually represent a list, it is going to give certian people a 
 
 Aside from poor markup choices, there could be a couple of common reasons for this issue occurring:
 
--  
+- CMS WSYWYG output (return newline)
+- Content editor skill gaps
+- Markdown/other language confusion?
 
 ### Lists and Safari "list"-itis
 
