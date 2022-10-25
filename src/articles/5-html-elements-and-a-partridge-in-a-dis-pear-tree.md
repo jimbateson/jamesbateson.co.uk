@@ -172,6 +172,8 @@ Forms are a critical part of many journeys on a site, but yet they are so often 
 
 The `<fieldset>` and `<legend>` elements are a great way to break up more complex forms, and can greatly improve the flow and experience of filling a form out for many user groups:
 
+The `<fieldset>` element implicitly communicates a role of group—useful for grouping logically related items, and the `<legend>` provides the 'caption' or accessible name for it. Thus, communicating to assistive technology such as screen readers that the fields within are related and providing a label to annouce.
+
 ```html
 <form>
     <fieldset>
