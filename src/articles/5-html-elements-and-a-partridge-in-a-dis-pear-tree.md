@@ -142,7 +142,7 @@ A common mistake that is all to common, is to just visually represent a list wit
 </p>
 ```
 
-Whilst this may visually represent a list, it is going to give certian people a very different experience. Each 'item' has no relation to the other, it's just one paragraph element, this would give people no indication of how many items were present and how they relate in context and order.
+Whilst this may visually represent a list, it is going to give certian people a very different experience. Each 'item' has no relation to the other, it's just one paragraph element, this would give people no indication of how many items were present and how they relate in context and order if they needed to be read sequentially.
 
 ### Lists and Safari "list"-itis
 
