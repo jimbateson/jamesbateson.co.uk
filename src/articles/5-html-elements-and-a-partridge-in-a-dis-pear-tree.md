@@ -128,7 +128,7 @@ Lists (ordered and unordered) are very common elements used on sites. They both 
 </ol>
 ```
 
-They can help with things such as visually and semantically breaking down complex points, give expectations of import steps to complete or consider. Communiating that a list with with items (and posisbly links) exists can be important to people using assisitve technology, for example it can communicate how many items are the list.
+They can help with things such as visually and semantically breaking down complex points, give expectations of import steps to complete or consider. Communiating that a list with with items (and posisbly links) exists can be important to people using assistive technology, for example it can communicate how many items are the list.
 
 ### Lists and Safari "list"-itis
 
