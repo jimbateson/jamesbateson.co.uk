@@ -175,7 +175,9 @@ The `<fieldset>` and `<legend>` elements are a great way to break up more comple
 ```html
 <form>
     <fieldset>
-        <legend></legend>
+        <legend>Marketing communication preferences</legend>
+
+        <!-- Checkboxes with selection options -->
     </fieldset>
 </form>
 ```
