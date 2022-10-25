@@ -128,11 +128,13 @@ Lists (ordered and unordered) are very common elements used on sites. They both 
 </ol>
 ```
 
-### Lists and Safari "Listitis"
+### Lists and Safari "list"-itis
 
 Something to consider when using lists and testing behavior with iOS/MacOS and Safari is the removal of default styles (`list-style: none;`). With this combination of OS and browser, this style will actually remove the semantics using the `<ul>` or `<ol>` element provides. The reasoning behind this comes from the overuse of lists to mark components up.
 
-*TODO quote from Apple guy about listitis*
+A bug was filed for this 'issue' which prompted the following response:
+
+> This was a purposeful change due to rampant “list”-itis by web developers. … Basically, if you remove all default visible indication of the list, there is no indication to a sighted user or screen reader user that the content is a list. If you want to override this heuristic for accessibility, you can always add an explicit ARIA role=”list”.
 
 To get around this, you can explicitly add a role to the element:
 
