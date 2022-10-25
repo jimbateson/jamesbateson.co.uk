@@ -69,7 +69,7 @@ For what is an important interaction for many products, it's surprising how many
 
 ### Why not 'fake' a select though?
 
-As with other element examples in the post, you can create custom select menus using different HTML element mixed with ARIA attributes, for example:
+As with other element examples in this post, you can create custom select menus using different HTML element mixed with ARIA attributes, for example:
 
 https://24ways.org/2019/making-a-better-custom-select-element/
 
@@ -136,7 +136,7 @@ A bug was filed for this 'issue' which prompted the following response:
 
 > This was a purposeful change due to rampant “list”-itis by web developers. … Basically, if you remove all default visible indication of the list, there is no indication to a sighted user or screen reader user that the content is a list. If you want to override this heuristic for accessibility, you can always add an explicit ARIA role=”list”.
 
-To get around this, you can explicitly add a role to the element:
+As suggested to get around around this, you can explicitly add a role to the element:
 
 ```html
 <ul role="list">
