@@ -90,9 +90,9 @@ Whilst the project is still in it's infancy, in relation to the `<select>` eleme
 
 ## `<nav>`
 
-Navigation is a critical part of any site. It allows users to complete important journeys and find the key information they may need.
+Navigation allows users to complete important journeys and find the key information they may need.
 
-HTML includes the `<nav>` element. This is [a landmark element](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/roles/landmark_role) and means it will automatically communicate to assistive technology that it's an element being used for navigation links.
+HTML includes the `<nav>` element. This is [a landmark element](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/roles/landmark_role) and means it will automatically communicate to assistive technology that it's an element being used for navigation links (the same as adding `role="navigation").
 
 ```html
 <nav aria-label="Main">
