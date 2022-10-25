@@ -13,7 +13,7 @@ To expand on that point a little, why do we ignore native HTML elements that wil
 
 ## `<button>`
 
-Let's start with an example that people will no-doubt have seen many discussions around-interactive buttons.
+Let's start with a topic that people will no-doubt have seen many discussions around-interactive buttons. Taking a look at the [latest postings on the HTMLHell site](https://www.htmhell.dev/), will no-doubt feature this issue heavily!
 
 A button is often used to toggle or activate some dynamic functionality for a user, that could be to reveal a menu with important pages included, submit a form, toggle expandable content and so on.
 
@@ -106,7 +106,7 @@ HTML includes the `<nav>` element. This is [a landmark element](https://develope
 
 This is a perfectly accessible example of some navigation. **No ARIA needed**. However, navigation can often require multiple levels of nested dropdowns, and become more complex. The example can still add this and be accessible, which will be shown, first let's look at a pattern often reached for when it comes to navigation with dropdowns - `aria-menu`.
 
-Whilst the naming of `aria-menu` and the child roles it requires (`aria-menuitem`) may suggest that it'd be perfect to use for site navigation, the purpose of it is in fact very different. This pattern is meant for more replicating desktop application menus. [Adrian Roselli has a superb article](https://adrianroselli.com/2017/10/dont-use-aria-menu-roles-for-site-nav.html) on explaining the difference.
+Whilst the naming of `aria-menu` and the child roles it requires (`aria-menuitem`) may suggest that it'd be perfect to use for site navigation, the purpose of it is in fact very different. This pattern is more for replicating desktop application menus. [Adrian Roselli has a superb article](https://adrianroselli.com/2017/10/dont-use-aria-menu-roles-for-site-nav.html) on explaining the difference.
 
 ## `<ul/ol>`
 
