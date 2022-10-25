@@ -69,14 +69,11 @@ For what is an important interaction for many products, it's surprising how many
 
 ### Why not 'fake' a select though?
 
-As with other element examples in this post, you can create custom select menus using different HTML element mixed with ARIA attributes, for example:
+It is of course possible to build something that looks and behaves like a select with other elements and a sprinkle of JavaScript and ARIA. It's also possible to make this into a robust and accessible solution, for example [Julie Grundy's article](https://24ways.org/2019/making-a-better-custom-select-element/) from 24 WAYS. This example uses semantic HTML and is careful in it's usage of ARIA.
 
-https://24ways.org/2019/making-a-better-custom-select-element/
+Whilst it may be do-able, let's consider a few reasons it might still be better to to suggest and use the good old `<select>`:
 
-TODO:
-
-- Have a think about how to frame this one, as the example does look good (Although a lot more work) and there are a few downsides to the select element
-- Mention having a conversation with design?
+-
 
 ### Help on the way?
 
