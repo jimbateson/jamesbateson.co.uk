@@ -82,8 +82,10 @@ TODO:
 
 [The Open UI](https://open-ui.org/prototypes/selectmenu) project is trying to make it easier for designers/developers to both use native controls for elements like `<select>` but have the styling and functionality freedom that often turns people to using more complex custom solutions that can be inaccessible:
 
-> The purpose of Open UI to the web platform is to allow web developers to style and extend built-in web UI controls, such as `<select>` dropdowns, checkboxes, radio buttons, and date/color pickers.<br>
+> The purpose of Open UI to the web platform is to allow web developers to style and extend built-in web UI controls, such as `<select>` dropdowns, checkboxes, radio buttons, and date/color pickers.<br />
 > To do that, we'll need to fully specify the component parts, states, and behaviors of the built-in controls, as well as necessary accessibility requirements, and provide test suites to ensure compatibility. We'll also implement polyfills for our extensible web UI controls.
+
+whilst the project is still in it's infancy, in relation to the `<select>` element, there has been some developments with `<selectmenu>`. Whilst not ready from production yet, it can be [enabled in Chromium-based browsers with a flag](https://open-ui.org/prototypes/selectmenu). `<selectmenu>` allows far greater customisation of the 
 
 
 ## `<nav>`
@@ -180,4 +182,4 @@ Make sure that the messaging is suitable announced to assistive technology. This
 
 ## Further reading
 
-TODO: Useful links I've come across whilst researching/learning 'over the years'
+* [Using ARIA](https://www.w3.org/TR/aria-in-html/)—including the 5 rules of ARIA.
