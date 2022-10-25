@@ -63,7 +63,7 @@ When a person changes the option of the select, the value of it then becomes the
 
 For what is an important interaction for many products, it's surprising how many custom-built 'select' controls there are in the wild. This normally comes down to a few reasons, all fairly related to each other:
 
-* The design has come through and included other elements than text in the select options (checkboxes, images, etc)
+* The design has come through and included other elements than text in the select options (checkboxes, images, mutliselect functionality)
 * Select controls can be notoriously difficult to style, even more so the options
 * Rendering inconsistencies between browsers/OS - although the functionality remains consistent, a select and it's states can look very different from one browser to another and especially with their options showing
 
@@ -128,6 +128,8 @@ Lists (ordered and unordered) are very common elements used on sites. They both 
 </ol>
 ```
 
+They can help with things such as visually and semantically breaking down complex points, give expectations of import steps to complete or consider. Communiating that a list with with items (and posisbly links) exists can be important to people using assisitve technology, for example it can communicate how many items are the list.
+
 ### Lists and Safari "list"-itis
 
 Something to consider when using lists and testing behavior with iOS/MacOS and Safari is the removal of default styles (`list-style: none;`). With this combination of OS and browser, this style will actually remove the semantics using the `<ul>` or `<ol>` element provides. The reasoning behind this comes from the overuse of lists to mark components up.
@@ -144,7 +146,7 @@ As suggested to get around around this, you can explicitly add a role to the ele
 </ul>
 ```
 
-Although this seems verbose (it'll also come up when validating HTML) and is an extra 'thing' to remember, it'll make the experience much better for people using screen readers and encountering a list. For example, the amount of items might be important information to somebody, in a styled checkout progress stepper.
+Although this seems verbose (it'll also come up when validating HTML) and is an extra 'thing' to remember, it'll make the experience much better for people using screen readers and encountering a list.
 
 ## `<fieldset>`
 
