@@ -19,6 +19,12 @@ A button is often used to toggle or activate some dynamic functionality for a us
 
 HTML includes the `<button>` element. This tells people that it can be interacted with and can help communicate the state of a component. By default it is focusable and comes with some browser default styles.
 
+```html
+<button>I'm a real button</button>
+```
+
+Here we have some default browser styling making it _look like a button_, have focus behaviour handled for us and have events mapped to it (`click`, `buttondown` etc) making it _act like a button_. Because **it is a button!**
+
 Unfortunately a pattern that is reached for far to often, and in the wrong circumstances is to turn a non-interactive element in a faux button.
 
 This can be achieved with an ARIA role:
@@ -30,12 +36,6 @@ This can be achieved with an ARIA role:
 This div would now be announced as an interactive element by assistive technology, this is all well and good, but why?
 
 As well as this extra role, we'd also then need to handle focus behavior manually using JavaScript and the `tabindex` attribute. This adds unnecessary complexity and requires the user to download JavaScript just to do something that could be done with a native element:
-
-```html
-<button>That's better</button>
-```
-
-We now have some default browser styling making it _look like a button_, have focus behaviour handled for us and have events mapped to it (`click`, `buttondown` etc) making it _act like a button_. Because **it is a button!**
 
 ### Extra considerations
 
