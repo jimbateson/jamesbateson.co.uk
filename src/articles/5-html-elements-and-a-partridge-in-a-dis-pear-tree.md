@@ -144,7 +144,7 @@ To get around this, you can explicitly add a role to the element:
 </ul>
 ```
 
-Although this seems verbose and is an extra 'thing' to remember, it'll make the experience much better for people using screen readers and encountering a list. For example, the amount of items might be important information to somebody, in a checkout progress stepper.
+Although this seems verbose (it'll also come up when validating HTML) and is an extra 'thing' to remember, it'll make the experience much better for people using screen readers and encountering a list. For example, the amount of items might be important information to somebody, in a checkout progress stepper.
 
 ## `<fieldset>`
 
