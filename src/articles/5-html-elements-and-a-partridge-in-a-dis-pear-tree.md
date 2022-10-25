@@ -144,6 +144,10 @@ A common mistake that is all to common, is to just visually represent a list wit
 
 Whilst this may visually represent a list, it is going to give certian people a very different experience. Each 'item' has no relation to the other, it's just one paragraph element, this would give people no indication of how many items were present and how they relate in context and order if they needed to be read sequentially.
 
+Aside from poor markup choices, there could be a couple of common reasons for this issue occurring:
+
+-  
+
 ### Lists and Safari "list"-itis
 
 Something to consider when using lists and testing behavior with iOS/MacOS and Safari is the removal of default styles (`list-style: none;`). With this combination of OS and browser, this style will actually remove the semantics using the `<ul>` or `<ol>` element provides. The reasoning behind this comes from the overuse of lists to mark components up.
