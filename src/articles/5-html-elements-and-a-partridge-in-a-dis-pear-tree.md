@@ -130,7 +130,19 @@ Lists (ordered and unordered) are very common elements used on sites. They both 
 
 They can help with things such as visually and semantically breaking down complex points, give expectations of import steps to complete or consider. Communicating that a list with with items (and possibly links) exists can be important to people using assistive technology, for example it can communicate how many items are the list.
 
-A common mistake that 
+A common mistake that is all to common, is to just visually represent a list with a combination of other HTML elements, for example (taken from HTMLHell): 
+
+```html
+<p>
+  • HTML
+  <br>
+  • CSS
+  <br>
+  • JavaScript
+</p>
+```
+
+Whilst this may visually represent a list, it is going to give certian people a very different experince.
 
 ### Lists and Safari "list"-itis
 
