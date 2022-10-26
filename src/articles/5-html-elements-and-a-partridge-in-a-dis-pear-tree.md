@@ -208,7 +208,9 @@ Here's an example seen recently on a documentation site:
 
 This would result in a very similar experience to the fieldset and legend pattern, but is just doing more work to get there. It's using unsemantic elements and using ARIA to turn them into something that can be done natively!
 
-The issue with bad practices like this being included on documentation sites is that it runs the risk of being copied and pasted as an example, and then becoming habits in that codebase. 
+The issue with bad practices like this being included on documentation sites is that it runs the risk of being copied and pasted as an example, and then becoming habits in that codebase.
+
+Other benfits native elements can offer would also have to be manually handled, for example `<fieldset>` can take a `disabled` attribute, which would make all child input controls disabled.
 
 
 ### Other form element tips
