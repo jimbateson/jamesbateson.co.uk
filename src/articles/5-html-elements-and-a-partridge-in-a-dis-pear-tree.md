@@ -206,9 +206,9 @@ Here's an example seen recently on a documentation site:
 </Form>
 ```
 
-This would result in a very similar experince to the fieldset and legend pattern, but is just doing more work to get there. It's using unsemantic elements and using ARIA to turn them into something that can be done natively!
+This would result in a very similar experience to the fieldset and legend pattern, but is just doing more work to get there. It's using unsemantic elements and using ARIA to turn them into something that can be done natively!
 
-The issue with bad practices like this being included on documentation sites is that it runs the risk of being copied and pasted as an example, and then becoming habbits in that codebase. 
+The issue with bad practices like this being included on documentation sites is that it runs the risk of being copied and pasted as an example, and then becoming habits in that codebase. 
 
 
 ### Other form element tips
