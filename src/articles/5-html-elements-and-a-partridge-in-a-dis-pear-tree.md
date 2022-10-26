@@ -185,22 +185,24 @@ The `<fieldset>` and `<legend>` elements are a great way to break up more comple
 
 The `<fieldset>` element implicitly communicates a role of group—useful for grouping logically related items, and the `<legend>` provides the 'caption' or accessible name for it. Thus, communicating to assistive technology such as screen readers that the fields within are related and providing a label to announce.
 
+Here's an example seen recently on a documentation site:
+
 ```html
 <Form>
-<div id="my-radio-group">Picked</div>
-<div role="group" aria-labelledby="my-radio-group">
-<label>
-<Field type="radio" name="picked" value="One" />
-One
-</label>
-<label>
-<Field type="radio" name="picked" value="Two" />
-Two
-</label>
-<div>Picked: {values.picked}</div>
-</div>
+    <div id="my-radio-group">Picked</div>
+    <div role="group" aria-labelledby="my-radio-group">
+        <label>
+            <Field type="radio" name="picked" value="One" />
+            One
+        </label>
+        <label>
+            <Field type="radio" name="picked" value="Two" />
+            Two
+         </label>
+         <div>Picked: {values.picked}</div>
+    </div>
 
-<button type="submit">Submit</button>
+    <button type="submit">Submit</button>
 </Form>
 ```
 
