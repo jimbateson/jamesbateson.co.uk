@@ -176,7 +176,7 @@ The `<fieldset>` and `<legend>` elements are a great way to break up more comple
 ```html
 <form>
     <fieldset>
-        <legend>Marketing communication preferences</legend>
+        <legend>How would you like to hear from us?</legend>
 
         <!-- Checkboxes with selection options -->
     </fieldset>
@@ -241,4 +241,4 @@ HTML can a do a lot, without needing to reach for and ship large chunks of JavaS
 
 ## Further reading
 
-* [Using ARIA](https://www.w3.org/TR/aria-in-html/)—including the 5 rules of ARIA.
+* [Using ARIA](https://www.w3.org/TR/aria-in-html/)—including the 5 rules of ARIA
