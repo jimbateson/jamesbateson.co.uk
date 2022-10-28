@@ -145,7 +145,7 @@ Whilst this may visually represent a list, it is going to give certian people a 
 
 Aside from poor markup choices, there could be a couple of common reasons for this issue occurring:
 
-- CMS WSYWYG output (return newline)
+- CMS WSYWYG output—when content editors  (return newline)
 - Content editor skill gaps
 - Markdown/other language confusion?
 
@@ -206,16 +206,16 @@ Here's an example seen recently on a documentation site:
 </Form>
 ```
 
-This would result in a very similar experience to the fieldset and legend pattern, but is just doing more work to get there. It's using unsemantic elements and using ARIA to turn them into something that can be done natively!
+This would result in a very similar experience to the fieldset and legend pattern, but is just doing more work to get there. It's using non-semantic elements and using ARIA to turn them into something that can be done natively!
 
 The issue with bad practices like this being included on documentation sites is that it runs the risk of being copied and pasted as an example, and then becoming habits in that codebase.
 
-Other benfits native elements can offer would also have to be manually handled, for example `<fieldset>` can take a `disabled` attribute, which would make all child input controls disabled.
+Other benefits native elements can offer would also have to be manually handled, for example `<fieldset>` can take a `disabled` attribute, which would make all child input controls disabled.
 
 
 ### Other form element tips
 
-Ok, so these do push this article over the 5 elements specified in the title. _However_, due to the amount of times these issues come up on forms, and how low-hanging, high impact they can be to fix, I couldn't not mention them.
+OK, so these do push this article over the 5 elements specified in the title. _However_, due to the amount of times these issues come up on forms, and how low-hanging, high impact they can be to fix, I couldn't not mention them.
 
 #### Accessible input names
 
