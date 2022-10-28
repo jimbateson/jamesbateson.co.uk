@@ -74,7 +74,7 @@ It is of course possible to build something that looks and behaves like a select
 Whilst it may be do-able, let's consider a few reasons it might still be better to to suggest and use the good old `<select>`:
 
 - Other developers may struggle to pick it up
-- Easy to misconfigure and potentially cause more issues that solve
+- Easy to mis-configure and potentially cause more issues that solve
 - Have a conversation with design
 
 ### Help on the way?
@@ -232,6 +232,12 @@ Ensure that colour alone is not being relied on convey meaning in validation mes
 Make sure that the messaging is suitably announced to assistive technology. This can be done via a live region. When we think about errors on inputs in particular, not having this surfaced immediately could create barriers for people relying on using a form to complete a journey/access a vital service.
 
 ## Summary
+
+In this article we've covered only a small amount of the [HTML elements available](https://developer.mozilla.org/en-US/docs/Web/HTML/Element). In each case reviewed how using the native HTML element can reduce complexity when building a component and the need for having to manually handle a range of possible interactions people using different input methods need to use, which requires JavaScript.
+
+When reviewing a design, consider if you might be able to use a navitve HTML element to acheive the functionality, or consider having a conversation with design to see if something could change to allow you to do so. Communications such as accessibility annotation sessions can be useful for this.
+
+HTML can a do a lot, without needing to reach for and ship large chunks of JavaScript and potentially exclude whole groups of people interacting with a component. It's robust, semantic and accessible. Take time to learn it, and where and when to use it.
 
 ## Further reading
 
