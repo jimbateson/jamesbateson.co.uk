@@ -227,7 +227,7 @@ Do also try to steer clear of the 'floating label' pattern. Although it does see
 
 #### Validation messaging
 
-Ensure that colour alone is not being relied on convey meaning in validation messaging. It can be nice UX (user experience) to include a suitable icon along with the message, for example an exclamation with an error. If this can't be acheived, [ensure messaging is well-written](https://design-system.service.gov.uk/components/error-message/#be-clear-and-concise).
+Ensure that colour alone is not being relied on convey meaning in validation messaging. It can be nice UX (user experience) to include a suitable icon along with the message, for example an exclamation with an error. If this can't be achieved, [ensure messaging is well-written](https://design-system.service.gov.uk/components/error-message/#be-clear-and-concise).
 
 Make sure that the messaging is suitably announced to assistive technology. This can be done via a live region. When we think about errors on inputs in particular, not having this surfaced immediately could create barriers for people relying on using a form to complete a journey/access a vital service.
 
