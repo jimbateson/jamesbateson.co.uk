@@ -143,11 +143,15 @@ A common mistake that is all to common, is to just visually represent a list wit
 
 Whilst this may visually represent a list, it is going to give certian people a very different experience. Each 'item' has no relation to the other, it's just one paragraph element, this would give people no indication of how many items were present and how they relate in context and order if they needed to be read sequentially.
 
-Aside from poor markup choices, there could be a couple of common reasons for this issue occurring:
+Aside from poor markup choices, there could be a other reasons for this issue occurring:
 
-- CMS WSYWYG output—when content editors  (return newline)
-- Content editor skill gaps
-- Markdown/other language confusion?
+- **CMS WSYWYG** output—it may not be apparent to somebody how to add lists in a CMS WSYWYG editor. Causing them to just visually create the list of items (for example using the bullet point shown in the previous example).
+- **Content editor skill gaps**—when content editors add content in a CMS it may be that they have misunderstood that using return to add items to a newline does not create a list, but it might visually appear to look like one to them in previews etc
+- **Markdown/other language confusion**—in some content language formats, such as markdown, lists can be added by using the hyphen to indicate a list item, and these are then translated into correct list markup. It could be that somebody has mistakenly tried this thinking it might be the case.
+
+Educating content editors on using semantic markup can be an important part of ensuring that semantic, accessible content is being added to a site. Despite designing and building an accessible expereince, this work could be undone by fundemental knowledge gaps when adding content such as blog posts, case studes etc if they are handled through a CMS. Link text, image alt text, heading structure, correct element usage, etc can all have detrimental effects on a persons expereince.
+
+If the importance of using semantic and accessible elements and structure is lost on somebody, it can be useful to remind people that it can have many benefits. Jemery Keith has a interesting thought on
 
 ### Lists and Safari "list"-itis
 
@@ -235,10 +239,11 @@ Make sure that the messaging is suitably announced to assistive technology. This
 
 In this article we've covered only a small amount of the [HTML elements available](https://developer.mozilla.org/en-US/docs/Web/HTML/Element). In each case reviewed how using a native HTML element can reduce complexity when building a component and the need for having to manually handle a range of possible interactions people using different input methods need to use, which requires JavaScript.
 
-When reviewing a design, consider if you might be able to use a navitve HTML element to achieve the functionality, or consider having a conversation with design to see if something could change to allow you to do so. Communications such as accessibility annotation sessions can be useful for this.
+When reviewing a design, consider if you might be able to use a native HTML element to achieve the functionality, or consider having a conversation with design to see if something could change to allow you to do so. Communications such as accessibility annotation sessions can be useful for this.
 
 HTML can a do a lot, without needing to reach for and ship large chunks of JavaScript and potentially exclude whole groups of people interacting with a component. It's robust, semantic and accessible. Take time to learn it, and where and when to use it.
 
 ## Further reading
 
 * [Using ARIA](https://www.w3.org/TR/aria-in-html/)—including the 5 rules of ARIA
+* [A note on button behaviour](https://adrianroselli.com/2022/04/brief-note-on-buttons-enter-and-space.html)—Adrian Roselli
