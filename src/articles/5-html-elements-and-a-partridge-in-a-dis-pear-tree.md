@@ -233,7 +233,7 @@ Make sure that the messaging is suitably announced to assistive technology. This
 
 ## Summary
 
-In this article we've covered only a small amount of the [HTML elements available](https://developer.mozilla.org/en-US/docs/Web/HTML/Element). In each case reviewed how using the native HTML element can reduce complexity when building a component and the need for having to manually handle a range of possible interactions people using different input methods need to use, which requires JavaScript.
+In this article we've covered only a small amount of the [HTML elements available](https://developer.mozilla.org/en-US/docs/Web/HTML/Element). In each case reviewed how using a native HTML element can reduce complexity when building a component and the need for having to manually handle a range of possible interactions people using different input methods need to use, which requires JavaScript.
 
 When reviewing a design, consider if you might be able to use a navitve HTML element to acheive the functionality, or consider having a conversation with design to see if something could change to allow you to do so. Communications such as accessibility annotation sessions can be useful for this.
 
