@@ -162,7 +162,7 @@ Whilst this may visually represent a list, it is going to give certain people a 
 
 ### Who would do that though?
 
-Aside from poor markup choices, there could be a few other reasons for this issue occurring.
+Unordered lists were amongst the [first 18 HTML tags released](https://www.webdesignmuseum.org/web-design-history/tim-berners-lee-published-a-document-called-html-tags-1991) so why do people still ignore them over just visually representing a list? And why are they so important? Aside from poor markup choices, there could be a few other reasons for this issue occurring.
 
 #### CMS WSYWYG output
 
