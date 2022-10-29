@@ -81,11 +81,11 @@ Whilst it may be do-able, let's consider a few reasons it might still be better 
 
 [The Open UI project](https://open-ui.org/prototypes/selectmenu) is trying to make it easier for designers/developers to both use native controls for elements like `<select>` but have the styling and functionality freedom that often turns people to using more complex custom solutions that can be inaccessible:
 
-<blockquote>
-<p>The purpose of Open UI to the web platform is to allow web developers to style and extend built-in web UI controls, such as `<select>` dropdowns, checkboxes, radio buttons, and date/color pickers.</p>
 
-<p>To do that, we'll need to fully specify the component parts, states, and behaviors of the built-in controls, as well as necessary accessibility requirements, and provide test suites to ensure compatibility. We'll also implement polyfills for our extensible web UI controls.</p>
-</blockquote>
+>The purpose of Open UI to the web platform is to allow web developers to style and extend built-in web UI controls, such as `<select>` dropdowns, checkboxes, radio buttons, and date/color pickers.
+>
+>To do that, we'll need to fully specify the component parts, states, and behaviors of the built-in controls, as well as necessary accessibility requirements, and provide test suites to ensure compatibility. We'll also implement polyfills for our extensible web UI controls.
+
 
 Whilst the project is still in it's infancy, in relation to the `<select>` element, there has been some developments with `<selectmenu>`. Whilst not ready from production yet, it can be [enabled in Chromium-based browsers with a flag](https://open-ui.org/prototypes/selectmenu). `<selectmenu>` allows greater customisation of the select control and the options that sit inside of it.
 
@@ -218,7 +218,6 @@ This would result in a very similar experience to the fieldset and legend patter
 The issue with bad practices like this being included on documentation sites is that it runs the risk of being copied and pasted as an example, and then becoming habits in that codebase.
 
 Other benefits native elements can offer would also have to be manually handled, for example `<fieldset>` can take a `disabled` attribute, which would make all child input controls disabled.
-
 
 ### Other form element tips
 
