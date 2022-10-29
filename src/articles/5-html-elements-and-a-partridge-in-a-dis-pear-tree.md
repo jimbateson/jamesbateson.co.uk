@@ -27,7 +27,7 @@ Here we have some default browser styling making it _look like a button_, have f
 
 Unfortunately a pattern that is reached for far to often, and in the wrong circumstances is to turn a non-interactive element in a faux button.
 
-This will often be acheived with an ARIA role:
+This will often be achieved with an ARIA role:
 
 ```html
 <div role="button" tabindex="0">I'm not a button</div>
@@ -35,7 +35,7 @@ This will often be acheived with an ARIA role:
 
 This div would now be announced as an interactive element by assistive technology, this is all well and good, but why?
 
-As well as this extra role, we'd also then need to handle focus behavior manually using JavaScript and the `tabindex` attribute and also handle key events. This adds unnecessary complexity and requires the user to download JavaScript just to do something that could be done with a native element.
+As well as this extra role, we'd also then need to handle focus behavior manually using JavaScript and the `tabindex` attribute and also [handle key events](https://adrianroselli.com/2022/04/brief-note-on-buttons-enter-and-space.html). This adds unnecessary complexity and requires the user to download JavaScript just to do something that could be done with a native element.
 
 ### Extra considerations
 
@@ -246,4 +246,3 @@ HTML can a do a lot, without needing to reach for and ship large chunks of JavaS
 ## Further reading
 
 * [Using ARIA](https://www.w3.org/TR/aria-in-html/)—including the 5 rules of ARIA
-* [A note on button behaviour](https://adrianroselli.com/2022/04/brief-note-on-buttons-enter-and-space.html)—Adrian Roselli
