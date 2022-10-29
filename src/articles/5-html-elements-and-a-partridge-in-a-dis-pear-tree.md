@@ -23,7 +23,7 @@ HTML includes the `<button>` element. This tells people that it can be interacte
 <button>I'm a real button</button>
 ```
 
-Here we have some default browser styling making it _look like a button_, have focus behavior handled for us and have events mapped to it (`click`, `buttondown` etc) making it _act like a button_. Because **it is a button!**
+Here we have some default browser styling making it _look like a button_, have focus behavior handled for us and have key events mapped to it (`click`, `keyup`, `keydown`, etc) making it _act like a button_. Because **it is a button!**
 
 Unfortunately a pattern that is reached for far to often, and in the wrong circumstances is to turn a non-interactive element in a faux button.
 
