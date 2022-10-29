@@ -95,7 +95,7 @@ Not only could this help educate a designer when it comes to semantics and acces
 
 ### Help on the way?
 
-[The Open UI project](https://open-ui.org/prototypes/selectmenu) is trying to make it easier for designers/developers to both use native controls for elements like `<select>` but have the styling and functionality freedom that often turns people to using more complex custom solutions that can be inaccessible:
+[The Open UI project](https://open-ui.org) is trying to make it easier for designers/developers to both use native controls for elements like `<select>` but have the styling and functionality freedom that often turns people to using more complex custom solutions that can be inaccessible:
 
 
 >The purpose of Open UI to the web platform is to allow web developers to style and extend built-in web UI controls, such as `<select>` dropdowns, checkboxes, radio buttons, and date/color pickers.
