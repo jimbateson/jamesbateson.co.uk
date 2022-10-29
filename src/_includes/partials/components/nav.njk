@@ -1,7 +1,7 @@
 {% if navigation.items %}
 
-		<nav class="nav">
-			<ul class="[ nav__list nav__list--main ] [ box-flex align-center md:space-before ]" role="list" aria-label="Main">
+		<nav class="nav" aria-label="Main">
+			<ul class="[ nav__list nav__list--main ] [ box-flex align-center md:space-before ]" role="list">
 			{% for item in navigation.items %}
 				{% set externalAttribute = '' %}
 				{% set currentAttribute = '' %}
