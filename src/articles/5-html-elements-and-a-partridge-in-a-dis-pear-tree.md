@@ -74,7 +74,7 @@ It is of course possible to build something that looks and behaves like a select
 Whilst it may be do-able, let's consider a few reasons it might still be better to to suggest and use the good old `<select>`:
 
 - Other developers may struggle to pick it up
-- Easy to mis-configure and potentially cause more issues that solve
+- Easy to misconfigure and potentially cause more issues that solve
 - Have a conversation with design
 
 ### Help on the way?
