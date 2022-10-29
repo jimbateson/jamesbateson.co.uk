@@ -71,11 +71,13 @@ For what is an important interaction for many products, it's surprising how many
 
 It is of course possible to build something that looks and behaves like a select with other elements and a sprinkle of JavaScript and ARIA. It's also possible to make this into a robust and accessible solution, for example [Julie Grundy's article](https://24ways.org/2019/making-a-better-custom-select-element/) from 24 WAYS. This example uses semantic HTML and is careful in it's usage of ARIA.
 
-Whilst it may be do-able, let's consider a few reasons it might still be better to to suggest and use the good old `<select>`:
+Whilst it may be do-able, let's consider a few reasons it might still be better to to suggest and use the native `<select>`.
 
-- Other developers may struggle to pick it up
-- Easy to misconfigure and potentially cause more issues that solve
-- Have a conversation with design
+#### Future developer readability
+
+#### Misconfiguration
+
+#### Communicate with design—'shift left'
 
 ### Help on the way?
 
@@ -144,11 +146,21 @@ A common mistake that is all to common, is to just visually represent a list wit
 
 Whilst this may visually represent a list, it is going to give certain people a very different experience. Each 'item' has no relation to the other, it's just one paragraph element, this would give people no indication of how many items were present and how they relate in context and order if they needed to be read sequentially.
 
-Aside from poor markup choices, there could be a other reasons for this issue occurring:
+### Who would do that though?
 
-- **CMS WSYWYG** output—it may not be apparent to somebody how to add lists in a CMS WSYWYG editor. Causing them to just visually create the list of items (for example using the bullet point shown in the previous example).
-- **Content editor skill gaps**—when content editors add content in a CMS it may be that they have misunderstood that using return to add items to a newline does not create a list, but it might visually appear to look like one to them in previews etc
-- **Markdown/other language confusion**—in some content language formats, such as markdown, lists can be added by using the hyphen/asterisk to indicate a list item, and these are then translated into correct list markup. It could be that somebody has mistakenly tried this thinking it might be the case.
+Aside from poor markup choices, there could be a other reasons for this issue occurring.
+
+#### CMS WSYWYG output
+
+It may not be apparent to somebody how to add lists in a CMS WSYWYG editor. Causing them to just visually create the list of items (for example using the bullet point shown in the previous example).
+
+#### Content editor skill gaps
+
+When content editors add content in a CMS it may be that they have misunderstood that using return to add items to a newline does not create a list, but it might visually appear to look like one to them in previews etc.
+
+#### Markdown/other language confusion
+
+In some content language formats, such as markdown, lists can be added by using the hyphen/asterisk to indicate a list item, and these are then translated into correct list markup. It could be that somebody has mistakenly tried this thinking it might be the case.
 
 ### Slight tangent incoming!
 
