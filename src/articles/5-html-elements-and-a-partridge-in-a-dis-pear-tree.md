@@ -35,7 +35,7 @@ This will often be acheived with an ARIA role:
 
 This div would now be announced as an interactive element by assistive technology, this is all well and good, but why?
 
-As well as this extra role, we'd also then need to handle focus behavior manually using JavaScript and the `tabindex` attribute. This adds unnecessary complexity and requires the user to download JavaScript just to do something that could be done with a native element.
+As well as this extra role, we'd also then need to handle focus behavior manually using JavaScript and the `tabindex` attribute and also handle key press behaviour. This adds unnecessary complexity and requires the user to download JavaScript just to do something that could be done with a native element.
 
 ### Extra considerations
 
