@@ -23,11 +23,11 @@ HTML includes the `<button>` element. This tells people that it can be interacte
 <button>I'm a real button</button>
 ```
 
-Here we have some default browser styling making it _look like a button_, have focus behaviour handled for us and have events mapped to it (`click`, `buttondown` etc) making it _act like a button_. Because **it is a button!**
+Here we have some default browser styling making it _look like a button_, have focus behavior handled for us and have events mapped to it (`click`, `buttondown` etc) making it _act like a button_. Because **it is a button!**
 
 Unfortunately a pattern that is reached for far to often, and in the wrong circumstances is to turn a non-interactive element in a faux button.
 
-This can be achieved with an ARIA role:
+This will often be acheived with an ARIA role:
 
 ```html
 <div role="button" tabindex="0">I'm not a button</div>
@@ -141,7 +141,7 @@ A common mistake that is all to common, is to just visually represent a list wit
 </p>
 ```
 
-Whilst this may visually represent a list, it is going to give certian people a very different experience. Each 'item' has no relation to the other, it's just one paragraph element, this would give people no indication of how many items were present and how they relate in context and order if they needed to be read sequentially.
+Whilst this may visually represent a list, it is going to give certain people a very different experience. Each 'item' has no relation to the other, it's just one paragraph element, this would give people no indication of how many items were present and how they relate in context and order if they needed to be read sequentially.
 
 Aside from poor markup choices, there could be a other reasons for this issue occurring:
 
@@ -149,9 +149,9 @@ Aside from poor markup choices, there could be a other reasons for this issue oc
 - **Content editor skill gaps**—when content editors add content in a CMS it may be that they have misunderstood that using return to add items to a newline does not create a list, but it might visually appear to look like one to them in previews etc
 - **Markdown/other language confusion**—in some content language formats, such as markdown, lists can be added by using the hyphen to indicate a list item, and these are then translated into correct list markup. It could be that somebody has mistakenly tried this thinking it might be the case.
 
-Educating content editors on using semantic markup can be an important part of ensuring that semantic, accessible content is being added to a site. Despite designing and building an accessible expereince, this work could be undone by fundemental knowledge gaps when adding content such as blog posts, case studes etc if they are handled through a CMS. Link text, image alt text, heading structure, correct element usage, etc can all have detrimental effects on a persons expereince.
+Educating content editors on using semantic markup can be an important part of ensuring that semantic, accessible content is being added to a site. Despite designing and building an accessible experience, this work could be undone by fundemental knowledge gaps when adding content such as blog posts, case studes etc if they are handled through a CMS. Link text, image alt text, heading structure, correct element usage, etc can all have detrimental effects on a persons expereince.
 
-If the importance of using semantic and accessible elements and structure is lost on somebody, it can be useful to remind people that it can have many benefits. Jemery Keith has a interesting thought on
+If the importance of using semantic and accessible elements and structure is lost on somebody, it can be useful to remind people that it can have many benefits. Jeremy Keith has a interesting thought on
 
 ### Lists and Safari "list"-itis
 
