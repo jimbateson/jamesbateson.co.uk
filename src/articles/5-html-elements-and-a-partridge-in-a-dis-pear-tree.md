@@ -81,11 +81,17 @@ Although this could be solved with sufficient documentation, it's still extra wo
 
 #### Misconfiguration
 
-When using ARIA to change an elements role and improve assisitve technology communication, it can often require very specific roles to be included in parent/child element relationships. If misconfigured, not only will the whole component not announce correctly, but it's breaking accessibility and might actually cause more problems than it was used to solve!
+When using ARIA to change an elements role and improve assistive technology communication, it can often require very specific roles to be included in parent/child element relationships. If misconfigured, not only will the whole component not announce correctly, but it's breaking accessibility and might actually cause more problems than it was used to solve!
 
 The more complex and ARIA heavy these custom components are—a custom select being a good example of one that could with enough features—the more chance of this misconfiguring happening, especially in relation to the previous point of somebody with less understanding picking up changes.
 
 #### Communicate with design—'shift left'
+
+Many accessibility issues can be solved at the design phase. The barriers we create are designed in, and the more we can shift the conversation and responsibility of accessibility to earlier in the product lifecycle, the better (often referred to as shifting left).
+
+Constant and efficient communication between designers and developers can play a huge part in this. During sessions such as desgn to dev handover, or [accessibility annotation pairing](https://www.figma.com/community/file/953682768192596304), it could be a great time to have a conversation around how a certian component design might lead to extra complexity, and suggesting that the use of a native HTML element might be better, to see if that could fit into the design.
+
+Not only could this help educate a designer when it comes to semantics and accessibility considerations for future work, but also stop accessibility issues getting to development, or worse further down the line, when fixes/changes become much more expensive or even worse end up affecting user groups in production.
 
 ### Help on the way?
 
