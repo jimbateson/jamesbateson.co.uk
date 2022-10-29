@@ -248,3 +248,6 @@ HTML can a do a lot, without needing to reach for and ship large chunks of JavaS
 ## Further reading
 
 * [Using ARIA](https://www.w3.org/TR/aria-in-html/)—including the 5 rules of ARIA
+* [WebDev Learn HTML](https://web.dev/learn/html/)—somelessons still to be added
+* [WebDev Learn accessibility](https://web.dev/learn/accessibility/)—some lessons still to be added
+* [Inclusive Components](https://inclusive-components.design/)—progressive, robust, semantic, and accessible common component patterns from Heydon Pickering
