@@ -279,5 +279,6 @@ Some useful links to help learn more about using semantic and accessible HTML. A
 
 * [web.dev Learn HTML](https://web.dev/learn/html/)—somelessons still to be added
 * [web.dev Learn accessibility](https://web.dev/learn/accessibility/)—some lessons still to be added
+* [Why semantics matter](https://developer.mozilla.org/en-US/docs/Glossary/semantics#semantics_in_html))—reasoning and examples, should you need it
 * [Inclusive Components](https://inclusive-components.design/)—progressive, robust, semantic, and accessible common component patterns from Heydon Pickering
 * [Using ARIA](https://www.w3.org/TR/aria-in-html/)—including the 5 rules of ARIA
