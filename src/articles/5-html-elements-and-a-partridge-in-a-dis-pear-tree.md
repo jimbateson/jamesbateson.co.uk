@@ -150,6 +150,7 @@ Going back to how we can use `<nav>` and more semantic elements to start to crea
 		<li><a href="#">Contact</a></li>
 	</ul>
 </nav>
+```
 
 Here we're using nested unordered lists to mark up the second level of navigation. Meaning that visually and semantically this would be related, even without CSS and JavaScript loading.
 
