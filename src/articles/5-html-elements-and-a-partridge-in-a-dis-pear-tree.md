@@ -75,7 +75,15 @@ Whilst it may be do-able, let's consider a few reasons it might still be better 
 
 #### Future developer readability
 
+Whilst a more custom and complex approach may make sense to one developer who has followed an example/tutorial to build the component. A developer picking up bugs/changes/feature requests in the future may not have as good of an understand around how all the elements have been setup and what their roles are supposed to be.
+
+Although this could be solved with sufficient documentation, it's still extra work for somebody else to get up to speed with.
+
 #### Misconfiguration
+
+When using ARIA to change an elements role and improve assisitve technology communication, it can often require very specific roles to be included in parent/child element relationships. If misconfigured, not only will the whole component not announce correctly, but it's breaking accessibility and might actually cause more problems than it was used to solve!
+
+The more complex and ARIA heavy these custom components are—a custom select being a good example of one that could with enough features—the more chance of this misconfiguring happening, especially in relation to the previous point of somebody with less understanding picking up changes.
 
 #### Communicate with design—'shift left'
 
