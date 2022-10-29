@@ -86,9 +86,7 @@ Whilst it may be do-able, let's consider a few reasons it might still be better 
 >
 >To do that, we'll need to fully specify the component parts, states, and behaviors of the built-in controls, as well as necessary accessibility requirements, and provide test suites to ensure compatibility. We'll also implement polyfills for our extensible web UI controls.
 
-
 Whilst the project is still in it's infancy, in relation to the `<select>` element, there has been some developments with `<selectmenu>`. Whilst not ready from production yet, it can be [enabled in Chromium-based browsers with a flag](https://open-ui.org/prototypes/selectmenu). `<selectmenu>` allows greater customisation of the select control and the options that sit inside of it.
-
 
 ## `<nav>`
 
@@ -150,7 +148,7 @@ Aside from poor markup choices, there could be a other reasons for this issue oc
 
 - **CMS WSYWYG** output—it may not be apparent to somebody how to add lists in a CMS WSYWYG editor. Causing them to just visually create the list of items (for example using the bullet point shown in the previous example).
 - **Content editor skill gaps**—when content editors add content in a CMS it may be that they have misunderstood that using return to add items to a newline does not create a list, but it might visually appear to look like one to them in previews etc
-- **Markdown/other language confusion**—in some content language formats, such as markdown, lists can be added by using the hyphen to indicate a list item, and these are then translated into correct list markup. It could be that somebody has mistakenly tried this thinking it might be the case.
+- **Markdown/other language confusion**—in some content language formats, such as markdown, lists can be added by using the hyphen/asterisk to indicate a list item, and these are then translated into correct list markup. It could be that somebody has mistakenly tried this thinking it might be the case.
 
 ### Slight tangent incoming!
 
@@ -176,7 +174,7 @@ As suggested to get around around this, you can explicitly add a role to the ele
 </ul>
 ```
 
-Although this seems verbose (it'll also come up when validating HTML) and is an extra 'thing' to remember, it'll make the experience much better for people using screen readers and encountering a list.
+Although this seems verbose (it'll also get flagged when validating HTML) and is an extra 'thing' to remember, it'll make the experience much better for people using screen readers and encountering a list.
 
 ## `<fieldset>`
 
