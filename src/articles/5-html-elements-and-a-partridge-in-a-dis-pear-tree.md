@@ -152,7 +152,7 @@ Aside from poor markup choices, there could be a other reasons for this issue oc
 
 #### CMS WSYWYG output
 
-It may not be apparent to somebody how to add lists in a CMS WSYWYG editor. Causing them to just visually create the list of items (for example using the bullet point shown in the previous example).
+It may not be apparent to somebody how to add lists in a content management system WSYWYG editor. Causing them to just visually create the list of items (for example using the bullet point shown in the previous example).
 
 #### Content editor skill gaps
 
