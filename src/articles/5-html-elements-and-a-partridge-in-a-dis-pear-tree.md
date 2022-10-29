@@ -124,6 +124,39 @@ This is a perfectly accessible example of some navigation. **No ARIA is needed**
 
 Whilst the naming of `aria-menu` and the child roles it requires (`aria-menuitem`) may suggest that it'd be perfect to use for site navigation, the purpose of it is very different. This pattern is more for replicating desktop application menus. [Adrian Roselli has a superb article](https://adrianroselli.com/2017/10/dont-use-aria-menu-roles-for-site-nav.html) explaining the difference.
 
+Going back to how we can use `<nav>` and more semantic elements to start to create navigations with multiple levels:
+
+```html
+<nav aria-label="Main">
+	<ul>
+		<li><a aria-current="page" href="#">Home</a></li>
+		<li>
+			<a href="#">
+				About Us
+				<button type="button" aria-expanded="false" aria-controls="about-us-submenu">
+					<!-- Visual cue icon - for example a downward facing chevron -->
+					<svg aria-hidden="true" focusable="false">
+						<!-- Icon SVG code -->
+					</svg>
+					<span class="visually-hidden">Toggle About Us submenu</span>
+				</button>
+			</a>
+			<ul id="about-us-submenu">
+				<li><a href="#">Our history</a></li>
+				<li><a href="#">Meet the team</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Work</a></li>
+		<li><a href="#">Contact</a></li>
+	</ul>
+</nav>
+
+Here we're using nested unordered lists to mark up the second level of navigation. Meaning that visually and semantically this would be related, even without CSS and JavaScript loading.
+
+You might be asking "but there is ARIA in there now, and you said we didn't need any?". This is true, but we can use ARIA in the approiate way to **enhance** the experience for people using assistive technology. Not solely rely on it's role to communnicate that's it's a navigation in the first place. Of course JavaScript will also be needed to toggle some of these attributes as well. But by default, without any of this our markup is semantic and accessible.
+
+For a more detailed guide to building a sementic and accessible navigation, check out [the web.dev navigation article by Manuel](https://web.dev/website-navigation/).
+
 ## `<ul/ol>`
 
 Lists (ordered and unordered) are very common elements used on sites. They both have semantic HTML elements:
