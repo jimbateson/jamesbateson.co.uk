@@ -13,7 +13,7 @@ To expand on that point a little, why do we ignore native HTML elements that wil
 
 ## `<button>`
 
-Let's start with a topic that people will have seen many discussions around-interactive buttons. Taking a look at the [latest postings on the HTMLHell site](https://www.htmhell.dev/), will no doubt feature this issue heavily!
+Let's start with a topic that people will have seen many discussions around—interactive buttons. Taking a look at the [latest postings on the HTMLHell site](https://www.htmhell.dev/), will no doubt feature this issue heavily!
 
 A button is often used to toggle or activate some dynamic functionality for a user, that could be to reveal a menu with important pages included, submit a form, toggle expandable content, and so on.
 
@@ -23,7 +23,7 @@ HTML includes the `<button>` element. This tells people that it can be interacte
 <button>I'm a real button</button>
 ```
 
-Here we have some default browser styling making it _look like a button_, have focus behavior handled for us, and have key events mapped to it (`click`, `keyup`, `keydown`, etc) making it _act like a button_. Because **it is a button!**
+Here we have some default browser styling making it *look like a button*, have focus behavior handled for us, and have key events mapped to it (`click`, `keyup`, `keydown`, etc) making it *act like a button*. Because **it is a button!**
 
 Unfortunately, a pattern that is reached too often, and in the wrong circumstances is to turn a non-interactive element into a faux button.
 
@@ -41,8 +41,8 @@ As well as this extra role, we'd also then need to handle focus behavior manuall
 
 Whilst using a native button is a great start, there can be other things to consider. Does your button have a suitable accessible name? If the button has a purpose of taking a person to another page, it should be a link (`<a>`).
 
-- [A complete guide to Links and buttons](https://css-tricks.com/a-complete-guide-to-links-and-buttons/) on CSS-Tricks
-- [Links, Buttons, Submits, and Divs, Oh Hell](https://adrianroselli.com/2016/01/links-buttons-submits-and-divs-oh-hell.html) by Adrian Roselli
+* [A complete guide to Links and buttons](https://css-tricks.com/a-complete-guide-to-links-and-buttons/) on CSS-Tricks
+* [Links, Buttons, Submits, and Divs, Oh Hell](https://adrianroselli.com/2016/01/links-buttons-submits-and-divs-oh-hell.html) by Adrian Roselli
 
 These points are beyond the scope of this article, but the links provided are great resources for helping create a great button (or link).
 
@@ -97,10 +97,9 @@ Not only could this help educate a designer when it comes to semantics and acces
 
 [The Open UI project](https://open-ui.org) is trying to make it easier for designers/developers to both use native controls for elements like `<select>` but have the styling and functionality freedom that often turns people to using more complex custom solutions that can be inaccessible:
 
-
->The purpose of Open UI to the web platform is to allow web developers to style and extend built-in web UI controls, such as `<select>` dropdowns, checkboxes, radio buttons, and date/color pickers.
+> The purpose of Open UI to the web platform is to allow web developers to style and extend built-in web UI controls, such as `<select>` dropdowns, checkboxes, radio buttons, and date/color pickers.
 >
->To do that, we'll need to fully specify the component parts, states, and behaviors of the built-in controls, as well as necessary accessibility requirements, and provide test suites to ensure compatibility. We'll also implement polyfills for our extensible web UI controls.
+> To do that, we'll need to fully specify the component parts, states, and behaviors of the built-in controls, as well as necessary accessibility requirements, and provide test suites to ensure compatibility. We'll also implement polyfills for our extensible web UI controls.
 
 Whilst the project is still in its infancy, concerning the `<select>` element, there have been some developments with `<selectmenu>`. Whilst not ready for production yet, it can be [enabled in Chromium-based browsers with a flag](https://open-ui.org/prototypes/selectmenu). `<selectmenu>` allows greater customisation of the select control and the options that sit inside of it.
 
@@ -283,7 +282,7 @@ Other benefits native elements can offer would also have to be manually handled,
 
 ### Other form element tips
 
-OK, so these do push this article over the 5 elements specified in the title. _However_, due to the number of times these issues come up on forms, and how low-hanging, high-impact they can be to fix, I felt the need to mention them.
+OK, so these do push this article over the 5 elements specified in the title. *However*, due to the number of times these issues come up on forms, and how low-hanging, high-impact they can be to fix, I felt the need to mention them.
 
 #### Accessible input names
 
