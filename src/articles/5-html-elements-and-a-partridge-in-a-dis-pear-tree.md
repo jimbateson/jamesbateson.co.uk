@@ -35,7 +35,7 @@ This will often be achieved with an ARIA role:
 <div role="button" tabindex="0">I'm not a button</div>
 ```
 
-This div (a non-semantic element, designed for containing things) would now be announced as an interactive element by assistive technology, this is all well and good, but is it robust and accessible? No.
+This div (a non-semantic element, designed for containing things) would now be announced as an interactive element by assistive technology, this is all well and good, but is it robust and accessible? No. We're telling assistive technology that it's a button, but providing none of the functionality that comes with the native element.
 
 As well as this extra role, we'd also then need to handle focus behavior manually using JavaScript and the `tabindex` attribute and also [handle key events](https://adrianroselli.com/2022/04/brief-note-on-buttons-enter-and-space.html). This adds unnecessary complexity and requires the user to download JavaScript just to do something that could be done with a native element.
 
