@@ -109,7 +109,7 @@ Whilst the project is still in its infancy, concerning the `<select>` element, t
 
 Navigation allows users to complete important journeys and find the key information they may need.
 
-HTML includes the `<nav>` element. This is [a landmark element](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/roles/landmark_role) and means it will automatically communicate to assistive technology that it's an element being used for navigation links (the same as adding `role="navigation").
+HTML includes the `<nav>` element. This is [a landmark element](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/roles/landmark_role) and means it will automatically communicate to assistive technology that it's an element being used for navigation links (the same as adding `role="navigation"`).
 
 ```html
 <nav aria-label="Main">
