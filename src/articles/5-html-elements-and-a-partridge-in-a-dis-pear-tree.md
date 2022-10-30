@@ -121,7 +121,7 @@ HTML includes the `<nav>` element. This is [a landmark element](https://develope
 </nav>
 ```
 
-This is a perfectly accessible example of some navigation. **No ARIA is needed**. However, navigation can often require multiple levels of nested dropdowns, and become more complex. The example can still add this and be accessible, which will be shown, first let's look at a pattern too often reached for when it comes to navigation with dropdowns - `aria-menu`.
+This is a perfectly accessible example of some navigation. **No ARIA is needed**. However, navigation can often require multiple levels of nested dropdowns, and become more complex. The example can still add this and be accessible, which we will take a look at, but first let's look at a pattern often reached for when it comes to navigation with dropdowns - `aria-menu`.
 
 Whilst the naming of `aria-menu` and the child roles it requires (`aria-menuitem`) may suggest that it'd be perfect to use for site navigation, the purpose of it is very different. This pattern is more for replicating desktop application menus. [Adrian Roselli has a superb article](https://adrianroselli.com/2017/10/dont-use-aria-menu-roles-for-site-nav.html) explaining the difference.
 
