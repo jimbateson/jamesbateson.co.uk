@@ -93,7 +93,7 @@ Many accessibility issues can be solved during the design phase. The barriers we
 
 Constant and efficient communication between designers and developers can play a huge part in this. During sessions such as a design to dev handover, or [accessibility annotation pairing](https://www.figma.com/community/file/953682768192596304), it could be a great time to have a conversation about how a certain component design might lead to extra complexity, and suggest that the use of a native HTML element might be better, to see if that could fit into the design.
 
-Not only could this help educate a designer when it comes to semantics and accessibility considerations for future work, but also stop accessibility issues from getting to development, or worse further down the line, when fixes/changes become much more expensive or even worse end up affecting people in production.
+Not only could this help educate a designer when it comes to semantics and accessibility considerations for future work, but also stop accessibility issues from getting to development, or worse further down the line, when fixes/changes become much more expensive or even worse end up unintentionally excluding people in production.
 
 ### Help on the way?
 
