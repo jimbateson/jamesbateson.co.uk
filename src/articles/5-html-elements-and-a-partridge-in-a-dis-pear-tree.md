@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: 5 HTML elements and a partridge in a dis-pear tree
+title: 5 HTML elements and a partridge in a despair tree
 socialImage: /images/social-share-default.jpg
 date: 2022-09-23T11:32:47.946Z
 tags:
