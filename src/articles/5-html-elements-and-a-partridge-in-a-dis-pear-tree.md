@@ -17,7 +17,7 @@ Let's start with a topic that people will have seen many discussions around—in
 
 A button is often used to toggle or activate some dynamic functionality for a user. That could be to reveal a menu with important pages included, submit a form, toggle expandable content, and so on.
 
-HTML includes the `<button>` element. This tells people that it can be interacted with and can help communicate the state of a component. By default, it is focusable and comes with some browser default styles.
+HTML includes the `<button>` element. This tells people that it can be interacted with and can help communicate the state of a component. By default, it is focusable, has key events, and comes with some browser default styles.
 
 ```html
 <button>I'm a real button</button>
