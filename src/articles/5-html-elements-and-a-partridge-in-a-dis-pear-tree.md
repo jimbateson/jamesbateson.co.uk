@@ -125,7 +125,7 @@ This is a perfectly accessible example of some navigation. **No ARIA is needed**
 
 Whilst the naming of `aria-menu` and the child roles it requires (`aria-menuitem`) may suggest that it'd be perfect to use for site navigation, the purpose of it is very different. This pattern is more for replicating desktop application menus. [Adrian Roselli has a superb article](https://adrianroselli.com/2017/10/dont-use-aria-menu-roles-for-site-nav.html) explaining the difference.
 
-You can see an example of how this would be marked up on the [aria authoring practices site](https://www.w3.org/WAI/ARIA/apg/example-index/menubar/menubar-navigation.html). Whislt there are cautionary recommendations at the top of the page detailed how this is unsuitable for site navigation, the page goes on to use it for one. This is an example of how just using these resources as a copy-and-paste solution, can lead to bad-practices.
+You can see an example of how this would be marked up on the [aria authoring practices site](https://www.w3.org/WAI/ARIA/apg/example-index/menubar/menubar-navigation.html). Whilst there are cautionary recommendations at the top of the page detailing how this is unsuitable for site navigation, the page goes on to use it for one. This is an example of how just using these resources as a copy-and-paste solution, can lead to bad-practices.
 
 Going back to how we can use `<nav>` and more semantic elements to start to create navigations with multiple levels:
 
