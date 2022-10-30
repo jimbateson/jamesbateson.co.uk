@@ -223,7 +223,7 @@ End of tangent.
 
 ### Lists and Safari "list"-itis
 
-Something to consider when using lists and testing behavior with iOS/MacOS and Safari is the removal of default styles (`list-style: none;`). With this combination of OS and browser, this style will remove the semantics using the `<ul>` or `<ol>` element provides. The reasoning behind this comes from the overuse of lists to mark components up.
+Something to consider when using lists and testing behavior with iOS/MacOS and Safari and VoiceOver, is the removal of default styles (`list-style: none;`). With this combination of OS and browser, this style will remove the semantics using the `<ul>` or `<ol>` element provides. The reasoning behind this comes from the overuse of lists to mark components up.
 
 A bug was filed for this 'issue' which prompted the following response:
 
