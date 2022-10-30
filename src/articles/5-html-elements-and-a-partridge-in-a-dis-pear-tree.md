@@ -25,7 +25,9 @@ HTML includes the `<button>` element. This tells people that it can be interacte
 
 Here we have some default browser styling making it *look like a button*, have focus behavior handled for us, and have key events mapped to it (`click`, `keyup`, `keydown`, etc) making it *act like a button*. Because **it is a button!**
 
-Unfortunately, a pattern that is reached too often, and in the wrong circumstances is to turn a non-interactive element into a faux button.
+<button type="button">I'm a real button</button>
+
+Unfortunately, a pattern that is reached all too common, and used in the wrong circumstances is to turn a non-interactive element into a faux button.
 
 This will often be achieved with an ARIA role:
 
