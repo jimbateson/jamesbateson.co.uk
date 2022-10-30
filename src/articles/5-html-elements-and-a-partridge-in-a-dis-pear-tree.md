@@ -61,7 +61,7 @@ A `<select>` is a control that provides a menu of options.
 </select>
 ```
 
-When a person changes the option of the select, the value of it then becomes the value of the new option, nice! All browsers support this control and [assistive technology support](https://a11ysupport.io/tech/html/select_element) is strong too. Screen readers annonce the control's accessible name (our label in this example), how to open the select menu, the list of options, and then the value when selected.
+When a person changes the option of the select, the value of it then becomes the value of the new option, nice! All browsers support this control and [assistive technology support](https://a11ysupport.io/tech/html/select_element) is strong too. Screen readers announce the control's accessible name (our label in this example), how to open the select menu, the list of options, and then the value when selected.
 
 For what is an important interaction for many products, it's surprising how many custom-built 'select' controls there are in the wild. This normally comes down to a few reasons, all fairly related to each other:
 
