@@ -127,7 +127,7 @@ Whilst the naming of `aria-menu` and the child roles it requires (`aria-menuitem
 
 You can see an example of how this would be marked up on the [aria authoring practices site](https://www.w3.org/WAI/ARIA/apg/example-index/menubar/menubar-navigation.html). Whilst there are cautionary recommendations at the top of the page detailing how this is unsuitable for site navigation, the page goes on to use it for one. This is an example of how just using these resources as a copy-and-paste solution, can lead to bad-practices.
 
-Going back to how we can use `<nav>` and more semantic elements to start to create navigations with multiple levels:
+Going back to how we can use `<nav>` and more semantic elements to start to create a site navigation with multiple levels:
 
 ```html
 <nav aria-label="Main">
