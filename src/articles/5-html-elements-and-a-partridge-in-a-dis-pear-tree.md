@@ -41,12 +41,12 @@ As well as the role, we'd also then need to handle focus behavior manually using
 
 ### Extra considerations
 
-Whilst using a native button is a great start, there can be other things to consider. Does your button have a suitable accessible name? If the button has a purpose of taking a person to another page, it should be a link (`<a>`).
+Whilst using a native button is a great start, there are other things to consider. Does your button have a suitable accessible name? (especially if it's an icon button). If the button has a purpose of taking a person to another page, it should be a link (`<a>`).
+
+The following links are great resources for helping create a great button (or link).
 
 * [A complete guide to Links and buttons](https://css-tricks.com/a-complete-guide-to-links-and-buttons/) on CSS-Tricks
 * [Links, Buttons, Submits, and Divs, Oh Hell](https://adrianroselli.com/2016/01/links-buttons-submits-and-divs-oh-hell.html) by Adrian Roselli
-
-These points are beyond the scope of this article, but the links provided are great resources for helping create a great button (or link).
 
 ## `<select>`
 
