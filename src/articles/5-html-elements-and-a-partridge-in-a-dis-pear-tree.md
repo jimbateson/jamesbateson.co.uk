@@ -237,7 +237,7 @@ As suggested to get around this, you can explicitly add a role to the element:
 </ul>
 ```
 
-Although this seems verbose (it'll also get flagged when validating HTML) and is an extra 'thing' to remember, it'll make the experience much better for people using screen readers and encountering a list.
+Although this seems verbose (it'll also get flagged when validating HTML) and is an extra 'thing' to remember, it'll make the experience much better for people using VoiceOver and encountering a list.
 
 ## `<fieldset>`
 
