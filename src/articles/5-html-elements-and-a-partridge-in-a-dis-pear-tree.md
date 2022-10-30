@@ -243,7 +243,7 @@ Although this seems verbose (it'll also get flagged when validating HTML) and is
 
 Forms are a critical part of many journeys on a site, but yet they are so often marked up inaccessibly or use patterns that do not take user needs into account. There are also many examples I've seen where native elements have been ignored in favor of overly complex solutions.
 
-The `<fieldset>` and `<legend>` elements are a great way to break up more complex forms, and can greatly improve the flow and experience of filling a form out for many user groups:
+The `<fieldset>` and `<legend>` elements are a great way to break up more complex forms, and can greatly improve the flow and experience of filling a form out for many people:
 
 ```html
 <form>
