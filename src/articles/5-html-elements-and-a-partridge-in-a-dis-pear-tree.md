@@ -85,7 +85,7 @@ Although this could be solved with sufficient documentation, it's still extra wo
 
 When using ARIA to add a role to an element to try and improve assistive technology communication, it can often require very specific roles to be included in parent/child element relationships. If misconfigured, not only will the whole component not announce correctly, but it's breaking accessibility and might cause more problems than it was used to solve!
 
-The more complex and ARIA-heavy these custom components are—a custom select being a good example of one that could be with enough features—the more chance of this misconfiguring happening, especially concerning the previous point of somebody with less understanding picking up changes.
+The more complex and ARIA-heavy these custom components are—a custom select being a good example of one that could be with enough features—the more chance of this misconfiguration happening, especially concerning the previous point of somebody with less understanding picking up changes.
 
 #### Communicate with design—'shift left'
 
