@@ -73,7 +73,7 @@ For what is an important interaction for many products, it's surprising how many
 
 ### Why not 'fake' a select though?
 
-It is of course possible to build something that looks and behaves like a select with other elements and a sprinkle of JavaScript and ARIA. It's also possible to make this into a robust and accessible solution, for example, [Julie Grundy's article](https://24ways.org/2019/making-a-better-custom-select-element/) from 24 WAYS. This example uses semantic HTML and is careful in its usage of ARIA.
+It is of course possible to build something that looks and behaves like a select with other elements and a sprinkle of JavaScript and ARIA. It's also possible to make this into a robust and accessible solution; for example, [Julie Grundy's article](https://24ways.org/2019/making-a-better-custom-select-element/) from 24 WAYS. This example uses semantic HTML and is careful in its usage of ARIA.
 
 Whilst it may be doable, let's consider a few reasons it might still be better to suggest and use the native `<select>`.
 
