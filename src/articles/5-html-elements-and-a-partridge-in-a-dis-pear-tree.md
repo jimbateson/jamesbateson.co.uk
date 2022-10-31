@@ -67,9 +67,9 @@ When a person changes the option of the select, the value of it then becomes the
 
 For what is an important interaction for many products, it's surprising how many custom-built 'select' controls there are in the wild. This normally comes down to a few reasons, all fairly related to each other:
 
-* The design has come through and included other elements than text in the select options (checkboxes, images, multi-select functionality)
-* Select controls can be notoriously difficult to style, even more so the options
-* Rendering inconsistencies between browsers/OS - although the functionality remains consistent, a select and its states can look very different from one browser to another and especially with their options showing
+* The design has come through and included elements other than text in the select options (checkboxes, images, multi-select functionality)
+* Select controls can be notoriously difficult to style, and the options even more so
+* Rendering inconsistencies between browsers/OS: Although the functionality remains consistent, a select and its states can look very different from one browser to another and especially with their options showing
 
 ### Why not 'fake' a select though?
 
