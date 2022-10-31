@@ -293,9 +293,9 @@ OK, so these do push this article over the 5 elements specified in the title. *H
 
 Don't rely solely on placeholder attributes for input controls that require people to enter text/numbers etc. These can often fail colour contrast requirements, have patchy support for assistive technology, and aren't translated if internationalisation is required.
 
-One solution could be to add an `aria-label` to the control, this would provide an accessible name, however, even better would be to include an associated visual label for the control. This has benefits for many user groups. 
+One solution could be to add an `aria-label` to the control, as this would provide an accessible name; however, even better would be to include an associated visual label for the control. This has benefits for many user groups. 
 
-Do also try to steer clear of the 'floating label' pattern. Although it does seem to strike a great balance between the designed 'placeholder' look and having a label. It can often introduce accessibility issues of its own, such as hard-to-read text and leaving the input feeling crowded.
+Do also try to steer clear of the 'floating label' pattern. Although it does seem to strike a great balance between the designed 'placeholder' look and having a label, it can often introduce accessibility issues of its own, such as hard-to-read text and leaving the input feeling crowded.
 
 #### Validation messaging
 
