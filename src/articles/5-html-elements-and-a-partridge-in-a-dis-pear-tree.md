@@ -13,7 +13,7 @@ To expand on that point a little, why do we ignore native HTML elements that wil
 
 ## `<button>`
 
-Let's start with a topic that people will have seen many discussions around—interactive buttons. Taking a look at the [latest postings on the HTMLHell site](https://www.htmhell.dev/), will no doubt feature this issue heavily!
+Let's start with a topic that people will have seen many discussions around—interactive buttons. Take a look at the [latest postings on the HTMLHell site](https://www.htmhell.dev/), will no doubt feature this issue heavily!
 
 A button is often used to toggle or activate some dynamic functionality for a user. That could be to reveal a menu with important pages included, submit a form, toggle expandable content, and so on.
 
