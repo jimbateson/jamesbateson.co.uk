@@ -196,15 +196,15 @@ A common mistake that can be made is to just visually represent a list with a co
 </p>
 ```
 
-Whilst this may visually represent a list, it is going to give people using assistive technology a very different experience. Each 'item' has no relation to the other, it's just one paragraph element, this would give people no indication of how many items were present and how they relate in context and order if they needed to be read sequentially.
+Whilst this may visually represent a list, it is going to give people using assistive technology a very different experience. Each 'item' has no relation to the other. As it's just one paragraph element, this would give people no indication of how many items were present and how they relate in context and in order if they needed to be read sequentially.
 
 ### Who would do that though?
 
 Unordered lists were amongst the [first 18 HTML tags released](https://www.webdesignmuseum.org/web-design-history/tim-berners-lee-published-a-document-called-html-tags-1991) so why do people still ignore them over just visually representing a list? And why are they so important? Aside from poor markup choices, there could be a few other reasons for this issue occurring.
 
-#### CMS WSYWYG output
+#### CMS WYSIWYG output
 
-It may not be apparent to somebody how to add lists in a content management system WSYWYG editor. Causing them to just visually create the list of items (for example using the bullet point shown in the previous example).
+It may not be apparent to somebody how to add lists in a content management system WYSIWYG editor, thus causing them to just visually create the list of items (for example using the bullet point shown in the previous example).
 
 #### Content editor skill gaps
 
