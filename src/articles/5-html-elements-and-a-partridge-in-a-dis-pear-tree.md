@@ -20,7 +20,7 @@ A button is often used to toggle or activate some dynamic functionality for a us
 HTML includes the `<button>` element. This tells people that it can be interacted with and can help communicate the state of a component. By default, it is focusable, has key events, and comes with some browser default styles.
 
 ```html
-<button>I'm a real button</button>
+<button type="button">I'm a real button</button>
 ```
 
 Here we have some default browser styling making it *look like a button*, have focus behavior handled for us, and have key events mapped to it (`click`, `keyup`, `keydown`, etc) making it *act like a button*. Because **it is a button!**
