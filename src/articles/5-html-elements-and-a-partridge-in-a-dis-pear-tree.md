@@ -218,7 +218,7 @@ In some content language formats, such as markdown, lists can be added by using 
 
 Educating content editors on using semantic markup can be an important part of ensuring that semantic, accessible content is being added to a site. Despite designing and building an accessible experience, this work could be undone by fundamental knowledge gaps when adding content such as blog posts, case studies, etc if they are handled through a CMS. Link text, image alt text, heading structure, correct element usage, etc can all have detrimental effects on a person's experience.
 
-If the importance of using semantic and accessible elements and structure is lost on somebody, it can be useful to remind people that it can have many benefits, for example SEO, and readability. Jeremy Keith has an interesting thought on [doing the right things for the wrong reason](https://adactio.com/journal/18199).
+If the importance of using semantic and accessible elements and structure is lost on somebody, it can be useful to remind people that it can have many benefits; for example SEO and readability. Jeremy Keith has an interesting thought on [doing the right things for the wrong reason](https://adactio.com/journal/18199).
 
 End of tangent.
 
