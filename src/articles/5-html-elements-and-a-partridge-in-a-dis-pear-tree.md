@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: 5 HTML elements and a partridge in a despair tree
+title: 5 HTML elements and a partridge in a dis-pear tree
 socialImage: /images/social-share-default.jpg
 date: 2022-09-23T11:32:47.946Z
 tags:
@@ -286,7 +286,7 @@ Other benefits native elements can offer would also have to be manually handled,
 
 ### Other form element tips
 
-OK, so these do push this article over the 5 elements specified in the title. *However*, due to the number of times these issues come up on forms, and how low-hanging, high-impact they can be to fix, I felt the need to mention them.
+OK, so these do push this article over the 5 elements specified in the title. *However*, due to the number of times these issues come up on forms, and how low-hanging, high-impact they can be to fix, let's quickly mention them.
 
 #### Accessible input names
 
