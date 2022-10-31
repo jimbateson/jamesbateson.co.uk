@@ -158,7 +158,7 @@ Going back to how we can use `<nav>` and more semantic elements to start to crea
 ```
 Here we're using nested unordered lists to mark up the second level of navigation, meaning that visually and semantically, the different levels of the menu item are related to each other, even without CSS and JavaScript loading.
 
-You might be asking "but there is ARIA in there now, and you said we didn't need any?". This is true, but we can use ARIA in the appropriate way to **enhance** the experience for people using assistive technology; we just shouldn’t solely rely on its ‘role’ attribute to communicate that it's a navigation in the first place. Of course JavaScript will also be needed to toggle some of these attributes as well. But by default, without any of this our markup is semantic and accessible.
+You might be asking "but there is ARIA in there now, and you said we didn't need any?". This is true, but we can use ARIA in the appropriate way to **enhance** the experience for people using assistive technology; we just shouldn’t solely rely on its ‘role’ attribute to communicate that it's a navigation in the first place. Of course JavaScript will also be needed to toggle some of these attribute, but, by default, without any of this our markup is semantic and accessible.
 
 For a more detailed guide to building a semantic and accessible navigation, check out [the web.dev navigation article by Manuel](https://web.dev/website-navigation/).
 
