@@ -27,7 +27,7 @@ Here we have some default browser styling making it *look like a button*, have f
 
 <button type="button">I'm a real button</button>
 
-Unfortunately, a pattern that is all too common, and used in the wrong circumstances is to turn a non-interactive element into a faux button.
+Unfortunately, a pattern that is all too common–and used in the wrong circumstances–is to turn a non-interactive element into a faux button.
 
 This will often be achieved with an ARIA role:
 
