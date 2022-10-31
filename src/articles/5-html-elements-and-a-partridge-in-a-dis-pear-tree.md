@@ -93,13 +93,13 @@ The more complex and ARIA-heavy these custom components are—a custom select be
 
 Many accessibility issues can be solved during the design phase. The barriers we create are designed in, and the more we can shift the conversation and responsibility of accessibility to earlier in the product lifecycle, the better (often referred to as shifting left).
 
-Constant and efficient communication between designers and developers can play a huge part in this. During sessions such as a design to dev handover, or [accessibility annotation pairing](https://www.figma.com/community/file/953682768192596304), it could be a great time to have a conversation about how a certain component design might lead to extra complexity, and to see if a native HTML element might be able to fit into the design.
+Constant and efficient communication between designers and developers can play a huge part in this. During sessions such as a design to developer handover, or [accessibility annotation pairing](https://www.figma.com/community/file/953682768192596304), it could be a great time to have a conversation about how a certain component design might lead to extra complexity, and to see if a native HTML element might be able to fit into the design.
 
 Not only could this help educate a designer when it comes to semantics and accessibility considerations for future work, but it could also stop accessibility issues from getting to development or even to further down the line, when fixes/changes become much more expensive, or, even worse, end up unintentionally excluding people in production.
 
 ### Help on the way?
 
-[The Open UI project](https://open-ui.org) is trying to make it easier for designers/developers to both use native controls for elements like `<select>` but have the styling and functionality freedom that often turns people to using more complex custom solutions that can be inaccessible:
+[The Open UI project](https://open-ui.org) is trying to make it easier for designers/developers to both use native controls for elements like `<select>` and to have the styling and functionality freedom that often turns people to using more complex custom solutions that can be inaccessible:
 
 > The purpose of Open UI to the web platform is to allow web developers to style and extend built-in web UI controls, such as `<select>` dropdowns, checkboxes, radio buttons, and date/color pickers.
 >
