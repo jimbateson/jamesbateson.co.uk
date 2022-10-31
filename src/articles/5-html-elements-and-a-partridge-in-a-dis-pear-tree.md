@@ -9,7 +9,7 @@ tags:
 ---
 HTML is a beautiful programming language. It comes with many out-of-the-box accessibility benefits—it conveys semantic meaning to assistive technology, enabling people to consume content and complete often important journeys that they may not be able to do outside of the web. So why is all that goodness we can get for free ignored so often?
 
-To expand on that point a little, why do we ignore native HTML elements that will tell people exactly what their purpose is and enable them to interact with it, and use overly complex ARIA-laden JavaScript solutions? Some of this may come down to how something is designed, while in other cases it may be misunderstanding/confusion or copied-and-pasted bad practices. In this article, we'll look at 5 common issues where semantic HTML has been ignored.
+To expand on that point a little, why do we ignore native HTML elements that will tell people exactly what their purpose is and enable them to interact with it, and use overly complex ARIA-laden JavaScript solutions? Some of this may come down to how something is designed, while in other cases it may be misunderstanding/confusion or copied-and-pasted bad practices. In this article, we'll look at 5 common instances when semantic HTML is ignored.
 
 ## `<button>`
 
