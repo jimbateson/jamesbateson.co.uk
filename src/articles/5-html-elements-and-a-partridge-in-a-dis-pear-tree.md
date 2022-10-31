@@ -256,7 +256,7 @@ The `<fieldset>` and `<legend>` elements are a great way to break up more comple
 </form>
 ```
 
-The `<fieldset>` element implicitly communicates a role of `group`—useful for grouping logically related items, and the `<legend>` provides the 'caption' or accessible name for it. Thus, communicating to assistive technology such as screen readers that the fields within are related and providing a label to announce.
+The `<fieldset>` element implicitly communicates a role of `group`—useful for grouping logically related items-and the `<legend>` provides the 'caption' or accessible name for it thus, communicating to assistive technology such as screen readers that the fields within are related and providing a label to announce.
 
 Here's an example seen recently on a documentation site of using non-semantic elements to do this:
 
