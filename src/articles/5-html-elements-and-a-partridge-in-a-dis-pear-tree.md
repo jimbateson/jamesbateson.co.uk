@@ -79,7 +79,7 @@ Whilst it may be doable, let's consider a few reasons it might still be better t
 
 #### Future developer readability
 
-Whilst a more custom and complex approach may make sense to one developer who has followed an example/tutorial to build the component. A developer picking up bugs/changes/feature requests in the future may not have as good of an understanding around how all the elements have been set up and what their roles are supposed to be.
+Whilst a more custom and complex approach may make sense to one developer who has followed an example/tutorial to build the component, a developer picking up bugs/changes/feature requests in the future may not have as good of an understanding around how all the elements have been set up and what their roles are supposed to be.
 
 Although this could be solved with sufficient documentation, it's still extra work for somebody else to get up to speed with.
 
