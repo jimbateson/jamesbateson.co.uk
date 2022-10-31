@@ -182,9 +182,9 @@ Lists (ordered and unordered) are very common elements used on sites. They both 
 </ol>
 ```
 
-They can help with things such as visually and semantically breaking down complex points, and they can give expectations of important steps to complete or consider. Communicating that a list with a number of items (and possibly links) exists can be important to people using assistive technology, for example, it can communicate how many items are in the list.
+They can help with things such as visually and semantically breaking down complex points, and they can give expectations of important steps to complete or consider. Communicating that a list with a number of items (and possibly links) exists can be important to people using assistive technology; for example, it can communicate how many items are in the list.
 
-A common mistake that can be made, is to just visually represent a list with a combination of other HTML elements, for example (taken from HTMLHell):
+A common mistake that can be made is to just visually represent a list with a combination of other HTML elements; for example (taken from HTMLHell):
 
 ```html
 <p>
