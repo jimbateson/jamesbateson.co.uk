@@ -218,7 +218,7 @@ In some content language formats, such as markdown, lists can be added by using 
 
 Educating content editors on using semantic markup can be an important part of ensuring that semantic, accessible content is being added to a site. Despite designing and building an accessible experience, this work could be undone by fundamental knowledge gaps when adding content such as blog posts, case studies, etc if they are handled through a CMS. Link text, image alt text, heading structure, correct element usage, etc can all have detrimental effects on a person's experience.
 
-If the importance of using semantic and accessible elements and structure is lost on somebody, it can be useful to remind people that it can have many benefits; for example SEO and readability. Jeremy Keith has an interesting thought on [doing the right things for the wrong reason](https://adactio.com/journal/18199).
+If the importance of using semantic and accessible elements and structure is lost on somebody, it can be useful to remind people that it can have many benefits; for example, SEO and readability. Jeremy Keith has an interesting thought on [doing the right things for the wrong reason](https://adactio.com/journal/18199).
 
 End of tangent.
 
@@ -283,7 +283,7 @@ This would result in a very similar experience to the fieldset and legend patter
 
 The issue with examples like this being included on documentation sites is that it runs the risk of being copied and pasted as an example, and then becoming habits in that codebase.
 
-Other benefits native elements can offer would also have to be manually handled, for example `<fieldset>` can take a `disabled` attribute, which would make all child input controls disabled.
+Other benefits native elements can offer would also have to be manually handled; for example, `<fieldset>` can take a `disabled` attribute, which would make all child input controls disabled.
 
 ### Other form element tips
 
