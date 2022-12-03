@@ -24,7 +24,7 @@ So I have recently moved again into a flat in Castlefield, which I absolutely lo
 When I first moved, I couldn't imagine embracing the busy city center lifestyle, but Manchester is very much starting to feel like home now.
 
 ## Running
-My running this year has been overall quite good. I completed my first ever ultra marathon in May when I took part in the The Lap (a full lap of Lake Windermere). Although the training and the event were physically and mentally tough, completing it is honestly one of the best experiences of my life. I set myself a goal of completeing the 47 miles and ~10,000 ft of elevation in under 12 hours, and finished in 11 hours 30 minutes!
+My running this year has been overall quite good. I completed my first ever ultra marathon in May when I took part in the The Lap (a full lap of Lake Windermere). Although the training and the event were physically and mentally tough, completing it is honestly one of the best experiences of my life. I set myself a goal of completing the 47 miles and ~10,000 ft of elevation in under 12 hours, and finished in 11 hours 30 minutes!
 
 After the event, I think somewhat understandably, but also frustratingly my running has dropped off. It has been getting me a bit down that I an tell my fitness isn't what it was and the motivation and enjoyment just hasn't been there. however, the last few weeks I've started to pick things up again, feeling motivated to get out and enjoying myself again.
 
@@ -42,7 +42,14 @@ This is something I could not have imagined being able to do before I joined Cod
 
 These have all been accessibility related, and although I've still got a long way to go with my confidence and delivery of these, it's been a really big step for me that I'm pretty proud of.
 
-## Mental health
-Towards the start of the year and when trianing for my ultramarathon, this was actually improving a bit. However, the last 6 months our so, it's really taken a hit again.
+## Public writing
+Another goal that I've been working towards this year is to make some open source blog writing experience. I've had two articles accepted and am currently well on with making sure they're ready to be published:
 
-I'm probably finishing the year with it as low as it's been. I have recently started some counselling and trying some more medication, so hopefully I can try and turn this around and be more positive next year. Just need this year to be over.
+- How to make an accessible nav with dropdowns (A11y Project)
+- 5 HTML elements. And a partidge in a despair tree (HTMHell) 
+
+
+## Mental health
+Towards the start of the year and when training for my ultra marathon, this was actually improving a bit. However, the last 6 months our so, it's really taken a hit again.
+
+I'm probably finishing the year with it as low as it's been. I have recently started some counseling and trying some more medication, so hopefully I can try and turn this around and be more positive next year. Just need this year to be over.
