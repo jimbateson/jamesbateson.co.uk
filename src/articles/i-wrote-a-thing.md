@@ -8,7 +8,7 @@ tags:
 ---
 One of my goals this year was to try and write 3 articles for public blogs. I've been trying to improve my confidence through public speaking, and wanted to also try with my writing.
 
-Back when Twitter was a more welcoming space for people, [Manuel Matuzovic](https://www.matuzo.at/) Tweeted about an advent calender he was planning for the HtmHell website. An article about HTML each day in December. They were looking for submissions via a title and brief summary of what the article would be about.
+Back when Twitter was a more welcoming and inclusive space for people, [Manuel Matuzovic](https://www.matuzo.at/) Tweeted about an advent calender he was planning for the HtmHell website. An article about HTML each day in December. They were looking for submissions via a title and brief summary of what the article would be about.
 
 I'd had an idea for an article for a while that fit this brief perfectly, and even thought of a Christmas based pun for its title. So I submitted my idea, and to be honest, didn't expect to get accepted.
 
