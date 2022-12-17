@@ -13,7 +13,7 @@ Back when Twitter was a more welcoming space for people, [Manuel Matuzovic](http
 I'd had an idea for an article for a while that fit this brief perfectly, and even thought of a Christmas based pun for its title. So I submitted my idea, and to be honest, didn't expect to get accepted.
 
 ## The idea
-* Title: 5 HTML elements. And a partridge in a pear tree.
+* Title: 5 HTML elements. And a partridge in a dispair tree.
 * Summary: Talk about 5 native HTML elements that are often ignored in place of more complex, often ARIA-laden, solutions.
 
 The 5 elements were:
