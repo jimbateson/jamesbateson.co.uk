@@ -27,10 +27,10 @@ The 5 elements were:
 ## So did it get published?
 It did, yesterday (day 16)!
 
-So rather than exmplain more about the article and each element, [here's a link to the article](https://www.htmhell.dev/adventcalendar/2022/16/) to read it for yourself!
+So rather than explain more about the article and each element, [here's a link to the article](https://www.htmhell.dev/adventcalendar/2022/16/) to (please) read it for yourself!
 
 ## How was it received?
-I had pre-publish jitters all up until the day to be honest, they got worse each day as I saw the caliber of every article, and the amazing ability of the authors.
+I had pre-publish jitters all up until the day to be honest, they got worse each day as I saw the caliber of every article, and the amazing ability of the authors. Imposter syndrome is bad at the moment.
 
 Going off pure Twitter engagement (likes etc), it perfromred poorly, which I kind of expected.
 
