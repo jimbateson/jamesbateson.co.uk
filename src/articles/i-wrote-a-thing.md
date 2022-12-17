@@ -32,12 +32,12 @@ So rather than explain more about the article and each element, [here's a link t
 ## How was it received?
 I had pre-publish jitters all up until the day to be honest, they got worse each day as I saw the caliber of every article, and the amazing ability of the authors. Imposter syndrome is bad at the moment.
 
-Going off pure Twitter engagement (likes etc), it perfromred poorly, which I kind of expected.
+Going off pure Twitter engagement (likes etc), it performed poorly, which I kind of expected.
 
 But I'm trying to remind myself, that even if one person takes something from it, and thinks about using more semnatic, accessible HTML it will be a massive win.
 
 ## Thanks!
-However, unpopular it might have been. I wanted to say a massive thank you to Manuel for accepting the article idea, and giving me a chance to write my first post that people might actually read, for a site/blog that I have long admired.
+However unpopular it might have been. I wanted to say a massive thank you to Manuel for accepting the article idea, and giving me a chance to write my first post that people might actually read, for a site/blog that I have long admired.
 
 Also to a couple of people that proofed the article for me. Stef Lis, a brilliant front end engineer at Code Computerlove, and Todd Libby, an accessibility expert that I have followed for many years and a learnt a lot from.
 
@@ -45,4 +45,4 @@ Also to a couple of people that proofed the article for me. Stef Lis, a brillian
 
 Overall, I'm super proud and chuffed of myself. First work isn't always going to be the best, but I feel it was a great starting point and expereince for me that I can learn from and build upon.
 
-I've got another article in the amends phase for the [The A11y Project](a11yproject.com/) on how to go sbout creating an accessible <code>&lt;nav&gt;</code> with dropdowns. So hopefully I can try and make time to get those done before the year is out and get some more expereince with the pre-publish jitters!
+I've got another article in the amends phase for the [The A11y Project](a11yproject.com/) on how to create an accessible <code>&lt;nav&gt;</code> with dropdowns. So hopefully I can try and make time to get those done before the year is out and get some more expereince with the pre-publish jitters!
