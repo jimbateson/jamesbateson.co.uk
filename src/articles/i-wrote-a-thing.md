@@ -45,4 +45,4 @@ Also to a couple of people that proofed the article for me. Stef Lis, a brillian
 
 Overall, I'm super proud and chuffed of myself. First work isn't always going to be the best, but I feel it was a great starting point and expereince for me that I can learn from and build upon.
 
-I've got another article in the amends phase for the [The A11y Project](a11yproject.com/) on how to create an accessible <code>&lt;nav&gt;</code> with dropdowns. So hopefully I can try and make time to get those done before the year is out and get some more expereince with the pre-publish jitters!
+I've got another article in the amends phase for the [The A11y Project](https://a11yproject.com/) on how to create an accessible <code>&lt;nav&gt;</code> with dropdowns. So hopefully I can try and make time to get those done before the year is out and get some more expereince with the pre-publish jitters!
