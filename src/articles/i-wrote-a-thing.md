@@ -8,7 +8,7 @@ tags:
 ---
 One of my goals this year was to try and write 3 articles for public blogs. I've been trying to improve my confidence through public speaking, and wanted to also try with my writing.
 
-Back when Twitter was a more welcoming and inclusive space for people, [Manuel Matuzovic](https://www.matuzo.at/) Tweeted about an advent calender he was planning for the HtmHell website. An article about HTML each day in December. They were looking for submissions via a title and brief summary of what the article would be about.
+Back when Twitter was a more welcoming and inclusive space for people, [Manuel Matuzovic](https://www.matuzo.at/) Tweeted about an advent calendar he was planning for the HtmHell website. An article about HTML each day in December. They were looking for submissions via a title and brief summary of what the article would be about.
 
 I'd had an idea for an article for a while that fit this brief perfectly, and even thought of a Christmas based pun for its title. So I submitted my idea, and to be honest, didn't expect to get accepted.
 
@@ -34,7 +34,7 @@ I had pre-publish jitters all up until the day to be honest, they got worse each
 
 Going off pure Twitter engagement (likes etc), it performed poorly, which I kind of expected.
 
-But I'm trying to remind myself, that even if one person takes something from it, and thinks about using more semnatic, accessible HTML it will be a massive win.
+But I'm trying to remind myself, that even if one person takes something from it, and thinks about using more semantic, accessible HTML it will be a massive win.
 
 ## Thanks!
 However unpopular it might have been. I wanted to say a massive thank you to Manuel for accepting the article idea, and giving me a chance to write my first post that people might actually read, for a site/blog that I have long admired.
@@ -43,6 +43,6 @@ Also to a couple of people that proofed the article for me. Stef Lis, a brillian
 
 ## Was it worth it?
 
-Overall, I'm super proud and chuffed of myself. First work isn't always going to be the best, but I feel it was a great starting point and expereince for me that I can learn from and build upon.
+Overall, I'm super proud and chuffed of myself. First work isn't always going to be the best, but I feel it was a great starting point and experience for me that I can learn from and build upon.
 
-I've got another article in the amends phase for the [The A11y Project](a11yproject.com/) on how to create an accessible <code>&lt;nav&gt;</code> with dropdowns. So hopefully I can try and make time to get those done before the year is out and get some more expereince with the pre-publish jitters!
+I've got another article in the amends phase for the [The A11y Project](https://www.a11yproject.com/) on how to create an accessible <code>&lt;nav&gt;</code> with dropdowns. So hopefully I can try and make time to get those done before the year is out and get some more expereince with the pre-publish jitters!
