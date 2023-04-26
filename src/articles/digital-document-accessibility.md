@@ -33,7 +33,7 @@ As well as being easier to access and show the checker, it also shows a handy li
 
 ## Common issues
 
-So now we can open the checker, what kind of issues are common to see? Although completely different types of communication from something like a website. The easy-to-fix, high-impact issues we say are very similar to those associated with web accessibility.
+So now we can open the checker, what kind of issues are common to see? Although  documents are a slightly different type of communication method from something like a website. The easy-to-fix, high-impact issues we see are similar to those associated with web accessibility.
 
 ### Alternative text
 
