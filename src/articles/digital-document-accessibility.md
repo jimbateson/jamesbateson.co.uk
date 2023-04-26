@@ -13,7 +13,7 @@ At Code we currently use the Microsoft suite of document applications, and these
 
 ## Where to find the accessibility checker
 
-There are a couple of ways you can activate the accessibility checkers.
+There are a couple of ways you can activate the accessibility checker.
 
 ### Through the Review Menu item
 
