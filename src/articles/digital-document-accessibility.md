@@ -138,5 +138,6 @@ Some top-level things to remember:
 
 * https://www.gov.uk/guidance/publishing-accessible-documents
 * https://helpx.adobe.com/uk/acrobat/using/create-verify-pdf-accessibility.html
+* https://gds.blog.gov.uk/2018/07/16/why-gov-uk-content-should-be-published-in-html-and-not-pdf/
 * https://support.microsoft.com/en-us/office/make-your-word-documents-accessible-to-people-with-disabilities-d9bf3683-87ac-47ea-b91a-78dcacb3c66d
 * https://support.microsoft.com/en-us/office/make-your-excel-documents-accessible-to-people-with-disabilities-6cc05fc5-1314-48b5-8eb3-683e49b3e593
