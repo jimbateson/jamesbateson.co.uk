@@ -81,7 +81,7 @@ People using screen readers may wish to navigate documents by the headings, ther
 
 \[screenshot of heading level in Word]
 
-#### Missing and slide titles (Powerpoint)
+#### Missing and duplicate slide titles (Powerpoint)
 
 The content structure of presentations is made up slightly differently, as it's a series of broken-up slides, as opposed to a single document/body of content. However, it's still important to make sure that each slide has an associated title, after all, if these are missing or duplicated how is somebody who wants to quickly navigate the slides supposed to know what they relate to?
 
