@@ -43,7 +43,7 @@ This is the same in digital documents, however, alternative text for these image
 
 ### Adding alternative text
 
-When inserting an image you can secondary click on it, in the menu that opens you should see a "View alt text" menu item. Selecting this will open up a panel in the same area as the main accessibility one. Here you should a texture where you can enter the alternative text you want for the image. There is also a checkbox for marking the image as decorative and then some nice explainer text on why alternative text is important.
+When inserting an image you can secondary click on it, in the menu that opens you should see a "View Alt Text..." menu item. Selecting this will open up a panel in the same area as the main accessibility one. Here you should see a text box where you can enter the alternative text you want for the image. There is also a checkbox for marking the image as decorative and then some nice explainer text on why alternative text is important.
 
 \[Screenshots of image secondary click and then alt text panel]
 
@@ -53,19 +53,19 @@ Choosing when and what to write as alternative text can be trickier than it soun
 
 Objects such as icons, shapes, and background images (in some cases) do not necessarily need to be announced if they offer no relevant and important information, and this is where the decorative checkbox comes in. This can be checked to ensure that accessibility requirements are met but that people do not need to hear about this image.
 
-The decision can be particularly important in digital documents as they often contain images of charts, graphs, tables, and infographics. Showing information that is vital to the document. It is key that these images are described with the content they display, otherwise, people are being excluded for being able to consume the document and may miss out on something vitally important.
+The decision can be particularly important in digital documents as they often contain images of charts, graphs, tables, and infographics. Showing information that is vital to the document. It is key that these images are described with the content they display, otherwise, people are being excluded from being able to consume the document and may miss out on something vitally important.
 
 \[Link about good alt text practices]
 
 ### Watch out for generated alt text
 
-There are a few instances when I've seen images added and the software does its best to add alternative text. Whilst this is quite cool, and no doubt improving with the current trends around AI, I believe that alternative text is something that still needs human context and consideration. The accessibility checker will flag images that have alt text set in this way as a warning, and I would advise that you check these to make sure something nonsensical that is going to mislead somebody has been added.
+There are a few instances when we've seen images added and the software does its best to add alternative text. Whilst this is quite cool, and no doubt improving with the current trends around AI, alternative text is something that still needs human context and consideration. The accessibility checker will flag images that have alt text set in this way as a warning, and it's worth checking these to make sure something nonsensical that is going to mislead somebody has not been added.
 
 ### Colour contrast
 
 Sufficient colour contrast is required so people can easily see the content. It's measured by programmatically checking the contrast between a background and foreground colour (for example text against the background it sits on). There are many automated tools that check this on the web, and the document accessibility checker will also flag errors where they are not sufficient.
 
-Keeping on top of these and checking in often is important, especially if you're creating template documents that may be reused by other people. This one is easy to fix and can have a high impact by ensuring people do not miss vital content.
+Keeping on top of these and checking in often is important, especially if you're creating template documents that may be reused by other people. This one is easy to fix and can have a high impact result by ensuring people do not miss vital content.
 
 As I would also advise with web accessibility, it's generally not a good idea to try and include text over the top of images, it can make finding a good contrast very hard. If this is needed then try and still include a solid background colour behind the copy.
 
@@ -77,7 +77,7 @@ A colleague at Code, Alex Clapperton, has built and released a brilliant contras
 
 Just as content design and structure are an important part of accessibility on the web, the same can be applied to digital documents, after all, they are effectively just larger content pages. In Word you can choose heading levels, this can help visually and hierarchically break up documents, making them easier to read and scan.
 
-People using screen readers may wish to navigate documents by the headings, therefore ensuring they are set, logically ordered, and suitably worded can go a long way to making a document more readable for everybody.
+People using screen readers may wish to navigate documents by the headings, therefore ensuring they are set, logically ordered (heading 1, heading 2, heading 3 for example, not skipping levels), and suitably worded can go a long way to making a document more readable for everybody.
 
 \[screenshot of heading level in Word]
 
@@ -93,7 +93,7 @@ The most common examples of missing slide titles I see are when the slide just c
 
 ##### Setting hidden slide titles
 
-From the Check Accessibility screen, you can set slide titles in a couple of ways. You can assign a slide a title (if there is some existing text for example) or you can set hidden slide titles too. Setting this will show the title you enter *above* the slide. When you present it will not be seen, crucially, however, it does give the slide an associated title.
+From the accessibility checking toolbar, you can set slide titles in a couple of ways. You can assign a slide a title (if there is some existing text for example) or you can set hidden slide titles too. Setting this will show the title you enter *above* the slide. When you present it will not be seen, crucially, however, it does give the slide an associated title.
 
 \[Screenshot of the slide title menu and a visually hidden title]
 
@@ -115,7 +115,7 @@ To re-order the items, you can drag them around to re-order, this doesn't affect
 
 ## A note on PDFs
 
-Many websites link to or offer downloads of PDF documents that contain important information. PDFs can be notoriously difficult to make accessible. There are ways to check the accessibility of PDFs using tools such as Adobe Acrobat, but it might not be possible to use software like this, and can often have large quantities of large, complex PDFs.
+Many websites link to or offer downloads of PDF documents that contain important information. PDFs can be notoriously difficult to make accessible and require a lot of upkeep and maintenance. There are ways to check the accessibility of PDFs using tools such as Adobe Acrobat, but it might not be possible to use software like this, and can often have large quantities of large, complex PDFs.
 
 The reason this section has been included slightly separately is that would generally recommend asking if rather than using a PDF to display information a static page on the website would be a better alternative. Not only does it save people from having to download a document possibly coming at a larger data cost, but as long as the site is accessible, it will inherently be easier to make the information accessible.
 
