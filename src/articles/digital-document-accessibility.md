@@ -109,6 +109,10 @@ This displays all the elements on the slide that would be read out and the order
 
 To re-order the items, you can drag them around to re-order, this doesn't affect the order visually.
 
+\[Screenshot of reading order panel]
+
+\[Link to more information on reading order]
+
 ## A note on PDFs
 
 Many websites link to or offer downloads of PDF documents that contain important information. PDFs can be notoriously difficult to make accessible. There are ways to check the accessibility of PDFs using tools such as Adobe Acrobat, but it might not be possible to use software like this, and can often have large quantities of large, complex PDFs.
@@ -130,4 +134,9 @@ Some top-level things to remember:
 
 ## Further reading
 
-\[Collate list of useful links related to post - how to make accessible spreadsheets, pdfs, etc]
+\[Collate list of useful links related to post - how to make accessible spreadsheets, pdfs, etc - need to name these links better rather than just urls]
+
+* https://www.gov.uk/guidance/publishing-accessible-documents
+* https://helpx.adobe.com/uk/acrobat/using/create-verify-pdf-accessibility.html
+* https://support.microsoft.com/en-us/office/make-your-word-documents-accessible-to-people-with-disabilities-d9bf3683-87ac-47ea-b91a-78dcacb3c66d
+* https://support.microsoft.com/en-us/office/make-your-excel-documents-accessible-to-people-with-disabilities-6cc05fc5-1314-48b5-8eb3-683e49b3e593
