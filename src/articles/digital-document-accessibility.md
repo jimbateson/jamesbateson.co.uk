@@ -13,7 +13,7 @@ At Code we currently use the Microsoft suite of document applications, and these
 
 ## Where to find the accessibility checker
 
-There are a couple of ways you can activate the accessibility checker.
+There are a couple of ways you can activate the accessibility checker. Once you have it open, make sure that the "Keep accessibility checker running while I work" checkbox is checked.
 
 ### Through the Review Menu item
 
@@ -27,7 +27,7 @@ To take a couple of steps out of the above, you can also pin the accessibility c
 
 To do this (if you don't already see accessibility there) secondary click on the bottom toolbar (where the language etc is shown) and choose to show the accessibility checker.
 
-As well as being easier to access and show the checker, it also shows a handy little status as you create your document. Either "Accessibility: Good to go" or "Accessibility: Needs investigating" along with an icon.
+As well as being easier to access and show the checker, it also shows a handy little status as you create your document. Either "Accessibility: Good to go" or "Accessibility: Investigate" along with an icon.
 
 \[Screenshot of the status bar in both states?]
 
