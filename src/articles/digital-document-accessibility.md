@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: Digital document accessibility
+title: An intro to digital document accessibility
 date: 2023-04-26T04:21:15.692Z
 tags:
   - Accessibility
@@ -20,6 +20,8 @@ There are a couple of ways you can activate the accessibility checker. Once you 
 You can open the accessibility sidebar by using the "Review" menu item and then using the "Check Accessibility" menu item. You should then see any accessibility errors, warnings, and tips shown in a side panel.
 
 \[Screenshot of review menu and Check accessibility highlighted]
+
+![Screenshot of the Powerpoint toolbar, the Review item is selected and displaying the options underneath.](/images/screenshot-2023-04-28-at-16.19.32.png)
 
 ### Through the helper toolbar
 
