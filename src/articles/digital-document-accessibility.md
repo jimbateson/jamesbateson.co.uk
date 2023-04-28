@@ -49,13 +49,13 @@ When inserting an image you can secondary click on it, in the menu that opens yo
 
 ### When is it needed and when is it decorative?
 
-Choosing when and what to write as alternative text can be trickier than it sounds. As a general rule of thumb, if the image gives the supporting content extra information, context, or emotion then it should be described with alternative text so that people using screen readers do not miss out on it.
+Choosing when and what to write as alternative (alt) text can be trickier than it sounds. As a general rule of thumb, if the image gives the supporting content extra information, context, or emotion then it should be described with alternative text so that people using screen readers do not miss out on it.
 
 Objects such as icons, shapes, and background images (in some cases) do not necessarily need to be announced if they offer no relevant and important information, and this is where the decorative checkbox comes in. This can be checked to ensure that accessibility requirements are met but that people do not need to hear about this image.
 
 The decision can be particularly important in digital documents as they often contain images of charts, graphs, tables, and infographics. Showing information that is vital to the document. It is key that these images are described with the content they display, otherwise, people are being excluded from being able to consume the document and may miss out on something vitally important.
 
-\[Link about good alt text practices]
+[A11y Project - using alt text properly](https://www.a11yproject.com/posts/alt-text/)
 
 ### Watch out for generated alt text
 
