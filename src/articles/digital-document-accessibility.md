@@ -11,6 +11,17 @@ At Code we currently use the Microsoft suite of document applications, and these
 
 **NOTE**: In this article, I am going to be using Powerpoint as the example, however, the techniques to check for accessibility are the same in other Microsoft document editing applications.
 
+## Windows app vs Mac app vs web app
+
+It's worth mentioning upfront that after helping other Computerlovers with starting to think about digital document accessibility, it has become apparent that there are a few subtle, but important differences in the ways accessibility in handled across the different OS.
+
+Differences will be noted whe discussing the specific points, but here's a summary overview of the key ones we have found:
+
+## Windows
+
+* In PowerPoint there is both a Reading order and Arrange order. Making a distinct differetation between visual and read out order. This is organised from top-bottom rather that bottom-top
+* The Windows App allows you to upload subtitle tracks to videos added to PowerPoint
+
 ## Where to find the accessibility checker
 
 There are a couple of ways you can activate the accessibility checker. Once you have it open, make sure that the "Keep accessibility checker running while I work" checkbox is checked.
