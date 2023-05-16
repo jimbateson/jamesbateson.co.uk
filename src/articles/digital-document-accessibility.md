@@ -56,7 +56,7 @@ This is the same in digital documents, however, alternative text for these image
 
 When inserting an image you can secondary click on it, in the menu that opens you should see a "View Alt Text..." menu item. Selecting this will open up a panel in the same area as the main accessibility one. Here you should see a text box where you can enter the alternative text you want for the image. There is also a checkbox for marking the image as decorative and then some nice explainer text on why alternative text is important.
 
-\[Screenshots of image secondary click and then alt text panel]
+![Screenshot of the aalt text panel open in Powerpoint.](/images/screenshot-2023-05-16-at-20.18.42.png)
 
 ### When is it needed and when is it decorative?
 
@@ -71,6 +71,12 @@ The decision can be particularly important in digital documents as they often co
 ### Watch out for generated alt text
 
 There are a few instances when we've seen images added and the software does its best to add alternative text. Whilst this is quite cool, and no doubt improving with the current trends around AI, alternative text is something that still needs human context and consideration. The accessibility checker will flag images that have alt text set in this way as a warning, and it's worth checking these to make sure something nonsensical that is going to mislead somebody has not been added.
+
+To generate the alt text you can you use the "Generate alt text for me" button.
+
+### Web application versions and alt text
+
+From experience trying to use the web version of Powerpoint, it doesn't seem possible to mark an image as decorative.
 
 ### Colour contrast
 
