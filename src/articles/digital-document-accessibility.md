@@ -86,9 +86,9 @@ Keeping on top of these and checking in often is important, especially if you're
 
 As I would also advise with web accessibility, it's generally not a good idea to try and include text over the top of images, it can make finding a good contrast very hard. If this is needed then try and still include a solid background colour behind the copy.
 
-\[Screenshot of contrast issue being shown]
+Whislt there doesn't seem to be any in built tool for checking the contrast rating (the issues are just reported as "Hard-to-read to contrast"), there are many tools available online that you can use to check.
 
-A colleague at Code, Alex Clapperton, has built and released a brilliant contrast checker that can be used on the web and as a Chrome extension.\[link to Alex Clapperton's colour contrast tool for checking contrasts] and you can also download apps that allow you to check contrast anywhere on your screen (so when it other apps etc) \[link to desktop contrast app]
+A colleague at Code, Alex Clapperton, has built and released a \[brilliant contrast checker- colourcontrast.cc](https://colourcontrast.cc/) that can be used on the web and as a Chrome extension. And you can also download apps that allow you to check contrast anywhere on your screen (so when in other apps etc) for example the \[tpgi color contrast analyser](https://www.tpgi.com/color-contrast-checker/).
 
 ### Heading structure
 
