@@ -132,9 +132,9 @@ This displays all the elements on the slide that would be read out and the order
 
 To re-order the items, you can drag them around to re-order, this doesn't affect the order visually.
 
-\[Screenshot of reading order panel]
+![Screenshot showing the accessibility selection pane open in Microsoft PowerPoint.](/images/screenshot-2023-05-17-at-20.23.27.png)
 
-\[Link to more information on reading order]
+[Find out more on slide reading order](https://support.microsoft.com/en-us/office/make-slides-easier-to-read-by-using-the-reading-order-pane-863b5c1c-4f19-45ec-96e6-93a6457f5e1c)
 
 ## A note on PDFs
 
