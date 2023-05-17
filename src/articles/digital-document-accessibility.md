@@ -11,24 +11,9 @@ At Code we currently use the Microsoft suite of document applications, and these
 
 **NOTE**: In this article, I am going to be using Powerpoint as the example, however, the techniques to check for accessibility are the same in other Microsoft document editing applications.
 
-## Windows app vs Mac app vs web app
-
-It's worth mentioning upfront that after helping other Computerlovers with starting to think about digital document accessibility, it has become apparent that there are a few subtle, but important differences in the ways accessibility in handled across the different OS.
-
-Differences will be noted whe discussing the specific points, but here's a summary overview of the key ones we have found:
-
-## Windows
-
-* In PowerPoint there is both a Reading order and Arrange order. Making a distinct differetation between visual and read out order. This is organised from top-bottom rather that bottom-top
-* The Windows App allows you to upload subtitle tracks to videos added to PowerPoint
-
-## Where to find the accessibility checker
-
-There are a couple of ways you can activate the accessibility checker. Once you have it open, make sure that the "Keep accessibility checker running while I work" checkbox is checked.
-
 ### Through the Review Menu item
 
-You can open the accessibility sidebar by using the "Review" menu item and then using the "Check Accessibility" menu item. You should then see any accessibility errors, warnings, and tips shown in a side panel.
+You can open the accessibility pane by using the "Review" menu item and then using the "Check Accessibility" menu item. You should then see any accessibility errors, warnings, and tips shown in a side panel.
 
 ![Screenshot of the Powerpoint toolbar, the Review item is selected and displaying the options underneath.](/images/screenshot-2023-04-28-at-16.19.32.png)
 
@@ -39,6 +24,8 @@ To take a couple of steps out of the above, you can also pin the accessibility c
 To do this (if you don't already see accessibility there) secondary click on the bottom toolbar (where the language etc is shown) and choose to show the accessibility checker.
 
 As well as being easier to access and show the checker, it also shows a handy little status as you create your document. Either "Accessibility: Good to go" or "Accessibility: Investigate" along with an icon.
+
+Tip: You can also toggle the "Keep accessibility checker running white I work" checkbox off and and to hide/show in the status bar.
 
 ![Screenshot of the Powerpoint helper toolbar. Showing Accessibility Checker as being selected to show.](/images/screenshot-2023-04-28-at-16.20.08.png)
 
@@ -135,6 +122,14 @@ To re-order the items, you can drag them around to re-order, this doesn't affect
 ![Screenshot showing the accessibility selection pane open in Microsoft PowerPoint.](/images/screenshot-2023-05-17-at-20.23.27.png)
 
 [Find out more on slide reading order](https://support.microsoft.com/en-us/office/make-slides-easier-to-read-by-using-the-reading-order-pane-863b5c1c-4f19-45ec-96e6-93a6457f5e1c)
+
+## Emails
+
+Emails for a large part of digital communication in nearly all organisations. Although many can simpily be quick notes or small blocks of text, it's still important that they are accessible and inclusive for people that may need to know about the information they contain.
+
+Outlook also has the accessibility pane to check your email content. This can be found by using the three dots at the top right when composing an email.
+
+![Screenshot showing the check accessibility menu item in Microsoft Outlook.](/images/screenshot-2023-05-17-at-21.16.05.png)
 
 ## A note on PDFs
 
