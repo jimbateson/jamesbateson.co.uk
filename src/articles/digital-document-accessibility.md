@@ -116,7 +116,9 @@ Top open the slide content outline, you can select one of the missing slide titl
 
 From the accessibility checking toolbar, you can set slide titles in a couple of ways. You can assign a slide a title (if there is some existing text for example) or you can set hidden slide titles too. Setting this will show the title you enter *above* the slide. When you present it will not be seen, crucially, however, it does give the slide an associated title.
 
-\[Screenshot of the slide title menu and a visually hidden title]
+![Screenshot of the accessibility slide title menu open. Displaying options to show a slide title or a hidden slide title.](/images/screenshot-2023-05-17-at-07.55.16.png)
+
+![Screenshot showing how a hidden slide title is placed above the slide it relates to.](/images/screenshot-2023-05-17-at-07.56.15.png)
 
 ### Reading order (Powerpoint)
 
