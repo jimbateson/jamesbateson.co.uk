@@ -153,10 +153,13 @@ Some top-level things to consider:
 
 ## Further reading
 
+Here are some useful articles that explain how you can check accessibility in the software mentioned in this article. Where applicable they cover any differences between the apps on various operating systems.
+
 * [GOV.uk guidance on publishing accessible documents](https://www.gov.uk/guidance/publishing-accessible-documents)
 * [Adobe article on verifying PDF accessibility](https://helpx.adobe.com/uk/acrobat/using/create-verify-pdf-accessibility.html)
 * [GOV.uk blog on why their content should be published in HTML not PDF format](https://gds.blog.gov.uk/2018/07/16/why-gov-uk-content-should-be-published-in-html-and-not-pdf/)
-* [Excellent article explaining the Microsoft office document accessibility checker](https://support.microsoft.com/en-us/office/rules-for-the-accessibility-checker-651e08f2-0fc3-4e10-aaca-74b4a67101c1)—this includes what rules apply to which software. **Well worth reading to familiarise yourself with them**.
+* [Excellent article explaining the Microsoft office document accessibility checker](https://support.microsoft.com/en-us/office/rules-for-the-accessibility-checker-651e08f2-0fc3-4e10-aaca-74b4a67101c1)—this includes what rules apply to the different document types. **Well worth reading to familiarise yourself with them**.
 * [Microsoft PowerPoint accessibility](https://support.microsoft.com/en-us/office/make-your-powerpoint-presentations-accessible-to-people-with-disabilities-6f7772b2-2f33-4bd2-8ca7-dae3b2b3ef25)
 * [Microsoft Word document accessibility](https://support.microsoft.com/en-us/office/make-your-word-documents-accessible-to-people-with-disabilities-d9bf3683-87ac-47ea-b91a-78dcacb3c66d)
 * [Microsoft Excel document accessibility](https://support.microsoft.com/en-us/office/make-your-excel-documents-accessible-to-people-with-disabilities-6cc05fc5-1314-48b5-8eb3-683e49b3e593)
+* [Microsoft Outlook accessibility](https://support.microsoft.com/en-us/office/make-your-outlook-email-accessible-to-people-with-disabilities-71ce71f4-7b15-4b7a-a2e3-cf91721bbacb)
