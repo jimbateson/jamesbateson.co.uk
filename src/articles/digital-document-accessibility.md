@@ -108,7 +108,9 @@ Duplicate slide titles can happen when dedicating sections of presentations to o
 
 The most common examples of missing slide titles I see are when the slide just contains a full image, or a logo, etc and these images have no alternative text and the slide has no title. To somebody using a screen reader, this slide would not be readable and they would miss any information or context it contained.
 
-\[Screenshot of the 'slide content tree']
+Top open the slide content outline, you can select one of the missing slide title errors from the accessibility pane, or use View - Outline menu items.
+
+![Screenshot of the presentation outline view in Microsoft PowerPoint. It shows a number of slides with missing slide titles.](/images/screenshot-2023-05-17-at-07.50.30.png)
 
 ##### Setting hidden slide titles
 
