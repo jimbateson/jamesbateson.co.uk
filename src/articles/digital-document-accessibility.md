@@ -141,18 +141,17 @@ The reason this section has been included slightly separately is that would gene
 
 In this post, we have run through some common accessibility issues that can occur when putting together digital documents. This list is by no means exhaustive, but with continual checking of these documents as we produce them, many can be easy to fix and keep and top of and have a massive impact on making them inclusive and allowing people to consume your content, you never know who may need the information in them one day.
 
-Some top-level things to remember:
+Some top-level things to consider:
 
 * Consider and check alternative text when using images
 * Make sure text designed to be headings, is set as so and that the order is logical
 * In Powerpoint, make sure to set hidden slide titles if no visual title to give the slide an accessible name and try to avoid duplicate slide titles
 * Make sure colour contrast between the text and background is sufficient
 * In Powerpoint check the reading order of slides to ensure this logical
+* Check emails. Especially ones  containing lots of information, templates and ones containing formatting
 * Consider static pages over uploading and using many PDF documents
 
 ## Further reading
-
-\[Collate list of useful links related to post - how to make accessible spreadsheets, pdfs, etc - need to name these links better rather than just urls]
 
 * https://www.gov.uk/guidance/publishing-accessible-documents
 * https://helpx.adobe.com/uk/acrobat/using/create-verify-pdf-accessibility.html
