@@ -96,7 +96,9 @@ Just as content design and structure are an important part of accessibility on t
 
 People using screen readers may wish to navigate documents by the headings, therefore ensuring they are set, logically ordered (heading 1, heading 2, heading 3 for example, not skipping levels), and suitably worded can go a long way to making a document more readable for everybody.
 
-\[screenshot of heading level in Word]
+Word offers styles for document titles, subtitles and then heading levels. These can found in the syles pane, where you can add more levels if needed.
+
+![Screenshot of the styles pane open in Microsoft word. Showing a variety of text styles to pick from.](/images/screenshot-2023-05-17-at-07.45.29.png)
 
 #### Missing and duplicate slide titles (Powerpoint)
 
