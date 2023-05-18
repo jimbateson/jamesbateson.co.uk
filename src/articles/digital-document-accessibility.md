@@ -139,6 +139,27 @@ Many websites link to or offer downloads of PDF documents that contain important
 
 The reason this section has been included slightly separately is that would generally recommend asking if rather than using a PDF to display information a static page on the website would be a better alternative. Not only does it save people from having to download a document possibly coming at a larger data cost, but as long as the site is accessible, it will inherently be easier to make the information accessible.
 
+## Differences in Microsoft Office OS apps
+
+One of the things I've personally found most furstrating when trying to both learn more about digital document accessibility, demo it, and pass that knowledge on, is the differences in features the applications offer from Mac to Windows to Web versions.
+
+I beleive that accessibility should be the core of any product, and to not include some across different OS versions is highly frustrating.
+
+Here are some examples that I've come across and to watch out for:
+
+### PowerPoint
+
+* In the Mac app, it doesn't appear possible to control the reading order of slides in the same way you can on Windows, which has its own reading and arrange order
+* In the Windows app you can add subtitles/transcripts to videos, however, in the Mac app you must make sure these are on the video before embedding
+* On the web version, it doesn't seem possible to mark images as decorative when adding alt text
+
+### Outlook
+
+* In the Mac app don't appear to be able to find a all the accessibility options (could be Outlook version)
+* When working in dark mode you only seem to get colour contrast issues being flagged, the tooltip does not show
+
+There is more information on [checking accessibility whilst working in office apps](https://support.microsoft.com/en-gb/office/check-accessibility-while-you-work-in-office-apps-ae9e8ea7-1f22-41af-ad04-cc2919daebae).
+
 ## Summary and considerations
 
 In this post, we have run through some common accessibility issues that can occur when putting together digital documents. This list is by no means exhaustive, but with continual checking of these documents as we produce them, many can be easy to fix and keep and top of and have a massive impact on making them inclusive and allowing people to consume your content, you never know who may need the information in them one day.
