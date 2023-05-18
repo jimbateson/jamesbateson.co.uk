@@ -129,6 +129,8 @@ Emails for a large part of digital communication in nearly all organisations. Al
 
 Outlook also has the accessibility pane to check your email content. This can be found by using the three dots at the top right when composing an email.
 
+In some versions of the app you can also select File > Options > Accessibility and turn on little tooltip accessibility notifications as you compose emails.
+
 ![Screenshot showing the check accessibility menu item in Microsoft Outlook.](/images/screenshot-2023-05-17-at-21.16.05.png)
 
 ## A note on PDFs
