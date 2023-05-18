@@ -35,7 +35,7 @@ So now we can open the checker, what kind of issues are common to see? Although 
 
 ### Alternative text
 
-Alternative text is used to describe to assisitve technology such as screen readers what is in an image. On the web, images are commonly used to support content and convey extra context or emotion, for icons, and also just for visual decoration proving no extra information or context.
+Alternative text is used to describe images to assisitve technology such as screen readers what is in an image. On the web, images are commonly used to support content and convey extra context or emotion, for icons, and also just for visual decoration proving no extra information or context.
 
 This is the same in digital documents, however, alternative text for these images often isn't considered and can be added. Let's look at how this can be done and any considerations that can be made.
 
