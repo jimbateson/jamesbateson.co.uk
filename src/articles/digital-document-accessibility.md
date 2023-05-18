@@ -5,7 +5,7 @@ date: 2023-04-26T04:21:15.692Z
 tags:
   - Accessibility
 ---
-When considering the digital products we design and build, we consider accessibility from the start and throughout, we also communicate important information both internally and externally via digital documents such as presentation decks, word documents, spreadsheets, and PDFs (more on those later though). However, making these accessible can often be forgotten. But how many people could we be excluding by not checking them? We don't know who may one day need to consume the information we present, and how vital this may be to them.
+When considering the digital products we design and build, we consider accessibility from the start and throughout. We also communicate important information both internally and externally via digital documents such as presentation decks, word documents, spreadsheets, and PDFs (more on those later though). However, making these accessible can often be forgotten. But how many people could we be excluding by not checking them? We don't know who may one day need to consume the information we present, and how vital this may be to them.
 
 At Code we currently use the Microsoft suite of document applications, and these all have ways of checking for accessibility. In this article I'm going to run through how these checks can be done, and some common issues that you may find in your documents.
 
