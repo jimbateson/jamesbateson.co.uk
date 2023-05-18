@@ -25,7 +25,7 @@ To do this (if you don't already see accessibility there) secondary click on the
 
 As well as being easier to access and show the checker, it also shows a handy little status as you create your document. Either "Accessibility: Good to go" or "Accessibility: Investigate" along with an icon.
 
-Tip: You can also toggle the "Keep accessibility checker running white I work" checkbox off and and to hide/show in the status bar.
+**Tip**: You can also toggle the "Keep accessibility checker running white I work" checkbox off and and to hide/show in the status bar.
 
 ![Screenshot of the Powerpoint helper toolbar. Showing Accessibility Checker as being selected to show.](/images/screenshot-2023-04-28-at-16.20.08.png)
 
