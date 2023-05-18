@@ -87,7 +87,7 @@ Word offers styles for document titles, subtitles and then heading levels. These
 
 The content structure of presentations is made up slightly differently, as it's a series of broken-up slides, as opposed to a single document/body of content. However, it's still important to make sure that each slide has an associated title, after all, if these are missing or duplicated how is somebody who wants to quickly navigate the slides supposed to know what they relate to?
 
-Duplicate slide titles can happen when dedicating sections of presentations to one topic and having the same slide title repeated and then revealing a bit more information on each slide. If doing this, it may be worth considering using a staggered animation or such to bring this content in.
+Duplicate slide titles can happen when dedicating sections of presentations to one topic and having the same slide title repeated and then revealing a bit more information on each slide. If doing this, it may be worth considering using a staggered animation or such to bring this content in on one slide.
 
 The most common examples of missing slide titles I see are when the slide just contains a full image, or a logo, etc and these images have no alternative text and the slide has no title. To somebody using a screen reader, this slide would not be readable and they would miss any information or context it contained.
 
