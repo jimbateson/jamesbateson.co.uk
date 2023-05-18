@@ -9,7 +9,7 @@ When considering the digital products we design and build, we consider accessibi
 
 At Code we currently use the Microsoft suite of document applications, and these all have ways of checking for accessibility. In this article I'm going to run through how these checks can be done, and some common issues that you may find in your documents.
 
-**NOTE**: In this article, I am going to be using Powerpoint as the example, however, the techniques to check for accessibility are the same in other Microsoft document editing applications.
+**NOTE**: In this article, I am going to be mianly using Powerpoint as the example, however, the techniques to check for accessibility are the same in other Microsoft document editing applications.
 
 ### Through the Review Menu item
 
