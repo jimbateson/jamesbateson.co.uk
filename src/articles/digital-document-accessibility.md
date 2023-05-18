@@ -61,10 +61,6 @@ There are a few instances when we've seen images added and the software does its
 
 To generate the alt text you can you use the "Generate alt text for me" button.
 
-### Web application versions and alt text
-
-From experience trying to use the web version of Powerpoint, it doesn't seem possible to mark an image as decorative.
-
 ### Colour contrast
 
 Sufficient colour contrast is required so people can easily see the content. It's measured by programmatically checking the contrast between a background and foreground colour (for example text against the background it sits on). There are many automated tools that check this on the web, and the document accessibility checker will also flag errors where they are not sufficient.
