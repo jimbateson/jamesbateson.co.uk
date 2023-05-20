@@ -20,7 +20,9 @@ Leilah and I started the conversation at a company-wide skillshare we gave durin
 
 From here we set up a Slack channel where people could ask questions on the champions group, and waitied to see how many people would join! We got around 10 in the first week, which was well beyond expectations.
 
-Setting expectations
+**Tip**: Along with the acessibility champions channel, we also have a general accessibility channel. This is a great idea to encourage people from all disciplines to ask accessibility questions, and there are some great discussions and resources shared on there.
+
+## Setting expectations
 
 Goals
 
