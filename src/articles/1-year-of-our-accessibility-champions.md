@@ -7,7 +7,9 @@ tags:
 ---
 Intro
 
-First up truths
+Where we started
+
+Setting expectations
 
 Goals
 
