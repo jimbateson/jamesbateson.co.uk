@@ -38,6 +38,10 @@ Although this may seem like a negative list for a first meeting. It's important 
 
 ## Goals
 
+We also outlines some goals we'd like to hit withing 6 to 12 months. At this stage these were very high level, and have shifted a little since. Some have been met, some made great progress, whilst others have been unacheivable/unrealsitic. Writing this has actually be very interesting looking back at this first meeting presentation!
+
+![](/images/screenshot-2023-05-22-at-04.47.38.png)
+
 Culture over comformance
 
 Looking internally
