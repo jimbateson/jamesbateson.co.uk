@@ -34,15 +34,9 @@ At our first meeting, we wanted to outline some expectations around the challeng
 5. Being kind to yourself. It’s going to be a long process with obstacles to navigate that may cause friction
 6. Accept that it will be a thankless task/job at times. We’re not doing this for a pat on the back
 
+Although this may seem like a negative list for a first meeting. It's important to be transparent about how difficult it can be to make change on this scale within an organisation, it's not an overnight thing, it will be years of commitment and consistency.
 
-
-
-
-
-
-
-
-Goals
+## Goals
 
 Culture over comformance
 
