@@ -27,6 +27,21 @@ At our first meeting, we wanted to outline some expectations around the challeng
 
 ![](/images/screenshot-2023-05-22-at-04.29.14.png)
 
+1. Curiosity to learn more about people’s experiences with our products and the wider web
+2. Accepting that you don’t know everything and that’s fine. There’s rarely an easy answer with accessibility
+3. Patience will be needed to get everybody onboard with our goals and what we want to do
+4. Being brave and challenge views and be honest and frank with what’s at stake
+5. Being kind to yourself. It’s going to be a long process with obstacles to navigate that may cause friction
+6. Accept that it will be a thankless task/job at times. We’re not doing this for a pat on the back
+
+
+
+
+
+
+
+
+
 Goals
 
 Culture over comformance
