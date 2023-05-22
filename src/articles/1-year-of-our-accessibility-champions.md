@@ -42,6 +42,18 @@ We also outlines some goals we'd like to hit withing 6 to 12 months. At this sta
 
 ![](/images/screenshot-2023-05-22-at-04.47.38.png)
 
+1. Internal accessibility upskilling
+
+2. Accessibility policy, statement, guidelines, and standards
+
+3. Improving our own offering
+
+4. External accessibility upskilling
+
+5. Offering certain accessibility services
+
+6. Internal accessibility culture – hiring people with disabilities
+
 Culture over comformance
 
 Looking internally
