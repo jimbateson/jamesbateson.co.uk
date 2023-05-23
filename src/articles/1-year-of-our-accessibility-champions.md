@@ -80,6 +80,10 @@ Our accessibility policy is in the final draft stage, and as our website is curr
 
 ## Organisation
 
+A benefit with having a diverse set of skills and disciplines as part of the champions is that people can contribute in ways that interest them, and play to their strengths. Anna, a delivery manager at Code has recently joined our champions network. This has led to us having much more focus and accountability in working towards our goals. 
+
+We now have a kanban board and tickets for our goals that are broken down into different categories and from there specific, manageable tasks. Havin a delivery manager also creates a sense of us having a stakeholder, something that is helping with keeping us on track with our tickets.
+
 ## It's not all gone to plan
 
 ## The future
