@@ -54,7 +54,9 @@ We also outlines some goals we'd like to hit within 6 to 12 months. At this stag
 
 6. Internal accessibility culture – hiring people with disabilities
 
-Culture over comformance
+## Culture over comformance
+
+From the start we realised that none of the goals we set would be acheivable if we didn't have people onboard. Therefore the majority of our first year has been trying to instil an accessible and inclusive culture within the studio. 
 
 Looking internally
 
