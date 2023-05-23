@@ -78,7 +78,7 @@ We ran an in-team half-day workshop as part of our Make Change Friday to to look
 Our accessibility policy is in the final draft stage, and as our website is currently being rebuilt, we will be making sure there is a statement on there ASAP after launch.
 
 
-## Organisation
+## Organisation and play to people's strengths
 
 A benefit with having a diverse set of skills and disciplines as part of the champions is that people can contribute in ways that interest them, and play to their strengths. Anna, a delivery manager at Code has recently joined our champions network. This has led to us having much more focus and accountability in working towards our goals. 
 
