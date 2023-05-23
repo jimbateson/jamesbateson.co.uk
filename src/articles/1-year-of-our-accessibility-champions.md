@@ -66,6 +66,16 @@ At Code we atsrted with introducing accessibility fundenemntals across the studi
 
 ## Looking internally
 
+One of the first things we looked for was any exisiting documentation Code had around accessibility and inclusion.
+
+We unfortunataly could not find anything, but this did give us a real opportunity to define what accessibility meant to us and do this as a collective group. We decided a couple of documents would take priority:
+
+* Accessibility policy
+* Accessibility statement
+
+We ran an in-team half-day workshop as part of our Make Change Friday to to look at examples we liked of these documents and plan how we would approach ours, as well as thinking about what accessibility and inclusion meant to us and how we would like to communicate that.
+
+
 ## Organisation
 
 ## It's not all gone to plan
