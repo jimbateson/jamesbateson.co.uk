@@ -56,7 +56,13 @@ We also outlines some goals we'd like to hit within 6 to 12 months. At this stag
 
 ## Culture over comformance
 
-From the start we realised that none of the goals we set would be acheivable if we didn't have people onboard. Therefore the majority of our first year has been trying to instil an accessible and inclusive culture within the studio. 
+From the start we realised that none of the goals we set would be acheivable if we didn't have people onboard. Therefore the majority of our first year has been trying to instil an accessible and inclusive culture within the studio.
+
+When thinking about accessibility, the WCAG (Web Content Accessibility Guidelines) are often what is dicussed. Conforming to a certian level can be an imense challenge, and in my opinion without the understanding, empathy and drive of why, it can be the wrong way of thinking.
+
+The guidelines are just that, a great starting point and baseline for build accessibile products, but they are not the be all and end all when it comes to accessibility.
+
+At Code we atsrted with introducing accessibility fundenemntals across the studio. Why is accessibility important? We did some fun little empathy excercises to get people experiencing and thinking about what it means to face barriers using the web.
 
 ## Looking internally
 
