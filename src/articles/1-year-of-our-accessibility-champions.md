@@ -58,14 +58,14 @@ We also outlines some goals we'd like to hit within 6 to 12 months. At this stag
 
 From the start we realised that none of the goals we set would be acheivable if we didn't have people onboard. Therefore the majority of our first year has been trying to instil an accessible and inclusive culture within the studio. 
 
-Looking internally
+## Looking internally
 
-Organisation
+## Organisation
 
-It's not all gone to plan
+## It's not all gone to plan
 
-The future
+## The future
 
-In summary
+## In summary
 
-Further reading
+## Further reading
