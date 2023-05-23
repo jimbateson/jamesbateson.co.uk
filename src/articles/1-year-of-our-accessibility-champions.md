@@ -75,6 +75,8 @@ We unfortunataly could not find anything, but this did give us a real opportunit
 
 We ran an in-team half-day workshop as part of our Make Change Friday to to look at examples we liked of these documents and plan how we would approach ours, as well as thinking about what accessibility and inclusion meant to us and how we would like to communicate that.
 
+Our accessibility policy is in the final draft stage, and as our website is currently being rebuilt, we will be making sure there is a statement on there ASAP after launch.
+
 
 ## Organisation
 
