@@ -11,7 +11,7 @@ As champions our goal is not to police, or dictate accessibility across the Code
 
 ## Where we started
 
-The idea of the champions started with myself and another front-end engineer, Leilah. We realised that we had shared passion for the topic and wanted to make real change within the studio.
+The idea of the champions started with myself and another front-end engineer, Leilah. We realised that we had shared passion for accessibility and wanted to make real change within the studio.
 
 This is an important part of any company that may wish to start a similar community, finding others that share the passion is key. It doesn't have to be a number of accessibility experts either, and can often be better not to be. A group of experts may become siloed and isolated with their own conversations. However, a goup of people with different skills, in different roles with a shared passion can be a very powerful thing.
 
@@ -43,15 +43,10 @@ We also outlines some goals we'd like to hit within 6 to 12 months. At this stag
 ![](/images/screenshot-2023-05-22-at-04.47.38.png)
 
 1. Internal accessibility upskilling
-
 2. Accessibility policy, statement, guidelines, and standards
-
 3. Improving our own offering
-
 4. External accessibility upskilling
-
 5. Offering certain accessibility services
-
 6. Internal accessibility culture – hiring people with disabilities
 
 ## Culture over comformance
@@ -76,7 +71,6 @@ We unfortunataly could not find anything, but this did give us a real opportunit
 We ran an in-team half-day workshop as part of our Make Change Friday to to look at examples we liked of these documents and plan how we would approach ours, as well as thinking about what accessibility and inclusion meant to us and how we would like to communicate that.
 
 Our accessibility policy is in the final draft stage, and as our website is currently being rebuilt, we will be making sure there is a statement on there ASAP after launch.
-
 
 ## Organisation and play to people's strengths
 
