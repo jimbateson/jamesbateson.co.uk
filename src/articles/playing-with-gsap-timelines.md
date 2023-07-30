@@ -56,7 +56,7 @@ In this example, all timeline children would inherit a `duration` of `1` and a `
 
 ### Properties and callbacks
 
-As well as the defaults object, timelines have their own set of properties you can apply. There are quite a few, so be sure to [read through them out here](https://greensock.com/docs/v3/GSAP/Timeline#h3-special-properties-and-callbacks). However, here are a few that I can see being useful:
+As well as the defaults object, timelines have their own set of properties you can apply. There are quite a few, so be sure to [read through them all here](https://greensock.com/docs/v3/GSAP/Timeline#h3-special-properties-and-callbacks). However, here are a few that I can see being useful:
 
 * `onComplete` - a function that should run when the timeline animation has completed
 * `onRepeat` - same as above but run on each repeat
