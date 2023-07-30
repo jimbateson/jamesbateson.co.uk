@@ -44,7 +44,7 @@ As touched upon in the docs definition, timelines can save repeated code and mak
 
 The defaults object is a great way to save repetition on properties you may want to be the same on all children of the timeline. For example, duration and easing.
 
-``` js
+```js
 const tl = gsap.timeline({ defaults: { duration: 1, ease: 'back' }});
 tl
   .to('.element-1', { rotation: -270 })
@@ -52,7 +52,7 @@ tl
   .to('.element-3', { x: 400, rotation: -180 });
 ```
 
-In this example, all timeline children would inherit a `duration` or `3` and a `back` easing. Much cleaner than defining the same properties and values on each element, plus it means only updating in one place should you wish to.
+In this example, all timeline children would inherit a `duration` of `1` and a `back` easing. Much cleaner than defining the same properties and values on each element, plus it means only updating in one place should you wish to.
 
 ### Properties and callbacks
 
@@ -68,7 +68,7 @@ As well as the defaults object, timelines have their own set of properties you c
 
 By default, a timeline will play in sequence in the order that each element is called, one after the other until finished. You can however have more intricate control over when the animations happen, by passing a position parameter to an item.
 
-``` js
+```js
 tlOut
     .to('.grid__item--1', { x: 0, y: 0, scale: 1.1, rotate: -6, z: 0 })
     .to('.grid__item--2', { x: 8, y: 60, scale: .75, rotate: 6, z: 0 }, '<')
@@ -87,7 +87,7 @@ There are a bunch more examples on the docs site that are worth taking a look at
 
 This isn't something I needed to use as part of my pen, but the idea seems like it might be really handy. You can nest timelines as deeply as you wish, then call them on one 'master' timeline. This seems like a great way to modularise animations, maybe into separate sections for example. Here's the example **from the docs**
 
-``` js
+```js
 function intro() {
 	var tl = gsap.timeline();
 	//...add animations here...
