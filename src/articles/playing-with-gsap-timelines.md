@@ -119,15 +119,4 @@ Building my animated grid pen, I only scratched the surface timelines, but the i
 
 I'll be trying to build some more GSAP related pens over the coming months as I learn more about it, and I'm sure timelines will feature heavily.
 
-As mentioned at the start of the post, I'll put together an article on my basic GSAP learnings so far very soon. 
-
-## Here's one I made earlier
-
-Just for reference, this is the animated grid pen I have been referencing in this article should you wish to see it.
-
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="result" data-user="jim-bateson" data-slug-hash="dyvGaRG" data-preview="true" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Grid animation">
-  <span>See the Pen <a href="https://codepen.io/jim-bateson/pen/dyvGaRG">
-  Grid animation</a> by James Bateson (<a href="https://codepen.io/jim-bateson">@jim-bateson</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+As mentioned at the start of the post, I'll put together an article on my basic GSAP learnings so far very soon.
