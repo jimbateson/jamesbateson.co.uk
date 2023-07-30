@@ -8,13 +8,13 @@ bannerSummary: Passionate, hard-working, reliable and keen to learn.
 ---
 ## Professional Experience
 
-### Front End Engineer at ![Code Computerlove logo](/images/avatars/twitter/963dc030-90.webp) [Code Computerlove](https://www.codecomputerlove.com/)
+### Front End Designer at ![Code Computerlove logo](/images/avatars/twitter/963dc030-90.webp) [Code Computerlove](https://www.codecomputerlove.com/)
 
 #### April 2021 - Present
 
 ##### Manchester, UK
 
-### Front-End Developer at ![Fat Media logo](/images/avatars/twitter/34f7590a-90.webp) [Fat Media](https://www.fatmedia.co.uk/)
+### Front End Developer at ![Fat Media logo](/images/avatars/twitter/34f7590a-90.webp) [Fat Media](https://www.fatmedia.co.uk/)
 
 #### September 2013 - March 2021
 
