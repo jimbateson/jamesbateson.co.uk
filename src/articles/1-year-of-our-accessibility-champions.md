@@ -49,7 +49,7 @@ We also outlines some goals we'd like to hit within 6 to 12 months. At this stag
 5. Offering certain accessibility services
 6. Internal accessibility culture – hiring people with disabilities
 
-## Culture over comformance
+## Culture over compliance
 
 From the start we realised that none of the goals we set would be acheivable if we didn't have people onboard. Therefore the majority of our first year has been trying to instil an accessible and inclusive culture within the studio.
 
@@ -77,6 +77,8 @@ Our accessibility policy is in the final draft stage, and as our website is curr
 A benefit with having a diverse set of skills and disciplines as part of the champions is that people can contribute in ways that interest them, and play to their strengths. Anna, a delivery manager at Code has recently joined our champions network. This has led to us having much more focus and accountability in working towards our goals. 
 
 We now have a kanban board and tickets for our goals that are broken down into different categories and from there specific, manageable tasks. Havin a delivery manager also creates a sense of us having a stakeholder, something that is helping with keeping us on track with our tickets.
+
+A group of people with a passion for accessibility and with different skillsets is, in my opinion, more valuable than a group of accessibility experts being siloed.
 
 ## It's not all gone to plan
 
