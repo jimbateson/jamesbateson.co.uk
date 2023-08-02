@@ -100,6 +100,8 @@ The key has been to be consistent. So even if not everybody can make a meeting, 
 
 ### Budget
 
+To help us test accessibility, we highlighted a few services we would like to use/partner with.
+
 ### Remember to celebrate the wins
 
 ### Workflow changes
