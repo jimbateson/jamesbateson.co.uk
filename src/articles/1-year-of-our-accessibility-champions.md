@@ -72,7 +72,9 @@ We ran an in-team half-day workshop as part of our Make Change Friday to to look
 
 Our accessibility policy is in the final draft stage, and as our website is currently being rebuilt, we will be making sure there is a statement on there ASAP after launch.
 
-### Accessibility onborading
+### Accessibility onboarding
+
+Onboarding is an important part of any new computerlovers expereince, we do onboarding sessions to various disciplines across the studio. This now includes accessibility. This is a great win for us as it allows us to highlight and underline our accessibility culture and commitment from the start. The sessions are delivered by different champions each time, which also gives the group more expereince faciliting and talking about accessibility.
 
 ## Organisation and play to people's strengths
 
@@ -97,6 +99,8 @@ At Code we have Make Change Friday's. This is time on a Friday afternoon that we
 The key has been to be consistent. So even if not everybody can make a meeting, or available to attend a skillshare, still make sure these are happening and people ahve visibility on what we are doing and when. We also record the sessions we facilitate and make notes from our meetings that are available on our comapny knowledge centre software. This ensures that even if people may not have the time to attend sessions, they can catch up.
 
 ### Budget
+
+### Remember to celebrate the wins
 
 ### Workflow changes
 
