@@ -124,4 +124,8 @@ Whilst setbacks and blockers can be frustrating, it's important to remain positi
 
 ## In summary
 
+Creating an accessibility champions network is a brilliant way to bring like-minded and passionate people together to talk about accessibility and give them a platform to advocate and upskill around it. This can help drive an organasational cultre and facilitate change and learning around why it's so important to consider accessibility as early as possible and throughout the work we do.
+
+It only takes a couple of passionate people to get started, but it can't be done by individual alone. Accessibbility needs all us.
+
 ## Further reading
