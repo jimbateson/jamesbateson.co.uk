@@ -82,6 +82,23 @@ A group of people with a passion for accessibility and with different skillsets 
 
 ## It's not all gone to plan
 
+Whilst creating a champions group with a shared passion has been a fantastic expereince and we have shared many wins. I think it's important to aknowledge that not everything has gone to plan.
+
+When we first set our expectations we hightlighted what some of our bloackers may be, and any change organisational and culture change is always going to be a long-term project, this is something that we were under no illusions about from the start.
+
+### Time
+
+With our champions not being a dedicated accessibility team (in the sense of no their primary role). Finding the time for everybody to get together and meet and push our goals forward has been a real challenge. There are dealines to hit and work to be done in our product teams, that has to take priority.
+
+At Code we have Make Change Friday's. This is time on a Friday afternoon that we can dedicate to personal development. So this is when we have been trying to do many of our skillshares and work towards our goals.
+
+The key has been to be consistent. So even if not everybody can make a meeting, or available to attend a skillshare, still make sure these are happening and people ahve visibility on what we are doing and when. We also record the sessions we facilitate and make notes from our meetings that are available on our comapny knowledge centre software. This ensures that even if people may not have the time to attend sessions, they can catch up.
+
+### Budget
+
+
+
+
 ## The future
 
 ## In summary
