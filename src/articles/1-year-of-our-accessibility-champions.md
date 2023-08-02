@@ -106,11 +106,17 @@ However, as many companies will know, times are hard at the moment, and these to
 
 Our job and task currently as champions is to try and find more affordable and sustainable ways to adapt to this challenge whilst including people with disabilities in the products we build.
 
+### Workflow changes
+
+As with cultural and organisational changes, changing how a team or discipline works isn't something that can always happen quickly, especially if it means the time to complete a task or get sign off on something might increase.
+
+For example, we have been trying to introduce accessibility annotation kit sessions into our design workflow. These sessions are great as they encourge more colloboration between our designers and developers. Help educate people on what goes into thinking about making a design accessible at build, and spot issues early before they get further into the product lifecycle.
+
+This is often referred to as 'shifting left'. However, it does mean that there is an extra 'step' for designers to do before they have 'sign off'. It means delivery managers need to allow for and budget more time, and that stakeholders might not see the product in build as soon as they may expect. These can be difficult things to adjust to and get in buy-in for. However, the benefits they offer in the long-term are clear to see. It's our job to prvide this business case.
+
 ### Remember to celebrate the wins
 
 Whilst setbacks and blockers can be furstrating, it's important to remain positive and not let this affect the group. At the start of each one of our meetings we make sure to put some time aside to celebrate any accessibility wins or good news stories our champions have come across since the last meeting. This helps us keep focus on why we are doing what we do and realise how far we have come.
-
-### Workflow changes
 
 ## The future
 
