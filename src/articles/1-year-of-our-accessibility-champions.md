@@ -108,6 +108,8 @@ Our job and task currently as champions is to try and find more affordable and s
 
 ### Remember to celebrate the wins
 
+Whilst setbacks and blockers can be furstrating, it's important to remain positive and not let this affect the group. At the start of each one of our meetings we make sure to put some time aside to celebrate any accessibility wins or good news stories our champions have come across since the last meeting. This helps us keep focus on why we are doing what we do and realise how far we have come.
+
 ### Workflow changes
 
 ## The future
