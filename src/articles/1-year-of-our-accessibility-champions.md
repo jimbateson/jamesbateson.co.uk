@@ -57,7 +57,7 @@ When thinking about accessibility, the WCAG (Web Content Accessibility Guideline
 
 The guidelines are just that, a great starting point and baseline for build accessibile products, but they are not the be all and end all when it comes to accessibility.
 
-At Code we atsrted with introducing accessibility fundenemntals across the studio. Why is accessibility important? We did some fun little empathy excercises to get people experiencing and thinking about what it means to face barriers using the web.
+At Code we started with introducing accessibility fundenemntals across the studio. Why is accessibility important? We did some fun little empathy excercises to get people experiencing and thinking about what it means to face barriers using the web.
 
 ## Looking internally
 
@@ -71,6 +71,8 @@ We unfortunataly could not find anything, but this did give us a real opportunit
 We ran an in-team half-day workshop as part of our Make Change Friday to to look at examples we liked of these documents and plan how we would approach ours, as well as thinking about what accessibility and inclusion meant to us and how we would like to communicate that.
 
 Our accessibility policy is in the final draft stage, and as our website is currently being rebuilt, we will be making sure there is a statement on there ASAP after launch.
+
+### Accessibility onborading
 
 ## Organisation and play to people's strengths
 
