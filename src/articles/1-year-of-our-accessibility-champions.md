@@ -96,8 +96,7 @@ The key has been to be consistent. So even if not everybody can make a meeting, 
 
 ### Budget
 
-
-
+### Workflow changes
 
 ## The future
 
