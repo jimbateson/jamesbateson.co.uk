@@ -100,7 +100,11 @@ The key has been to be consistent. So even if not everybody can make a meeting, 
 
 ### Budget
 
-To help us test accessibility, we highlighted a few services we would like to use/partner with.
+To help us test accessibility and understansd how people with disabilities use our products, we highlighted a few services we would like to use/partner with.
+
+However, as many companies will know, times are hard at the moment, and these tools can often come with large yearly subscription fees. Unfortunataly that has meant us having to put these plans on hold, and re-think our timeline for being able to offer these services to our client partners.
+
+Our job and task currently as champions is to try and find more affordable and sustainable ways to adapt to this challenge whilst including people with disabilities in the products we build.
 
 ### Remember to celebrate the wins
 
