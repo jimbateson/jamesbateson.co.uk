@@ -13,7 +13,7 @@ I thought this would be a good chance to reflect on where we have come from and 
 
 ## Where we started
 
-The idea of the champions started with myself and another front-end engineer, Leilah. We realised that we had shared passion for accessibility and wanted to make real change within the studio.
+The idea of the champions started with myself and another front end engineer, Leilah. We realised that we had shared passion for accessibility and wanted to make real change within the studio.
 
 This is an important part of any company that may wish to start a similar community, finding others that share the passion is key. It doesn't have to be a number of accessibility experts either, and can often be better not to be. A group of experts may become siloed and isolated with their own conversations. However, a goup of people with different skills, in different roles with a shared passion can be a very powerful thing.
 
