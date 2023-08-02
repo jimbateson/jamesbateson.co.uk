@@ -74,7 +74,7 @@ Our accessibility policy is in the final draft stage, and as our website is curr
 
 ### Accessibility onboarding
 
-Onboarding is an important part of any new computerlovers expereince, we do onboarding sessions to various disciplines across the studio. This now includes accessibility. This is a great win for us as it allows us to highlight and underline our accessibility culture and commitment from the start. The sessions are delivered by different champions each time, which also gives the group more expereince faciliting and talking about accessibility.
+Onboarding is an important part of any new computerlovers expereince, we do onboarding sessions to various disciplines across the studio. This now includes accessibility. This is a great win for us as it allows us to highlight and underline our accessibility culture and commitment from the start. The sessions are delivered by different champions each time, which also gives the group more expereince and confidence faciliting and talking about accessibility.
 
 ## Organisation and play to people's strengths
 
