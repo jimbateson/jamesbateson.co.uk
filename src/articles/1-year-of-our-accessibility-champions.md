@@ -9,6 +9,8 @@ Recently at Code, our accessibility champions community celebrated one year sinc
 
 As champions our goal is not to police, or dictate accessibility across the Code studio, but to advocate for, raise awareness of, discuss, signpost (towards solutions and resources etc, not do the work for people) and upskill.
 
+I thought this would be a good chance to reflect on where we have come from and where we want to be.
+
 ## Where we started
 
 The idea of the champions started with myself and another front-end engineer, Leilah. We realised that we had shared passion for accessibility and wanted to make real change within the studio.
