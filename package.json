@@ -9,7 +9,7 @@
 		"@11ty/eleventy-plugin-rss": "^1.2.0",
 		"@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
 		"@tbranyen/jsdom": "^13.0.0",
-		"concurrently": "^8.2.0",
+		"concurrently": "^8.2.1",
 		"dotenv": "^16.3.1",
 		"html-minifier": "^4.0.0",
 		"json-to-scss": "^1.6.2",
