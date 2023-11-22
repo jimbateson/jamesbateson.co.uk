@@ -41,7 +41,7 @@ bannerSummary: Passionate, hard-working, reliable and keen to learn.
 
 ## Skills
 
-#### I consider myself very much 'front-of-the-front-end' and my passions lie around HTML, CSS, accessibility and performance.
+I consider myself very much 'front-of-the-front-end' and my passions lie around HTML, CSS, accessibility and performance.
 
 ### Core
 
