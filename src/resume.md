@@ -39,24 +39,25 @@ bannerSummary: Passionate, hard-working, reliable and keen to learn.
 
 ## Skills
 
-#### I still have a lot to learn, but I'm excited and passionate about building on my skills and learning new ones to further my career in front-end development.
+#### I consider myself very much 'front-of-the-front-end' and my passions lie around HTML, CSS, accessibility and performance.
 
 ### Core
 
 * HTML
-* CSS (Sass)
-* Presentational JavaScript (jQuery and vanilla)
-* Git (Gitflow)
-* Accessibility practices
+* CSS
+* Presentational JavaScript
+* Git
+* Accessibility - 
 * Performance practices
 * Grunt/Gulp
 * Ability to effectively communicate technical issues and solutions
 
 ### Experience with
 
+* React
 * Vue
-* Twig & Nunjucks
-* Zeplin, Figma, Adobe XD
+* Liquid, Twig & Nunjucks
+* Figma
 
 ## Educational Experience
 
