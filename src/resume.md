@@ -23,6 +23,8 @@ bannerSummary: Passionate, hard-working, reliable and keen to learn.
 * Helped implement and run design and development collobration sessions for accessibility such as design annotation kit sessions
 * Advocated for more understanding and use of semantic HTML over custom JavaScript solutions
 * Implmented accessible solutions and fixes to products with different tech stacks (MVC, React)
+* Helped implement a number of automated and manual accessibility testing practices. Including axe-devtools, WAVE, keyboard-only, VoiceOver, NVDA
+
 
 ### Front End Developer at ![Fat Media logo](/images/avatars/twitter/34f7590a-90.webp) [Fat Media](https://www.fatmedia.co.uk/)
 
