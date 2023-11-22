@@ -15,11 +15,13 @@ bannerSummary: Passionate, hard-working, reliable and keen to learn.
 ##### Manchester, UK
 
 * Formed and run the accessibility champions network
-* Ran a series of accessibility skillshares 
+* Ran a series of multidiciplinary accessibility skillshares 
 * Spoken at a number on internal and external events around accessibility
 * Helped write a number of blog posts for the company blog around accessibility
 * Performed accessibility reviews of components and pages on various products. Highlighting priority issues and actions
 * Helped implement and run design and development collobration sessions for accessibility such as design annotation kit sessions
+* Advocated for more understanding and use of semantic HTML over custom JavaScript solutions
+* Implmented accessible solutions and fixes to products with different tech stacks (MVC, React)
 
 ### Front End Developer at ![Fat Media logo](/images/avatars/twitter/34f7590a-90.webp) [Fat Media](https://www.fatmedia.co.uk/)
 
