@@ -6,7 +6,7 @@ bannerImage: /images/coniston-15.webp
 bannerImageClass: rounded
 permalink: /about/
 metaTitle: James Bateson / About Me
-metaDesc: I’m James, a Front End Engineer from Manchester.
+metaDesc: I’m James, a Front End Designer from Manchester.
 socialImage: /images/social-share-default.jpg
 ---
 With a background in design, I'm now focused on the front-end and especially enjoy programming with HTML and CSS and advocating for accessibility.
