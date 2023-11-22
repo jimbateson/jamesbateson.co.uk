@@ -58,7 +58,7 @@ bannerSummary: Passionate, hard-working, reliable and keen to learn.
 
 * React
 * Vue
-* Liquid, Twig & Nunjucks
+* HTML templating languages (Nunjucks, liquid)
 * Figma
 
 ## Educational Experience
