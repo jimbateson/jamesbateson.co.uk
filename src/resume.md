@@ -16,14 +16,14 @@ bannerSummary: Passionate, hard-working, reliable and keen to learn.
 
 * Accessibility advocate
 * Formed and run the accessibility champions network
-* Ran a series of multidiciplinary accessibility skillshares 
-* Spoken at a number of internal and external events around accessibility
-* Helped write a number of blog posts for the company blog around accessibility
+* Ran a series of multidisciplinary accessibility skillshares
+* Spoken at several internal and external events around accessibility
+* Helped write several blog posts for the company blog around accessibility
 * Performed accessibility reviews of components and pages on various products. Highlighting priority issues and actions
-* Helped implement and run design and development collobration sessions for accessibility such as design annotation kit sessions
+* Helped implement and run design and development collaboration sessions for accessibility such as design annotation kit sessions
 * Advocated for more understanding and use of semantic HTML over custom JavaScript solutions
-* Implmented accessible solutions and fixes to products with different tech stacks (MVC, React)
-* Helped implement a number of automated and manual accessibility testing practices. Including axe-devtools, WAVE, keyboard-only, VoiceOver, NVDA
+* Implemented accessible solutions and fixes to products with different tech stacks (MVC, React)
+* Helped implement several automated and manual accessibility testing practices. Including axe DevTools, WAVE, keyboard-only, VoiceOver, NVDA
 
 
 ### Front End Developer at ![Fat Media logo](/images/avatars/twitter/34f7590a-90.webp) [Fat Media](https://www.fatmedia.co.uk/)
