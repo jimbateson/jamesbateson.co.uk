@@ -17,7 +17,7 @@ bannerSummary: Passionate, hard-working, reliable and keen to learn.
 * Accessibility advocate
 * Formed and run the accessibility champions network
 * Ran a series of multidiciplinary accessibility skillshares 
-* Spoken at a number on internal and external events around accessibility
+* Spoken at a number of internal and external events around accessibility
 * Helped write a number of blog posts for the company blog around accessibility
 * Performed accessibility reviews of components and pages on various products. Highlighting priority issues and actions
 * Helped implement and run design and development collobration sessions for accessibility such as design annotation kit sessions
