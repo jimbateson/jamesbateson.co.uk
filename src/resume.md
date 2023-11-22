@@ -47,7 +47,7 @@ bannerSummary: Passionate, hard-working, reliable and keen to learn.
 * CSS
 * Presentational JavaScript
 * Git
-* Accessibility - 
+* Accessibility - including good knowledge of WCAG 2.1/2.2
 * Performance practices
 * Grunt/Gulp
 * Ability to effectively communicate technical issues and solutions
