@@ -2,7 +2,7 @@
 layout: layouts/page.njk
 title: About
 bannerSummary: I’m James, a Front End Designer from Manchester.
-bannerImage: /images/coniston-15.webp
+bannerImage: /images/jim-2.webp
 bannerImageClass: rounded
 permalink: /about/
 metaTitle: James Bateson / About Me
