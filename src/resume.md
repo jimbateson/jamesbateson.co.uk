@@ -14,6 +14,18 @@ bannerSummary: Passionate, hard-working, reliable and keen to learn.
 
 ##### Manchester, UK
 
+* Accessibility advocate
+* Formed and run the accessibility champions network
+* Ran a series of multidisciplinary accessibility skillshares
+* Spoken at several internal and external events around accessibility
+* Helped write several blog posts for the company blog around accessibility
+* Performed accessibility reviews of components and pages on various products. Highlighting priority issues and actions
+* Helped implement and run design and development collaboration sessions for accessibility such as design annotation kit sessions
+* Advocated for more understanding and use of semantic HTML over custom JavaScript solutions
+* Implemented accessible solutions and fixes to products with different tech stacks (MVC, React)
+* Helped implement several automated and manual accessibility testing practices. Including axe DevTools, WAVE, keyboard-only, VoiceOver, NVDA
+
+
 ### Front End Developer at ![Fat Media logo](/images/avatars/twitter/34f7590a-90.webp) [Fat Media](https://www.fatmedia.co.uk/)
 
 #### September 2013 - March 2021
@@ -29,24 +41,25 @@ bannerSummary: Passionate, hard-working, reliable and keen to learn.
 
 ## Skills
 
-#### I still have a lot to learn, but I'm excited and passionate about building on my skills and learning new ones to further my career in front-end development.
+#### I consider myself very much 'front-of-the-front-end' and my passions lie around HTML, CSS, accessibility and performance.
 
 ### Core
 
 * HTML
-* CSS (Sass)
-* Presentational JavaScript (jQuery and vanilla)
-* Git (Gitflow)
-* Accessibility practices
-* Performance practices
+* CSS
+* Presentational JavaScript
+* Git
+* Accessibility - including good knowledge of WCAG 2.1/2.2
+* Performance/site-speed optimisations
 * Grunt/Gulp
-* Ability to effectively communicate technical issues and solutions
+* Ability to effectively communicate technical issues and solutions across different disciplines
 
 ### Experience with
 
+* React
 * Vue
-* Twig & Nunjucks
-* Zeplin, Figma, Adobe XD
+* HTML templating languages (Nunjucks, liquid)
+* Figma
 
 ## Educational Experience
 
