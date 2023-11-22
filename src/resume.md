@@ -14,6 +14,7 @@ bannerSummary: Passionate, hard-working, reliable and keen to learn.
 
 ##### Manchester, UK
 
+* Accessibility advocate
 * Formed and run the accessibility champions network
 * Ran a series of multidiciplinary accessibility skillshares 
 * Spoken at a number on internal and external events around accessibility
