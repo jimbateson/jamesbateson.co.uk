@@ -8,22 +8,21 @@ bannerSummary: Passionate, hard-working, reliable and keen to learn.
 ---
 ## Professional Experience
 
-### Front End Designer at ![Code Computerlove logo](/images/avatars/twitter/963dc030-90.webp) [Code Computerlove](https://www.codecomputerlove.com/)
+### Front End Designer and accessibility specialist at ![Code Computerlove logo](/images/avatars/twitter/963dc030-90.webp) [Code Computerlove](https://www.codecomputerlove.com/)
 
 #### April 2021 - Present
 
 ##### Manchester, UK
 
-* Accessibility advocate
-* Formed and run the accessibility champions network
-* Ran a series of multidisciplinary accessibility skillshares
-* Spoken at several internal and external events around accessibility
-* Helped write several blog posts for the company blog around accessibility
-* Performed accessibility reviews of components and pages on various products. Highlighting priority issues and actions
-* Helped implement and run design and development collaboration sessions for accessibility such as design annotation kit sessions
+* Formed and run the accessibility champions network. Helping bring together together people from multiple disciplines with a passion for accessibility to collaborate and make change
+* Helped implement and run design and development collaboration sessions for accessibility such as design annotation kit sessions in Figma
 * Advocated for more understanding and use of semantic HTML over custom JavaScript solutions
 * Implemented accessible solutions and fixes to products with different tech stacks (MVC, React)
-* Helped implement several automated and manual accessibility testing practices. Including axe DevTools, WAVE, keyboard-only, VoiceOver, NVDA
+* Helped implement several automated and manual accessibility testing practices. Including axe DevTools, WAVE, keyboard-only, VoiceOver and NVDA
+* Ran a series of multidisciplinary accessibility skillshares
+* Spoke at several internal and external events around accessibility. Including; QABC (Testing Accessibility), Manchester Tech Festival (Accessibility Champions: Creating an Accessibility Culture).
+* Helped write several blog posts for the company blog around accessibility
+* Performed accessibility reviews of components and pages on various products. Highlighting priority issues and actions to client partners in technical and non-technical roles.
 
 
 ### Front End Developer at ![Fat Media logo](/images/avatars/twitter/34f7590a-90.webp) [Fat Media](https://www.fatmedia.co.uk/)
@@ -33,7 +32,7 @@ bannerSummary: Passionate, hard-working, reliable and keen to learn.
 ##### Lancaster, UK
 
 * Taking flat designs and transforming them into responsive, accessible, resilient, and performant static websites/components
-* Integrating static templates into dynamic CMS based templating files (MVC, PHP, Twig)
+* Integrating static templates into dynamic CMS-based templating files (MVC, PHP, Twig)
 * Contributor and maintainer of the company front-end framework
 * Responsible for quoting projects and jobs
 * Ran a series of lunchtime learning sessions
@@ -60,6 +59,9 @@ I consider myself very much 'front-of-the-front-end' and my passions lie around 
 * Vue
 * HTML templating languages (Nunjucks, liquid)
 * Figma
+* Component libraries
+* Designing systems
+* Testing libraries
 
 ## Educational Experience
 
