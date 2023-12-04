@@ -32,7 +32,7 @@ bannerSummary: Passionate, hard-working, reliable and keen to learn.
 ##### Lancaster, UK
 
 * Taking flat designs and transforming them into responsive, accessible, resilient, and performant static websites/components
-* Integrating static templates into dynamic CMS based templating files (MVC, PHP, Twig)
+* Integrating static templates into dynamic CMS-based templating files (MVC, PHP, Twig)
 * Contributor and maintainer of the company front-end framework
 * Responsible for quoting projects and jobs
 * Ran a series of lunchtime learning sessions
@@ -59,6 +59,9 @@ I consider myself very much 'front-of-the-front-end' and my passions lie around 
 * Vue
 * HTML templating languages (Nunjucks, liquid)
 * Figma
+* Component libraries
+* Designing systems
+* Testing libraries
 
 ## Educational Experience
 
