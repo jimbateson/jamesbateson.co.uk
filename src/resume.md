@@ -4,11 +4,11 @@ layout: layouts/resume.njk
 metaTitle: James Bateson / Résumé
 metaDesc: The résumé of James Bateson. A Front End Designer from Manchester.
 socialImage: /images/social-share-default.jpg
-bannerSummary: Passionate, hard-working, reliable and keen to learn.
+bannerSummary: "Passionate, hard-working, reliable and keen to learn. I "
 ---
 ## Professional Experience
 
-### Front End Designer and accessibility specialist at ![Code Computerlove logo](/images/avatars/twitter/963dc030-90.webp) [Code Computerlove](https://www.codecomputerlove.com/)
+### Front End Designer and Accessibility Specialist at ![Code Computerlove logo](/images/avatars/twitter/963dc030-90.webp) [Code Computerlove](https://www.codecomputerlove.com/)
 
 #### April 2021 - Present
 
@@ -60,7 +60,7 @@ I consider myself very much 'front-of-the-front-end' and my passions lie around 
 * HTML templating languages (Nunjucks, liquid)
 * Figma
 * Component libraries
-* Designing systems
+* Design systems
 * Testing libraries
 
 ## Educational Experience
