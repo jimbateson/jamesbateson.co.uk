@@ -16,7 +16,7 @@ bannerSummary: Accessibility specialst that's passionate, hard-working, reliable
 
 ##### Manchester, UK
 
-* Formed and run the accessibility champions network. Helping bring together together people from multiple disciplines with a passion for accessibility to collaborate and make change
+* Formed and run the accessibility champions network. Helping bring together people from multiple disciplines with a passion for accessibility to collaborate and make change
 * Helped implement and run design and development collaboration sessions for accessibility such as design annotation kit sessions in Figma
 * Advocated for more understanding and use of semantic HTML over custom JavaScript solutions
 * Implemented accessible solutions and fixes to products with different tech stacks (MVC, React)
