@@ -65,7 +65,7 @@ I consider myself very much 'front-of-the-front-end' and my passions lie around 
 * Design systems
 * Testing libraries
 
-## Educational Experience
+## Education
 
 ### Multimedia Technology at ![Leeds Beckett logo](/images/avatars/twitter/b5feb6c-90.webp) Leeds Metropolitan University
 
