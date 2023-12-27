@@ -20,10 +20,10 @@ bannerSummary: A passionate accessibility specialst. Hard-working, reliable and
 * Contributed to the successful rollout of interactive design annotation workshops using Figma to improve accessibility awareness and feedback loops between designers and developers
 * Advocated for more understanding and use of semantic HTML over custom JavaScript solutions
 * Bridged the gap between accessibility best practices and diverse tech stacks (MVC, React) by seamlessly integrating inclusive features and bug fixes into existing products
-* Helped implement several automated and manual accessibility testing practices. Including axe DevTools, WAVE, keyboard-only, VoiceOver and NVDA
+* Led the implemenation of several automated and manual accessibility testing practices. Including axe DevTools, WAVE, keyboard-only, VoiceOver and NVDA
 * Ran a series of multidisciplinary accessibility skillshares
-* Spoke at several internal and external events around accessibility. Including; QABC (Testing Accessibility), Manchester Tech Festival (Accessibility Champions: Creating an Accessibility Culture).
-* Helped write several blog posts for the company blog around accessibility
+* Spoke at several internal and external events around accessibility. Including; QABC (Testing Accessibility), Manchester Tech Festival (Accessibility Champions: Creating an Accessibility Culture) and HCD Manchester
+* Contributed my voice to the accessibility conversation, authoring informative blog posts on smenatic HTML elements (HTMHell and and A11y Project one currently in review), WCAG 2.2 intro, and fostering an inclusive company culture through accessibility
 * Performed accessibility reviews of components and pages on various products. Highlighting priority issues and actions to client partners in technical and non-technical roles.
 
 
