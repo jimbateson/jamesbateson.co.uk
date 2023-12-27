@@ -17,9 +17,9 @@ bannerSummary: A passionate accessibility specialst. Hard-working, reliable and
 ##### Manchester, UK
 
 * Formed and run the accessibility champions network. Helping bring together people from multiple disciplines with a passion for accessibility to collaborate and make change
-* Helped implement and run design and development collaboration sessions for accessibility such as design annotation kit sessions in Figma
+* Contributed to the successful rollout of interactive design annotation workshops using Figma to improve accessibility awareness and feedback loops between designers and developers
 * Advocated for more understanding and use of semantic HTML over custom JavaScript solutions
-* Implemented accessible solutions and fixes to products with different tech stacks (MVC, React)
+* Bridged the gap between accessibility best practices and diverse tech stacks (MVC, React) by seamlessly integrating inclusive features and bug fixes into existing products
 * Helped implement several automated and manual accessibility testing practices. Including axe DevTools, WAVE, keyboard-only, VoiceOver and NVDA
 * Ran a series of multidisciplinary accessibility skillshares
 * Spoke at several internal and external events around accessibility. Including; QABC (Testing Accessibility), Manchester Tech Festival (Accessibility Champions: Creating an Accessibility Culture).
