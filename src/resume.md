@@ -24,7 +24,7 @@ bannerSummary: A passionate accessibility specialst. Hard-working, reliable and
 * Ran a series of multidisciplinary accessibility skillshares
 * Spoke at several internal and external events around accessibility. Including; QABC (Testing Accessibility), Manchester Tech Festival (Accessibility Champions: Creating an Accessibility Culture) and HCD Manchester
 * Contributed my voice to the accessibility conversation, authoring informative blog posts on smenatic HTML elements (HTMHell and and A11y Project one currently in review), WCAG 2.2 intro, and fostering an inclusive company culture through accessibility
-* Performed accessibility reviews of components and pages on various products. Highlighting priority issues and actions to client partners in technical and non-technical roles.
+* Performed accessibility reviews of components and pages on various products. Highlighting priority issues and actions to internal colleagues and client partners in technical and non-technical roles.
 
 
 ### Front End Developer at ![Fat Media logo](/images/avatars/twitter/34f7590a-90.webp) [Fat Media](https://www.fatmedia.co.uk/)
