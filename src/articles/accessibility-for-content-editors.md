@@ -20,3 +20,5 @@ First off, this is defnitely not a finger pointing excerise at content editors. 
 There are also many content editors out there that are following accessibility best practices and upholding these standard across their teams.
 
 The aim of this article is to look at ways we can better assist content editors in learning about and being aware of accessibility considerations when we hand over a product.
+
+## Why and how not just the doing
