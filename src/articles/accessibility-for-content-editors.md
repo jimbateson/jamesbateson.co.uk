@@ -28,3 +28,7 @@ The aim of this article is to look at ways we can better assist content editors 
 One of the most valuable ways to pass on accessibility knowledge, habits and more importantly, the **why** of the importance of accessibility and the barriers it can create if not considered can be to involve people that will be editing content when reviewing, identifiying and fixing accessibility issues.
 
 A legacy client project that I worked on received an accessibility audit, it flagged many issues, some that we could remedy in the codebase and a result of some bad ARIA useage (that's another article). However, a large percentage of them, were from pages/templates that were populated with content via the CMS (static page templates, news articles etc).
+
+Whilst investigating a cross-section of these pages to find the common issues and the ones raised in the audit, we introduced the main content editors to one of the tools we were using to do this.
+
+### WAVE
