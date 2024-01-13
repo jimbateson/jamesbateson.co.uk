@@ -22,3 +22,5 @@ There are also many content editors out there that are following accessibility b
 The aim of this article is to look at ways we can better assist content editors in learning about and being aware of accessibility considerations when we hand over a product.
 
 ## Why and how not just the doing
+
+One of the most valuable ways to pass on accessibility knowledge, habits and more importantly, the **why** of the importance of accessibility and the barriers it can create if not considered can be to involve people that will be editing content when reviewing, identifiying and fixing accessibility issues.
