@@ -32,3 +32,7 @@ A legacy client project that I worked on received an accessibility audit, it fla
 Whilst investigating a cross-section of these pages to find the common issues and the ones raised in the audit, we introduced the main content editors to one of the tools we were using to do this.
 
 ### WAVE
+
+## Training
+
+## Handovers
