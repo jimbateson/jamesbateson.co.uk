@@ -35,6 +35,8 @@ Whilst investigating a cross-section of these pages to find the common issues an
 
 We wanted to demonstrate a tool that would be easy for people with little to no technical knowledge to understand and use. The [WAVE tool from WebAIM](https://wave.webaim.org/) felt like the ideal option. It's a tool that I'll often start with when investigating accessibility of a site/component. It adds icons to the page so people can see where the errors and warnings have occured. It also offers explainations of issues it find in easier ways to understand than official documentation, and in ways that might make more sense to add to ticket/rely to collegues. If WCAG guidelines are something that are understood and required, it also links off to the success criteria that issues relate to.
 
+Wave also has inbuilt tools to check colour contrast
+
 ## Training
 
 ## Handovers
