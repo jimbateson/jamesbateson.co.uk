@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: Accessibility for content editors
-metaTitle: Accessibility for content editors
+metaTitle: Accessibility for content authors
 metaDesc: How can we ensure that accessibility good practices are understood and
   passed onto content editors.
 socialImage: /images/social-share-default.jpg
