@@ -47,6 +47,4 @@ We demo'd Wave on a call with the content editors and went through these feature
 
 Showing the content editors what these tools were, how to use them and what to look out for made a real impact. It gave them a way to check new content they were adding and also learn more about common issues as they went along, avoiding them resurfacing in the future and ending up back at square one.
 
-## Training
-
 ## Handovers
