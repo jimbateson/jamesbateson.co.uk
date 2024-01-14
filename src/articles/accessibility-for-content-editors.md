@@ -35,7 +35,7 @@ One of the most valuable ways to pass on accessibility knowledge, habits and mor
 
 A legacy client project that I worked on received an accessibility audit, it flagged many issues, some that we could remedy in the codebase and a result of some bad ARIA useage (that's another article). However, a large percentage of them, were from pages/templates that were populated with content via the CMS (static page templates, news articles etc).
 
-Whilst investigating a cross-section of these pages to find the common issues and the ones raised in the audit, we introduced the main content editors to one of the tools we were using to do this.
+Whilst investigating a cross-section of these pages to find the common issues and the ones raised in the audit, we introduced the main content authors to one of the tools we were using to do this.
 
 ### WAVE
 
