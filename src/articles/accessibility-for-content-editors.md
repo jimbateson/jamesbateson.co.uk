@@ -23,6 +23,12 @@ The aim of this article is to look at ways we can better assist content editors 
 
 ## Education
 
+A great place to start can be to signpost people in the direction of resources that can help them learn more about why accessibility is so important and to learn what responsibilities they may have to ensure standards are met.
+
+As part of the accessibility champions network at Code Computerlove, we encourge new starters and people wanting to learn more to take the free [W3C digital accessibility foundations course](https://www.w3.org/WAI/courses/foundations-course/). This is a course is non-technical and suitable for a variety of disciplines, including content authors. This could be an ideal resource to get people understanding accessibility.
+
+Another way at Code we have engaged external people with the importance of accessibility is to deliver a fundementals skillshare. Like the W3C course, this can introduce people from different disciplines to why accessibility is so important. It's again chance to pass on exterpise and passion around the subject in a face-to-face session, a mix of educational slides and facts mixed with some hands-on interactive exercies, such as, mouse-free browsing tasks can really help deliver the message and put people in the position of their users and the barriers they may face.
+
 ## Why and how not just the doing
 
 One of the most valuable ways to pass on accessibility knowledge, habits and more importantly, the **why** of the importance of accessibility and the barriers it can create if not considered can be to involve people that will be editing content when reviewing, identifiying and fixing accessibility issues.
