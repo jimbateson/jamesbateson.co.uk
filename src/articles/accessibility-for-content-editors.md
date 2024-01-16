@@ -25,7 +25,7 @@ The aim of this article is to look at ways we can better assist content authors 
 
 ## Education
 
-A great place to start can be to signpost people in the direction of resources that can help them learn more about why accessibility is so important and to learn what responsibilities they may have to ensure standards are met.
+A great place to start can be to signpost people in the direction of resources that can help them learn more about why accessibility is so important and to learn what responsibilities they may have to ensure standards are met and barriers not unintentionally created.
 
 As part of the accessibility champions network at Code Computerlove, we encourge new starters and people wanting to learn more to take the free [W3C digital accessibility foundations course](https://www.w3.org/WAI/courses/foundations-course/). This is a course is non-technical and suitable for a variety of disciplines, including content authors. This could be an ideal resource to get people understanding accessibility.
 
