@@ -242,6 +242,7 @@
 			h3 {
 				@include apply-utility('font', 'base');
 				font-size: get-size(600);
+				text-wrap: balance;
 
 				.heading-permalink {
 					display: none;
