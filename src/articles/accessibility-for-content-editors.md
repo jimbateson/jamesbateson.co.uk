@@ -17,9 +17,9 @@ Something that I've been expereincing more often is that when handing over a pro
 
 ## Not a blame game
 
-First off, this is defnitely not a finger pointing excerise at content authors. They often have lots of content to edit, articles to add etc on a daily basis. It may be that the tools they have to do this are not suitable, or training on these tools has not been sufficient.
+First off, this is certinaly not a finger pointing excerise at content authors. They often have lots of content to create, add and edit on a daily basis. It may be that the tools they have to do this are not suitable, or training on these tools has not been sufficient.
 
-There are also many content authors out there that are following accessibility best practices and upholding these standard across their teams.
+There are also many content authors out there that are following accessibility best practices and upholding these standards across their teams.
 
 The aim of this article is to look at ways we can better assist content authors in learning about and being aware of accessibility considerations when we hand over a product.
 
