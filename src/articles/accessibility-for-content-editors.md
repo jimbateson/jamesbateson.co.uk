@@ -27,7 +27,7 @@ The aim of this article is to look at ways we can better assist content authors 
 
 A great place to start can be to signpost people in the direction of resources that can help them learn more about why accessibility is so important and to learn what responsibilities they may have to ensure standards are met and barriers not unintentionally created.
 
-As part of the accessibility champions network at Code Computerlove, we encourge new starters and people wanting to learn more to take the free [W3C digital accessibility foundations course](https://www.w3.org/WAI/courses/foundations-course/). This is a course is non-technical and suitable for a variety of disciplines, including content authors. This could be an ideal resource to get people understanding accessibility.
+As part of the accessibility champions network at Code Computerlove, we encourge new starters and people wanting to learn more to take the free [W3C digital accessibility foundations course](https://www.w3.org/WAI/courses/foundations-course/). This is a course is non-technical and suitable for a variety of disciplines, including content authors. This could be an ideal resource to get people understanding accessibility. It contains information
 
 Another way at Code we have engaged external people with the importance of accessibility is to deliver a fundementals skillshare. Like the W3C course, this can introduce people from different disciplines to why accessibility is so important. It's again chance to pass on exterpise and passion around the subject in a face-to-face session, a mix of educational slides and facts mixed with some hands-on interactive exercies, such as, mouse-free browsing tasks can really help deliver the message and put people in the position of their users and the barriers they may face.
 
@@ -49,4 +49,4 @@ We demo'd Wave on a call with the content editors and went through these feature
 
 Showing the content editors what these tools were, how to use them and what to look out for made a real impact. It gave them a way to check new content they were adding and also learn more about common issues as they went along, avoiding them resurfacing in the future and ending up back at square one.
 
-## Handovers
+## Handover documents
