@@ -11,7 +11,7 @@ tags:
 ---
 ## Accessibility is everybody's responsibility
 
-During a product lifecycle, our aim is to move accessibility considerations and conversations earlier in the process (referred to as 'shifting left'). This involves cross-discipline teams colloborating and considering peoples expereinces at each stage of the process. However, if once you ship a product, what happens if the content editors that will manage the site going forwards are external, unaware of accessibility requirements and not technically proficient. How can we ensure that our hard work in making a product accessible is not undone, or falls into a cycle of having to constantly remedy the same problems.
+During a product lifecycle, our aim is to move accessibility considerations and conversations earlier in the process (sometimes referred to as 'shifting left'). This involves cross-discipline teams collaborating and considering peoples expereinces at each stage from the start of the process. However, once you ship a product, what happens if the content editors that will manage the site going forwards are external, unaware of accessibility requirements and not technically proficient. How can we ensure that our hard work in making a product accessible is not undone, or falls into a cycle of having to constantly remedy the same problems.
 
 ## Not a blame game
 
