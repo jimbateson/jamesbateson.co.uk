@@ -4,7 +4,7 @@ layout: layouts/resume.njk
 metaTitle: James Bateson / Résumé
 metaDesc: The résumé of James Bateson. A Front End Designer from Manchester.
 socialImage: /images/social-share-default.jpg
-bannerSummary: A passionate accessibility specialst. Hard-working, reliable and
+bannerSummary: A passionate accessibility specialist. Hard-working, reliable and
   keen to learn. I love making products accessible to as many people as possible
   and being part of a culture that supports this.
 ---
@@ -23,7 +23,7 @@ bannerSummary: A passionate accessibility specialst. Hard-working, reliable and
 * Led the implemenation of several automated and manual accessibility testing practices. Including axe DevTools, WAVE, keyboard-only, VoiceOver and NVDA. Championing for this to be part of ticket writing in the process
 * Ran a series of multidisciplinary accessibility skillshares in various interactive and presentational formats
 * Leveraged my passion for accessibility to deliver engaging talks at [QA Beginners Club](https://www.youtube.com/watch?v=cyGSVHi-J4A) (Testing Accessibility), [Manchester Tech Festival](https://www.manchestertechfestival.co.uk/neurodiversity-di/) (Accessibility Champions: Creating an Accessibility Culture), and HCD Manchester, influencing attendees to embrace inclusive practices
-* Contributed my voice to the accessibility conversation, authoring informative blog posts on smenatic HTML elements ([HTMHell](https://www.htmhell.dev/adventcalendar/2022/16/) and [The A11y Project](https://github.com/a11yproject/a11yproject.com/pull/1472) which is currently in review), [WCAG 2.2 intro](https://www.codecomputerlove.com/blog/wcag-2-2-guide), and [fostering an inclusive company culture through accessibility](https://www.codecomputerlove.com/blog/how-to-create-an-accessibility-culture)
+* Contributed my voice to the accessibility conversation, authoring informative blog posts on semantic HTML elements ([HTMHell](https://www.htmhell.dev/adventcalendar/2022/16/) and [The A11y Project](https://github.com/a11yproject/a11yproject.com/pull/1472) which is currently in review), [WCAG 2.2 intro](https://www.codecomputerlove.com/blog/wcag-2-2-guide), and [fostering an inclusive company culture through accessibility](https://www.codecomputerlove.com/blog/how-to-create-an-accessibility-culture)
 * Performed accessibility reviews of components and pages on various products. Highlighting priority issues and actions to internal colleagues and client partners in technical and non-technical roles.
 
 
