@@ -4,7 +4,7 @@ layout: layouts/resume.njk
 metaTitle: James Bateson / Résumé
 metaDesc: The résumé of James Bateson. A Front End Designer from Manchester.
 socialImage: /images/social-share-default.jpg
-bannerSummary: A passionate accessibility specialst. Hard-working, reliable and
+bannerSummary: A passionate accessibility specialist. Hard-working, reliable and
   keen to learn. I love making products accessible to as many people as possible
   and being part of a culture that supports this.
 ---
