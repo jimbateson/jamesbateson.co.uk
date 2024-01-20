@@ -19,7 +19,7 @@ bannerSummary: A passionate accessibility specialist. Hard-working, reliable and
 * Formed and run the accessibility champions network. Helping bring together people from multiple disciplines with a passion for accessibility to collaborate and make change
 * Contributed to the successful rollout of interactive design annotation workshops using Figma to improve accessibility awareness and feedback loops between designers and developers
 * Advocated for more understanding and use of semantic HTML over custom JavaScript solutions
-* Bridged the gap between accessibility best practices and diverse tech stacks (MVC, React) by seamlessly integrating inclusive features and bug fixes into existing products and from the start of new ones
+* Bridged the gap between accessibility best practices and diverse tech stacks (MVC, React) by seamlessly integrating inclusive features and bug fixes into existing product codebases and at the start of new projects
 * Led the implemenation of several automated and manual accessibility testing practices. Including axe DevTools, WAVE, keyboard-only, VoiceOver and NVDA. Championing for this to be part of ticket writing in the process
 * Ran a series of multidisciplinary accessibility skillshares in various interactive and presentational formats
 * Leveraged my passion for accessibility to deliver engaging talks at [QA Beginners Club](https://www.youtube.com/watch?v=cyGSVHi-J4A) (Testing Accessibility), [Manchester Tech Festival](https://www.manchestertechfestival.co.uk/neurodiversity-di/) (Accessibility Champions: Creating an Accessibility Culture), and HCD Manchester, influencing attendees to embrace inclusive practices
