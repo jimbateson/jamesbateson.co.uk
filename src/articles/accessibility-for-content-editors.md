@@ -33,6 +33,8 @@ As part of the accessibility champions network at Code Computerlove, we encourge
 
 Another way at Code we have engaged external teams with the importance of accessibility is to deliver an accessibility fundementals skillshare. Like the W3C course, this can introduce people from different disciplines to why accessibility is so important. It's again chance to pass on exterpise and passion around the subject in a face-to-face session, a mix of educational slides and facts mixed with some hands-on interactive exercies, such as, mouse-free browsing tasks can really help deliver the message and put people in the position of their users and the barriers they may face.
 
+## Training
+
 ## Why and how not just the doing
 
 One of the most valuable ways to pass on accessibility knowledge, habits and more importantly, the **why** of the importance of accessibility and the barriers it can create if not considered can be to involve people that will be editing content when reviewing, identifiying and fixing accessibility issues.
@@ -81,7 +83,7 @@ This is something low-hanging, high-impact that many people already do, and seve
 - Can adapt and grow
 - Easy to access
 
-### Training/reference documents
+### Reference documents
 
 - Can arrange an in-person/call delivery
 - Can adapt and grow
