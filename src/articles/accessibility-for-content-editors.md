@@ -63,10 +63,13 @@ When creating the CMS interface for a page/component a great way to remind peopl
 * Media uploads-consider captions and transcripts
 * Colour pickers-check that contrast against the background it will sit on passes requirements
 * WYSIWYG-remind about use of italics, to add suitable link text and reading age
+* Headings-mention heading order/structure
 
 This is something low-hanging, high-impact that many people already do, and several out-of-the-box content management systems also provide the ability to do.
 
 #### A note on WSYIWYG editors
+
+- Only give options
 
 ### Content style guide
 
