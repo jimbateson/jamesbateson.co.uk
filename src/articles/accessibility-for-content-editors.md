@@ -66,7 +66,7 @@ When creating the CMS interface for a page/component a great way to remind peopl
 * Headings-mention heading order/structure
 * Tables-make people aware of how important creating accessible data tables is to people using assitive technology
 
-This is something low-hanging, high-impact that many people already do, and several out-of-the-box content management systems also provide the ability to do.
+This is something low-hanging, high-impact that many people already do, and several out-of-the-box content management systems also provide the ability to do. A helpful field description or tooltip can make a massive difference in remiding people of things to consider when entering content. Of course they could be ignored, but it's a good way to keep the accessibility awareness and messaging visible day-to-day. Eventually these practices in suggestions will lead to good habbits. It could also benefit new team members onboarding, having this useful information and reminders as they learn the system.
 
 #### A note on WSYIWYG editors
 
