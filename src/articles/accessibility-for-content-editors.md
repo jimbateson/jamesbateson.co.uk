@@ -13,7 +13,7 @@ tags:
 
 During a product lifecycle, our aim is to move accessibility considerations and conversations earlier in the process (sometimes referred to as 'shifting left'). This involves cross-discipline teams collaborating and considering peoples expereinces at each stage from the start of the process. However, once you ship a product, what happens if the content editors that will manage the site going forwards are external, unaware of accessibility requirements and not technically proficient. How can we ensure that our hard work in making a product accessible is not undone, or falls into a cycle of having to constantly remedy the same problems.
 
-Something that I've been expereincing more often is that when handing over a product to an external team, accessibility is just being chucked over the wall with no training or support for day-to-day content authoring. How can we do better?
+Something that I've been experiencing more often is that when handing over a product to an external team, accessibility is just being chucked over the wall with no training or support for day-to-day content authoring. How can we do better?
 
 ## Not a blame game
 
