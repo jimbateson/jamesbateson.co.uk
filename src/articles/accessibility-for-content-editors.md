@@ -25,6 +25,14 @@ The aim of this article is to look at ways we can better assist content authors 
 
 ## Common issues
 
+- Alt text
+- Captions/transcripts
+- Colour contrast
+- Link text
+- Headings structure
+- Reading level
+- Text formatting (italics, size etc)
+
 ## Education
 
 A great place to start can be to signpost people in the direction of resources that can help them learn more about why accessibility is so important and to learn what responsibilities they may have to ensure standards are met and barriers not unintentionally created.
