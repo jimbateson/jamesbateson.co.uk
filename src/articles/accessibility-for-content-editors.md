@@ -23,6 +23,8 @@ There are also many content authors out there that are following accessibility b
 
 The aim of this article is to look at ways we can better assist content authors in learning about and being aware of accessibility considerations when we hand over a product.
 
+## Common issues
+
 ## Education
 
 A great place to start can be to signpost people in the direction of resources that can help them learn more about why accessibility is so important and to learn what responsibilities they may have to ensure standards are met and barriers not unintentionally created.
@@ -84,4 +86,4 @@ This is something low-hanging, high-impact that many people already do, and seve
 - Can arrange an in-person/call delivery
 - Can adapt and grow
 
-## Let's work together
+## Useful links
