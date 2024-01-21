@@ -90,7 +90,7 @@ This is something low-hanging, high-impact that many people already do, and seve
 - Good examples
 - Can adapt and grow
 - Easy to access
-- Could be in document format or a url
+- Could be in document format or a website/page
 
 ### Reference documents
 
