@@ -85,7 +85,7 @@ This is something low-hanging, high-impact that many people already do, and seve
 - Only give options absolutely needed
 - Can allow people that know enough to be dangerous introduce issues
 
-### Content style guide
+### Content style guides
 
 - Good examples
 - Can adapt and grow
