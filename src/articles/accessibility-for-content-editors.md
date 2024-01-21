@@ -88,4 +88,6 @@ This is something low-hanging, high-impact that many people already do, and seve
 - Can arrange an in-person/call delivery
 - Can adapt and grow
 
+## In summary
+
 ## Useful links
