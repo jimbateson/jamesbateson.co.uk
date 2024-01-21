@@ -66,6 +66,8 @@ When creating the CMS interface for a page/component a great way to remind peopl
 
 This is something low-hanging, high-impact that many people already do, and several out-of-the-box content management systems also provide the ability to do.
 
+#### A note on WSYIWYG editors
+
 ### Content style guide
 
 ### Training/refernce documents
