@@ -51,6 +51,12 @@ Showing the content editors what these tools were, how to use them and what to l
 
 ## Handovers
 
+When we hand over code, designs and processes we tend to document things. Whether this be API documentation, a digital document or a call demo. These things ensure that the person picking up the project or peice of work can effieciently pick it up and know what the origial author was thinking and planning.
+
+However, this isn't usually the case when it comes to content authors. We might show them the basics of the content management system, where to find things and how to add things etc, but I feel we could be documenting/helping with why the actual content best practices are so important.
+
+### Descriptions/tooltips
+
 ### Content style guide
 
 ### Training/refernce documents
