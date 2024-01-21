@@ -75,6 +75,13 @@ This is something low-hanging, high-impact that many people already do, and seve
 
 ### Content style guide
 
-### Training/refernce documents
+- Good examples
+- Can adapt and grow
+- Easy to access
+
+### Training/reference documents
+
+- Can arrange an in-person/call delivery
+- Can adapt and grow
 
 ## Let's work together
