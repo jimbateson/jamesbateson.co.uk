@@ -13,7 +13,7 @@ bannerSummary: A passionate accessibility specialist. I'm empathetic,
 
 ### Front End Designer and Accessibility Specialist at ![Code Computerlove logo](/images/avatars/twitter/963dc030-90.webp) [Code Computerlove](https://www.codecomputerlove.com/)
 
-#### April 2021 - Present
+#### April 2021 - July 2024
 
 ##### Manchester, UK
 
