@@ -2,16 +2,17 @@
 title: James Bateson Résumé
 layout: layouts/resume.njk
 metaTitle: James Bateson / Résumé
-metaDesc: The résumé of James Bateson. A Front End Designer from Manchester.
+metaDesc: The résumé of James Bateson. A UI Developer and Accessibility
+  specialist from Manchester.
 socialImage: /images/social-share-default.jpg
-bannerSummary: A passionate accessibility specialist. I'm empathetic,
-  hard-working, reliable and keen to learn. I care about people and love making
-  services accessible to as many people as possible and being part of a culture
-  that supports this.
+bannerSummary: A passionate UI Developer and Accessibility Specialist. I'm
+  empathetic, hard-working, reliable and keen to learn. I care about people and
+  love making services accessible to as many people as possible and being part
+  of a culture that supports this.
 ---
 ## Professional Experience
 
-### Front End Designer and Accessibility Specialist at ![Code Computerlove logo](/images/avatars/twitter/963dc030-90.webp) [Code Computerlove](https://www.codecomputerlove.com/)
+### Front End Engineer and Accessibility Specialist at ![Code Computerlove logo](/images/avatars/twitter/963dc030-90.webp) [Code Computerlove](https://www.codecomputerlove.com/)
 
 #### April 2021 - July 2024
 
