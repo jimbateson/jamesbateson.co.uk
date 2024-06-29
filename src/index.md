@@ -1,6 +1,15 @@
 ---
 archiveButtonText: See all articles
 layout: home
+metaTitle: James Bateson / UI Developer and Accessibility Specialist
+metaDesc: Manchester based UI Developer and Accessibility Specialist.
+title: Hello, I'm James. A UI Developer and Accessibility Specialist based in
+  Manchester.
+bannerSummary: Welcome to my digital notebook. Somewhere I can post the
+  occasional thought or learning, and a place to practice my writing. I'm very
+  much 'front-of-front-end' and have a passion for HTML, CSS, UX, accessibility,
+  and performance. Outside of work I love to run, hike, and cook.
+postsSummary: A mix of development related articles, thoughts and notes.
 journalHeading: Recent Journals
 projectsSummary: Some silly side project ideas, I also make things on <a
   href=\"#\">Codepen</a> and any source code is available on <a
@@ -12,16 +21,7 @@ about: >-
 
 
   I've been working at Fat Media now for the duration of my development career and live and work in Lancaster.
-metaTitle: James Bateson / Front End Designer
-metaDesc: Manchester based Front End Designer.
 socialImage: ""
-title: Hello, I'm James. A Front End Designer working in Manchester at Code
-  Computerlove.
-bannerSummary: Welcome to my digital notebook. Somewhere I can post the
-  occasional thought or learning, and a place to practice my writing. I'm very
-  much 'front-of-front-end' and have a passion for HTML, CSS, UX, accessibility,
-  and performance. Outside of work I love to run, hike, and cook.
 postsHeading: Recent Articles
-postsSummary: A mix of development related articles, thoughts and notes.
 journalSummary: Articles on being active, mental wellbeing, life, and more.
 ---
