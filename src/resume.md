@@ -18,7 +18,7 @@ bannerSummary: A passionate UI Developer and Accessibility Specialist. I'm
 
 ##### Manchester, UK
 
-* Formed and run the accessibility champions network. Helping bring together people from multiple disciplines with a passion for accessibility to collaborate and make change
+* Formed and ran the accessibility champions network. Helping bring together people from multiple disciplines with a passion for accessibility to collaborate and make change
 * Contributed to the successful rollout of interactive design annotation workshops using Figma to improve accessibility awareness and feedback loops between designers and developers
 * Advocated for more understanding and use of semantic HTML over custom JavaScript solutions
 * Bridged the gap between accessibility best practices and diverse tech stacks (MVC, React) by seamlessly integrating inclusive features and bug fixes into existing product codebases and at the start of new projects
@@ -26,8 +26,9 @@ bannerSummary: A passionate UI Developer and Accessibility Specialist. I'm
 * Ran a series of multidisciplinary accessibility skillshares in various interactive and presentational formats
 * Leveraged my passion for accessibility to deliver engaging talks at [QA Beginners Club](https://www.youtube.com/watch?v=cyGSVHi-J4A) (Testing Accessibility), [Manchester Tech Festival](https://www.manchestertechfestival.co.uk/neurodiversity-di/) (Accessibility Champions: Creating an Accessibility Culture), and HCD Manchester, influencing attendees to embrace inclusive practices
 * Contributed my voice to the accessibility conversation, authoring informative blog posts on semantic HTML elements ([HTMHell](https://www.htmhell.dev/adventcalendar/2022/16/) and [The A11y Project](https://github.com/a11yproject/a11yproject.com/pull/1472)—currently in review), [WCAG 2.2 intro](https://www.codecomputerlove.com/blog/wcag-2-2-guide), and [fostering an inclusive company culture through accessibility](https://www.codecomputerlove.com/blog/how-to-create-an-accessibility-culture)
-* Performed accessibility reviews of components and pages on various products. Highlighting priority issues and actions to internal colleagues and client partners in technical and non-technical roles.
-
+* Performed accessibility reviews of components and pages on various products. Highlighting priority issues and actions to internal colleagues and client partners in technical and non-technical roles
+* Worked across mutiple collaborative product teams with a variety of tech stacks inclduing React, TypeScript, C#, and HTML templating
+* Used a variety of tools and workflows to encourage and maintain robust and quality code, including linters, task runners, and continous integration pipelines
 
 ### Front End Developer at ![Fat Media logo](/images/avatars/twitter/34f7590a-90.webp) [Fat Media](https://www.fatmedia.co.uk/)
 
@@ -44,7 +45,7 @@ bannerSummary: A passionate UI Developer and Accessibility Specialist. I'm
 
 ## Skills
 
-I consider myself very much 'front-of-the-front-end' and my passions lie around HTML, CSS, accessibility and performance.
+I consider myself very much 'front-of-the-front-end' and my passions lie around HTML, CSS, accessibility, UI/UX, and performance.
 
 ### Core
 
@@ -54,7 +55,7 @@ I consider myself very much 'front-of-the-front-end' and my passions lie around 
 * Git
 * Accessibility - including good knowledge of WCAG 2.1/2.2
 * Performance/site-speed optimisations
-* Grunt/Gulp
+* Problem solving
 * Ability to effectively communicate technical issues and solutions across different disciplines
 
 ### Experience with
@@ -63,9 +64,10 @@ I consider myself very much 'front-of-the-front-end' and my passions lie around 
 * Vue
 * HTML templating languages (Nunjucks, liquid)
 * Figma
+* Zeplin
 * Component libraries
 * Design systems
-* Testing libraries
+* Testing libraries (TDD)
 
 ## Education
 
