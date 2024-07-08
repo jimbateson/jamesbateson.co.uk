@@ -6,7 +6,7 @@ date: 2024-07-08T15:43:11.431Z
 tags:
   - Career
 ---
-My job role has unfortunnataly been made redundant recently. The time since, has honestly been a bit of a blur. Lots of emotions that have changed on a daily basis.
+My job role has unfortunataly been made redundant recently. The time since, has honestly been a bit of a blur. Lots of emotions that have changed on a daily basis.
 
 Whilst I'm devestated and currently in the shock/fright/realisation of what that means in terms of living and such, I'm tryin to not get overwhelmed by it and stay positive.
 
