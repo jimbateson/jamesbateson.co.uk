@@ -29,3 +29,6 @@ I don't know even this sound pretentoius or anything, but I feel it best describ
 By this, I mean building components with HTML, CSS, and JavaScript. Possibly with them then being intergtaed by somebody else. Or try and expand on my Vue/React knowledge in this downtime.
 
 Something that I hugely enjoyed in my last position was also encouraging and participating in the design team routines, seeking at new ways to bring the design and development disciplines closer together. As a UI Developer, I feel that would be a great chance to maybe get back into some design work.
+
+### Accessibility Specialist
+
