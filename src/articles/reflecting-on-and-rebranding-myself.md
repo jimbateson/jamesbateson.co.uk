@@ -22,7 +22,7 @@ So I've decided to try and rebrand myself in a way that plays to my strengths an
 
 ## UI Developer and Accessibility Specialist
 
-I don't know even this sound pretentoius or anything, but I feel it best describes what I'm passionate about and where I think my strengths lie.
+I don't know if this sounds pretentious, but I feel it best describes what I'm passionate about and where I think my strengths lie.
 
 ### UI Developer
 
