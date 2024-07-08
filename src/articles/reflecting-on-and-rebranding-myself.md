@@ -35,3 +35,7 @@ Something that I hugely enjoyed in my last position was also encouraging and par
 Accessibility is at the heart of everything I consider important, and over the last several years I have advocated for, and championed implementing accessibility culture, processes, workflows, skillshares and mentoring. 
 
 It is something I would love to keep on doing in my next position. I feel that working on buildin components but also more closely with designs would be a very nice combination, and allow me to make earlier impacts and start communications earlier.
+
+Continuing to talk and write about accessibility is something I would also hope to make part of my new role.
+
+## Personal development
