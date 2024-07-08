@@ -39,3 +39,5 @@ It is something I would love to keep on doing in my next position. I feel that w
 Continuing to talk and write about accessibility is something I would also hope to make part of my new role.
 
 ## Personal development
+
+During the search for a new job, I'd like to take the time to also start doing more of what I love in terms of article writing and experimenting with code. Whether this be some tinkering on codepen, finally getting around to making some updates on this site, or trying something a bit different, there are lots of areas I need to improve in, and it's important that I don't try and do too much and take this break to look after my wellbeing also.
