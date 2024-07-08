@@ -8,7 +8,7 @@ tags:
 ---
 My job role has unfortunataly been made redundant recently. The time since, has honestly been a bit of a blur. Lots of emotions that have changed on a daily basis.
 
-Whilst I'm devestated and currently in the shock/fright/realisation of what that means in terms of living and such, I'm tryin to not get overwhelmed by it and stay positive.
+Whilst I'm devestated and currently in the shock/fright/realisation of what that means in terms of living and such, I'm trying to not get overwhelmed by it, stay positive and do at least one proactive thing a day.
 
 One thing it's given me a chance to do, is have a think about the direction I want to take my career in, what role would I fit into that would make me happy?
 
