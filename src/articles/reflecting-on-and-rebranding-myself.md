@@ -28,7 +28,7 @@ I don't know if this sounds pretentious, but I feel it best describes what I'm p
 
 By this, I mean building components with HTML, CSS, and JavaScript. Possibly with them and then being integrated by somebody else. Or try and expand on my Vue/React knowledge in this downtime. I truly believe there is strength and value in being an HTML/CSS expert within a team.
 
-Something that I hugely enjoyed in my last position was also encouraging and participating in the design team routines, seeking new ways to bring the design and development disciplines closer together. As a UI Developer, I feel that would be a great chance to get back into some design work.
+Something that I hugely enjoyed in my last position was also encouraging and participating in the design team routines, seeking new ways to bring the design and development disciplines closer together. As a UI Developer, I feel that would be a great chance to get back into some design work and applying the principles and passions I have picked up from working closely with UI/UX designers.
 
 ### Accessibility Specialist
 
