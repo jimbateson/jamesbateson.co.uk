@@ -10,7 +10,7 @@ My job role has unfortunately been made redundant recently. The time since has h
 
 Whilst I'm devastated, and currently in the shock/fright/realisation of what that means in terms of cost of living and such, I'm trying to not get overwhelmed by it, stay positive, and do at least one proactive thing a day.
 
-One thing it's given me a chance to do, is think about the direction I want to take my career in, what role would I fit into that would make me happy.
+One thing it's given me a chance to do, is think about the direction I want to take my career in, what role would I fit into that would make me happy.I don't just want to make _a_ career move, but the _right_ one.
 
 My passions have always been the development fundamentals. HTML, CSS, and vanilla presentational JavaScript, and over the last several years, focusing on digital accessibility and culture.
 
