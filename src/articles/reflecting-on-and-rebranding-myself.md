@@ -8,15 +8,15 @@ tags:
 ---
 My job role has unfortunately been made redundant recently. The time since has honestly been a bit of a blur. Lots of emotions that have changed daily.
 
-Whilst I'm devastated, and currently in the shock/fright/realisation of what that means in terms of living and such, I'm trying to not get overwhelmed by it, stay positive, and do at least one proactive thing a day.
+Whilst I'm devastated, and currently in the shock/fright/realisation of what that means in terms of cost of living and such, I'm trying to not get overwhelmed by it, stay positive, and do at least one proactive thing a day.
 
-One thing it's given me a chance to do, is think about the direction I want to take my career in, what role would I fit into that would make me happy?
+One thing it's given me a chance to do, is think about the direction I want to take my career in, what role would I fit into that would make me happy.
 
-My passions have always been the development fundamentals. HTML, CSS, and vanilla presentational JavaScript, and over the last several years, focusing on accessibility and culture.
+My passions have always been the development fundamentals. HTML, CSS, and vanilla presentational JavaScript, and over the last several years, focusing on digital accessibility and culture.
 
 Both the jobs I have had in the digital industry have been 'Front End Dev/Engineer'. However, as the stack has moved on and the role feels more like 'full-stack', I have struggled as working with frameworks and TypeScript, etc has just never 'clicked' for me.
 
-From the first few days of looking for job postings, however, this has presented a bit of an issue. Almost all positions I saw were React/TypeScript proficient/expert, node.js, npm, headless, and unit tests the lists were huge.
+From the first few days of looking for job postings, however, this has presented a bit of an issue. Almost all positions I saw were React/TypeScript proficient/expert, node.js, npm, headless, unit tests the lists go on and on!
 
 So I've decided to try and rebrand myself in a way that plays to my strengths and allows me to try and speak to companies about a role I feel is hugely important within a development/design team.
 
