@@ -40,4 +40,10 @@ Continuing to talk and write about accessibility is something I hope to make par
 
 ## Personal development
 
-During the search for a new job, I'd like to take the time also to start doing more of what I love in terms of article writing and experimenting with code. Whether this be some tinkering on codepen, finally getting around to making some updates on this site, or trying something a bit different, there are lots of areas I need to improve in, and I mustn't try and do too much and take this break to look after my wellbeing also.
+During the search for a new job, I'd like to take the time also to start doing more of what I love in terms of article writing and experimenting with code. Whether this be some tinkering on codepen, finally getting around to making some updates on this site, or trying something a bit different.
+
+Using Figma more for actually designing components/layouts is something I'm actively going through also.
+
+There are lots of areas I need to improve in, and I mustn't try and do too much and take this break to look after my wellbeing also.
+
+One thing that I have taken from my previous role that I need to work on personally is ensuring that I getter a better work/life balance and think about be more consistent and often, opposed to cramming lots in a short space of time and then burning out.
