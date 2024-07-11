@@ -1,7 +1,7 @@
 ---
 title: James Bateson Résumé
 layout: layouts/resume.njk
-metaTitle: James Bateson / Résumé
+metaTitle: James Bateson | Résumé
 metaDesc: The résumé of James Bateson. A UI Developer and Accessibility
   Specialist from Manchester.
 socialImage: /images/social-share-default.jpg
