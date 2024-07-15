@@ -2,9 +2,9 @@
 archiveButtonText: See all articles
 layout: home
 metaTitle: James Bateson / UI Developer and Accessibility Specialist
-metaDesc: Manchester based UI Developer and Accessibility Specialist.
+metaDesc: North West based UI Developer and Accessibility Specialist.
 title: Hello, I'm James. A UI Developer and Accessibility Specialist based in
-  Manchester.
+  the North West.
 bannerSummary: Welcome to my digital space. Somewhere I can post the occasional
   thought or learning, and a place to practice my writing. I'm very much
   'front-of-front-end' and have a passion for HTML, CSS, UI/UX, accessibility,
