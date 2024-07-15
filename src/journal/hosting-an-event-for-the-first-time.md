@@ -18,10 +18,14 @@ Hosting and organising an event, is not something I have ever done previous to t
 
 In this note I just wanted to write up some tips and things to remeber for next time, as I learned a lot doing this.
 
-1. Preperation
-2. Kindness, empathy and honesty
-3. Reach out
-4. Don't overthink
-5. Try and enjoy it!
+## Preperation
+
+## Kindness, empathy and honesty
+
+## Reach out
+
+## Don't overthink
+
+## Try and enjoy it!
 
 ## Special thanks
