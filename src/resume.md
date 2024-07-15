@@ -28,9 +28,9 @@ bannerSummary: Hi I'm James — a passionate UI Developer and Accessibility
 * Leveraged my passion for accessibility to deliver engaging talks at [QA Beginners Club](https://www.youtube.com/watch?v=cyGSVHi-J4A) (Testing Accessibility), [Manchester Tech Festival](https://www.manchestertechfestival.co.uk/neurodiversity-di/) (Accessibility Champions: Creating an Accessibility Culture), and HCD Manchester, influencing attendees to embrace inclusive practices
 * Contributed my voice to the accessibility conversation, authoring informative blog posts on semantic HTML elements ([HTMHell](https://www.htmhell.dev/adventcalendar/2022/16/) and [The A11y Project](https://github.com/a11yproject/a11yproject.com/pull/1472)—currently in review), [WCAG 2.2 intro](https://www.codecomputerlove.com/blog/wcag-2-2-guide), and [fostering an inclusive company culture through accessibility](https://www.codecomputerlove.com/blog/how-to-create-an-accessibility-culture)
 * Performed accessibility reviews of components and pages on various products. Highlighting priority issues and actions to internal colleagues and client partners in technical and non-technical roles
-* Collaborated across product teams, leveraging diverse tech stacks including React, TypeScript, C#, and HTML templating languages
-* Implemented robust development workflows utilising linters, task runners, and continuous integration pipelines.
-* Designed and developed accessible, responsive, semantic, and robust UI components and features. Utilised Figma to collaborate effectively with design teams.
+* Collaborated across product teams, leveraging diverse tech stacks which gave me knowledge of working with frameworks and languages including React, TypeScript, C#, and HTML templating languages
+* Implemented robust development workflows using linters, task runners, and continuous integration pipelines.
+* Designed and developed accessible, responsive, semantic, and robust UI components and features. Using Figma to collaborate effectively with design teams.
 
 ### Front End Developer at ![Fat Media logo](/images/avatars/twitter/34f7590a-90.webp) [Fat Media](https://www.fatmedia.co.uk/)
 
