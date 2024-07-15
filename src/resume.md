@@ -3,7 +3,7 @@ title: James Bateson Résumé
 layout: layouts/resume.njk
 metaTitle: James Bateson | CV
 metaDesc: The CV of James Bateson. A UI Developer and Accessibility Specialist
-  from Manchester.
+  from the North West
 socialImage: /images/social-share-default.jpg
 bannerSummary: Hi I'm James — a passionate UI Developer and Accessibility
   Specialist with over a decade of experience. I'm empathetic, hard-working,
