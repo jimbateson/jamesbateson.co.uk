@@ -30,13 +30,15 @@ When working Code I tried to help get buy in and encourge the use of a similar k
 
 #### Education and collaboration
 
-Whilst in theory I love the idea of designers using
+Whilst in theory I love the idea of designers using this kit as part of the their mockup process. In practice I have found that workflow and mindset change can take time, and especially when the designer might not nescesserily have knowledge of HTML, or the process might add time on to delivery expectations.
+
+I do however, think, and have found from using a similar kit, that it's a great opportunity to encourge more design-developer colloaboration and communication earlier and can also provide an excellent learning and understand opportunity for people.
+
+At Code we used to have a developer run lead the session and drive, adding the labels and explaining the process and answering any questions people may have had. This was an opportunity for instant feedback if something might need to be tweaked, and everybody could get context of why. I think it was also a great opportunity for designers who may not have coding experince to see the kinds of decisions and thought that needs to go into crafting components and pages in a semantic and accessible way.
 
 #### Accessibility earlier
 
 By considering how components and/or pages might be structured semantically at the design stage, encourages accessibility to be considered earlier in the process, not just done at the development stage. Although accessibility should be considred even earlier in the process. I think the annotation kit is an excellent way to make sure that when the developer starts building the mockup, how the markup might be structured has already been though about, and there is less chance something will be missed.
-
-#### Encourges collaboration
 
 
 ### Focus Order
