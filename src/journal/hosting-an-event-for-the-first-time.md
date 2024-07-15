@@ -29,6 +29,10 @@ As this was the first time organising an event, I massively underestimated the a
 * Checking tech setups
 * Ensuring the event space was suitability accessible
 
+Some of these things I sorted in good time, but others I mistakinly thought it would be ok or even better to leave until the week before. However, this led to quite a lot of communications all at once, sometimes from 4/5 different people a day.
+
+In future I will ensure that as much as I can do in good time is sorted.
+
 ## Kindness, empathy and honesty
 
 ## Reach out
