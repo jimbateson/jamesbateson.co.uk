@@ -53,6 +53,24 @@ A group of people from Code even turned up for as long as they could at the even
 
 ## Don't overthink
 
+This one was pretty difficult to be fair. Something that I'm trying to work on and not do as much of is worry/behave based on what "others" think. Due to the fact that I felt that it would be me judged if nobody turned up, or there wasn't enough food/it was unsuitable, not the right amount of drinks, the space wasn't suitable for everyone, etc I put my myself under a lot of pressure and started thinking about worst case outcomes.\
+\
+Worth noting that nobody made me feel like this and was never given any expecations, just my mind started going into overdrive.\
+\
+Hidsight is a wonderful thig, but looking back I realise that people were incredible grate just have the event to attend and a space to do that with any food/drink at all. I actually think it exceeded expectations, especially for the networks founders.
+
 ## Try and enjoy it!
 
+this one is probably related my previous learning around overthinking. As I was so busy rushing around making sure everything was ok and thinking about timings, I don't feel I appreciated the event as much as I would have just attending. \
+\
+We have two amazing talks that sparked some open and interesting discussions, but in the back of my mind, I was just thinking about the event stuff.\
+\
+Next time, hopefully with the experiences and learning, I can enjoy it more.
+
 ## Special thanks
+
+First to the founders of the CAN community. Heather Hepburn, Charlie Turrell and Gareth Ford WIlliams. they have created an amazing diverse, safe and open space an incredible amount of talted people to share their champions network and accessibility expereinces. They helped organise the guest list and the communication from them was great.
+
+The large digital display in the Code office is a great draw for events like this, and at Code, Toby Burkill a lead designer has created a lot of interactive displays for welcoming clients into the office and serveral events. he put together a lovely display for the event, using CAN branding and some nice little interactive touches. IT went down brillianty and as it always is when he creates then, was a talking point and something to remember the event by (Charlie, Heather and Gareth even had pictures infront of it!).
+
+To the people at Code that helped and supported when asked and also just offering or coming along for a bit on the night; Hannah Pickford, Gillian Lee, Stef List, Lucile Vacquie, Shilpa Chinnari, Gemma Dugdale, James Carr, Jess Sherrat, coling Preston and Toby (again).
