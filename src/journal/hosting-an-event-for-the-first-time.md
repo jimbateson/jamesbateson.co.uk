@@ -14,6 +14,8 @@ Whilst working at Code I offered our office at the WPP Campus in Manchester as a
 
 Hosting and organising an event, is not something I have ever done previous to this, but the space Code have is lovely and I also wanted to try and give something back to a community that had inspired and supported myself when setting up the Code champions network.
 
+![A large digital display with the Champions of Accessibility Network logo on.](/images/img_1047-1-.jpg)
+
 In this note I just wanted to write up some tips and things to remeber for next time, as I learned a lot doing this.
 
 1. Preperation
