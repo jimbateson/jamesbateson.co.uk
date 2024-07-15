@@ -20,6 +20,15 @@ In this note I just wanted to write up some tips and things to remeber for next 
 
 ## Preperation
 
+As this was the first time organising an event, I massively underestimated the ammount of time and communication it would take to get everything needed in place, this included;
+
+* Food and drink
+* Event space booking and setup
+* Estimating numbers and arranging vistor acces
+* Getting all the timings right for food delivery, drink quantites, events space times
+* Checking tech setups
+* Ensuring the event space was suitability accessible
+
 ## Kindness, empathy and honesty
 
 ## Reach out
