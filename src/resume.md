@@ -8,7 +8,7 @@ socialImage: /images/social-share-default.jpg
 bannerSummary: Hi I'm James — a passionate UI Developer and Accessibility
   Specialist with over a decade of experience. I'm empathetic, hard-working,
   reliable and always keen to learn new things. I care about the craft and I
-  care abut people. love making services accessible to as many people as
+  care about people. I love making services accessible to as many people as
   possible and being part of a culture that supports this.
 ---
 ## Professional Experience
