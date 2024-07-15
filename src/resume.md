@@ -5,10 +5,11 @@ metaTitle: James Bateson | CV
 metaDesc: The CV of James Bateson. A UI Developer and Accessibility Specialist
   from Manchester.
 socialImage: /images/social-share-default.jpg
-bannerSummary: A passionate UI Developer and Accessibility Specialist. I'm
-  empathetic, hard-working, reliable and keen to learn. I care about the craft,
-  people and love making services accessible to as many people as possible and
-  being part of a culture that supports this.
+bannerSummary: Hi I'm James — a passionate UI Developer and Accessibility
+  Specialist with over a decade of experience. I'm empathetic, hard-working,
+  reliable and always keen to learn new things. I care about the craft and I
+  care abut people. love making services accessible to as many people as
+  possible and being part of a culture that supports this.
 ---
 ## Professional Experience
 
