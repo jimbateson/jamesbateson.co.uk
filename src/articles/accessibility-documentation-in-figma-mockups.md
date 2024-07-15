@@ -13,3 +13,15 @@ tags:
 Last week (July 10th) I attended an excellent online talk from Friends of Figma. The speaker was Stéphanie Walter, UX and Product Designer and the topic was plugins and annotation kits you can use in Figma to document accessibility in design mockups.
 
 I'm not going to run through each plugin, please do [read Stéphanie's accompaining article](https://stephaniewalter.design/blog/how-to-check-and-document-design-accessibility-in-your-figma-mockups/) which contains a full list of the plugins and a link to the talk slides. But I wanted to write a little about my learnings from the talk, highlight a couple of the plugins and talk about how important I think doing this can be to design-developer collaboration.
+
+## Plugins
+
+Going to start by just running through three of the plugins Stéphanie highlighted and demoed. Some of these I have used before, or wish I could have used more before when collaborating with designers, but some were also new to me.
+
+### Annotation Kit
+
+### Focus Order
+
+### Stark in Figma
+
+## Collaboration
