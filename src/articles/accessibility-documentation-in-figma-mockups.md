@@ -40,7 +40,7 @@ At Code we used to have a developer run lead the session and drive, adding the l
 
 #### Accessibility earlier
 
-By considering how components and/or pages might be structured semantically at the design stage, encourages accessibility to be considered earlier in the process, not just done at the development stage. Although accessibility should be considred even earlier in the process. I think the annotation kit is an excellent way to make sure that when the developer starts building the mockup, how the markup might be structured has already been though about, and there is less chance something will be missed.
+By considering how components and/or pages might be structured semantically at the design stage, encourages accessibility to be considered earlier in the process (or 'shift left'), not just done at the development stage. Although accessibility should be considered even earlier in the process. I think the annotation kit is an excellent way to make sure that when the developer starts building the mockup, how the markup might be structured has already been thought about, and there is less chance something will be missed.
 
 
 ### Focus Order
