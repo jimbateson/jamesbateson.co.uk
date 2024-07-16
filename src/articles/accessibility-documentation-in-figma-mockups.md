@@ -58,6 +58,8 @@ Interactive elements that have styling applied to lay them out and the change th
 
 Stark is a plugin that I have read a lot about and seen news about awesome features added, but heard from designers that a lot of the features were premium-only, so it was nice to see it being used in a demo. Having looked at their [pricing plan page](https://www.getstark.co/pricing/) afterwards, it does seem like on the free starter plan you get by creating an account, that you get all of the accessibility checking tools, just not the sidekick ones which help automatically fix issues (not sure if I'd want that anyway!).
 
-This plugin is a collection of tools that effectively makes up an automated accessibility testing suite.
+This plugin is a collection of tools that effectively makes up an automated accessibility testing suite. It can help check this such as colour contrast (with suggestions), tap target sizes, focus order, vision simulator, and more.
+
+I'm going to give this one and install and try it out, as it looks like something that could be used to check and document many different accessibility features. All the communications and tools I've seen from Stark previously also suggestion they are passionate about accessibility tooling and always looking to improve and add extra support and improvements.
 
 ## Collaboration
