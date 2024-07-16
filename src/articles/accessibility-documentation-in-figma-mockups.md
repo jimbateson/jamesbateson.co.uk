@@ -24,7 +24,7 @@ Going to start by just running through three of the plugins Stéphanie highlight
 
 [Get the annotation kit](https://shop.stephaniewalter.design/b/accessibility-interactions-designer-checklist-annotation-kit).
 
-An accessibility annotation kit is a series of labels that can be used to identify acessibility considerations on a design.
+An accessibility annotation kit is a series of labels that can be used to identify accessibility considerations on a design.
 
 Landmarks, links, heading levels, alternative text and more can be labelled and highlighted next to or within the mockup. The link above is to the one Stéphanie has curated and made available for purchase, there are other examples out there.
 
@@ -42,8 +42,11 @@ At Code we used to have a developer run lead the session and drive, adding the l
 
 By considering how components and/or pages might be structured semantically at the design stage, encourages accessibility to be considered earlier in the process (or 'shift left'), not just done at the development stage. Although accessibility should be considered even earlier in the process. I think the annotation kit is an excellent way to make sure that when the developer starts building the mockup, how the markup might be structured has already been thought about, and there is less chance something will be missed.
 
-
 ### Focus Order
+
+When designing components with several interactive elements or potentially complex interactions, focus order is often something that sometimes can arise as an issue when it comes to development.
+
+This plugin enables you to add to numbers to elements in the mockup
 
 ### Stark in Figma
 
