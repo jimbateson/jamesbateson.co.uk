@@ -26,7 +26,7 @@ Going to start by just running through three of the plugins Stéphanie highlight
 
 An accessibility annotation kit is a series of labels that can be used to identify accessibility considerations on a design.
 
-Landmarks, links, heading levels, alternative text and more can be labelled and highlighted next to or within the mockup. The link above is to the one Stéphanie has curated and made available for purchase, there are other examples out there.
+Landmarks, links, heading levels, alternative text and more can be labelled and highlighted next to or within the mockup. The link above is to the one Stéphanie has curated and made available for purchase, there are other examples out there, for example, the [Include—Accessibility Annotations](https://www.figma.com/community/plugin/1208180794570801545/includeaccessibility-annotations) kit.
 
 When working Code I tried to help get buy-in and encourge the use of a similar kit to this, as I think there are at least a couple of major benifits to making this part of the design-development workflow.
 
@@ -53,5 +53,11 @@ This plugin enables you to annotate focus order numbers to elements in the mocku
 Interactive elements that have styling applied to lay them out and the change the visual order from the order they appear in the DOM, can be confusing and furstrating when relying on using the keyboard navigate a site, so considering this and documenting it at the design phase makes intent clear and ensures a good user experince for keyboard users. Thinking about a journey from the perspective of using a different input to a mouse can also improve the UX/UI of a component and page.
 
 ### Stark in Figma
+
+[Stark - Contrast & Accessibility Checker](https://www.figma.com/community/plugin/732603254453395948/stark-contrast-accessibility-checker)
+
+Stark is a plugin that I have read a lot about and seen news about awesome features added, but heard from designers that a lot of the features were premium-only, so it was nice to see it being used in a demo. Having looked at their [pricing plan page](https://www.getstark.co/pricing/) afterwards, it does seem like on the free starter plan you get by creating an account, that you get all of the accessibility checking tools, just not the sidekick ones which help automatically fix issues (not sure if I'd want that anyway!).
+
+This plugin is a collection of tools that effectively makes up an automated accessibility testing suite.
 
 ## Collaboration
