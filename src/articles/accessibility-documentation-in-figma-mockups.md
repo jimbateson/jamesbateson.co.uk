@@ -28,7 +28,7 @@ An accessibility annotation kit is a series of labels that can be used to identi
 
 Landmarks, links, heading levels, alternative text and more can be labelled and highlighted next to or within the mockup. The link above is to the one Stéphanie has curated and made available for purchase, there are other examples out there.
 
-When working Code I tried to help get buy in and encourge the use of a similar kit to this. I think there are at least a couple of major benifits to making this part of the design-development workflow.
+When working Code I tried to help get buy-in and encourge the use of a similar kit to this. I think there are at least a couple of major benifits to making this part of the design-development workflow.
 
 #### Education and collaboration
 
