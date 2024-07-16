@@ -44,9 +44,11 @@ By considering how components and/or pages might be structured semantically at t
 
 ### Focus Order
 
-When designing components with several interactive elements or potentially complex interactions, focus order is often something that sometimes can arise as an issue when it comes to development.
+[A11y - focus Order plugin from Microsoft](https://www.figma.com/community/plugin/731310036968334777/a11y-focus-order)
 
-This plugin enables you to add to focus order numbers to elements in the mockup. this helps developers understand the inteded order that keyboard focus navigation should take.
+When designing components with several interactive elements or potentially complex interactions, focus/tab order issues can often arise when it comes to development.
+
+This plugin enables you to annotate focus order numbers to elements in the mockup. this helps developers understand the intended order that keyboard focus navigation should take. There's options for editing the order if you make a mistake, adding multiple groups and they can be toggled on/off as a single layer group.
 
 Interactive elements that have styling applied to lay them out and the change the visual order from the order they appear in the DOM, can be confusing and furstrating when relying on using the keyboard navigate a site, so considering this and documenting it at the design phase makes intent clear and ensures a good user experince for keyboard users. Thinking about a journey from the perspective of using a different input to a mouse can also improve the UX/UI of a component and page.
 
