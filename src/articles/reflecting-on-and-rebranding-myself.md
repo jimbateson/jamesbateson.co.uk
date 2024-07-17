@@ -20,7 +20,7 @@ From the first few days of looking for job postings, however, this has presented
 
 So I've decided to try and rebrand myself in a way that plays to my strengths and allows me to try and speak to companies about a role I feel is hugely important within a development/design team.
 
-## UI Developer and Accessibility Specialist
+## UI Developer and Digital Accessibility Specialist
 
 I don't know if this sounds pretentious, but I feel it best describes what I'm passionate about and where I think my strengths lie.
 
@@ -30,7 +30,7 @@ By this, I mean building components with HTML, CSS, and JavaScript. Possibly wit
 
 Something that I hugely enjoyed in my last position was also encouraging and participating in the design team routines, seeking new ways to bring the design and development disciplines closer together. As a UI Developer, I feel that would be a great chance to get back into some design work and applying the principles and passions I have picked up from working closely with UI/UX designers.
 
-### Accessibility Specialist
+### Digital Accessibility Specialist
 
 Accessibility is at the heart of everything I consider important, and over the last several years I have advocated for and championed implementing accessibility culture, processes, workflows, skillshares, and mentoring.
 
