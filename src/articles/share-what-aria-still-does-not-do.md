@@ -12,7 +12,7 @@ I came across this awesome article from Steve Faulkner earlier this week. [A nic
 
 Wanted to add a little note on here so I do not lose it and can refernce in the future.
 
-I particularly liked the following statement, and is something that I have come across being an issue on many occoasions when testing, analysing and remediating accessibility on sites:
+I particularly liked the following statement, and is something that I have come across being an issue on many occasions when testing, analysing and remediating accessibility on sites:
 
 > Use of ARIA is a promise you as a developer make to screen reader users.
 >
