@@ -1,12 +1,14 @@
 ---
 layout: layouts/page.njk
 title: About
-bannerSummary: I’m James, a Front End Designer from Manchester.
+bannerSummary: Hi I'm James — a passionate UI Developer and Digital
+  Accessibility Specialist based in the North West
 bannerImage: /images/jim-2.webp
 bannerImageClass: rounded
 permalink: /about/
 metaTitle: James Bateson / About Me
-metaDesc: I’m James, a Front End Designer from Manchester.
+metaDesc: Hi I'm James — a passionate UI Developer and Digital Accessibility
+  Specialist based in the North West
 socialImage: /images/social-share-default.jpg
 ---
 With a background in design, I'm now focused on the front-end and especially enjoy programming with HTML and CSS and advocating for accessibility.
