@@ -1,13 +1,12 @@
 .intro {
-	background-color: var(--color-accent);
-	color: var(--color-white);
 	padding-top: 1rem;
 	padding-bottom: 4rem;
 	position: relative;
-	transition: background-color 300ms ease-in-out 0s, color 300ms ease-in-out 0s;
 
 	// .intro__heading
 	&__heading {
+		text-wrap: balance;
+
 		// .intro__heading--compact
 		&--compact {
 			max-width: 40vw;
@@ -17,24 +16,13 @@
 	// .intro__summary
 	&__summary {
 		--flow-space: #{get-size(500)};
+		padding-top: 2rem;
 		font-weight: 550;
-		line-height: 1.4;
+		font-size: 1.75rem;
 
 		a {
-			color: currentcolor;
 			text-decoration: underline;
-
-			&:hover,
-			&:focus {
-				color: var(--color-accent-alt);
-			}
 		}
-	}
-
-	// . intro__meta
-	&__meta {
-		color: var(--color-white);
-		font-weight: 550;
 	}
 
 	// .intro__image
@@ -60,20 +48,15 @@
 
 		a {
 			align-items: center;
-			color: var(--color-white);
+			color: light-dark(var(--color-text), var(--color-bg));
 			display: flex;
 			font-size: get-size(400);
 			font-weight: 525;
 			text-decoration: underline;
 
-			&:hover,
-			&:focus {
-				color: var(--color-accent-alt);
-			}
-
 			svg {
 				margin-right: .4rem;
-				stroke: var(--color-accent-alt);
+				stroke: currentColor;
 				stroke-width: 2px;
 			}
 		}
@@ -81,7 +64,7 @@
 }
 
 .section-intro {
-	font-size: 1.1rem;
+	font-size: 1.5rem;
 	margin-top: 0;
 
 	a {
@@ -91,12 +74,6 @@
 
 @include media-query('md') {
 	.intro {
-		// .intro__heading
-		&__heading {
-			max-width: 60vw;
-			min-width: 45vw;
-		}
-
 		// .intro__contact
 		&__contact {
 			li + li {
@@ -129,11 +106,5 @@
 
 	.section-intro {
 		max-width: 65ch;
-	}
-}
-
-@include media-query('lg') {
-	.intro {
-		padding-bottom: 8rem;
 	}
 }

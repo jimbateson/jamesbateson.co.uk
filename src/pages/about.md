@@ -6,7 +6,7 @@ bannerSummary: Hi I'm James — a passionate UI Developer and Digital
 bannerImage: /images/jim-2.webp
 bannerImageClass: rounded
 permalink: /about/
-metaTitle: James Bateson / About Me
+metaTitle: ""
 metaDesc: Hi I'm James — a passionate UI Developer and Digital Accessibility
   Specialist based in the North West
 socialImage: /images/social-share-default.jpg

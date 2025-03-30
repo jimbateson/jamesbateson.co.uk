@@ -1,0 +1,27 @@
+.talks-list {
+	ul {
+		list-style: none;
+		gap: get-size(600);
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
+		margin-block-start: 1.5rem;
+	}
+
+	li > * + * {
+		display: inline-block;
+		margin-block-start: 1rem;
+	}
+
+	h3 {
+		line-height: 1.25;
+		display: block;
+
+		span {
+			box-decoration-break: clone;
+			-webkit-box-decoration-break: clone;
+			background-color: black;
+			color: white;
+			padding-inline: 5px;
+		}
+	}
+}

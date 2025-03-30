@@ -1,34 +1,4 @@
 .post-list {
-	background-color: var(--color-dark-alt);
-	color: var(--color-white);
-
-	&:nth-child(odd) {
-		background-color: var(--color-white);
-		color: var(--color-text);
-
-		.post-list__archive {
-			text-decoration-color: var(--color-accent);
-
-			&:hover,
-			&:focus {
-				color: var(--color-accent);
-			}
-		}
-	}
-
-	&:nth-child(even) {
-		.section-intro {
-			a {
-				text-decoration-color: var(--color-accent-alt);
-
-				&:hover,
-				&:focus {
-					color: var(--color-accent-alt);
-				}
-			}
-		}
-	}
-
 	.wrapper {
 		position: relative;
 
@@ -47,20 +17,22 @@
 	// .post-list__link
 	&__link {
 		color: currentcolor;
+
+		&:hover {
+			color: light-dark(var(--color-accent), var(--color-accent-alt));
+		}
 	}
 
 	// .post-list__archive
 	&__archive {
-		color: currentcolor;
+		color: currentColor;
 		display: block;
 		margin-top: 2.2rem;
 		text-decoration: underline;
-		text-decoration-color: var(--color-accent-alt);
 		text-decoration-thickness: 2px;
 
-		&:hover,
-		&:focus {
-			color: var(--color-accent-alt);
+		&:hover {
+			color: light-dark(var(--color-accent), var(--color-accent-alt));
 		}
 	}
 }

@@ -21,7 +21,6 @@ html {
 }
 
 body {
-	background: transparent;
 	overflow-x: hidden;
 	scroll-behavior: smooth;
 }
@@ -39,30 +38,32 @@ hr {
 	max-width: 500px;
 }
 
+h1, h2, h3 {
+	text-wrap: balance;
+}
+
 // Links
 
 a:not([class]) {
-	color: var(--color-text);
-	text-decoration: underline var(--color-accent) 2px;
+	color: light-dark(var(--color-text), var(--color-bg));
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
+	text-decoration-color: light-dark(var(--color-accent), var(--color-accent-alt));
 
 	&:hover,
 	&:focus {
-		color: var(--color-accent);
+		color: light-dark(var(--color-accent), var(--color-accent-alt));
 	}
 }
 
 .link-hover {
-	background-image: linear-gradient(var(--color-accent-alt), var(--color-accent-alt));
-	background-position: 0 100%;
-	background-repeat: no-repeat;
-	background-size: 0 3px;
-	text-decoration: none;
-	transition: background-size 0.3s cubic-bezier(0.365, 0.005, 0.355, 1);
+	&:hover {
+		text-decoration-color: light-dark(var(--color-accent)), var(--color-accent-alt);
+	}
 
-	&:hover,
-	&:focus {
-		background-size: 100% 3px;
-		text-decoration: none;
+	&:focus-visible {
+		outline-offset: 4px;
+		outline-width: 4px;
 	}
 }
 
@@ -76,10 +77,7 @@ a:not([class]) {
 @import 'utilities/wrapper';
 
 // Components
-@import 'components/activity-list';
-@import 'components/heading-permalink';
 @import 'components/intro';
-@import 'components/light-dark-toggle';
 @import 'components/nav';
 @import 'components/pagination';
 @import 'components/post';
@@ -89,6 +87,7 @@ a:not([class]) {
 @import 'components/site-foot';
 @import 'components/skip-link';
 @import 'components/syntax-highlighting';
+@import 'components/talks-list';
 @import 'components/video-player';
 
 // Print (mainly for resume)

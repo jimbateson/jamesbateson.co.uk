@@ -1,5 +1,4 @@
 .site-head {
-	background-color: var(--color-accent);
 	position: relative;
 
 	// Not sure why Wave reports the visually hidden elements as failing colour contrast
@@ -18,13 +17,26 @@
 	}
 }
 
+.site-head__site-name {
+	display: block;
+
+	&:focus-visible {
+		outline-color: light-dark(var(--color-accent), var(--color-accent-alt));
+		outline-width: 4px;
+	}
+}
+
 .site-logo {
 	fill: var(--color-white);
 	transition: fill .3s;
 	width: 60px;
 
+	> path {
+		stroke: light-dark(var(--color-text), var(--color-bg));
+	}
+
 	&:hover,
-	&:focus {
+	&:focus-visible {
 		fill: var(--color-accent-alt);
 	}
 }

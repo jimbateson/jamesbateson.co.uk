@@ -1,7 +1,7 @@
 ---
 title: James Bateson Résumé
 layout: layouts/resume.njk
-metaTitle: James Bateson | CV
+metaTitle: CV - James Bateson
 metaDesc: The CV of James Bateson. A UI Developer and Digital Accessibility
   Specialist from the North West
 socialImage: /images/social-share-default.jpg
@@ -12,6 +12,20 @@ bannerSummary: Hi I'm James — a passionate UI Developer and Digital
   people as possible and being part of a culture that supports this.
 ---
 ## Professional Experience
+
+### Front End Developer at ![Soap Media logo](/images/avatars/twitter/soap-media.webp) [Soap Media](https://www.soapmedia.co.uk/)
+
+#### September 2024 - February 2025
+
+##### Remote/Manchester, UK
+
+* Developed custom Gutenberg blocks leveraging the platform's block editor framework, empowering clients with flexible page layout capabilities and a streamlined content management experience
+* Proficiently utilised Advanced Custom Fields (ACF) to architect and implement complete WordPress solutions, from initial design to full functionality
+* Leveraged Tailwind CSS to rapidly prototype and develop responsive user interfaces, ensuring consistent design language and optimised performance across devices
+* Conducted comprehensive accessibility audits across multiple client sites, employing a combination of automated testing tools and meticulous manual evaluation to identify and address potential barriers
+* Generated detailed accessibility audit reports outlining identified issues, prioritised recommendations for remediation, and actionable guidance for developers
+* Championed the adoption of accessible and performant coding practices, ensuring optimal user experiences and adherence to web standards
+
 
 ### Front End Engineer and Accessibility Specialist at ![Code Computerlove logo](/images/avatars/twitter/963dc030-90.webp) [Code Computerlove](https://www.codecomputerlove.com/)
 

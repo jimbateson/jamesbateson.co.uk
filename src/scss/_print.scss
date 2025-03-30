@@ -48,6 +48,7 @@
 
 	.intro {
 		padding-bottom: 2.75rem;
+		color: var(--color-dark);
 
 		// .intro__heading
 		&__heading {
@@ -67,9 +68,13 @@
 		&__contact {
 			li {
 				display: inline-block;
-				float: left;
+
+				svg {
+					display: none;
+				}
 
 				a {
+					color: var(--color-dark);
 					font-size: .85rem;
 				}
 			}

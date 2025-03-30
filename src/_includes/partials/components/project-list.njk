@@ -1,15 +1,15 @@
 {% if projectListItems.length %}
-  <section class="[ post-list ] [ pad-top-700 pad-bottom-700 md:pad-top-max md:pad-bottom-max ]">
+  <section class="[ post-list project-list ] [ pad-top-400 pad-bottom-400 ]" aria-labelledby="projects-heading">
     <div class="[ wrapper ] [ sf-flow ]">
       {% if page.url == '/' %}
-        <h2 class="[ post-list__heading ] [ text-700 md:text-900 ]">Featured Projects</h2>
-        <p class="section-intro">All source code can be viewed on my <a href="https://github.com/jimbateson">Github</a>.</p>
+        <h2 class="[ post-list__heading ] [ text-700 md:text-max ]" id="projects-heading">Featured Projects</h2>
+        <p class="section-intro">All source code can be viewed on my (previous) <a href="https://github.com/jimbateson">Github</a>.</p>
       {% endif %}
       <ol class="[ post-list__items project-list__items ] [ pad-top-500 ]">
         {% for item in projectListItems %}
         <li class="[ post-list__item project-list__item ] [ sf-flow ]">
 			<div>
-				<h3 class="[ leading-tight text-700 ]">{{ item.data.title }}</h3>
+				<h3 class="[ leading-tight text-600 md:text-800 ]">{{ item.data.title }}</h3>
 
 				<ul class="[ post-list__item-links ]">
 					<li><a href="{{ item.url }}">Write-up <span class="visually-hidden">for {{ item.data.title }}</span></a></li>

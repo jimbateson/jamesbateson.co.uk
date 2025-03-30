@@ -1,4 +1,5 @@
 :root {
+	color-scheme: light dark;
 	// Set theme aliases
 	--color-bg: #{get-color('light')};
 	--color-text: #{get-color('dark')};
@@ -24,8 +25,8 @@
 }
 
 body {
-	background-color: var(--color-bg);
-	color: var(--color-text);
+	background-color: light-dark(var(--color-bg), var(--color-text));
+	color: light-dark(var(--color-text), var(--color-bg));
 }
 
 main {

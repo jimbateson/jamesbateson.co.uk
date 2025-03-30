@@ -18,21 +18,11 @@
 			margin-left: .3rem;
 
 			&:before {
-				color: var(--color-white);
-				content: '/';
+				color: light-dark(var(--color-accent), var(--color-accent-alt));
+				content: '|';
 				display: inline-block;
 				margin-right: .3rem;
 			}
-		}
-	}
-
-	a {
-		color: var(--color-white);
-		text-decoration-color: var(--color-accent-alt);
-
-		&:hover,
-		&:focus {
-			color: var(--color-accent-alt);
 		}
 	}
 }

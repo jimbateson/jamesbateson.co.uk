@@ -1,12 +1,4 @@
 @font-face {
-	font-display: swap;
-	font-family: red-hat;
-	font-style: normal;
-	font-weight: 300 700;
-	src: url('/fonts/red-hat/red-hat.woff2') format('woff2');
-}
-
-@font-face {
 	font-family: custom-fallback;
 	src: local(arial);
 	size-adjust: 100%;
@@ -18,17 +10,21 @@
 body {
 	@include apply-utility('font', 'base');
 	font-weight: 400;
-	line-height: 1.6;
+	line-height: 1.5;
 }
 
-h1,
+h1 {
+	font-weight: 900;
+	line-height: 1.25;
+}
+
 h2,
 h3 {
 	font-weight: 700;
 }
 
 h1 {
-	font-size: get-size(700);
+	font-size: get-size(900);
 }
 
 h2 {
@@ -49,7 +45,7 @@ h3 {
 
 @include media-query('md') {
 	h1 {
-		font-size: get-size(900);
+		font-size: get-size(max);
 	}
 
 	h2 {
